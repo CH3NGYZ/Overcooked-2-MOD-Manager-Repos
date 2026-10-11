@@ -40,19 +40,19 @@ install_target = "BepInEx/plugins"
 # 仓库备注
 note = """
 安装后可以让你能玩到社区制作的关卡!
-胡闹厨房制造所(QQ群): 962206048"""
+胡闹厨房制造所(QQ四群): 714907749"""
 note_i18n.zh-CN = """
 安装后可以玩到社区制作的关卡！
-胡闹厨房制造所（QQ群）：962206048"""
+胡闹厨房制造所（QQ四群）：714907749"""
 note_i18n.zh-TW = """
 安裝後可以遊玩社群製作的關卡！
-胡鬧廚房製造所（QQ群）：962206048"""
+胡鬧廚房製造所（QQ四群）：714907749"""
 note_i18n.en = """
 After installation, you can play community-made levels!
-Overcooked! 2 Level Workshop (QQ Group): 962206048"""
+Overcooked! 2 Level Workshop (QQ Group 4): 714907749"""
 note_i18n.ko = """
 설치하면 커뮤니티에서 제작한 레벨을 플레이할 수 있습니다!
-Overcooked! 2 레벨 제작소 (QQ 그룹): 962206048"""
+Overcooked! 2 레벨 제작소 (QQ 4그룹): 714907749"""
 
 [[repositories]]
 # 仓库基本信息
