@@ -49,6 +49,52 @@ note_i18n.zh-TW = "此模組用於管理《主機實用MOD》等MOD建立的設�
 
 [[repositories]]
 # 仓库基本信息
+name = "BepInEx 配置管理器 - HiDPI 缩放修复"
+name_i18n.en = "BepInEx Configuration Manager - HiDPI Scaling Fix"
+name_i18n.ko = "BepInEx 구성 관리자 - HiDPI 스케일링 수정"
+name_i18n.zh-CN = "BepInEx 配置管理器 - HiDPI 缩放修复"
+name_i18n.zh-TW = "BepInEx 設定管理器 - HiDPI 縮放修復"
+provider = "github"
+group = "工具与前置"
+group_i18n.en = "Tools & Prerequisites"
+group_i18n.ko = "도구 및 필수 선행 항목"
+group_i18n.zh-CN = "工具与前置"
+group_i18n.zh-TW = "工具與前置"
+username = "y0soro"
+repository = "Unity.IMGUI.HiDPI.Patcher"
+enabled = true
+
+# 下载方式
+download_mode = "release"
+
+# Release 参数
+channel = "all"
+max_release_count = 10
+download_threads = 32
+
+# 版本资产规则
+asset_rules = [
+  { type = "regex", value = '^IMGUI\.HiDPI\.Patcher\.Mono-v\d+\.\d+\.\d+\.zip$' },
+]
+
+# 本地 MOD 识别绑定
+plugin_guid = ""
+local_product_name = "Unity IMGUI HiDPI Scaling Patcher"
+local_original_filename = "IMGUI.HiDPI.Patcher.Mono.dll"
+version_regex = ""
+
+# 安装目录
+install_target = ""
+
+# 仓库备注
+note = "为 Unity IMGUI 界面提供高分屏缩放，解决 BepInEx 配置管理器在高分屏上显示太小的问题。会安装在 BepInEx/patchers 里，因此不会在 MOD 管理里出现。"
+note_i18n.en = "Provides HiDPI scaling for Unity IMGUI interfaces, fixing the issue of BepInEx Configuration Manager appearing too small on high-resolution screens. It will be installed in BepInEx/patchers, so it won't appear in the mod management."
+note_i18n.ko = "Unity IMGUI 인터페이스에 HiDPI 스케일링을 제공하여 고해상도 화면에서 BepInEx 구성 관리자가 너무 작게 표시되는 문제를 해결합니다. BepInEx/patchers에 설치되므로 모드 관리에 나타나지 않습니다."
+note_i18n.zh-CN = "为 Unity IMGUI 界面提供高分屏缩放，解决 BepInEx 配置管理器在高分屏上显示太小的问题。会安装在 BepInEx/patchers 里，因此不会在 MOD 管理里出现。"
+note_i18n.zh-TW = "為 Unity IMGUI 介面提供高分螢幕縮放，解決 BepInEx 設定管理器在高分螢幕上顯示過小的問題。會安裝在 BepInEx/patchers 裡，因此不會在 MOD 管理裡出現。"
+
+[[repositories]]
+# 仓库基本信息
 name = "主机实用 MOD（街机 MOD）稳定版"
 name_i18n.en = "HostUtilities (Arcade MOD) Stable"
 name_i18n.ko = "HostUtilities (아케이드 MOD) 안정 버전"
