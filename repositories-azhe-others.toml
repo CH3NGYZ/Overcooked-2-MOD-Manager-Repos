@@ -307,27 +307,27 @@ note = """
 修复安装 DIYLevel 和大量地图后，在结算界面点击“原生重开按键”可能导致主机卡死、客机掉线的问题。
 通过修正游戏原生长消息分片时被正文覆盖的片数/可靠序号头字段，并按有效包长重组消息，避免触发原生可靠序号校验断连。
 - **安装后自动生效，无需配置；**
-- ***主机和客机需安装相同版本。**
+- **主机和客机需安装相同版本。**
 """
 note_i18n.en = """
 Fixes an issue where clicking the "Native Restart" button on the results screen after installing DIYLevel and many user-created maps could cause the host to freeze and clients to disconnect. It restores the game's original long message multipart header that was overwritten by the body data and reassembles it with valid packet lengths to prevent disconnections due to stable sequence checks.
 - **Automatically applied after installation, no configuration required.**
-- ***Hosts and clients must use the same version.**
+- **Hosts and clients must use the same version.**
 """
 note_i18n.ko = """
 DIYLevel 및 다수의 사용자 제작 맵을 설치한 후 결과 화면에서 "원본 재시작" 버튼을 클릭하면 호스트가 멈추고 클라이언트가 연결이 끊어지는 문제를 수정합니다. 본문 데이터에 의해 덮어쓰여진 게임의 원래 긴 메시지 분할 헤더를 복원하고 유효한 패킷 길이로 재조립하여 안정적인 시퀀스 검사를 통한 연결 끊김을 방지합니다.
 - **설치 후 자동 적용되며, 별도의 설정이 필요하지 않습니다.**
-- ***호스트와 클라이언트는 동일한 버전을 사용해야 합니다.**
+- **호스트와 클라이언트는 동일한 버전을 사용해야 합니다.**
 """
 note_i18n.zh-CN = """
 修复安装 DIYLevel 和大量地图后，在结算界面点击“原生重开按键”可能导致主机卡死、客机掉线的问题。通过修正游戏原生长消息分片时被正文覆盖的片数/可靠序号头字段，并按有效包长重组消息，避免触发原生可靠序号校验断连。
 - **安装后自动生效，无需配置；**
-- ***主机和客机需安装相同版本。**
+- **主机和客机需安装相同版本。**
 """
 note_i18n.zh-TW = """
 修復安裝 DIYLevel 和大量地圖後，在結算畫面點擊「原生重開按鍵」可能導致主機卡死、客機掉線的問題。透過修正遊戲原生長訊息分片時被正文覆蓋的片數/可靠序號頭欄位，並按有效封包長度重組訊息，避免觸發原生可靠序號校驗斷線。
 - **安裝後自動生效，無需配置；**
-- ***主機和客機需安裝相同版本。**
+- **主機和客機需安裝相同版本。**
 """
 
 
@@ -391,4 +391,72 @@ note_i18n.zh-CN = """
 note_i18n.zh-TW = """
 自動跳過遊戲啟動時的品牌片頭，直达餐車卷簾門。
 - **安裝後自動生效，無需配置。**
+"""
+
+[[repositories]]
+# 仓库基本信息
+name = "macOS Xbox 手柄支持修复"
+name_i18n.en = "macOS Xbox Controller Support Fix"
+name_i18n.ko = "macOS Xbox 컨트롤러 지원 수정"
+name_i18n.zh-CN = "macOS Xbox 手柄支持修复"
+name_i18n.zh-TW = "macOS Xbox 控制器支援修復"
+provider = "github"
+group = "游戏修复"
+group_i18n.en = "Game Fixes"
+group_i18n.ko = "게임 수정"
+group_i18n.zh-CN = "游戏修复"
+group_i18n.zh-TW = "遊戲修復"
+region = ""
+username = "CH3NGY2"
+repository = "Overcooked-2-MacosControllerFix"
+enabled = true
+
+# 下载方式
+download_mode = "release"
+
+# Release 参数
+channel = "all"
+max_release_count = 10
+download_threads = 1
+
+# 版本资产规则
+asset_rules = [
+  { type = "exact", value = "OC2MacControllerFix.dll" },
+]
+
+# 本地 MOD 识别绑定
+plugin_guid = "com.ch3ngyz.plugin.overcooked2.maccontrollerfix"
+local_product_name = ""
+local_original_filename = "OC2MacControllerFix.dll"
+version_regex = ""
+
+# 安装目录
+install_target = "BepInEx/plugins"
+
+# 仓库备注
+note = """
+此 MOD 专用于修复 macOS 原生版本《胡闹厨房 2》的 Xbox 手柄支持。Windows 系统请勿安装。
+- **安装后自动启用。**
+- **可在《BepInEx 配置管理器》中修改摇杆方向反转；修改后需要重启游戏。**
+"""
+note_i18n.en = """
+This MOD is specifically for fixing Xbox controller support in the native macOS version of Overcooked! 2. Do not install it on Windows.
+- **Enabled automatically after installation.**
+- **Change stick direction inversion in BepInEx Configuration Manager; restart the game after changing it.**
+"""
+note_i18n.ko = """
+이 MOD는 macOS 네이티브 버전 Overcooked! 2의 Xbox 컨트롤러 지원을 수정하기 위한 전용 MOD입니다. Windows에는 설치하지 마세요.
+- **설치 후 자동으로 활성화됩니다.**
+- **BepInEx 구성 관리자에서 스틱 방향 반전을 변경할 수 있으며, 변경 후 게임을 다시 시작해야 합니다.**
+"""
+note_i18n.zh-CN = """
+此 MOD 专用于修复 macOS 原生版本《胡闹厨房 2》的 Xbox 手柄支持。Windows 系统请勿安装。
+鸣谢: 连营 - xhs号: 6390308606
+- **安装后自动启用。**
+- **可在《BepInEx 配置管理器》中修改摇杆方向反转；修改后需要重启游戏。**
+"""
+note_i18n.zh-TW = """
+此 MOD 專用於修復 macOS 原生版本《胡鬧廚房 2》的 Xbox 控制器支援。Windows 系統請勿安裝。
+- **安裝後自動啟用。**
+- **可在《BepInEx 設定管理器》中修改搖桿方向反轉；修改後需要重新啟動遊戲。**
 """
