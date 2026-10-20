@@ -264,11 +264,11 @@ note_i18n.zh-TW = """
 
 [[repositories]]
 # 仓库基本信息
-name = "DIYLevel 长消息分片修复"
-name_i18n.en = "DIYLevel Long Message Multipart Fix"
-name_i18n.ko = "DIYLevel 긴 메시지 분할 수정"
-name_i18n.zh-CN = "DIYLevel 长消息分片修复"
-name_i18n.zh-TW = "DIYLevel 長訊息分片修復"
+name = "DIYLevel 主机卡死、客机掉线修复"
+name_i18n.en = "DIYLevel Host Freeze & Client Disconnect Fix"
+name_i18n.ko = "DIYLevel 호스트 멈춤, 클라이언트 연결 끊김 수정"
+name_i18n.zh-CN = "DIYLevel 主机卡死、客机掉线修复"
+name_i18n.zh-TW = "DIYLevel 主機卡死、客機掉線修復"
 provider = "github"
 group = "实用工具"
 group_i18n.en = "Utility Tools"
