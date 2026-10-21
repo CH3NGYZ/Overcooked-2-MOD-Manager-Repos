@@ -186,11 +186,11 @@ MOD功能：
 
 [[repositories]]
 # 仓库基本信息
-name = "DIYLevel 体验优化"
-name_i18n.en = "DIYLevel Experience Improvements"
-name_i18n.ko = "DIYLevel 플레이 경험 개선"
-name_i18n.zh-CN = "DIYLevel 体验优化"
-name_i18n.zh-TW = "DIYLevel 體驗優化"
+name = "DIYLevel 关卡搜索、排序、置顶、缩略图查看、上次游玩提示"
+name_i18n.en = "DIYLevel Level Search, Sorting, Pinning, Thumbnail Viewing, and Last Played Hint"
+name_i18n.ko = "DIYLevel 레벨 검색, 정렬, 고정, 썸네일 보기 및 마지막 플레이 힌트"
+name_i18n.zh-CN = "DIYLevel 关卡搜索、排序、置顶、缩略图查看、上次游玩提示"
+name_i18n.zh-TW = "DIYLevel 關卡搜尋、排序、置頂、縮圖查看、上次遊玩提示"
 provider = "github"
 group = "实用工具"
 group_i18n.en = "Utility Tools"
@@ -198,8 +198,8 @@ group_i18n.ko = "유틸리티 도구"
 group_i18n.zh-CN = "实用工具"
 group_i18n.zh-TW = "實用工具"
 region = ""
-username = "CH3NGYZ"
-repository = "Overcooked-2-DIYLevelSorting"
+username = "CH3NGY2"
+repository = "Overcooked-2-DIYLevel-Sorting"
 enabled = true
 
 # 下载方式
@@ -264,11 +264,11 @@ note_i18n.zh-TW = """
 
 [[repositories]]
 # 仓库基本信息
-name = "DIYLevel 主机卡死、客机掉线修复"
-name_i18n.en = "DIYLevel Host Freeze & Client Disconnect Fix"
-name_i18n.ko = "DIYLevel 호스트 멈춤, 클라이언트 연결 끊김 수정"
-name_i18n.zh-CN = "DIYLevel 主机卡死、客机掉线修复"
-name_i18n.zh-TW = "DIYLevel 主機卡死、客機掉線修復"
+name = "DIYLevel 重开时主机卡死、客机掉线修复"
+name_i18n.en = "DIYLevel Host Freeze and Client Disconnect Fix on Restart"
+name_i18n.ko = "DIYLevel 재시작 시 호스트 멈춤 및 클라이언트 연결 끊김 수정"
+name_i18n.zh-CN = "DIYLevel 重开时主机卡死、客机掉线修复"
+name_i18n.zh-TW = "DIYLevel 重開時主機卡死、客機掉線修復"
 provider = "github"
 group = "实用工具"
 group_i18n.en = "Utility Tools"
