@@ -212,13 +212,13 @@ download_threads = 1
 
 # 版本资产规则
 asset_rules = [
-  { type = "exact", value = "DIYLevel-体验优化.dll" },
+  { type = "exact", value = "DIYLevel-ExperienceOptimization-体验优化.dll" },
 ]
 
 # 本地 MOD 识别绑定
 plugin_guid = "com.ch3ngyz.plugin.diylevel.sorting"
-local_product_name = "DIYLevel-体验优化"
-local_original_filename = "DIYLevel-体验优化.dll"
+local_product_name = "DIYLevel-ExperienceOptimization-体验优化"
+local_original_filename = "DIYLevel-ExperienceOptimization-体验优化.dll"
 version_regex = ""
 
 # 安装目录
