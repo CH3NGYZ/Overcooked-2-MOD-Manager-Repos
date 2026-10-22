@@ -12,7 +12,7 @@ AGENTS.md
 GOAL.md
 GOAD.md
 .validation/
-
+**/.*/
 # Executables
 *.swf
 *.air
