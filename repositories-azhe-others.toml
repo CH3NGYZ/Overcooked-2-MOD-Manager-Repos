@@ -5,10 +5,12 @@ name_i18n.zh-CN = "厨师旋转"
 name_i18n.zh-TW = "廚師旋轉"
 name_i18n.en = "Chef Rotation"
 name_i18n.ko = "셰프 회전"
+name_i18n.ja = "シェフ回転"
 group_i18n.zh-CN = "玩法拓展"
 group_i18n.zh-TW = "玩法拓展"
 group_i18n.en = "Gameplay Expansion"
 group_i18n.ko = "플레이 방식 확장"
+group_i18n.ja = "ゲームプレイ拡張"
 provider = "gitee"
 username = "ch3ngyz"
 repository = "Overcooked-2-ChefRotation-Releases"
@@ -53,6 +55,11 @@ note_i18n.ko = """
 셰프가 엎드리기, 눕기, 좌우로 눕기, 공중제비, 제자리 회전을 할 수 있습니다.
 한 번의 클릭으로 물건을 던지거나 자신의 배낭에서 물건을 꺼낼 수 있습니다. 
 - **사용하려면 BepInEx 구성 관리자에서 해당 기능을 활성화해야 합니다.**"""
+note_i18n.ja = """
+アクション：シェフのうつ伏せ、仰向け、左向き、右向き、宙返り、その場での回転。
+機能：ワンクリックでの投擲と、自分のバックパックからのアイテム取り出し。
+- **使用するには、《BepInEx コンフィグマネージャー》でスイッチをオンにする必要があります。**
+"""
 
 [[repositories]]
 enabled = true
@@ -61,10 +68,12 @@ name_i18n.zh-CN = "厨师与DLC内容启用"
 name_i18n.zh-TW = "廚師與DLC內容啟用"
 name_i18n.en = "Chef & DLC Content Support"
 name_i18n.ko = "셰프 및 DLC 콘텐츠 지원"
+name_i18n.ja = "シェフと DLC コンテンツの有効化"
 group_i18n.zh-CN = "内容拓展"
 group_i18n.zh-TW = "內容拓展"
 group_i18n.en = "Content Expansion"
 group_i18n.ko = "콘텐츠 확장"
+group_i18n.ja = "コンテンツ拡張"
 provider = "gitee"
 username = "ch3ngyz"
 repository = "Overcooked-2-Unlocker-Releases"
@@ -103,6 +112,10 @@ Enables in-game chefs and DLC content, including special chefs like the platypus
 note_i18n.ko = """
 게임 내 셰프 및 DLC 콘텐츠를 활성화하며, 오리너구리와 같은 특수 셰프도 포함됩니다.
 - **사용하려면 BepInEx 구성 관리자에서 해당 기능을 활성화해야 합니다.**"""
+note_i18n.ja = """
+ゲーム内のシェフと DLC コンテンツ（カモノハシなどの特殊シェフを含む）を有効化します。
+- **使用するには、《BepInEx コンフィグマネージャー》でスイッチをオンにする必要があります。**
+"""
 
 [[repositories]]
 enabled = true
@@ -111,10 +124,12 @@ name_i18n.zh-CN = "菜单限制器 - DIY关卡《测试1》前两道菜不出搅
 name_i18n.zh-TW = "菜單限制器 - DIY關卡《測試1》前兩道菜不出攪拌"
 name_i18n.en = "Recipe Limiter - DIY Level Test 1"
 name_i18n.ko = "레시피 제한기 - DIY 레벨 테스트 1"
+name_i18n.ja = "レシピリミッター - DIY レベル『テスト1』最初の2品にミキサーを出さない"
 group_i18n.zh-CN = "DIYLevel优化"
 group_i18n.zh-TW = "DIYLevel優化"
 group_i18n.en = "DIYLevel Optimization"
 group_i18n.ko = "DIYLevel 최적화"
+group_i18n.ja = "DIYLevel 最適化"
 provider = "gitee"
 username = "ch3ngyz"
 repository = "Overcooked-2-Test1RecipeLimiter-Releases"
@@ -163,6 +178,12 @@ MOD 기능:
 1. 4인 플레이 시 처음 두 요리에 믹서가 나오지 않도록 제한합니다.
 2. 로컬 1인, 로컬 2인 및 온라인 2인 플레이에서 특정 요리만 선택하여 활성화할 수 있습니다.
 - **사용하려면 BepInEx 구성 관리자에서 해당 기능을 활성화해야 합니다.**"""
+note_i18n.ja = """
+MOD の機能：
+1. 4人プレイ時に最初の2品でミキサーが出ないように制限します。
+2. ローカル1人、ローカル2人、オンライン2人の場合、特定の料理だけを有効にできます。
+- **使用するには、《BepInEx コンフィグマネージャー》でスイッチをオンにする必要があります。**
+"""
 
 
 [[repositories]]
@@ -172,10 +193,12 @@ name_i18n.zh-CN = "DIYLevel 关卡搜索、排序、置顶、缩略图查看、�
 name_i18n.zh-TW = "DIYLevel 關卡搜尋、排序、置頂、縮圖查看、上次遊玩提示"
 name_i18n.en = "DIYLevel Level Search, Sorting, Pinning, Thumbnail Viewing, and Last Played Hint"
 name_i18n.ko = "DIYLevel 레벨 검색, 정렬, 고정, 썸네일 보기 및 마지막 플레이 힌트"
+name_i18n.ja = "DIYLevel レベル検索・並べ替え・ピン留め・サムネイル表示・前回プレイ表示"
 group_i18n.zh-CN = "DIYLevel优化"
 group_i18n.zh-TW = "DIYLevel優化"
 group_i18n.en = "DIYLevel Optimization"
 group_i18n.ko = "DIYLevel 최적화"
+group_i18n.ja = "DIYLevel 最適化"
 provider = "github"
 username = "CH3NGY2"
 repository = "Overcooked-2-DIYLevel-Sorting"
@@ -240,6 +263,15 @@ note_i18n.ko = """
 6. 레벨에 포커스가 있으면 해당 레벨의 미리보기 이미지가 표시되고, 포커스를 잃으면 자동으로 숨겨집니다.
 - **`DIYLevel`이 필요하며 `DIYLevel 빠른 로드`와 호환됩니다.**
 """
+note_i18n.ja = """
+1. カスタムレベルを終了すると、前回のレベル選択画面に自動で戻るため、続けてプレイできます。この機能は《BepInEx コンフィグマネージャー》でオフにできます。
+2. 最近選択したレベルとその所属レベルセットの前に緑色のドットを表示します。ゲームを再起動しても保持されます。
+3. レベルセット一覧とレベル一覧の両方で検索できます。レベルセット一覧で検索すると、一致するレベルを含むレベルセットが表示され、レベルセットに入ると一致したレベルが強調表示されます。
+4. レベルセット一覧とレベル一覧は、名前またはファイルの更新日時で並べ替えできます。並べ替えなし、昇順、降順に対応しています。
+5. レベルセット一覧とレベル一覧の項目はピン留め・解除ができます。ピン留めした項目は並べ替えの対象外です。`DIYLevel 高速読み込み` を使用している場合、ピン留めした項目は更新ボタンの下に表示されます。
+6. レベルにフォーカスするとサムネイルが表示され、フォーカスを外すと自動的に非表示になります。
+- **`DIYLevel` が必要で、`DIYLevel 高速読み込み` と互換性があります。**
+"""
 
 
 [[repositories]]
@@ -249,10 +281,12 @@ name_i18n.zh-CN = "修复 DIYLevel 结算后点击重开键时主机卡死、客
 name_i18n.zh-TW = "修復 DIYLevel 結算後點擊重新開始按鈕時主機卡死、客機斷線的問題"
 name_i18n.en = "Fix Host Freeze and Client Disconnection When Restarting After DIYLevel Results"
 name_i18n.ko = "DIYLevel 결과 화면에서 다시 시작 버튼 클릭 시 호스트 멈춤 및 클라이언트 연결 끊김 수정"
+name_i18n.ja = "DIYLevel リザルト後に再開キーを押すとホストがフリーズしクライアントが切断される問題の修正"
 group_i18n.zh-CN = "DIYLevel优化"
 group_i18n.zh-TW = "DIYLevel優化"
 group_i18n.en = "DIYLevel Optimization"
 group_i18n.ko = "DIYLevel 최적화"
+group_i18n.ja = "DIYLevel 最適化"
 provider = "github"
 username = "CH3NGY2"
 repository = "Overcooked-2-DIYLevel-LongMessageMultipartFix"
@@ -305,6 +339,12 @@ DIYLevel 및 다수의 사용자 제작 맵을 설치한 후 결과 화면에서
 - **설치 후 자동 적용되며, 별도의 설정이 필요하지 않습니다.**
 - **호스트와 클라이언트는 동일한 버전을 사용해야 합니다.**
 """
+note_i18n.ja = """
+DIYLevel と多数のマップをインストールした後、リザルト画面で「本来の再開キー」を押すと、ホストがフリーズしたりクライアントが切断されたりする問題を修正します。
+ゲーム本来の長いメッセージの分割時に本文データで上書きされていた分割数／信頼性シーケンスのヘッダーフィールドを修正し、有効なパケット長でメッセージを再構築することで、本来のシーケンス検証による切断を防ぎます。
+- **インストール後は自動的に有効になり、設定は不要です。**
+- **ホストとクライアントは同じバージョンをインストールする必要があります。**
+"""
 
 
 [[repositories]]
@@ -314,10 +354,12 @@ name_i18n.zh-CN = "修复 DIYLevel 资源读取失败导致存档槽位空白"
 name_i18n.zh-TW = "修復 DIYLevel 資源讀取失敗導致存檔欄位空白"
 name_i18n.en = "Fix Blank Save Slots When DIYLevel Resource Loading Fails"
 name_i18n.ko = "DIYLevel 리소스 로드 실패로 인한 빈 저장 슬롯 수정"
+name_i18n.ja = "DIYLevel のリソース読み込み失敗によるセーブスロット空白の修正"
 group_i18n.zh-CN = "DIYLevel优化"
 group_i18n.zh-TW = "DIYLevel優化"
 group_i18n.en = "DIYLevel Optimization"
 group_i18n.ko = "DIYLevel 최적화"
+group_i18n.ja = "DIYLevel 最適化"
 provider = "github"
 username = "CH3NGY2"
 repository = "Overcooked-2-DIYLevel-ResourceReadFailureBlocker"
@@ -374,6 +416,13 @@ DIYLevel에서 레벨 리소스 로드 실패(필수 요소 누락, 버전 불�
 - **FastInit 1.7.0과 완전히 호환됩니다. 빠른 로드, 온디맨드 로드, 시작 카탈로그와 info bundle 최적화가 모두 유지되며 FastInit 기능을 비활성화, 다운그레이드 또는 제거할 필요가 없습니다.**
 - **Wloader는 선택 사항이며, 활성화하면 DLC가 필요한 레벨 세트를 불러올 수 있습니다.**
 """
+note_i18n.ja = """
+DIYLevel がレベルリソースの読み込みに失敗した場合（前提 MOD の欠落、バージョン不一致、マップの競合など）に、セーブスロット一覧が空白になり、選択できない、またはクリックしても反応しない問題を修正します。
+このプラグインは失敗した DIYLevel の読み込みを停止し、無効になったセーブダイアログを閉じ、ネイティブの popup を表示して、失敗したレベルセット、レベル、読み込みに失敗した呼び出し元とテンプレートリソースを示します。これにより、不足している前提 MOD や破損したマップを特定できます。
+- **DIYLevel が必要です。リソース読み込みの失敗のみを処理し、その他のクラッシュは処理しません。**
+- **FastInit 1.7.0 と完全に互換性があります。高速読み込み、オンデマンド読み込み、起動時の catalog と info bundle の最適化はすべて維持され、FastInit の機能を無効化・ダウングレード・削除する必要はありません。**
+- **Wloader は任意です。有効にすると DLC に依存するレベルセットを読み込めます。**
+"""
 
 
 [[repositories]]
@@ -383,10 +432,12 @@ name_i18n.zh-CN = "跳过启动片头"
 name_i18n.zh-TW = "跳過啟動片頭"
 name_i18n.en = "Skip Startup Intro"
 name_i18n.ko = "시작 인트로 건너뛰기"
+name_i18n.ja = "起動オープニングのスキップ"
 group_i18n.zh-CN = "实用工具"
 group_i18n.zh-TW = "實用工具"
 group_i18n.en = "Utility Tools"
 group_i18n.ko = "유틸리티 도구"
+group_i18n.ja = "便利ツール"
 provider = "gitee"
 username = "ch3ngyz"
 repository = "Overcooked-2-SkipLoading"
@@ -431,6 +482,10 @@ note_i18n.ko = """
 게임 시작 시 브랜드 인트로를 자동으로 건너뛰고 음식 트럭 셔터로 바로 이동합니다.
 - **설치 후 자동 적용되며, 별도의 설정이 필요하지 않습니다.**
 """
+note_i18n.ja = """
+ゲーム起動時のブランドオープニングを自動的にスキップし、フードトラックのシャッターまで直接進みます。
+- **インストール後は自動的に有効になり、設定は不要です。**
+"""
 
 [[repositories]]
 enabled = true
@@ -439,10 +494,12 @@ name_i18n.zh-CN = "重新加入修复"
 name_i18n.zh-TW = "重新加入修復"
 name_i18n.en = "Rejoin Fix"
 name_i18n.ko = "재참가 수정"
+name_i18n.ja = "再参加の修正"
 group_i18n.zh-CN = "游戏修复"
 group_i18n.zh-TW = "遊戲修復"
 group_i18n.en = "Game Fixes"
 group_i18n.ko = "게임 수정"
+group_i18n.ja = "ゲーム修正"
 provider = "github"
 username = "CH3NGY2"
 repository = "Overcooked-2-JoinRecovery"
@@ -499,6 +556,13 @@ note_i18n.ko = """
 - **아케이드 MOD와 함께 설치할 수 있습니다. 다시 참가해야 하는 플레이어에게 설치하면 되며 호스트와 클라이언트 모두 적용됩니다.**
 - **이 버전은 아직 테스트되지 않은 베타 버전입니다. 버그가 발생하면 `BepInEx/logs/com.ch3ngyz.plugin.oc2joinrecovery/` 에서 가장 최근 `.log` 파일과 함께 작성자에게 제보해 주세요.**
 """
+note_i18n.ja = """
+ルームへの参加に失敗した後、またはルームを退出した後に、同じ Steam 招待リンクから再度参加しようとすると参加失敗が繰り返されたり、クリックしても反応しなかったりして、通常はゲームを再起動するか、アーケードに一度入って退出しないと復旧しない問題を修正します。
+このプラグインは、リンク参加前、参加失敗後、ルーム退出時に、ゲーム本来の処理に残った Steam ロビーのメンバーシップと招待処理の状態をクリアします。インストール後は自動的に有効になり、設定は不要です。
+- **本機のロビー／参加状態にのみ影響し、セーブデータ、レベル、DIY パラメータ、マルチプレイのプロトコルは変更しません。**
+- **アーケード MOD と同時にインストールできます。再度参加する必要があるプレイヤーにインストールすればよく、ホストとクライアントの両方に適用されます。**
+- **このバージョンはまだ実機検証されていないテスト版です。BUG が発生した場合は、`BepInEx/logs/com.ch3ngyz.plugin.oc2joinrecovery/` にある最新の `.log` ログを添えて作者に報告してください。**
+"""
 
 [[repositories]]
 enabled = true
@@ -507,10 +571,12 @@ name_i18n.zh-CN = "macOS Xbox 手柄支持修复"
 name_i18n.zh-TW = "macOS Xbox 控制器支援修復"
 name_i18n.en = "macOS Xbox Controller Support Fix"
 name_i18n.ko = "macOS Xbox 컨트롤러 지원 수정"
+name_i18n.ja = "macOS Xbox コントローラー対応の修正"
 group_i18n.zh-CN = "游戏修复"
 group_i18n.zh-TW = "遊戲修復"
 group_i18n.en = "Game Fixes"
 group_i18n.ko = "게임 수정"
+group_i18n.ja = "ゲーム修正"
 provider = "github"
 username = "CH3NGY2"
 repository = "Overcooked-2-MacosControllerFix"
@@ -559,6 +625,12 @@ note_i18n.ko = """
 이 MOD는 macOS 네이티브 버전 Overcooked! 2의 Xbox 컨트롤러 지원을 수정하기 위한 전용 MOD입니다. Windows에는 설치하지 마세요.
 - **설치 후 자동으로 활성화됩니다.**
 - **BepInEx 구성 관리자에서 스틱 방향 반전을 변경할 수 있으며, 변경 후 게임을 다시 시작해야 합니다.**
+"""
+note_i18n.ja = """
+この MOD は、macOS ネイティブ版《Overcooked! 2》の Xbox コントローラー対応を修正するための専用 MOD です。Windows にはインストールしないでください。
+謝辞：連営 - 小紅書ID: 6390308606
+- **インストール後は自動的に有効になります。**
+- **《BepInEx コンフィグマネージャー》でスティック方向の反転を変更できます。変更後はゲームを再起動する必要があります。**
 """
 
 

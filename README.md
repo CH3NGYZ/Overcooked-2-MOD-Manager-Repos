@@ -383,7 +383,7 @@ zh-TW = """
 
 ```toml
 name = "主机实用 MOD"
-name_i18n = { "zh-CN" = "主机实用 MOD", "zh-TW" = "主機實用 MOD", "en" = "HostUtilities", "ko" = "HostUtilities" }
+name_i18n = { "zh-CN" = "主机实用 MOD", "zh-TW" = "主機實用 MOD", "en" = "HostUtilities", "ko" = "HostUtilities", "ja" = "HostUtilities" }
 ```
 
 支持的语言键是：
@@ -392,6 +392,7 @@ name_i18n = { "zh-CN" = "主机实用 MOD", "zh-TW" = "主機實用 MOD", "en" =
 - `zh-TW`：繁體中文
 - `en`：English
 - `ko`：한국어
+- `ja`：日本語
 
 当前语言没有对应翻译时，管理器会回退到 `name`。
 
@@ -401,7 +402,7 @@ name_i18n = { "zh-CN" = "主机实用 MOD", "zh-TW" = "主機實用 MOD", "en" =
 
 ```toml
 group = "主机实用 MOD 稳定版"
-group_i18n = { "zh-CN" = "主机实用 MOD 稳定版", "zh-TW" = "主機實用 MOD 穩定版", "en" = "HostUtilities Stable", "ko" = "HostUtilities 안정 버전" }
+group_i18n = { "zh-CN" = "主机实用 MOD 稳定版", "zh-TW" = "主機實用 MOD 穩定版", "en" = "HostUtilities Stable", "ko" = "HostUtilities 안정 버전", "ja" = "HostUtilities 安定版" }
 ```
 
 分组名称由 TOML 决定，管理器不会根据 GUID 或仓库名称自动猜测分组。没有填写 `group` 的仓库不显示分类标题。

@@ -19,10 +19,10 @@ INDEX = ROOT / "repositories.toml"
 REPOSITORY_HEADER = re.compile(r"(?m)^\[\[repositories\]\][ \t]*(?:\r?\n|$)")
 ASSIGNMENT = re.compile(r"^\s*([A-Za-z0-9_-]+(?:\.[A-Za-z0-9_-]+)*)\s*=")
 NOTE_ASSIGNMENT = re.compile(r"^\s*(note(?:_i18n\.[A-Za-z0-9_-]+)?)\s*=")
-NAME_ORDER = ["name_i18n.zh-CN", "name_i18n.zh-TW", "name_i18n.en", "name_i18n.ko"]
-GROUP_ORDER = ["group_i18n.zh-CN", "group_i18n.zh-TW", "group_i18n.en", "group_i18n.ko"]
+NAME_ORDER = ["name_i18n.zh-CN", "name_i18n.zh-TW", "name_i18n.en", "name_i18n.ko", "name_i18n.ja"]
+GROUP_ORDER = ["group_i18n.zh-CN", "group_i18n.zh-TW", "group_i18n.en", "group_i18n.ko", "group_i18n.ja"]
 BASE_ORDER = NAME_ORDER + GROUP_ORDER + ["provider", "username", "repository", "region"]
-NOTE_LOCALE_ORDER = ["zh-CN", "zh-TW", "en", "ko"]
+NOTE_LOCALE_ORDER = ["zh-CN", "zh-TW", "en", "ko", "ja"]
 
 
 class FormatError(ValueError):
@@ -250,9 +250,11 @@ name = "Legacy name"
 group = "Legacy group"
 name_i18n.ko = "예시"
 name_i18n.zh-TW = "範例"
+name_i18n.ja = "例"
 name_i18n.zh-CN = "示例"
 group_i18n.en = "Tools"
 group_i18n.ko = "도구"
+group_i18n.ja = "ツール"
 group_i18n.zh-TW = "工具"
 group_i18n.zh-CN = "工具"
 provider = "github"
@@ -265,6 +267,7 @@ note_i18n.en = """English note"""
 note = "Legacy note"
 note_i18n.zh-CN = """中文备注"""
 note_i18n.ko = """한국어 메모"""
+note_i18n.ja = """日本語メモ"""
 note_i18n.zh-TW = """繁體備註"""
 '''
     for newline in ("\\n", "\\r\\n"):
