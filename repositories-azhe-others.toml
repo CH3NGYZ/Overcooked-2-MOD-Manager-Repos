@@ -245,10 +245,10 @@ note_i18n.ko = """
 [[repositories]]
 enabled = true
 # 仓库基本信息
-name_i18n.zh-CN = "DIYLevel 重开时主机卡死、客机掉线修复"
-name_i18n.zh-TW = "DIYLevel 重開時主機卡死、客機掉線修復"
-name_i18n.en = "DIYLevel Host Freeze and Client Disconnect Fix on Restart"
-name_i18n.ko = "DIYLevel 재시작 시 호스트 멈춤 및 클라이언트 연결 끊김 수정"
+name_i18n.zh-CN = "修复 DIYLevel 结算后点击重开键时主机卡死、客机掉线"
+name_i18n.zh-TW = "修復 DIYLevel 結算後點擊重新開始按鈕時主機卡死、客機斷線的問題"
+name_i18n.en = "Fix Host Freeze and Client Disconnection When Restarting After DIYLevel Results"
+name_i18n.ko = "DIYLevel 결과 화면에서 다시 시작 버튼 클릭 시 호스트 멈춤 및 클라이언트 연결 끊김 수정"
 group_i18n.zh-CN = "DIYLevel优化"
 group_i18n.zh-TW = "DIYLevel優化"
 group_i18n.en = "DIYLevel Optimization"
