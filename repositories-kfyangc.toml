@@ -1,10 +1,10 @@
 [[repositories]]
 enabled = true
 # 仓库基本信息
-name_i18n.zh-CN = "DIYLevel 快速载入"
-name_i18n.zh-TW = "DIYLevel 快速載入"
-name_i18n.en = "DIYLevel Fast Init"
-name_i18n.ko = "DIYLevel 빠른 로딩"
+name_i18n.zh-CN = "DIYLevel 快速载入 - 稳定版"
+name_i18n.zh-TW = "DIYLevel 快速載入 - 稳定版"
+name_i18n.en = "DIYLevel Fast Init - Stable"
+name_i18n.ko = "DIYLevel 빠른 로딩 - Stable"
 group_i18n.zh-CN = "性能优化"
 group_i18n.zh-TW = "效能優化"
 group_i18n.en = "Performance Optimization"
