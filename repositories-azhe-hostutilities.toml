@@ -20,7 +20,7 @@ download_mode = "release"
 # Release 参数
 channel = "all"
 max_release_count = 10
-download_threads = 32
+download_threads = 1
 
 # 版本资产规则
 asset_rules = [
@@ -65,7 +65,7 @@ download_mode = "release"
 # Release 参数
 channel = "all"
 max_release_count = 10
-download_threads = 32
+download_threads = 1
 
 # 版本资产规则
 asset_rules = [
@@ -213,7 +213,7 @@ group_i18n.ko = "아케이드 MOD - 해외 권장"
 provider = "github"
 username = "CH3NGYZ"
 repository = "Overcooked-2-HostUtilities-Stable-Releases"
-region = ""
+region = "international"
 
 # 下载方式
 download_mode = "release"
@@ -221,7 +221,7 @@ download_mode = "release"
 # Release 参数
 channel = "all"
 max_release_count = 10
-download_threads = 32
+download_threads = 1
 
 # 版本资产规则
 asset_rules = [
@@ -269,15 +269,15 @@ group_i18n.ko = "아케이드 MOD - 해외 권장"
 provider = "github"
 username = "CH3NGYZ"
 repository = "Overcooked-2-HostUtilities-Beta-Releases"
-region = ""
+region = "international"
 
 # 下载方式
 download_mode = "release"
 
 # Release 参数
 channel = "all"
-max_release_count = 10
-download_threads = 32
+max_release_count = 8
+download_threads = 1
 
 # 版本资产规则
 asset_rules = [
