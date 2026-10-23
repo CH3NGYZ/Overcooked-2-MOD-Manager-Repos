@@ -92,7 +92,8 @@ flowchart TD
 如果出现以下问题，请优先检查 `OC2DIYLevel`、`DIYLevelRuntimeWLoader` 与 `OC2DIYLevel/levels` 内地图之间的兼容性：
 
 - 进入游戏后，选档列表为空。
-- 使用街机 MOD 的 `一键重开` 或 `一键退出` 功能后，游戏卡死或客机全部掉出。
+
+如果选档列表为空，可以安装并启用《修复 DIYLevel 资源读取失败导致存档槽位空白》MOD。它会在关卡资源加载失败时弹窗提示具体的关卡集、关卡和失败的资源，帮助定位是哪张地图导致选档无法显示。
 
 ### 推荐排查顺序
 
@@ -159,7 +160,8 @@ flowchart TD
 如果出現以下問題，請優先檢查 `OC2DIYLevel`、`DIYLevelRuntimeWLoader` 與 `OC2DIYLevel/levels` 內地圖之間的相容性：
 
 - 進入遊戲後，存檔列表為空。
-- 使用街機 MOD 的 `一鍵重開` 或 `一鍵退出` 功能後，遊戲卡死或客機全部斷線。
+
+如果存檔列表為空，可以安裝並啟用《修復 DIYLevel 資源讀取失敗導致存檔欄位空白》MOD。它會在關卡資源載入失敗時彈出視窗提示具體的關卡集、關卡和失敗的資源，幫助定位是哪張地圖導致存檔無法顯示。
 
 ### 建議排除順序
 
@@ -226,7 +228,8 @@ flowchart TD
 If any of the following problems occur, first check the compatibility between `OC2DIYLevel`, `DIYLevelRuntimeWLoader`, and the maps in `OC2DIYLevel/levels`:
 
 - The save-slot list is empty after entering the game.
-- The game freezes or all guest players are disconnected after using the Arcade MOD's `一键重开` or `一键退出` feature.
+
+If the save-slot list is empty, install and enable the `Fix Blank Save Slots When DIYLevel Resource Loading Fails` MOD. When a level resource fails to load, it shows a popup naming the failing level set, level, and resource, helping identify which map prevents the save slots from appearing.
 
 ### Recommended Troubleshooting Order
 
@@ -293,7 +296,8 @@ flowchart TD
 다음 문제가 발생하면 먼저 `OC2DIYLevel`, `DIYLevelRuntimeWLoader`, `OC2DIYLevel/levels`에 있는 맵 사이의 호환성을 확인하세요.
 
 - 게임에 들어간 후 세이브 슬롯 목록이 비어 있습니다.
-- Arcade MOD의 `一键重开` 또는 `一键退出` 기능을 사용한 후 게임이 멈추거나 모든 게스트 플레이어의 연결이 끊깁니다.
+
+세이브 슬롯 목록이 비어 있다면 《DIYLevel 리소스 로드 실패로 인한 빈 저장 슬롯 수정》 MOD를 설치하고 활성화해 보세요. 레벨 리소스 로드에 실패하면 실패한 레벨 세트, 레벨, 리소스를 팝업으로 알려 주어 어떤 맵 때문에 세이브 슬롯이 표시되지 않는지 찾을 수 있습니다.
 
 ### 권장 점검 순서
 
@@ -360,7 +364,8 @@ flowchart TD
 以下の問題が発生した場合は、まず `OC2DIYLevel`、`DIYLevelRuntimeWLoader`、`OC2DIYLevel/levels` 内のマップ間の互換性を確認してください：
 
 - ゲームに入った後、セーブ選択一覧が空になる。
-- アーケード MOD の `一键重开` または `一键退出` 機能を使った後、ゲームがフリーズしたり、クライアントが全員切断されたりする。
+
+セーブ選択一覧が空になる場合は、《DIYLevel のリソース読み込み失敗によるセーブスロット空白の修正》MOD をインストールして有効化してみてください。レベルリソースの読み込みに失敗すると、失敗したレベルセット・レベル・リソースをポップアップで表示し、どのマップが原因でセーブ選択が表示されないかを特定できます。
 
 ### 推奨される確認手順
 
