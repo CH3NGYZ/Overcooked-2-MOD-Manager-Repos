@@ -307,73 +307,73 @@ DIYLevel 및 다수의 사용자 제작 맵을 설치한 후 결과 화면에서
 """
 
 
-# [[repositories]]
-# enabled = true
-# # 仓库基本信息
-# name_i18n.zh-CN = "修复 DIYLevel 资源读取失败导致存档槽位空白"
-# name_i18n.zh-TW = "修復 DIYLevel 資源讀取失敗導致存檔欄位空白"
-# name_i18n.en = "Fix Blank Save Slots When DIYLevel Resource Loading Fails"
-# name_i18n.ko = "DIYLevel 리소스 로드 실패로 인한 빈 저장 슬롯 수정"
-# group_i18n.zh-CN = "DIYLevel优化"
-# group_i18n.zh-TW = "DIYLevel優化"
-# group_i18n.en = "DIYLevel Optimization"
-# group_i18n.ko = "DIYLevel 최적화"
-# provider = "github"
-# username = "CH3NGY2"
-# repository = "Overcooked-2-DIYLevel-ResourceReadFailureBlocker"
-# region = ""
+[[repositories]]
+enabled = true
+# 仓库基本信息
+name_i18n.zh-CN = "修复 DIYLevel 资源读取失败导致存档槽位空白"
+name_i18n.zh-TW = "修復 DIYLevel 資源讀取失敗導致存檔欄位空白"
+name_i18n.en = "Fix Blank Save Slots When DIYLevel Resource Loading Fails"
+name_i18n.ko = "DIYLevel 리소스 로드 실패로 인한 빈 저장 슬롯 수정"
+group_i18n.zh-CN = "DIYLevel优化"
+group_i18n.zh-TW = "DIYLevel優化"
+group_i18n.en = "DIYLevel Optimization"
+group_i18n.ko = "DIYLevel 최적화"
+provider = "github"
+username = "CH3NGY2"
+repository = "Overcooked-2-DIYLevel-ResourceReadFailureBlocker"
+region = ""
 
-# # 下载方式
-# download_mode = "release"
+# 下载方式
+download_mode = "release"
 
-# # Release 参数
-# channel = "all"
-# max_release_count = 10
-# download_threads = 1
+# Release 参数
+channel = "all"
+max_release_count = 10
+download_threads = 1
 
-# # 版本资产规则
-# asset_rules = [
-#   { type = 'regex', value = '^OC2DIYLevel-ResourceReadFailureBlocker-v.*\.zip$' },
-# ]
+# 版本资产规则
+asset_rules = [
+  { type = 'regex', value = '^OC2DIYLevel-ResourceReadFailureBlocker-v.*\.zip$' },
+]
 
-# # 本地 MOD 识别绑定
-# plugin_guid = "com.ch3ngyz.plugin.overcooked2.diylevel.resourcereadfailureblocker"
-# local_product_name = "OC2DIYLevel-ResourceReadFailureBlocker-选档空白修复"
-# local_original_filename = "OC2DIYLevel-ResourceReadFailureBlocker-选档空白修复.dll"
-# version_regex = ""
+# 本地 MOD 识别绑定
+plugin_guid = "com.ch3ngyz.plugin.overcooked2.diylevel.resourcereadfailureblocker"
+local_product_name = "OC2DIYLevel-ResourceReadFailureBlocker-选档空白修复"
+local_original_filename = "OC2DIYLevel-ResourceReadFailureBlocker-选档空白修复.dll"
+version_regex = ""
 
-# # 安装目录
-# install_target = "BepInEx/plugins"
+# 安装目录
+install_target = "BepInEx/plugins"
 
-# # 仓库备注
-# note_i18n.zh-CN = """
-# 修复 DIYLevel 在读取关卡资源失败（前置缺失、版本不匹配、地图冲突等）时，存档槽位列表空白、无法选择或点击无响应的问题。
-# 插件会停止失败的 DIYLevel 加载，关闭已失效的存档对话框，并弹出原生 popup，显示失败的关卡集、关卡、加载失败的调用方与模板资源，方便定位缺少的前置或损坏的地图。
-# - **需安装 DIYLevel；仅处理资源读取失败，不处理其它崩溃。**
-# - **完整兼容 FastInit 1.7.0：其快速加载、按需加载、启动 catalog 与 info bundle 优化全部保留，无需禁用、降级或移除任何 FastInit 功能。**
-# - **Wloader 可选：开启时可加载依赖 DLC 的关卡集。**
-# """
-# note_i18n.zh-TW = """
-# 修復 DIYLevel 在讀取關卡資源失敗（前置缺失、版本不相符、地圖衝突等）時，存檔欄位列表空白、無法選擇或點擊無回應的問題。
-# 外掛會停止失敗的 DIYLevel 載入，關閉已失效的存檔對話框，並彈出原生 popup，顯示失敗的關卡集、關卡、載入失敗的呼叫端與範本資源，方便定位缺少的前置或損壞的地圖。
-# - **需安裝 DIYLevel；僅處理資源讀取失敗，不處理其它崩潰。**
-# - **完整相容 FastInit 1.7.0：其快速載入、按需載入、啟動 catalog 與 info bundle 最佳化全部保留，無需停用、降級或移除任何 FastInit 功能。**
-# - **Wloader 選用：開啟時可載入依賴 DLC 的關卡集。**
-# """
-# note_i18n.en = """
-# Fixes blank save slots, unselectable entries, or unresponsive clicks in DIYLevel when a level resource fails to load (missing prerequisite, version mismatch, map conflict, and similar cases).
-# The mod stops the failed DIYLevel load, closes the invalidated save dialog, and shows a native popup naming the failing level set, level, caller, and template resource so the missing prerequisite or broken map can be identified.
-# - **Requires DIYLevel; it only handles resource-loading failures, not other crashes.**
-# - **Fully compatible with FastInit 1.7.0: its fast loading, on-demand loading, startup catalog and info-bundle optimizations are all kept; there is no need to disable, downgrade or remove any FastInit feature.**
-# - **Wloader is optional; enable it to load DLC-dependent level sets.**
-# """
-# note_i18n.ko = """
-# DIYLevel에서 레벨 리소스 로드 실패(필수 요소 누락, 버전 불일치, 맵 충돌 등)로 저장 슬롯 목록이 비어 있거나 선택/클릭이 되지 않는 문제를 수정합니다.
-# 모드는 실패한 DIYLevel 로드를 중단하고 무효화된 저장 대화상자를 닫은 뒤, 실패한 레벨 세트·레벨·호출자·템플릿 리소스를 보여주는 네이티브 popup을 표시하여 누락된 필수 요소나 손상된 맵을 찾을 수 있게 합니다.
-# - **DIYLevel이 필요하며 리소스 로드 실패만 처리합니다. 다른 크래시는 다루지 않습니다.**
-# - **FastInit 1.7.0과 완전히 호환됩니다. 빠른 로드, 온디맨드 로드, 시작 카탈로그와 info bundle 최적화가 모두 유지되며 FastInit 기능을 비활성화, 다운그레이드 또는 제거할 필요가 없습니다.**
-# - **Wloader는 선택 사항이며, 활성화하면 DLC가 필요한 레벨 세트를 불러올 수 있습니다.**
-# """
+# 仓库备注
+note_i18n.zh-CN = """
+修复 DIYLevel 在读取关卡资源失败（前置缺失、版本不匹配、地图冲突等）时，存档槽位列表空白、无法选择或点击无响应的问题。
+插件会停止失败的 DIYLevel 加载，关闭已失效的存档对话框，并弹出原生 popup，显示失败的关卡集、关卡、加载失败的调用方与模板资源，方便定位缺少的前置或损坏的地图。
+- **需安装 DIYLevel；仅处理资源读取失败，不处理其它崩溃。**
+- **完整兼容 FastInit 1.7.0：其快速加载、按需加载、启动 catalog 与 info bundle 优化全部保留，无需禁用、降级或移除任何 FastInit 功能。**
+- **Wloader 可选：开启时可加载依赖 DLC 的关卡集。**
+"""
+note_i18n.zh-TW = """
+修復 DIYLevel 在讀取關卡資源失敗（前置缺失、版本不相符、地圖衝突等）時，存檔欄位列表空白、無法選擇或點擊無回應的問題。
+外掛會停止失敗的 DIYLevel 載入，關閉已失效的存檔對話框，並彈出原生 popup，顯示失敗的關卡集、關卡、載入失敗的呼叫端與範本資源，方便定位缺少的前置或損壞的地圖。
+- **需安裝 DIYLevel；僅處理資源讀取失敗，不處理其它崩潰。**
+- **完整相容 FastInit 1.7.0：其快速載入、按需載入、啟動 catalog 與 info bundle 最佳化全部保留，無需停用、降級或移除任何 FastInit 功能。**
+- **Wloader 選用：開啟時可載入依賴 DLC 的關卡集。**
+"""
+note_i18n.en = """
+Fixes blank save slots, unselectable entries, or unresponsive clicks in DIYLevel when a level resource fails to load (missing prerequisite, version mismatch, map conflict, and similar cases).
+The mod stops the failed DIYLevel load, closes the invalidated save dialog, and shows a native popup naming the failing level set, level, caller, and template resource so the missing prerequisite or broken map can be identified.
+- **Requires DIYLevel; it only handles resource-loading failures, not other crashes.**
+- **Fully compatible with FastInit 1.7.0: its fast loading, on-demand loading, startup catalog and info-bundle optimizations are all kept; there is no need to disable, downgrade or remove any FastInit feature.**
+- **Wloader is optional; enable it to load DLC-dependent level sets.**
+"""
+note_i18n.ko = """
+DIYLevel에서 레벨 리소스 로드 실패(필수 요소 누락, 버전 불일치, 맵 충돌 등)로 저장 슬롯 목록이 비어 있거나 선택/클릭이 되지 않는 문제를 수정합니다.
+모드는 실패한 DIYLevel 로드를 중단하고 무효화된 저장 대화상자를 닫은 뒤, 실패한 레벨 세트·레벨·호출자·템플릿 리소스를 보여주는 네이티브 popup을 표시하여 누락된 필수 요소나 손상된 맵을 찾을 수 있게 합니다.
+- **DIYLevel이 필요하며 리소스 로드 실패만 처리합니다. 다른 크래시는 다루지 않습니다.**
+- **FastInit 1.7.0과 완전히 호환됩니다. 빠른 로드, 온디맨드 로드, 시작 카탈로그와 info bundle 최적화가 모두 유지되며 FastInit 기능을 비활성화, 다운그레이드 또는 제거할 필요가 없습니다.**
+- **Wloader는 선택 사항이며, 활성화하면 DLC가 필요한 레벨 세트를 불러올 수 있습니다.**
+"""
 
 
 [[repositories]]
