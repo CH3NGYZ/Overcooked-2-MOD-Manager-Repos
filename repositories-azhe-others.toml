@@ -435,6 +435,70 @@ note_i18n.ko = """
 [[repositories]]
 enabled = true
 # 仓库基本信息
+name_i18n.zh-CN = "重新加入修复"
+name_i18n.zh-TW = "重新加入修復"
+name_i18n.en = "Rejoin Fix"
+name_i18n.ko = "재참가 수정"
+group_i18n.zh-CN = "游戏修复"
+group_i18n.zh-TW = "遊戲修復"
+group_i18n.en = "Game Fixes"
+group_i18n.ko = "게임 수정"
+provider = "github"
+username = "CH3NGY2"
+repository = "Overcooked-2-JoinRecovery"
+region = ""
+
+# 下载方式
+download_mode = "release"
+
+# Release 参数
+channel = "all"
+max_release_count = 10
+download_threads = 1
+
+# 版本资产规则
+asset_rules = [
+  { type = 'regex', value = '^OC2JoinRecovery-v[0-9]+(\.[0-9]+){1,3}\.zip$' },
+]
+
+# 本地 MOD 识别绑定
+plugin_guid = "com.ch3ngyz.plugin.oc2joinrecovery"
+local_product_name = "OC2JoinRecovery-重新加入修复"
+local_original_filename = "OC2JoinRecovery-重新加入修复.dll"
+version_regex = ""
+
+# 安装目录
+install_target = "BepInEx/plugins"
+
+# 仓库备注
+note_i18n.zh-CN = """
+修复加入房间失败或主动退出房间后，再用同一个 Steam 加入链接反复提示加入失败、点击无反应，通常必须重启游戏或先进入一次街机再退出才能恢复的问题。
+插件在链接加入前、加入失败后和离房时，清理游戏原生流程残留的 Steam 大厅成员关系与邀请处理状态；安装后自动生效，无需配置。
+- **仅影响本机的大厅/加入状态，不修改存档、关卡、DIY 参数或联机协议。**
+- **可与街机 MOD 同时安装；需要重新加入房间的玩家安装即可，主机和客机均适用。**
+"""
+note_i18n.zh-TW = """
+修復加入房間失敗或主動退出房間後，再用同一個 Steam 加入連結反覆提示加入失敗、點擊無反應，通常必須重新啟動遊戲或先進入一次街機再退出才能恢復的問題。
+外掛會在連結加入前、加入失敗後和離房時，清理遊戲原生流程殘留的 Steam 大廳成員關係與邀請處理狀態；安裝後自動生效，無需設定。
+- **僅影響本機的大廳/加入狀態，不修改存檔、關卡、DIY 參數或連線協定。**
+- **可與街機 MOD 同時安裝；需要重新加入房間的玩家安裝即可，主機和客機均適用。**
+"""
+note_i18n.en = """
+Fixes the issue where, after a failed room join or leaving a room, the same Steam join link keeps failing or stops responding, and the game usually has to be restarted, or an Arcade room entered and left once, before joining works again.
+The mod clears stale Steam lobby membership and invite-handling state left behind by the game's join/leave flow before a link join, after a failed join, and when leaving a room. It works automatically after installation and needs no configuration.
+- **Only local lobby/join state is affected; saves, levels, DIY parameters and the multiplayer protocol are not modified.**
+- **Compatible with the Arcade MOD. Install it on the player who needs to rejoin; it applies to both hosts and clients.**
+"""
+note_i18n.ko = """
+방 참가 실패 또는 방을 나간 뒤 같은 Steam 참가 링크로 다시 참가하려 하면 계속 실패하거나 클릭에 반응하지 않아, 보통 게임을 재시작하거나 아케이드 방에 한 번 들어갔다 나와야 복구되는 문제를 수정합니다.
+모드는 링크 참가 전, 참가 실패 후, 방을 나갈 때 게임 원본 흐름에 남은 Steam 로비 멤버십과 초대 처리 상태를 정리합니다. 설치 후 자동으로 적용되며 별도의 설정이 필요하지 않습니다.
+- **본인의 로비/참가 상태에만 영향을 주며 저장 파일, 레벨, DIY 매개변수 또는 멀티플레이 프로토콜을 변경하지 않습니다.**
+- **아케이드 MOD와 함께 설치할 수 있습니다. 다시 참가해야 하는 플레이어에게 설치하면 되며 호스트와 클라이언트 모두 적용됩니다.**
+"""
+
+[[repositories]]
+enabled = true
+# 仓库基本信息
 name_i18n.zh-CN = "macOS Xbox 手柄支持修复"
 name_i18n.zh-TW = "macOS Xbox 控制器支援修復"
 name_i18n.en = "macOS Xbox Controller Support Fix"
