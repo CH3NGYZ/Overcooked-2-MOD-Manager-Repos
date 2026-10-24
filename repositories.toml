@@ -11,6 +11,7 @@ zh-CN = "阿哲 - 街机MOD - 小红书 @Azhe是阿哲 - ID:5566308341"
 zh-TW = "阿哲 - 街機MOD - 小红书 @Azhe是阿哲 - ID:5566308341"
 en = "Azhe - HostUtilities MOD - RedNote @Azhe是阿哲 - ID:5566308341"
 ko = "Azhe - 아케이드 MOD - RedNote @Azhe是阿哲 - ID:5566308341"
+ja = "Azhe - アーケード MOD - RedNote @Azhe是阿哲 - ID:5566308341"
 
 
 [[repository_sources]]
@@ -23,6 +24,7 @@ zh-CN = "阿哲 - 其他MOD - 小红书 @Azhe是阿哲 - ID:5566308341"
 zh-TW = "阿哲 - 其他MOD - 小红书 @Azhe是阿哲 - ID:5566308341"
 en = "Azhe - Others MOD - RedNote @Azhe是阿哲 - ID:5566308341"
 ko = "Azhe - 기타 MOD - RedNote @Azhe是阿哲 - ID:5566308341"
+ja = "Azhe - その他の MOD - RedNote @Azhe是阿哲 - ID:5566308341"
 
 
 [[repository_sources]]
@@ -35,6 +37,7 @@ zh-CN = "G_U_A"
 zh-TW = "G_U_A"
 en = "G_U_A"
 ko = "G_U_A"
+ja = "G_U_A"
 
 
 [[repository_sources]]
@@ -47,6 +50,7 @@ zh-CN = "小红书 @漆雕帆船 - ID:5669571205"
 zh-TW = "小红书 @漆雕帆船 - ID:5669571205"
 en = "RedNote @漆雕帆船 - ID:5669571205"
 ko = "RedNote @漆雕帆船 - ID:5669571205"
+ja = "RedNote @漆雕帆船 - ID:5669571205"
 
 
 [[repository_sources]]
@@ -59,6 +63,20 @@ zh-CN = "小红书 @纸沫 - ID:5696399896"
 zh-TW = "小红书 @纸沫 - ID:5696399896"
 en = "RedNote @纸沫 - ID:5696399896"
 ko = "RedNote @纸沫 - ID:5696399896"
+ja = "RedNote @纸沫 - ID:5696399896"
+
+
+[[repository_sources]]
+id = "repositories-qingyuqingxue"
+nickname = "小红书 @清雨青雪 - ID:94575050243"
+url = "repositories-qingyuqingxue.toml"
+builtin=false
+[repository_sources.nickname_i18n]
+zh-CN = "小红书 @清雨青雪 - ID:94575050243"
+zh-TW = "小红书 @清雨青雪 - ID:94575050243"
+en = "RedNote @清雨青雪 - ID:94575050243"
+ko = "RedNote @清雨青雪 - ID:94575050243"
+ja = "RedNote @清雨青雪 - ID:94575050243"
 
 
 # 代理源索引
