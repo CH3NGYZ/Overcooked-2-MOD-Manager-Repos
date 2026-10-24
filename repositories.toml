@@ -79,7 +79,7 @@ ko = "RedNote @清雨青雪 - ID:94575050243"
 ja = "RedNote @清雨青雪 - ID:94575050243"
 
 
-# 代理源索引
+# 桥接源索引
 [[github_proxy_sources]]
 url = "repositories-proxies.toml"
 

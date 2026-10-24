@@ -1,6 +1,6 @@
 schema_version = 1
 
-# Release 代理
+# Release 桥接
 [[release_proxies]]
 id = "gh-h233"
 name = "gh.h233.eu.org"
@@ -157,7 +157,7 @@ id = "oc2gh-release"
 name = "oc2gh.ch3ng.top"
 template = "https://oc2gh.ch3ng.top/{url_path}"
 
-# Raw 代理
+# Raw 桥接
 [[raw_proxies]]
 id = "wget-la-raw"
 name = "wget.la"
@@ -199,16 +199,16 @@ id = "oc2gh-raw"
 name = "oc2gh.ch3ng.top"
 template = "https://oc2gh.ch3ng.top/{url_path}"
 
-# GitHub API 代理
+# GitHub API 桥接
 [[github_api_proxies]]
 id = "oc2ghapi"
 name = "oc2ghapi.ch3ng.top"
 template = "https://oc2ghapi.ch3ng.top/{url_path}"
-description = "GitHub API 代理"
+description = "GitHub API 桥接"
 
-# Gitee API 代理
+# Gitee API 桥接
 [[gitee_api_proxies]]
 id = "oc2gtapi"
 name = "oc2gtapi.ch3ng.top"
 template = "https://oc2gtapi.ch3ng.top/{url_path}"
-description = "Gitee API 代理"
+description = "Gitee API 桥接"
