@@ -76,7 +76,7 @@ asset_rules = [{ type = "exact", value = "DIYChefFastInit.zip" }]
 # 本地 MOD 识别绑定
 plugin_guid = "dev.gua.overcooked.diychef"
 local_product_name = "DIYChefFastInit"
-local_original_filename = "DIYChefFastInit.zip"
+local_original_filename = "DIYChefFastInit.dll"
 version_regex = ""
 
 # 安装目录
