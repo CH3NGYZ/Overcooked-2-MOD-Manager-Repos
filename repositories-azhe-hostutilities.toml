@@ -15,6 +15,7 @@ provider = "github"
 username = "BepInEx"
 repository = "BepInEx.ConfigurationManager"
 region = ""
+platform = ""
 
 # 下载方式
 download_mode = "release"
@@ -46,6 +47,7 @@ note_i18n.en = "This mod is used to manage configurations created by mods such a
 note_i18n.ko = "이 모드는 《HostUtilities》와 같은 MOD에서 생성한 설정을 관리하는 데 사용됩니다. 기본 단축키는 F1이지만, 《HostUtilities》에 의해 자동으로 P로 변경될 수 있습니다."
 note_i18n.ja = """この MOD は、《HostUtilities》などの MOD が作成した設定を管理するためのものです。既定の起動キーは F1 ですが、《HostUtilities》によって自動的に P に変更される場合があります。"""
 
+
 [[repositories]]
 enabled = true
 # 仓库基本信息
@@ -63,6 +65,7 @@ provider = "github"
 username = "y0soro"
 repository = "Unity.IMGUI.HiDPI.Patcher"
 region = ""
+platform = ""
 
 # 下载方式
 download_mode = "release"
@@ -93,6 +96,7 @@ note_i18n.en = "Provides HiDPI scaling for Unity IMGUI interfaces, fixing the is
 note_i18n.ko = "Unity IMGUI 인터페이스에 HiDPI 스케일링을 제공하여 고해상도 화면에서 BepInEx 구성 관리자가 너무 작게 표시되는 문제를 해결합니다. BepInEx/patchers에 설치되므로 모드 관리에 나타나지 않습니다."
 note_i18n.ja = """Unity IMGUI インターフェースに高解像度ディスプレイ向けのスケーリングを提供し、BepInEx コンフィグマネージャーが高解像度画面で小さく表示される問題を解決します。BepInEx/patchers にインストールされるため、MOD 管理には表示されません。"""
 
+
 [[repositories]]
 enabled = true
 # 仓库基本信息
@@ -110,6 +114,7 @@ provider = "gitee"
 username = "ch3ngyz"
 repository = "Overcooked-2-HostUtilities-Stable-Releases"
 region = "chinese_mainland"
+platform = ""
 
 # 下载方式
 download_mode = "release"
@@ -155,6 +160,18 @@ note_i18n.ja = """
 ダウンロードが遅い場合や失敗する場合は、GitHub チャンネルもお試しください。
 """
 
+# 依赖 Configuration Manager
+[[repositories.relations]]
+kind = "requires"
+guid = "com.bepis.bepinex.configurationmanager"
+
+# 与测试版互斥
+[[repositories.relations]]
+kind = "conflicts"
+guid = "com.ch3ngyz.plugin.HostUtilities"
+prerelease = true
+
+
 [[repositories]]
 enabled = true
 # 仓库基本信息
@@ -172,6 +189,7 @@ provider = "gitee"
 username = "ch3ngyz"
 repository = "Overcooked-2-HostUtilities-Beta-Releases"
 region = "chinese_mainland"
+platform = ""
 
 # 下载方式
 download_mode = "release"
@@ -217,6 +235,18 @@ note_i18n.ja = """
 このバージョンはテスト専用であり、長期間の使用は推奨しません。問題が発生した場合は、安定版を再インストールしてください。
 """
 
+# 依赖 Configuration Manager
+[[repositories.relations]]
+kind = "requires"
+guid = "com.bepis.bepinex.configurationmanager"
+
+# 与正式版互斥
+[[repositories.relations]]
+kind = "conflicts"
+guid = "com.ch3ngyz.plugin.HostUtilities"
+prerelease = false
+
+
 [[repositories]]
 enabled = true
 # 仓库基本信息
@@ -234,6 +264,7 @@ provider = "github"
 username = "CH3NGYZ"
 repository = "Overcooked-2-HostUtilities-Stable-Releases"
 region = "international"
+platform = ""
 
 # 下载方式
 download_mode = "release"
@@ -279,6 +310,18 @@ note_i18n.ja = """
 中国語プレイヤーもこのチャンネルを利用できます。Gitee チャンネルでのダウンロードに失敗した場合は、GitHub チャンネルをお試しください。
 """
 
+# 依赖 Configuration Manager
+[[repositories.relations]]
+kind = "requires"
+guid = "com.bepis.bepinex.configurationmanager"
+
+# 与测试版互斥
+[[repositories.relations]]
+kind = "conflicts"
+guid = "com.ch3ngyz.plugin.HostUtilities"
+prerelease = true
+
+
 [[repositories]]
 enabled = true
 # 仓库基本信息
@@ -296,6 +339,7 @@ provider = "github"
 username = "CH3NGYZ"
 repository = "Overcooked-2-HostUtilities-Beta-Releases"
 region = "international"
+platform = ""
 
 # 下载方式
 download_mode = "release"
@@ -345,3 +389,14 @@ note_i18n.ja = """
 このバージョンはテスト専用であり、長期間の使用は推奨しません。問題が発生した場合は、安定版を再インストールしてください。
 中国語プレイヤーもこのチャンネルを利用できます。Gitee チャンネルでのダウンロードに失敗した場合は、GitHub チャンネルをお試しください。
 """
+
+# 依赖 Configuration Manager
+[[repositories.relations]]
+kind = "requires"
+guid = "com.bepis.bepinex.configurationmanager"
+
+# 与正式版互斥
+[[repositories.relations]]
+kind = "conflicts"
+guid = "com.ch3ngyz.plugin.HostUtilities"
+prerelease = false

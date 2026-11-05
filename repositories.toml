@@ -3,7 +3,6 @@
 # [[repository_sources]] 的顺序决定源在管理器中的展示顺序。
 [[repository_sources]]
 id = "repositories-azhe-hostutilities"
-nickname = "阿哲 - 街机MOD - 小红书 @Azhe是阿哲 - ID:5566308341"
 url = "repositories-azhe-hostutilities.toml"
 builtin=true
 [repository_sources.nickname_i18n]
@@ -16,7 +15,6 @@ ja = "Azhe - アーケード MOD - RedNote @Azhe是阿哲 - ID:5566308341"
 
 [[repository_sources]]
 id = "repositories-azhe-others"
-nickname = "阿哲 - 其他MOD - 小红书 @Azhe是阿哲 - ID:5566308341"
 url = "repositories-azhe-others.toml"
 builtin=true
 [repository_sources.nickname_i18n]
@@ -28,21 +26,31 @@ ja = "Azhe - その他の MOD - RedNote @Azhe是阿哲 - ID:5566308341"
 
 
 [[repository_sources]]
-id = "repositories-gua"
-nickname = "G_U_A"
-url = "repositories-gua.toml"
+id = "repositories-azhe-game-fixes"
+url = "repositories-azhe-game-fixes.toml"
+builtin=true
+[repository_sources.nickname_i18n]
+zh-CN = "阿哲 - 游戏修复 - 小红书 @Azhe是阿哲 - ID:5566308341"
+zh-TW = "阿哲 - 遊戲修復 - 小红书 @Azhe是阿哲 - ID:5566308341"
+en = "Azhe - Game Fixes - RedNote @Azhe是阿哲 - ID:5566308341"
+ko = "Azhe - 게임 수정 - RedNote @Azhe是阿哲 - ID:5566308341"
+ja = "Azhe - ゲーム修正 - RedNote @Azhe是阿哲 - ID:5566308341"
+
+
+[[repository_sources]]
+id = "repositories-qingyuqingxue"
+url = "repositories-qingyuqingxue.toml"
 builtin=false
 [repository_sources.nickname_i18n]
-zh-CN = "G_U_A"
-zh-TW = "G_U_A"
-en = "G_U_A"
-ko = "G_U_A"
-ja = "G_U_A"
+zh-CN = "小红书 @清雨青雪 - ID:94575050243"
+zh-TW = "小红书 @清雨青雪 - ID:94575050243"
+en = "RedNote @清雨青雪 - ID:94575050243"
+ko = "RedNote @清雨青雪 - ID:94575050243"
+ja = "RedNote @清雨青雪 - ID:94575050243"
 
 
 [[repository_sources]]
 id = "repositories-kfyangc"
-nickname = "小红书 @漆雕帆船 - ID:5669571205"
 url = "repositories-kfyangc.toml"
 builtin=false
 [repository_sources.nickname_i18n]
@@ -55,7 +63,6 @@ ja = "RedNote @漆雕帆船 - ID:5669571205"
 
 [[repository_sources]]
 id = "repositories-foamp"
-nickname = "小红书 @纸沫 - ID:5696399896"
 url = "repositories-foamp.toml"
 builtin=false
 [repository_sources.nickname_i18n]
@@ -67,16 +74,27 @@ ja = "RedNote @纸沫 - ID:5696399896"
 
 
 [[repository_sources]]
-id = "repositories-qingyuqingxue"
-nickname = "小红书 @清雨青雪 - ID:94575050243"
-url = "repositories-qingyuqingxue.toml"
+id = "repositories-guojia99"
+url = "repositories-guojia99.toml"
 builtin=false
 [repository_sources.nickname_i18n]
-zh-CN = "小红书 @清雨青雪 - ID:94575050243"
-zh-TW = "小红书 @清雨青雪 - ID:94575050243"
-en = "RedNote @清雨青雪 - ID:94575050243"
-ko = "RedNote @清雨青雪 - ID:94575050243"
-ja = "RedNote @清雨青雪 - ID:94575050243"
+zh-CN = "嘉吖 - DIYLevel Web前置"
+zh-TW = "嘉吖 - DIYLevel Web前置"
+en = "嘉吖 - DIYLevel Web Runtime"
+ko = "嘉吖 - DIYLevel Web 런타임"
+ja = "嘉吖 - DIYLevel Web ランタイム"
+
+
+[[repository_sources]]
+id = "repositories-gua"
+url = "repositories-gua.toml"
+builtin=false
+[repository_sources.nickname_i18n]
+zh-CN = "G_U_A"
+zh-TW = "G_U_A"
+en = "G_U_A"
+ko = "G_U_A"
+ja = "G_U_A"
 
 
 # 桥接源索引

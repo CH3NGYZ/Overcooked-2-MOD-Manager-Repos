@@ -15,6 +15,7 @@ provider = "github"
 username = "kfyangc"
 repository = "Overcooked2-DIYLevelFastInit"
 region = ""
+platform = ""
 
 # 下载方式
 download_mode = "release"
@@ -43,6 +44,16 @@ note_i18n.en = """Optimized the DIYLevel map loading process to prevent long fre
 note_i18n.ko = """DIYLevel의 맵 로딩 과정을 최적화하여, 다량의 레벨 리소스를 불러오는 동안 푸드 트럭 진입 시 장시간 멈추는 현상을 방지했습니다."""
 note_i18n.ja = """DIYLevel のマップ読み込み処理を最適化し、大量のレベルリソースの読み込みによってフードトラックに入る際に長時間固まるのを防ぎます。"""
 
+# 依赖 DIYLevel
+[[repositories.relations]]
+kind = "requires"
+guid = "dev.gua.overcooked.diylevel"
+# 分版本依赖
+[[repositories.release_relations]]
+version = "==1.7.0"
+relations = [
+  { kind = "requires", guid = "dev.gua.overcooked.diylevel", version = ">=0.10.0" },
+]
 
 [[repositories]]
 enabled = true
@@ -61,6 +72,9 @@ provider = "github"
 username = "kfyangc"
 repository = "Overcooked2-DIYChefFastInit"
 region = ""
+# 空串 = 该仓库在 Windows 与 macOS 都存在；`tests/repository-availability.test.mjs`
+# 要求每个仓库都显式声明，缺字段会被当成「平台不适用」而静默消失。
+platform = ""
 
 # 下载方式
 download_mode = "release"
