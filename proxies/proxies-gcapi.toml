@@ -1,0 +1,7 @@
+schema_version = 1
+
+[[gitcode_api_proxies]]
+id = "oc2gcapi"
+name = "oc2gcapi.ch3ng.top"
+template = "https://oc2gcapi.ch3ng.top/{url_path}"
+description = "GitCode API 桥接"
