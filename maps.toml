@@ -9,7 +9,7 @@ provider = "gitcode"
 username = "CH3NGY2"
 repository = "OC2-Map-Bundle"
 [map_sources.nickname_i18n]
-zh-CN = "社区地图源 (由清雨青雪维护) - 请勿滥用"
+zh-CN = "社区地图源 (由清雨青雪维护) - 真正需要玩的时候再下载或更新，否则我也不保证什么时候这么快的下载渠道就被封了"
 zh-TW = "社群地圖源 (由清雨青雪維護) - 請勿濫用"
 en = "Community Map Source (Maintained by QingyuQingxue) - Please Do Not Abuse"
 ko = "커뮤니티 지도 소스 (QingyuQingxue 관리) - 악용하지 마세요"
