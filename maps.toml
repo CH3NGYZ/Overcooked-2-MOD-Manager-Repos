@@ -3,6 +3,19 @@ type = "map"
 # Preferred map source. QingyuQingxue is temporarily absent from this active index.
 # Keep maps/maps-qingyuqingxue.toml for restoration; installed maps are unaffected.
 [[map_sources]]
+id = "maps-oc2-map-dxm"
+mode = "release-tags"
+provider = "gitcode"
+username = "dxm1628843447"
+repository = "OC2-dmm"
+[map_sources.nickname_i18n]
+zh-CN = "呆小喵的地图源"
+zh-TW = "呆小喵的地圖源"
+en = "Dai Xiao Miao's map source"
+ko = "Dai Xiao Miao의 지도 소스"
+ja = "呆小喵のマップソース"
+
+[[map_sources]]
 id = "maps-oc2-map-bundle"
 mode = "release-tags"
 provider = "gitcode"
