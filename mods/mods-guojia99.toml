@@ -29,7 +29,7 @@ max_release_count = 10
 # 版本资产规则
 # 资产名形如 `v3.10.2_OC2DIYLevelRuntimeWLoader.zip`
 asset_rules = [
-  { type = "glob", value = "*_OC2DIYLevelRuntimeWLoader.zip" },
+  { type = "glob", value = "*.zip" },
 ]
 
 # 本地 MOD 识别绑定
@@ -277,4 +277,10 @@ guid = "dev.gua.overcooked.diylevel"
 version = "==3.10.2"
 relations = [
   { kind = "requires", guid = "dev.gua.overcooked.diylevel", version = ">=0.10.0" },
+]
+# 分版本依赖
+[[repositories.release_relations]]
+version = "==4.0.0"
+relations = [
+  { kind = "requires", guid = "dev.gua.overcooked.diylevel", version = ">=0.11.0" },
 ]

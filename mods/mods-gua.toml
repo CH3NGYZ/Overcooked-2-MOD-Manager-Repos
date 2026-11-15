@@ -23,12 +23,12 @@ platform = ""
 download_mode = "release"
 
 # Release 参数
-channel = "stable"
+channel = "all"
 max_release_count = 10
 
 # 版本资产规则
 asset_rules = [
-  { type = "glob", value = "OC2DIYLevel-*.zip" },
+  { type = "glob", value = "*.zip" },
 ]
 
 # 本地 MOD 识别绑定
