@@ -68,6 +68,8 @@ note_i18n.ja = """
 kind = "requires"
 guid = "com.bepis.bepinex.configurationmanager"
 
+
+#---------------------------------------------------------------
 [[repositories]]
 enabled = true
 # 仓库基本信息
@@ -130,93 +132,15 @@ kind = "requires"
 guid = "com.bepis.bepinex.configurationmanager"
 
 
+#---------------------------------------------------------------
 [[repositories]]
 enabled = true
 # 仓库基本信息
-name_i18n.zh-CN = "《测试1》前两道菜不出搅拌"
-name_i18n.zh-TW = "《測試1》前兩道菜不出攪拌"
-name_i18n.en = "Recipe Limiter - DIY Level Test 1"
-name_i18n.ko = "레시피 제한기 - DIY 레벨 테스트 1"
-name_i18n.ja = "『テスト1』最初の2品にミキサーを出さない"
-group_i18n.zh-CN = "DIYLevel 优化"
-group_i18n.zh-TW = "DIYLevel 優化"
-group_i18n.en = "DIYLevel Optimization"
-group_i18n.ko = "DIYLevel 최적화"
-group_i18n.ja = "DIYLevel 最適化"
-provider = "gitee"
-username = "ch3ngyz"
-repository = "Overcooked-2-Test1RecipeLimiter-Releases"
-region = ""
-platform = ""
-
-# 下载方式
-download_mode = "release"
-
-# Release 参数
-channel = "all"
-max_release_count = 10
-
-# 版本资产规则
-asset_rules = [
-  { type = "exact", value = "OC2DIYLevelTest1RecipeLimiter.dll" },
-]
-
-# 本地 MOD 识别绑定
-plugin_guid = "oc2.diy_level_test1_recipe_limiter"
-local_product_name = "OC2 DIY Level Test1 Recipe Limiter"
-local_original_filename = "OC2DIYLevelTest1RecipeLimiter.dll"
-version_regex = ""
-
-# 安装目录
-install_target = "BepInEx/plugins"
-
-# 仓库备注
-note_i18n.zh-CN = """
-MOD功能：
-1.限制四人时前两道菜不出搅拌
-2.本地单人、本地双人、在线双人时可以选只开启某些菜
-- **使用时，需要在《BepInEx 配置管理器》里面打开开关。**"""
-note_i18n.zh-TW = """
-MOD功能：
-1.限制四人遊戲時前兩道菜不出現攪拌。
-2.本地單人、本地雙人及線上雙人時，可以選擇只開啟特定菜餚。
-- **使用時，需在《BepInEx 設定管理器》中啟用此功能。**"""
-note_i18n.en = """
-MOD Features:
-1. Prevents the first two recipes from requiring a mixer when playing with four players.
-2. In local single-player, local two-player, and online two-player modes, you can choose to enable only specific recipes.
-- **Enable this feature in the BepInEx Configuration Manager.**"""
-note_i18n.ko = """
-MOD 기능:
-1. 4인 플레이 시 처음 두 요리에 믹서가 나오지 않도록 제한합니다.
-2. 로컬 1인, 로컬 2인 및 온라인 2인 플레이에서 특정 요리만 선택하여 활성화할 수 있습니다.
-- **사용하려면 BepInEx 구성 관리자에서 해당 기능을 활성화해야 합니다.**"""
-note_i18n.ja = """
-MOD の機能：
-1. 4人プレイ時に最初の2品でミキサーが出ないように制限します。
-2. ローカル1人、ローカル2人、オンライン2人の場合、特定の料理だけを有効にできます。
-- **使用するには、《BepInEx コンフィグマネージャー》でスイッチをオンにする必要があります。**
-"""
-
-# 依赖 Configuration Manager
-[[repositories.relations]]
-kind = "requires"
-guid = "com.bepis.bepinex.configurationmanager"
-
-# 依赖 DIYLevel
-[[repositories.relations]]
-kind = "requires"
-guid = "dev.gua.overcooked.diylevel"
-
-
-[[repositories]]
-enabled = true
-# 仓库基本信息
-name_i18n.zh-CN = "DIYLevel 关卡搜索、排序、置顶、缩略图查看、上次游玩提示"
-name_i18n.zh-TW = "DIYLevel 關卡搜尋、排序、置頂、縮圖查看、上次遊玩提示"
-name_i18n.en = "DIYLevel Level Search, Sorting, Pinning, Thumbnail Viewing, and Last Played Hint"
-name_i18n.ko = "DIYLevel 레벨 검색, 정렬, 고정, 썸네일 보기 및 마지막 플레이 힌트"
-name_i18n.ja = "DIYLevel レベル検索・並べ替え・ピン留め・サムネイル表示・前回プレイ表示"
+name_i18n.zh-CN = "体验优化(地图可用性检测.缩略图.搜索.置顶.排序)"
+name_i18n.zh-TW = "體驗優化(地圖可用性檢測.縮圖.搜尋.置頂.排序)"
+name_i18n.en = "Experience Optimization (Map Availability Check, Thumbnails, Search, Pinning, Sorting)"
+name_i18n.ko = "경험 최적화 (맵 가용성 확인, 썸네일, 검색, 고정, 정렬)"
+name_i18n.ja = "体験最適化 (マップの可用性チェック、サムネイル、検索、ピン留め、ソート)"
 group_i18n.zh-CN = "DIYLevel 优化"
 group_i18n.zh-TW = "DIYLevel 優化"
 group_i18n.en = "DIYLevel Optimization"
@@ -300,21 +224,107 @@ note_i18n.ja = """
 [[repositories.relations]]
 kind = "requires"
 guid = "dev.gua.overcooked.diylevel"
+# 依赖 fastinit 1.9.2
+[[repositories.relations]]
+kind = "requires"
+guid = "oc2.diylevel.fastinit"
+version = ">=1.9.2"
 
 
+#---------------------------------------------------------------
 [[repositories]]
 enabled = true
 # 仓库基本信息
-name_i18n.zh-CN = "修复 DIYLevel 资源读取失败导致存档槽位空白"
-name_i18n.zh-TW = "修復 DIYLevel 資源讀取失敗導致存檔欄位空白"
-name_i18n.en = "Fix Blank Save Slots When DIYLevel Resource Loading Fails"
-name_i18n.ko = "DIYLevel 리소스 로드 실패로 인한 빈 저장 슬롯 수정"
-name_i18n.ja = "DIYLevel のリソース読み込み失敗によるセーブスロット空白の修正"
+name_i18n.zh-CN = "《测试1》前两道菜不出搅拌"
+name_i18n.zh-TW = "《測試1》前兩道菜不出攪拌"
+name_i18n.en = "Recipe Limiter - DIY Level Test 1"
+name_i18n.ko = "레시피 제한기 - DIY 레벨 테스트 1"
+name_i18n.ja = "『テスト1』最初の2品にミキサーを出さない"
 group_i18n.zh-CN = "DIYLevel 优化"
 group_i18n.zh-TW = "DIYLevel 優化"
 group_i18n.en = "DIYLevel Optimization"
 group_i18n.ko = "DIYLevel 최적화"
 group_i18n.ja = "DIYLevel 最適化"
+provider = "gitee"
+username = "ch3ngyz"
+repository = "Overcooked-2-Test1RecipeLimiter-Releases"
+region = ""
+platform = ""
+
+# 下载方式
+download_mode = "release"
+
+# Release 参数
+channel = "all"
+max_release_count = 10
+
+# 版本资产规则
+asset_rules = [
+  { type = "exact", value = "OC2DIYLevelTest1RecipeLimiter.dll" },
+]
+
+# 本地 MOD 识别绑定
+plugin_guid = "oc2.diy_level_test1_recipe_limiter"
+local_product_name = "OC2 DIY Level Test1 Recipe Limiter"
+local_original_filename = "OC2DIYLevelTest1RecipeLimiter.dll"
+version_regex = ""
+
+# 安装目录
+install_target = "BepInEx/plugins"
+
+# 仓库备注
+note_i18n.zh-CN = """
+MOD功能：
+1.限制四人时前两道菜不出搅拌
+2.本地单人、本地双人、在线双人时可以选只开启某些菜
+- **使用时，需要在《BepInEx 配置管理器》里面打开开关。**"""
+note_i18n.zh-TW = """
+MOD功能：
+1.限制四人遊戲時前兩道菜不出現攪拌。
+2.本地單人、本地雙人及線上雙人時，可以選擇只開啟特定菜餚。
+- **使用時，需在《BepInEx 設定管理器》中啟用此功能。**"""
+note_i18n.en = """
+MOD Features:
+1. Prevents the first two recipes from requiring a mixer when playing with four players.
+2. In local single-player, local two-player, and online two-player modes, you can choose to enable only specific recipes.
+- **Enable this feature in the BepInEx Configuration Manager.**"""
+note_i18n.ko = """
+MOD 기능:
+1. 4인 플레이 시 처음 두 요리에 믹서가 나오지 않도록 제한합니다.
+2. 로컬 1인, 로컬 2인 및 온라인 2인 플레이에서 특정 요리만 선택하여 활성화할 수 있습니다.
+- **사용하려면 BepInEx 구성 관리자에서 해당 기능을 활성화해야 합니다.**"""
+note_i18n.ja = """
+MOD の機能：
+1. 4人プレイ時に最初の2品でミキサーが出ないように制限します。
+2. ローカル1人、ローカル2人、オンライン2人の場合、特定の料理だけを有効にできます。
+- **使用するには、《BepInEx コンフィグマネージャー》でスイッチをオンにする必要があります。**
+"""
+
+# 依赖 Configuration Manager
+[[repositories.relations]]
+kind = "requires"
+guid = "com.bepis.bepinex.configurationmanager"
+
+# 依赖 DIYLevel
+[[repositories.relations]]
+kind = "requires"
+guid = "dev.gua.overcooked.diylevel"
+
+
+#---------------------------------------------------------------
+[[repositories]]
+enabled = true
+# 仓库基本信息
+name_i18n.zh-CN = "修复存档槽位空白(已集成到快速载入v1.9.2中)"
+name_i18n.zh-TW = "修復存檔欄位空白(已集成到快速載入v1.9.2中)"
+name_i18n.en = "Fix Blank Save Slots(Included in FastInit v1.9.2)"
+name_i18n.ko = "빈 저장 슬롯 수정(FastInit v1.9.2에 포함됨)"
+name_i18n.ja = "セーブスロットの空白を修正(FastInit v1.9.2に含まれています)"
+group_i18n.zh-CN = "DIYLevel 修复"
+group_i18n.zh-TW = "DIYLevel 修復"
+group_i18n.en = "DIYLevel Fixes"
+group_i18n.ko = "DIYLevel 수정"
+group_i18n.ja = "DIYLevel 修正"
 provider = "github"
 username = "CH3NGY2"
 repository = "Overcooked-2-DIYLevel-ResourceReadFailureBlocker"
@@ -347,35 +357,40 @@ note_i18n.zh-CN = """
 修复 DIYLevel 在读取关卡资源失败（前置缺失、版本不匹配、地图冲突等）时，存档槽位列表空白、无法选择或点击无响应的问题。
 插件会停止失败的 DIYLevel 加载，关闭已失效的存档对话框，并弹出原生 popup，显示失败的关卡集、关卡、加载失败的调用方与模板资源，方便定位缺少的前置或损坏的地图。
 - **需安装 DIYLevel；仅处理资源读取失败，不处理其它崩溃。**
-- **完整兼容 FastInit 1.7.0：其快速加载、按需加载、启动 catalog 与 info bundle 优化全部保留，无需禁用、降级或移除任何 FastInit 功能。**
+- **完整兼容 FastInit 1.7.0 ~ 1.8.0：其快速加载、按需加载、启动 catalog 与 info bundle 优化全部保留，无需禁用、降级或移除任何 FastInit 功能。**
+- **不兼容 FastInit >=1.9.0：fastinit 1.9.0以上已包含此mod, 无需额外安装。**
 - **Wloader 可选：开启时可加载依赖 DLC 的关卡集。**
 """
 note_i18n.zh-TW = """
 修復 DIYLevel 在讀取關卡資源失敗（前置缺失、版本不相符、地圖衝突等）時，存檔欄位列表空白、無法選擇或點擊無回應的問題。
 外掛會停止失敗的 DIYLevel 載入，關閉已失效的存檔對話框，並彈出原生 popup，顯示失敗的關卡集、關卡、載入失敗的呼叫端與範本資源，方便定位缺少的前置或損壞的地圖。
 - **需安裝 DIYLevel；僅處理資源讀取失敗，不處理其它崩潰。**
-- **完整相容 FastInit 1.7.0：其快速載入、按需載入、啟動 catalog 與 info bundle 最佳化全部保留，無需停用、降級或移除任何 FastInit 功能。**
+- **完整相容 FastInit 1.7.0 ~ 1.8.0：其快速載入、按需載入、啟動 catalog 與 info bundle 最佳化全部保留，無需停用、降級或移除任何 FastInit 功能。**
+- **不相容 FastInit >=1.9.0：fastinit 1.9.0 以上已包含此mod, 无需额外安装。**
 - **Wloader 選用：開啟時可載入依賴 DLC 的關卡集。**
 """
 note_i18n.en = """
 Fixes blank save slots, unselectable entries, or unresponsive clicks in DIYLevel when a level resource fails to load (missing prerequisite, version mismatch, map conflict, and similar cases).
 The mod stops the failed DIYLevel load, closes the invalidated save dialog, and shows a native popup naming the failing level set, level, caller, and template resource so the missing prerequisite or broken map can be identified.
 - **Requires DIYLevel; it only handles resource-loading failures, not other crashes.**
-- **Fully compatible with FastInit 1.7.0: its fast loading, on-demand loading, startup catalog and info-bundle optimizations are all kept; there is no need to disable, downgrade or remove any FastInit feature.**
+- **Fully compatible with FastInit 1.7.0 ~ 1.8.0: its fast loading, on-demand loading, startup catalog and info-bundle optimizations are all kept; there is no need to disable, downgrade or remove any FastInit feature.**
+- **Not compatible with FastInit >=1.9.0: this mod is already included in FastInit v1.9.0 and above, no additional installation required.**
 - **Wloader is optional; enable it to load DLC-dependent level sets.**
 """
 note_i18n.ko = """
 DIYLevel에서 레벨 리소스 로드 실패(필수 요소 누락, 버전 불일치, 맵 충돌 등)로 저장 슬롯 목록이 비어 있거나 선택/클릭이 되지 않는 문제를 수정합니다.
 모드는 실패한 DIYLevel 로드를 중단하고 무효화된 저장 대화상자를 닫은 뒤, 실패한 레벨 세트·레벨·호출자·템플릿 리소스를 보여주는 네이티브 popup을 표시하여 누락된 필수 요소나 손상된 맵을 찾을 수 있게 합니다.
 - **DIYLevel이 필요하며 리소스 로드 실패만 처리합니다. 다른 크래시는 다루지 않습니다.**
-- **FastInit 1.7.0과 완전히 호환됩니다. 빠른 로드, 온디맨드 로드, 시작 카탈로그와 info bundle 최적화가 모두 유지되며 FastInit 기능을 비활성화, 다운그레이드 또는 제거할 필요가 없습니다.**
+- **FastInit 1.7.0 ~ 1.8.0 과 완전히 호환됩니다. 빠른 로드, 온디맨드 로드, 시작 카탈로그와 info bundle 최적화가 모두 유지되며 FastInit 기능을 비활성화, 다운그레이드 또는 제거할 필요가 없습니다.**
+- **FastInit >=1.9.0과 호환되지 않습니다. FastInit 1.9.0 이상에는 이미 이 모드가 포함되어 있으므로 추가 설치가 필요하지 않습니다.**
 - **Wloader는 선택 사항이며, 활성화하면 DLC가 필요한 레벨 세트를 불러올 수 있습니다.**
 """
 note_i18n.ja = """
 DIYLevel がレベルリソースの読み込みに失敗した場合（前提 MOD の欠落、バージョン不一致、マップの競合など）に、セーブスロット一覧が空白になり、選択できない、またはクリックしても反応しない問題を修正します。
 このプラグインは失敗した DIYLevel の読み込みを停止し、無効になったセーブダイアログを閉じ、ネイティブの popup を表示して、失敗したレベルセット、レベル、読み込みに失敗した呼び出し元とテンプレートリソースを示します。これにより、不足している前提 MOD や破損したマップを特定できます。
 - **DIYLevel が必要です。リソース読み込みの失敗のみを処理し、その他のクラッシュは処理しません。**
-- **FastInit 1.7.0 と完全に互換性があります。高速読み込み、オンデマンド読み込み、起動時の catalog と info bundle の最適化はすべて維持され、FastInit の機能を無効化・ダウングレード・削除する必要はありません。**
+- **FastInit 1.7.0 ~ 1.8.0 と完全に互換性があります。高速読み込み、オンデマンド読み込み、起動時の catalog と info bundle の最適化はすべて維持され、FastInit の機能を無効化・ダウングレード・削除する必要はありません。**
+- **FastInit >=1.9.0 とは互換性がありません。FastInit 1.9.0 以上にはすでにこの mod が含まれているため、追加のインストールは不要です。**
 - **Wloader は任意です。有効にすると DLC に依存するレベルセットを読み込めます。**
 """
 
@@ -391,19 +406,21 @@ relations = [
   { kind = "conflicts", guid = "oc2.diylevel.fastinit", version = ">=1.9.0" },
 ]
 
+
+#---------------------------------------------------------------
 [[repositories]]
 enabled = true
 # 仓库基本信息
-name_i18n.zh-CN = "修复 DIYLevel 结算时点击重开键导致主机卡死、客机掉线的问题"
-name_i18n.zh-TW = "修復 DIYLevel 結算時點擊重新開始按鈕導致主機卡死、客機斷線的問題"
-name_i18n.en = "Fix Host Freeze and Client Disconnection When Clicking Restart During Level Outro with DIYLevel Installed"
-name_i18n.ko = "DIYLevel 설치 시 레벨 아웃트로 중 다시 시작 버튼을 클릭하면 호스트가 멈추고 클라이언트의 연결이 끊기는 문제 수정"
-name_i18n.ja = "DIYLevelのインストール時に、レベルアウトロ中にリスタートボタンをクリックするとホストがフリーズし、クライアントが切断される問題を修正"
-group_i18n.zh-CN = "DIYLevel 优化"
-group_i18n.zh-TW = "DIYLevel 優化"
-group_i18n.en = "DIYLevel Optimization"
-group_i18n.ko = "DIYLevel 최적화"
-group_i18n.ja = "DIYLevel 最適化"
+name_i18n.zh-CN = "修复存档或重开时所有客机掉线"
+name_i18n.zh-TW = "修復存檔或重開時所有客機掉線"
+name_i18n.en = "Fix DIYLevel - All Clients Disconnect After Saving or Restarting"
+name_i18n.ko = "DIYLevel - 저장 또는 재시작 후 모든 클라이언트 연결 끊김 문제 수정"
+name_i18n.ja = "DIYLevel - セーブ後または再起動後にすべてのクライアントが切断される問題を修正"
+group_i18n.zh-CN = "DIYLevel 修复"
+group_i18n.zh-TW = "DIYLevel 修復"
+group_i18n.en = "DIYLevel Fixes"
+group_i18n.ko = "DIYLevel 수정"
+group_i18n.ja = "DIYLevel 修正"
 provider = "github"
 username = "CH3NGY2"
 repository = "Overcooked-2-DIYLevel-LongMessageMultipartFix"
@@ -433,7 +450,7 @@ install_target = "BepInEx/plugins"
 
 # 仓库备注
 note_i18n.zh-CN = """
-修复安装 DIYLevel 和大量地图后，在结算界面点击“原生重开按键”可能导致主机卡死、客机掉线的问题。
+修复安装 DIYLevel 和大量地图后，在存完档或结算界面点击“原生重开按键”可能导致主机卡死、客机掉线的问题。
 通过修正游戏原生长消息分片时被正文覆盖的片数/可靠序号头字段，并按有效包长重组消息，避免触发原生可靠序号校验断连。
 - **安装后自动生效，无需配置；**
 - **主机和客机需安装相同版本。**
@@ -469,6 +486,7 @@ kind = "requires"
 guid = "dev.gua.overcooked.diylevel"
 
 
+#---------------------------------------------------------------
 [[repositories]]
 enabled = true
 # 仓库基本信息
