@@ -63,10 +63,11 @@ note_i18n.ja = """
 - **使用するには、《MOD 設定》でスイッチをオンにする必要があります。**
 """
 
-# 依赖 Mod Settings
+# 依赖 MOD 设置
 [[repositories.relations]]
 kind = "requires"
 guid = "com.ch3ngyz.plugin.overcooked2.modsettings"
+version = ">=1.1.1"
 
 
 #---------------------------------------------------------------
@@ -126,10 +127,11 @@ note_i18n.ja = """
 - **使用するには、《MOD 設定》でスイッチをオンにする必要があります。**
 """
 
-# 依赖 Mod Settings
+# 依赖 MOD 设置
 [[repositories.relations]]
 kind = "requires"
 guid = "com.ch3ngyz.plugin.overcooked2.modsettings"
+version = ">=1.1.1"
 
 
 #---------------------------------------------------------------
@@ -300,10 +302,11 @@ MOD の機能：
 - **使用するには、《MOD 設定》でスイッチをオンにする必要があります。**
 """
 
-# 依赖 Mod Settings
+# 依赖 MOD 设置
 [[repositories.relations]]
 kind = "requires"
 guid = "com.ch3ngyz.plugin.overcooked2.modsettings"
+version = ">=1.1.1"
 
 # 依赖 DIYLevel
 [[repositories.relations]]
@@ -548,3 +551,98 @@ note_i18n.ja = """
 ゲーム起動時のブランドオープニングを自動的にスキップし、フードトラックのシャッターまで直接進みます。
 - **インストール後は自動的に有効になり、設定は不要です。**
 """
+
+
+#---------------------------------------------------------------
+[[repositories]]
+enabled = true
+# 仓库基本信息
+name_i18n.zh-CN = "HUD自定义"
+name_i18n.zh-TW = "HUD自訂"
+name_i18n.en = "HUD Customization"
+name_i18n.ko = "HUD 사용자 설정"
+name_i18n.ja = "HUDカスタマイズ"
+group_i18n.zh-CN = "实用工具"
+group_i18n.zh-TW = "實用工具"
+group_i18n.en = "Utility Tools"
+group_i18n.ko = "유틸리티 도구"
+group_i18n.ja = "便利ツール"
+provider = "github"
+username = "CH3NGY2"
+repository = "Overcooked-2-HudCustomization"
+region = ""
+platform = ""
+
+# 下载方式
+download_mode = "release"
+
+# Release 参数
+channel = "all"
+max_release_count = 10
+
+# 版本资产规则
+asset_rules = [
+  { type = 'regex', value = '^OC2HudCustomization-v.*\.zip$' },
+]
+
+# 本地 MOD 识别绑定
+plugin_guid = "com.ch3ngyz.plugin.overcooked2.hudcustomization"
+local_product_name = ""
+local_original_filename = "OC2HudCustomization.dll"
+version_regex = ""
+
+# 安装目录
+install_target = "BepInEx/plugins"
+
+# 仓库备注
+note_i18n.zh-CN = """
+自定义局内 HUD 显示，在「MOD 设置」中调整：
+- 菜谱卡片和容器内容物图标的大小、每行显示数量，以及菜谱行间距。
+- 菜谱、空位加号、已加入食材三类图标的独立透明度。
+- 菜谱按包含底部炊具的完整高度换行，去掉主菜卡上方多余纸面，保留一条时间进度条；新菜谱先沿第一行滑入，再快速落位并展开食材与烹饪步骤。
+- 配置名称和说明跟随游戏语言，默认英文。
+仅影响本机显示，不改变订单数量、容器容量、配方或计时。
+- **需要安装「MOD 设置」1.1.1 或更新版本；暂不支持 Horde 模式。**
+"""
+note_i18n.zh-TW = """
+自訂遊戲中的 HUD 顯示，在「MOD 設定」中調整：
+- 食譜卡片與容器內容物圖示的大小、每行顯示數量，以及食譜行距。
+- 食譜、空位加號、已加入食材三類圖示的獨立透明度。
+- 食譜依包含底部炊具的完整高度換行，移除主菜卡上方多餘紙面，保留一條時間進度條；新食譜先沿第一行滑入，再快速就位並展開食材與烹飪步驟。
+- 設定名稱與說明跟隨遊戲語言，預設為英文。
+僅影響本機顯示，不改變訂單數量、容器容量、食譜或計時。
+- **需要安裝「MOD 設定」1.1.1 或更新版本；暫不支援 Horde 模式。**
+"""
+note_i18n.en = """
+Customize the in-game HUD through MOD Settings:
+- Adjust recipe-card and container-content icon sizes, items per row, and recipe row spacing.
+- Set separate opacity levels for recipes, empty-slot plus signs, and added ingredients.
+- Recipe rows account for the full height including cookware. Extra paper above the main dish is hidden while one timer bar remains; new cards enter along the first row, move quickly into place, then reveal ingredients and cooking steps.
+- Setting labels and descriptions follow the game language, with English as the default.
+Only affects the local display; order counts, container capacity, recipes, and timers are unchanged.
+- **Requires MOD Settings 1.1.1 or later; Horde mode is not supported.**
+"""
+note_i18n.ko = """
+「MOD 설정」에서 게임 내 HUD 표시를 조정합니다.
+- 레시피 카드와 용기 내용물 아이콘의 크기, 한 줄에 표시할 개수, 레시피 줄 간격을 조절합니다.
+- 레시피, 빈칸 더하기 표시, 추가된 재료의 투명도를 각각 설정합니다.
+- 조리도구를 포함한 전체 높이에 맞춰 레시피 줄을 배치합니다. 메인 요리 위의 불필요한 종이는 숨기고 시간 막대 하나를 유지합니다. 새 카드는 첫 줄로 들어온 뒤 목표 위치로 빠르게 이동하고 재료와 조리 단계를 펼칩니다.
+- 설정 이름과 설명은 게임 언어를 따르며 기본 언어는 영어입니다.
+로컬 화면에만 적용되며 주문 수, 용기 용량, 레시피, 타이머는 변경하지 않습니다.
+- **MOD 설정 1.1.1 이상이 필요합니다. Horde 모드는 지원하지 않습니다.**
+"""
+note_i18n.ja = """
+「MOD 設定」でゲーム内の HUD 表示を調整できます。
+- レシピカードと容器内アイコンの大きさ、1行の表示数、レシピの行間を変更できます。
+- レシピ、空き枠のプラス表示、追加済み食材の透明度を個別に設定できます。
+- 下部の調理器具を含む高さに合わせて改行します。メイン料理の上に余る紙を隠し、時間バーは1本残します。新しいカードは最上段から入り、配置先へ素早く移動してから食材と調理手順を展開します。
+- 設定名と説明はゲームの言語に追従し、既定は英語です。
+ローカルの表示のみに適用され、注文数、容器の容量、レシピ、タイマーは変更しません。
+- **MOD 設定 1.1.1 以降が必要です。Horde モードには対応していません。**
+"""
+
+# 依赖 MOD 设置
+[[repositories.relations]]
+kind = "requires"
+guid = "com.ch3ngyz.plugin.overcooked2.modsettings"
+version = ">=1.1.1"

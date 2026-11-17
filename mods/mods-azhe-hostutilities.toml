@@ -63,10 +63,11 @@ note_i18n.ja = """
 ダウンロードが遅い場合や失敗する場合は、GitHub チャンネルもお試しください。
 """
 
-# 依赖 Mod Settings
+# 依赖 MOD 设置
 [[repositories.relations]]
 kind = "requires"
 guid = "com.ch3ngyz.plugin.overcooked2.modsettings"
+version = ">=1.1.1"
 
 # 与测试版互斥
 [[repositories.relations]]
@@ -137,10 +138,11 @@ note_i18n.ja = """
 このバージョンはテスト専用であり、長期間の使用は推奨しません。問題が発生した場合は、安定版を再インストールしてください。
 """
 
-# 依赖 Mod Settings
+# 依赖 MOD 设置
 [[repositories.relations]]
 kind = "requires"
 guid = "com.ch3ngyz.plugin.overcooked2.modsettings"
+version = ">=1.1.1"
 
 # 与正式版互斥
 [[repositories.relations]]
@@ -211,10 +213,11 @@ note_i18n.ja = """
 中国語プレイヤーもこのチャンネルを利用できます。Gitee チャンネルでのダウンロードに失敗した場合は、GitHub チャンネルをお試しください。
 """
 
-# 依赖 Mod Settings
+# 依赖 MOD 设置
 [[repositories.relations]]
 kind = "requires"
 guid = "com.ch3ngyz.plugin.overcooked2.modsettings"
+version = ">=1.1.1"
 
 # 与测试版互斥
 [[repositories.relations]]
@@ -290,10 +293,11 @@ note_i18n.ja = """
 中国語プレイヤーもこのチャンネルを利用できます。Gitee チャンネルでのダウンロードに失敗した場合は、GitHub チャンネルをお試しください。
 """
 
-# 依赖 Mod Settings
+# 依赖 MOD 设置
 [[repositories.relations]]
 kind = "requires"
 guid = "com.ch3ngyz.plugin.overcooked2.modsettings"
+version = ">=1.1.1"
 
 # 与正式版互斥
 [[repositories.relations]]
