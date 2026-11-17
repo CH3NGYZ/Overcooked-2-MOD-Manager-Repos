@@ -1,0 +1,79 @@
+type = "mod"
+
+[[repositories]]
+enabled = true
+# 仓库基本信息
+name_i18n.zh-CN = "桌台搬运工"
+name_i18n.zh-TW = "桌台搬運工"
+name_i18n.en = "Table Lifter"
+name_i18n.ko = "작업대 운반 도구"
+name_i18n.ja = "作業台運び"
+group_i18n.zh-CN = "实用工具"
+group_i18n.zh-TW = "實用工具"
+group_i18n.en = "Utility Tools"
+group_i18n.ko = "유틸리티 도구"
+group_i18n.ja = "便利ツール"
+provider = "github"
+username = "CH3NGY2"
+repository = "Overcooked-2-TableLifter"
+region = ""
+platform = ""
+
+# 下载方式
+download_mode = "release"
+
+# Release 参数
+channel = "all"
+max_release_count = 10
+
+# 版本资产规则：ZIP 内仅包含原版 OC2TableLifter.dll。
+asset_rules = [
+  { type = "regex", value = '^OC2TableLifter-v\d+\.\d+\.\d+\.zip$' },
+]
+
+# 本地 MOD 识别绑定：取自 v2.0.6 DLL 的 BepInPlugin 元数据。
+plugin_guid = "oc2.tablelifter"
+local_product_name = ""
+local_original_filename = "OC2TableLifter.dll"
+version_regex = ""
+
+# 安装目录
+install_target = "BepInEx/plugins"
+
+# 仓库备注
+note_i18n.zh-CN = """
+搬运桌台、砧板、洗碗池和上菜口等家具，桌上的锅、盘子等内容物随之移动；支持跨楼层、移动平台和网格吸附预览。
+- **G**：拿起 / 放下桌台；面朝目标位置放置，附近无空格时继续抱着。
+- **F7**：开启 / 关闭功能，关闭时自动归还正在搬运的桌台。
+- 可在 `MOD设置` 修改键位等设置；联机时主机与所有客机都需要安装。
+"""
+note_i18n.zh-TW = """
+搬運桌台、砧板、洗碗池與出餐口等家具，桌上的鍋、盤子等內容物會隨之移動；支援跨樓層、移動平台與網格吸附預覽。
+- **G**：拿起 / 放下桌台；面向目標位置放置，附近沒有空格時會繼續抱著。
+- **F7**：開啟 / 關閉功能，關閉時自動歸還正在搬運的桌台。
+- 可在 `MOD设置` 修改按鍵等設定；連線時主機與所有客機都需要安裝。
+"""
+note_i18n.en = """
+Move counters, chopping boards, sinks, serving stations, and their contents. Supports different floors, moving platforms, and a grid-snapped placement preview.
+- **G**: pick up / put down furniture. Face the intended location; if no free space is nearby, keep carrying it.
+- **F7**: enable / disable the feature. Disabling returns carried furniture to its original position.
+- Change keys and settings in `MOD Settings`. The host and every client must install the mod for multiplayer.
+"""
+note_i18n.ko = """
+작업대, 도마, 싱크대, 서빙대와 그 위의 내용물을 함께 옮깁니다. 층간 이동, 움직이는 발판, 격자에 맞춘 배치 미리보기를 지원합니다.
+- **G**: 가구 들기 / 내려놓기. 놓을 방향을 바라보세요. 근처에 빈칸이 없으면 계속 들고 있습니다.
+- **F7**: 기능 켜기 / 끄기. 끄면 들고 있던 가구가 원래 위치로 돌아갑니다.
+- `MOD Settings`에서 키와 설정을 변경할 수 있습니다. 멀티플레이에서는 호스트와 모든 클라이언트가 설치해야 합니다.
+"""
+note_i18n.ja = """
+作業台、まな板、シンク、配膳口などを、鍋や皿などの中身ごと運べます。階をまたぐ移動、移動床、グリッドに吸着する配置プレビューに対応します。
+- **G**：家具を持ち上げる / 置く。置きたい方向を向いて操作し、近くに空きがなければ持ち続けます。
+- **F7**：機能の有効 / 無効。無効にすると運搬中の家具を元の位置に戻します。
+- `MOD Settings`でキーなどを変更できます。マルチプレイではホストと全クライアントに導入が必要です。
+"""
+
+# 依赖 MOD 设置
+[[repositories.relations]]
+kind = "requires"
+guid = "com.ch3ngyz.plugin.overcooked2.modsettings"
+version = ">=1.1.1"

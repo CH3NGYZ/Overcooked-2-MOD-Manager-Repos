@@ -20,6 +20,7 @@ en = "In-game MOD configuration tools"
 ko = "게임 내 MOD 설정 도구"
 ja = "ゲーム内 MOD 設定ツール"
 
+
 [[repository_sources]]
 id = "repositories-azhe-hostutilities"
 region = ""
@@ -36,6 +37,7 @@ zh-TW = "阿哲 - 小红书 @Azhe是阿哲 - ID:5566308341"
 en = "RedNote @Azhe是阿哲 - ID:5566308341"
 ko = "RedNote @Azhe是阿哲 - ID:5566308341"
 ja = "RedNote @Azhe是阿哲 - ID:5566308341"
+
 
 [[repository_sources]]
 id = "repositories-azhe-others"
@@ -54,22 +56,23 @@ en = "RedNote @Azhe是阿哲 - ID:5566308341"
 ko = "RedNote @Azhe是阿哲 - ID:5566308341"
 ja = "RedNote @Azhe是阿哲 - ID:5566308341"
 
-[[repository_sources]]
-id = "repositories-azhe-game-fixes"
-region = ""
-url = "mods/mods-azhe-game-fixes.toml"
-[repository_sources.nickname_i18n]
-zh-CN = "游戏修复"
-zh-TW = "遊戲修復"
-en = "Game Fixes"
-ko = "게임 수정"
-ja = "ゲーム修正"
-[repository_sources.note_i18n]
-zh-CN = "阿哲 - 小红书 @Azhe是阿哲 - ID:5566308341"
-zh-TW = "阿哲 - 小红书 @Azhe是阿哲 - ID:5566308341"
-en = "RedNote @Azhe是阿哲 - ID:5566308341"
-ko = "RedNote @Azhe是阿哲 - ID:5566308341"
-ja = "RedNote @Azhe是阿哲 - ID:5566308341"
+
+# [[repository_sources]]
+# id = "repositories-azhe-game-fixes"
+# region = ""
+# url = "mods/mods-azhe-game-fixes.toml"
+# [repository_sources.nickname_i18n]
+# zh-CN = "游戏修复"
+# zh-TW = "遊戲修復"
+# en = "Game Fixes"
+# ko = "게임 수정"
+# ja = "ゲーム修正"
+# [repository_sources.note_i18n]
+# zh-CN = "阿哲 - 小红书 @Azhe是阿哲 - ID:5566308341"
+# zh-TW = "阿哲 - 小红书 @Azhe是阿哲 - ID:5566308341"
+# en = "RedNote @Azhe是阿哲 - ID:5566308341"
+# ko = "RedNote @Azhe是阿哲 - ID:5566308341"
+# ja = "RedNote @Azhe是阿哲 - ID:5566308341"
 
 
 [[repository_sources]]
@@ -107,6 +110,7 @@ en = "RedNote @漆雕帆船 - ID:5669571205"
 ko = "RedNote @漆雕帆船 - ID:5669571205"
 ja = "RedNote @漆雕帆船 - ID:5669571205"
 
+
 [[repository_sources]]
 id = "repositories-foamp"
 region = ""
@@ -126,6 +130,24 @@ ja = "RedNote @纸沫 - ID:5696399896"
 
 
 [[repository_sources]]
+id = "repositories-xiaogao-baodao"
+region = ""
+url = "mods/mods-xiaogao-baodao.toml"
+[repository_sources.nickname_i18n]
+zh-CN = "小糕报道"
+zh-TW = "小糕報道"
+en = "XiaoGaoBaoDao"
+ko = "XiaoGaoBaoDao"
+ja = "小糕报道"
+[repository_sources.note_i18n]
+zh-CN = "哔哩哔哩 @小糕报道"
+zh-TW = "哔哩哔哩 @小糕报道"
+en = "Bilibili @小糕报道"
+ko = "Bilibili @小糕报道"
+ja = "Bilibili @小糕报道"
+
+
+[[repository_sources]]
 id = "repositories-guojia99"
 region = ""
 url = "mods/mods-guojia99.toml"
@@ -141,6 +163,7 @@ zh-TW = "DIYLevel Web前置"
 en = "DIYLevel Web Runtime"
 ko = "DIYLevel Web 런타임"
 ja = "DIYLevel Web ランタイム"
+
 
 [[repository_sources]]
 id = "repositories-gua"
