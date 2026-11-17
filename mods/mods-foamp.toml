@@ -59,7 +59,7 @@ note_i18n.zh-CN = '''
 ## 使用
 
 进入关卡内部后点击 `Insert` 键即可打开菜谱查看器，使用工具栏选择排序方式、保存布局和导出图片。
-可通过《BepInEx 配置管理器》来管理 **Overcooked2RecipeViewer**。
+可通过《MOD 设置》来管理 **Overcooked2RecipeViewer**。
 
 ## 快捷操作
 
@@ -93,7 +93,7 @@ note_i18n.zh-TW = '''
 ## 使用
 
 進入關卡內後點擊 `Insert` 鍵即可開啟菜譜查看器，使用工具列選擇排序方式、儲存版面和匯出圖片。
-可透過《BepInEx 設定管理器》管理 **Overcooked2RecipeViewer**。
+可透過《MOD 設定》管理 **Overcooked2RecipeViewer**。
 
 ## 快捷操作
 
@@ -127,7 +127,7 @@ A BepInEx mod for viewing recipes in Overcooked! 2. It uses the game's original 
 ## Usage
 
 Enter a level and press the `Insert` key to open the Recipe Viewer. Use the toolbar to select sorting options, save layouts, and export images.
-You can use **BepInEx Configuration Manager** to configure **Overcooked2RecipeViewer**.
+You can use **MOD Settings** to configure **Overcooked2RecipeViewer**.
 
 ## Shortcuts
 
@@ -161,7 +161,7 @@ BepInEx 기반의 《Overcooked! 2》 레시피 보기 모드입니다. 게임�
 ## 사용 방법
 
 스테이지에 들어간 후 `Insert` 키를 누르면 레시피 뷰어가 열립니다. 도구 모음에서 정렬 방식, 레이아웃 저장 및 이미지 내보내기를 선택할 수 있습니다.
-**BepInEx Configuration Manager**를 사용하여 **Overcooked2RecipeViewer**를 설정할 수 있습니다.
+**MOD Settings**를 사용하여 **Overcooked2RecipeViewer**를 설정할 수 있습니다.
 
 ## 단축키
 
@@ -194,7 +194,7 @@ BepInEx ベースの《Overcooked! 2》レシピビューア MOD です。ゲー
 ## 使い方
 
 レベルに入った後、`Insert` キーを押すとレシピビューアが開きます。ツールバーから並べ替え方法の選択、レイアウトの保存、画像の書き出しができます。
-**Overcooked2RecipeViewer** の設定は《BepInEx コンフィグマネージャー》から行えます。
+**Overcooked2RecipeViewer** の設定は《MOD 設定》から行えます。
 
 ## ショートカット
 

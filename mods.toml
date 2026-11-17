@@ -4,6 +4,23 @@ type = "mod"
 # 子源按基本信息、下载方式、对应参数与资产规则、安装目录、备注排列。
 # [[repository_sources]] 的顺序决定源在管理器中的展示顺序。
 [[repository_sources]]
+id = "repositories-azhe-settings-manager"
+region = ""
+url = "mods/mods-azhe-settings-manager.toml"
+[repository_sources.nickname_i18n]
+zh-CN = "MOD 设置管理器"
+zh-TW = "MOD 設定管理器"
+en = "MOD Settings Managers"
+ko = "MOD 설정 관리자"
+ja = "MOD 設定マネージャー"
+[repository_sources.note_i18n]
+zh-CN = "游戏内 MOD 设置工具"
+zh-TW = "遊戲內 MOD 設定工具"
+en = "In-game MOD configuration tools"
+ko = "게임 내 MOD 설정 도구"
+ja = "ゲーム内 MOD 設定ツール"
+
+[[repository_sources]]
 id = "repositories-azhe-hostutilities"
 region = ""
 url = "mods/mods-azhe-hostutilities.toml"

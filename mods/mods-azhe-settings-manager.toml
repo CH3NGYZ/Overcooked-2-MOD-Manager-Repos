@@ -1,0 +1,48 @@
+type = "mod"
+
+[[repositories]]
+enabled = true
+# 仓库基本信息
+name_i18n.zh-CN = "MOD 设置"
+name_i18n.zh-TW = "MOD 設定"
+name_i18n.en = "MOD Settings"
+name_i18n.ko = "MOD 설정"
+name_i18n.ja = "MOD 設定"
+group_i18n.zh-CN = "工具与前置"
+group_i18n.zh-TW = "工具與前置"
+group_i18n.en = "Tools & Prerequisites"
+group_i18n.ko = "도구 및 필수 선행 항목"
+group_i18n.ja = "ツールと前提 MOD"
+provider = "github"
+username = "CH3NGYZ"
+repository = "Overcooked-2-ModSettings"
+region = ""
+platform = "windows"
+
+# 下载方式
+download_mode = "release"
+
+# Release 参数
+channel = "all"
+max_release_count = 10
+
+# 版本资产规则
+asset_rules = [
+  { type = "regex", value = '^OC2ModSettings-v\d+\.\d+\.\d+\.zip$' },
+]
+
+# 本地 MOD 识别绑定
+plugin_guid = "com.ch3ngyz.plugin.overcooked2.modsettings"
+local_product_name = "MOD Settings / MOD 设置"
+local_original_filename = "OC2ModSettings.dll"
+version_regex = ""
+
+# 安装目录
+install_target = "BepInEx/plugins"
+
+# 仓库备注
+note_i18n.zh-CN = "原生风格的公共 MOD 设置页，支持即时搜索、改键和颜色选择。首次进入主菜单后，按反引号／波浪号键开关。"
+note_i18n.zh-TW = "原生風格的共用 MOD 設定頁，支援即時搜尋、改鍵與顏色選擇。首次進入主選單後，按反引號／波浪號鍵開關。"
+note_i18n.en = "A native-style shared MOD settings page with live search, key rebinding, and a color picker. After first reaching the main menu, toggle it with the backquote/tilde key."
+note_i18n.ko = "실시간 검색, 키 변경, 색상 선택기를 갖춘 네이티브 스타일의 공용 MOD 설정 페이지입니다. 최초 메인 메뉴 진입 후 백쿼트/물결표 키로 열고 닫습니다."
+note_i18n.ja = "即時検索、キー変更、色選択に対応したネイティブ風の共通 MOD 設定画面です。初回メインメニュー表示後、バッククォート／チルダキーで開閉できます。"

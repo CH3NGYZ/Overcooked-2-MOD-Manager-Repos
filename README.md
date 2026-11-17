@@ -519,8 +519,8 @@ Mermaid 也可用于 README 和 Release 日志中的流程图、时序图、饼�
 ```toml
 [[repositories.relations]]
 kind = "requires"
-guid = "com.bepis.bepinex.configurationmanager"
-version = ">=19.0"
+guid = "com.ch3ngyz.plugin.overcooked2.modsettings"
+version = ">=1.0.0"
 
 [[repositories.relations]]
 kind = "conflicts"
@@ -547,7 +547,7 @@ version = "<1.9"
 [[repositories.release_relations]]
 version = ">=1.8.0,<2.0.0"
 relations = [
-  { kind = "requires", guid = "com.bepis.bepinex.configurationmanager", version = ">=19.0" },
+  { kind = "requires", guid = "com.ch3ngyz.plugin.overcooked2.modsettings", version = ">=1.0.0" },
 ]
 ```
 

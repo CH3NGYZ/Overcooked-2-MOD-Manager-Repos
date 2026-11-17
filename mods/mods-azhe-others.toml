@@ -44,29 +44,29 @@ install_target = "BepInEx/plugins"
 note_i18n.zh-CN = """
 动作：厨师的趴下、躺下、左躺、右躺，以及翻跟斗和原地旋转。
 功能：一键抛物和一键从自身背包取物。
-- **使用时，需要在《BepInEx 配置管理器》里面打开开关。**"""
+- **使用时，需要在《MOD 设置》里面打开开关。**"""
 note_i18n.zh-TW = """
 動作：廚師趴下、躺下、向左躺、向右躺、翻跟斗及原地旋轉。
 功能：一鍵拋物及從自身背包取物。
-- **使用時，需在《BepInEx 設定管理器》中啟用此功能。**"""
+- **使用時，需在《MOD 設定》中啟用此功能。**"""
 note_i18n.en = """
 Chef actions include crouching, lying down, rolling, and spinning.
 Also provides one-click throwing and taking items from your backpack. 
-- **Enable this feature in the BepInEx Configuration Manager.**"""
+- **Enable this feature in the MOD Settings.**"""
 note_i18n.ko = """
 셰프가 엎드리기, 눕기, 좌우로 눕기, 공중제비, 제자리 회전을 할 수 있습니다.
 한 번의 클릭으로 물건을 던지거나 자신의 배낭에서 물건을 꺼낼 수 있습니다. 
-- **사용하려면 BepInEx 구성 관리자에서 해당 기능을 활성화해야 합니다.**"""
+- **사용하려면 MOD 설정에서 해당 기능을 활성화해야 합니다.**"""
 note_i18n.ja = """
 アクション：シェフのうつ伏せ、仰向け、左向き、右向き、宙返り、その場での回転。
 機能：ワンクリックでの投擲と、自分のバックパックからのアイテム取り出し。
-- **使用するには、《BepInEx コンフィグマネージャー》でスイッチをオンにする必要があります。**
+- **使用するには、《MOD 設定》でスイッチをオンにする必要があります。**
 """
 
-# 依赖 Configuration Manager
+# 依赖 Mod Settings
 [[repositories.relations]]
 kind = "requires"
-guid = "com.bepis.bepinex.configurationmanager"
+guid = "com.ch3ngyz.plugin.overcooked2.modsettings"
 
 
 #---------------------------------------------------------------
@@ -112,24 +112,24 @@ install_target = "BepInEx/plugins"
 
 # 仓库备注
 note_i18n.zh-CN = """用于启用游戏内的厨师和DLC内容，包括鸭嘴兽等特殊厨师。
-- **使用时，需要在《BepInEx 配置管理器》里面打开开关。**"""
+- **使用时，需要在《MOD 设置》里面打开开关。**"""
 note_i18n.zh-TW = """用於啟用遊戲內的廚師與DLC內容，包括鴨嘴獸等特殊廚師。
-- **使用時，需在《BepInEx 設定管理器》中啟用此功能。**"""
+- **使用時，需在《MOD 設定》中啟用此功能。**"""
 note_i18n.en = """
 Enables in-game chefs and DLC content, including special chefs like the platypus.
-- Enable this feature in the BepInEx Configuration Manager."""
+- Enable this feature in the MOD Settings."""
 note_i18n.ko = """
 게임 내 셰프 및 DLC 콘텐츠를 활성화하며, 오리너구리와 같은 특수 셰프도 포함됩니다.
-- **사용하려면 BepInEx 구성 관리자에서 해당 기능을 활성화해야 합니다.**"""
+- **사용하려면 MOD 설정에서 해당 기능을 활성화해야 합니다.**"""
 note_i18n.ja = """
 ゲーム内のシェフと DLC コンテンツ（カモノハシなどの特殊シェフを含む）を有効化します。
-- **使用するには、《BepInEx コンフィグマネージャー》でスイッチをオンにする必要があります。**
+- **使用するには、《MOD 設定》でスイッチをオンにする必要があります。**
 """
 
-# 依赖 Configuration Manager
+# 依赖 Mod Settings
 [[repositories.relations]]
 kind = "requires"
-guid = "com.bepis.bepinex.configurationmanager"
+guid = "com.ch3ngyz.plugin.overcooked2.modsettings"
 
 
 #---------------------------------------------------------------
@@ -175,7 +175,7 @@ install_target = "BepInEx/plugins"
 
 # 仓库备注
 note_i18n.zh-CN = """
-1. 退出自定义关卡后，自动返回上次的选关界面，方便连续游玩。此功能可在《BepInEx 配置管理器》中关闭。
+1. 退出自定义关卡后，自动返回上次的选关界面，方便连续游玩。此功能可在《MOD 设置》中关闭。
 2. 在最近选择的关卡及其所属关卡集前显示绿点，重启游戏后仍会保留。
 3. 关卡集列表和关卡列表均支持搜索。在关卡集列表中搜索时，会显示包含匹配关卡的关卡集；进入关卡集后，匹配的关卡会高亮显示。
 4. 关卡集列表和关卡列表均可按名称或文件修改时间排序，支持不排序、正序和倒序。
@@ -184,7 +184,7 @@ note_i18n.zh-CN = """
 - **需安装 `DIYLevel`，并兼容 `DIYLevel 快速载入`。**
 """
 note_i18n.zh-TW = """
-1. 退出自訂關卡後，自動返回上次的選關介面，方便連續遊玩。此功能可在《BepInEx 設定管理器》中關閉。
+1. 退出自訂關卡後，自動返回上次的選關介面，方便連續遊玩。此功能可在《MOD 設定》中關閉。
 2. 在最近選擇的關卡及其所屬關卡集前顯示綠點，重新啟動遊戲後仍會保留。
 3. 關卡集列表和關卡列表均支援搜尋。在關卡集列表中搜尋時，會顯示包含符合搜尋條件之關卡的關卡集；進入關卡集後，符合搜尋條件的關卡會以醒目方式顯示。
 4. 關卡集列表和關卡列表均可依名稱或檔案修改時間排序，支援不排序、升冪和降冪。
@@ -193,7 +193,7 @@ note_i18n.zh-TW = """
 - **需安裝 `DIYLevel`，並相容於 `DIYLevel 快速載入`。**
 """
 note_i18n.en = """
-1. After exiting a custom level, automatically return to the previously selected level selection screen for convenient consecutive play. This feature can be disabled in the BepInEx Configuration Manager.
+1. After exiting a custom level, automatically return to the previously selected level selection screen for convenient consecutive play. This feature can be disabled in the MOD Settings.
 2. Display a green dot next to the most recently selected level and its containing level set. The selection is retained after restarting the game.
 3. Both the level set list and the level list support search. When searching in the level set list, level sets containing matching levels are displayed. After opening a level set, matching levels are highlighted.
 4. Both the level set list and the level list support sorting by name or file modification time, with options for no sorting, ascending order, and descending order.
@@ -202,7 +202,7 @@ note_i18n.en = """
 - **Requires `DIYLevel` and is compatible with `DIYLevel Fast Load`.**
 """
 note_i18n.ko = """
-1. 사용자 지정 레벨을 종료하면 연속해서 플레이할 수 있도록 이전에 선택했던 레벨 선택 화면으로 자동으로 돌아갑니다. 이 기능은 BepInEx 구성 관리자의 설정에서 비활성화할 수 있습니다.
+1. 사용자 지정 레벨을 종료하면 연속해서 플레이할 수 있도록 이전에 선택했던 레벨 선택 화면으로 자동으로 돌아갑니다. 이 기능은 MOD 설정의 설정에서 비활성화할 수 있습니다.
 2. 최근에 선택한 레벨과 해당 레벨이 포함된 레벨 세트 옆에 초록색 점을 표시합니다. 게임을 다시 시작해도 선택 기록이 유지됩니다.
 3. 레벨 세트 목록과 레벨 목록 모두 검색을 지원합니다. 레벨 세트 목록에서 검색하면 검색어와 일치하는 레벨이 포함된 레벨 세트가 표시되며, 레벨 세트에 들어가면 일치하는 레벨이 강조 표시됩니다.
 4. 레벨 세트 목록과 레벨 목록 모두 이름 또는 파일 수정 시간을 기준으로 정렬할 수 있으며, 정렬 안 함, 오름차순, 내림차순을 지원합니다.
@@ -211,7 +211,7 @@ note_i18n.ko = """
 - **`DIYLevel`이 필요하며 `DIYLevel 빠른 로드`와 호환됩니다.**
 """
 note_i18n.ja = """
-1. カスタムレベルを終了すると、前回のレベル選択画面に自動で戻るため、続けてプレイできます。この機能は《BepInEx コンフィグマネージャー》でオフにできます。
+1. カスタムレベルを終了すると、前回のレベル選択画面に自動で戻るため、続けてプレイできます。この機能は《MOD 設定》でオフにできます。
 2. 最近選択したレベルとその所属レベルセットの前に緑色のドットを表示します。ゲームを再起動しても保持されます。
 3. レベルセット一覧とレベル一覧の両方で検索できます。レベルセット一覧で検索すると、一致するレベルを含むレベルセットが表示され、レベルセットに入ると一致したレベルが強調表示されます。
 4. レベルセット一覧とレベル一覧は、名前またはファイルの更新日時で並べ替えできます。並べ替えなし、昇順、降順に対応しています。
@@ -277,33 +277,33 @@ note_i18n.zh-CN = """
 MOD功能：
 1.限制四人时前两道菜不出搅拌
 2.本地单人、本地双人、在线双人时可以选只开启某些菜
-- **使用时，需要在《BepInEx 配置管理器》里面打开开关。**"""
+- **使用时，需要在《MOD 设置》里面打开开关。**"""
 note_i18n.zh-TW = """
 MOD功能：
 1.限制四人遊戲時前兩道菜不出現攪拌。
 2.本地單人、本地雙人及線上雙人時，可以選擇只開啟特定菜餚。
-- **使用時，需在《BepInEx 設定管理器》中啟用此功能。**"""
+- **使用時，需在《MOD 設定》中啟用此功能。**"""
 note_i18n.en = """
 MOD Features:
 1. Prevents the first two recipes from requiring a mixer when playing with four players.
 2. In local single-player, local two-player, and online two-player modes, you can choose to enable only specific recipes.
-- **Enable this feature in the BepInEx Configuration Manager.**"""
+- **Enable this feature in the MOD Settings.**"""
 note_i18n.ko = """
 MOD 기능:
 1. 4인 플레이 시 처음 두 요리에 믹서가 나오지 않도록 제한합니다.
 2. 로컬 1인, 로컬 2인 및 온라인 2인 플레이에서 특정 요리만 선택하여 활성화할 수 있습니다.
-- **사용하려면 BepInEx 구성 관리자에서 해당 기능을 활성화해야 합니다.**"""
+- **사용하려면 MOD 설정에서 해당 기능을 활성화해야 합니다.**"""
 note_i18n.ja = """
 MOD の機能：
 1. 4人プレイ時に最初の2品でミキサーが出ないように制限します。
 2. ローカル1人、ローカル2人、オンライン2人の場合、特定の料理だけを有効にできます。
-- **使用するには、《BepInEx コンフィグマネージャー》でスイッチをオンにする必要があります。**
+- **使用するには、《MOD 設定》でスイッチをオンにする必要があります。**
 """
 
-# 依赖 Configuration Manager
+# 依赖 Mod Settings
 [[repositories.relations]]
 kind = "requires"
-guid = "com.bepis.bepinex.configurationmanager"
+guid = "com.ch3ngyz.plugin.overcooked2.modsettings"
 
 # 依赖 DIYLevel
 [[repositories.relations]]
