@@ -17,7 +17,7 @@ provider = "github"
 username = "CH3NGYZ"
 repository = "Overcooked-2-ModSettings"
 region = ""
-platform = "windows"
+platform = ""
 
 # 下载方式
 download_mode = "release"
@@ -48,8 +48,13 @@ note_i18n.ko = "실시간 검색, 키 변경, 색상 선택기를 갖춘 네이�
 note_i18n.ja = "即時検索、キー変更、色選択に対応したネイティブ風の共通 MOD 設定画面です。初回メインメニュー表示後、バッククォート／チルダキーで開閉できます。"
 
 
+# 与 Configuration Manager 互斥
+[[repositories.relations]]
+kind = "conflicts"
+guid = "com.bepis.bepinex.configurationmanager"
+
 [[repositories]]
-enabled = true
+enabled = false
 # 仓库基本信息
 name_i18n.zh-CN = "BepInEx 配置管理器"
 name_i18n.zh-TW = "BepInEx 設定管理器"
@@ -98,7 +103,7 @@ note_i18n.ja = """この MOD は、《HostUtilities》などの MOD が作成し
 
 
 [[repositories]]
-enabled = true
+enabled = false
 # 仓库基本信息
 name_i18n.zh-CN = "BepInEx 配置管理器 - HiDPI 缩放修复"
 name_i18n.zh-TW = "BepInEx 設定管理器 - HiDPI 縮放修復"
