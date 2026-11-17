@@ -13,32 +13,6 @@ zh-TW = "呆喵的地圖源"
 en = "Dai Miao's map source"
 ko = "Dai Miao의 지도 소스"
 ja = "呆喵のマップソース"
-[map_sources.note_i18n]
-zh-CN = "此为国内公益渠道, 切勿短时间下载很多张图, 很容易被封禁"
-zh-TW = "此為中國大陸公益渠道，切勿短時間下載大量地圖，很容易被封禁"
-en = "This is a free community-supported download channel in mainland China. Do not download many maps in a short time, as this can easily lead to a ban."
-ko = "중국 본토의 무료 공익 다운로드 채널입니다. 짧은 시간에 많은 지도를 다운로드하면 쉽게 차단될 수 있으니 삼가 주세요."
-ja = "中国本土の有志による無料ダウンロードチャネルです。短時間に大量のマップをダウンロードすると、簡単にアクセスを禁止される恐れがあります。"
-
-[[map_sources]]
-id = "maps-oc2-map-shz"
-mode = "release-tags"
-provider = "gitcode"
-username = "ShouHuZheL"
-repository = "OC2_CustomMap"
-region = ""
-[map_sources.nickname_i18n]
-zh-CN = "SHZ的地图集"
-zh-TW = "SHZ的地圖集"
-en = "SHZ's map collection"
-ko = "SHZ의 지도 모음"
-ja = "SHZのマップ集"
-[map_sources.note_i18n]
-zh-CN = "此为国内公益渠道, 切勿短时间下载很多张图, 很容易被封禁"
-zh-TW = "此為中國大陸公益渠道，切勿短時間下載大量地圖，很容易被封禁"
-en = "This is a free community-supported download channel in mainland China. Do not download many maps in a short time, as this can easily lead to a ban."
-ko = "중국 본토의 무료 공익 다운로드 채널입니다. 짧은 시간에 많은 지도를 다운로드하면 쉽게 차단될 수 있으니 삼가 주세요."
-ja = "中国本土の有志による無料ダウンロードチャネルです。短時間に大量のマップをダウンロードすると、簡単にアクセスを禁止される恐れがあります。"
 
 [[map_sources]]
 id = "maps-oc2-map-huhumiao"
@@ -48,17 +22,25 @@ username = "HuHuMiaoTUT"
 repository = "huhumiao"
 region = ""
 [map_sources.nickname_i18n]
-zh-CN = "呼呼猫的地图集"
-zh-TW = "呼呼貓的地圖集"
-en = "HuHuMiao's map collection"
-ko = "HuHuMiao의 지도 모음"
-ja = "呼呼猫のマップ集"
-[map_sources.note_i18n]
-zh-CN = "此为国内公益渠道, 切勿短时间下载很多张图, 很容易被封禁"
-zh-TW = "此為中國大陸公益渠道，切勿短時間下載大量地圖，很容易被封禁"
-en = "This is a free community-supported download channel in mainland China. Do not download many maps in a short time, as this can easily lead to a ban."
-ko = "중국 본토의 무료 공익 다운로드 채널입니다. 짧은 시간에 많은 지도를 다운로드하면 쉽게 차단될 수 있으니 삼가 주세요."
-ja = "中国本土の有志による無料ダウンロードチャネルです。短時間に大量のマップをダウンロードすると、簡単にアクセスを禁止される恐れがあります。"
+zh-CN = "呼呼猫的地图源"
+zh-TW = "呼呼貓的地圖源"
+en = "HuHuMiao's map source"
+ko = "HuHuMiao의 지도 소스"
+ja = "呼呼猫のマップソース"
+
+[[map_sources]]
+id = "maps-oc2-map-shz"
+mode = "release-tags"
+provider = "gitcode"
+username = "ShouHuZheL"
+repository = "OC2_CustomMap"
+region = ""
+[map_sources.nickname_i18n]
+zh-CN = "SHZ的地图源"
+zh-TW = "SHZ的地圖源"
+en = "SHZ's map source"
+ko = "SHZ의 지도 소스"
+ja = "SHZのマップソース"
 
 [[map_sources]]
 id = "maps-oc2-map-bundle"
