@@ -274,13 +274,13 @@ kind = "requires"
 guid = "dev.gua.overcooked.diylevel"
 # 分版本依赖
 [[repositories.release_relations]]
-version = "==3.10.2"
+version = ">=3.10.2,<4.0.0"
 relations = [
-  { kind = "requires", guid = "dev.gua.overcooked.diylevel", version = ">=0.10.0" },
+  { kind = "requires", guid = "dev.gua.overcooked.diylevel", version = ">=0.10.0,<0.11.0" },
 ]
 # 分版本依赖
 [[repositories.release_relations]]
-version = "==4.0.0"
+version = ">=4.0.0,<5.0.0"
 relations = [
-  { kind = "requires", guid = "dev.gua.overcooked.diylevel", version = ">=0.11.0" },
+  { kind = "requires", guid = "dev.gua.overcooked.diylevel", version = ">=0.11.0,<0.12.0" },
 ]
