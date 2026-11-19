@@ -226,11 +226,6 @@ note_i18n.ja = """
 [[repositories.relations]]
 kind = "requires"
 guid = "dev.gua.overcooked.diylevel"
-# 依赖 fastinit 1.9.2
-[[repositories.relations]]
-kind = "requires"
-guid = "oc2.diylevel.fastinit"
-version = ">=1.9.2"
 
 
 #---------------------------------------------------------------
@@ -307,7 +302,6 @@ MOD の機能：
 kind = "requires"
 guid = "com.ch3ngyz.plugin.overcooked2.modsettings"
 version = ">=1.1.1"
-
 # 依赖 DIYLevel
 [[repositories.relations]]
 kind = "requires"

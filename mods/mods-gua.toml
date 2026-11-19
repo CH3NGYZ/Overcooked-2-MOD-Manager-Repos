@@ -27,9 +27,7 @@ channel = "all"
 max_release_count = 10
 
 # 版本资产规则
-asset_rules = [
-  { type = "glob", value = "*.zip" },
-]
+asset_rules = [{ type = "glob", value = "*.zip" }]
 
 # 本地 MOD 识别绑定
 plugin_guid = "dev.gua.overcooked.diylevel"
@@ -383,10 +381,34 @@ flowchart TD
 **Overcooked! 2 レベル制作所（QQ 4グループ）：714907749**
 カスタムマップの制作、インストール、プレイに関する情報交換を歓迎します。
 """
-# 依赖长消息分片修复
-[[repositories.relations]]
-kind = "requires"
-guid = "com.ch3ngyz.plugin.overcooked2.diylevel.multipartmessagefix"
+# # 依赖长消息分片修复 0.2.3及以上
+# [[repositories.relations]]
+# kind = "requires"
+# guid = "com.ch3ngyz.plugin.overcooked2.diylevel.multipartmessagefix"
+# version = ">=0.2.3"
+# # 依赖体验优化 1.14.2及以上
+# [[repositories.relations]]
+# kind = "requires"
+# guid = "com.ch3ngyz.plugin.diylevel.sorting"
+# version = ">=1.14.2"
+# # 依赖fastinit 1.9.6及以上
+# [[repositories.relations]]
+# kind = "requires"
+# guid = "oc2.diylevel.fastinit"
+# version = ">=1.9.6"
+# # 排斥fastinit 1.3
+# [[repositories.relations]]
+# kind = "conflicts"
+# guid = "yang.oc2.diylevel.fastinit"
+# version = "==1.3.0"
+[[repositories.release_relations]]
+version = ">=0.10.0,<=0.11.1"
+relations = [
+    { kind = "requires", guid = "com.ch3ngyz.plugin.overcooked2.diylevel.multipartmessagefix", version = ">=0.2.3" },
+    { kind = "requires", guid = "com.ch3ngyz.plugin.diylevel.sorting", version = ">=1.14.2" },
+    { kind = "requires", guid = "oc2.diylevel.fastinit", version = ">=1.9.6" },
+    { kind = "conflicts", guid = "yang.oc2.diylevel.fastinit", version = "==1.3.0" },
+]
 
 
 [[repositories]]
