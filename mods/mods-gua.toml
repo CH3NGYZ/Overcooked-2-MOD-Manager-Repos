@@ -33,6 +33,7 @@ asset_rules = [
 
 # 本地 MOD 识别绑定
 plugin_guid = "dev.gua.overcooked.diylevel"
+bundled_plugin_guids = ["dev.gua.overcooked.diylevel.ingredientsplittermod"]
 local_product_name = "OC2DIYLevel"
 local_original_filename = "OC2DIYLevel"
 version_regex = ""

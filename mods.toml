@@ -57,22 +57,22 @@ ko = "RedNote @Azhe是阿哲 - ID:5566308341"
 ja = "RedNote @Azhe是阿哲 - ID:5566308341"
 
 
-# [[repository_sources]]
-# id = "repositories-azhe-game-fixes"
-# region = ""
-# url = "mods/mods-azhe-game-fixes.toml"
-# [repository_sources.nickname_i18n]
-# zh-CN = "游戏修复"
-# zh-TW = "遊戲修復"
-# en = "Game Fixes"
-# ko = "게임 수정"
-# ja = "ゲーム修正"
-# [repository_sources.note_i18n]
-# zh-CN = "阿哲 - 小红书 @Azhe是阿哲 - ID:5566308341"
-# zh-TW = "阿哲 - 小红书 @Azhe是阿哲 - ID:5566308341"
-# en = "RedNote @Azhe是阿哲 - ID:5566308341"
-# ko = "RedNote @Azhe是阿哲 - ID:5566308341"
-# ja = "RedNote @Azhe是阿哲 - ID:5566308341"
+[[repository_sources]]
+id = "repositories-azhe-game-fixes"
+region = ""
+url = "mods/mods-azhe-game-fixes.toml"
+[repository_sources.nickname_i18n]
+zh-CN = "游戏修复"
+zh-TW = "遊戲修復"
+en = "Game Fixes"
+ko = "게임 수정"
+ja = "ゲーム修正"
+[repository_sources.note_i18n]
+zh-CN = "阿哲 - 小红书 @Azhe是阿哲 - ID:5566308341"
+zh-TW = "阿哲 - 小红书 @Azhe是阿哲 - ID:5566308341"
+en = "RedNote @Azhe是阿哲 - ID:5566308341"
+ko = "RedNote @Azhe是阿哲 - ID:5566308341"
+ja = "RedNote @Azhe是阿哲 - ID:5566308341"
 
 
 [[repository_sources]]

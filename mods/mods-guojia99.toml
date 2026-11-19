@@ -34,6 +34,7 @@ asset_rules = [
 
 # 本地 MOD 识别绑定
 plugin_guid = "oc2.oc2diylevelruntimewloader"
+bundled_plugin_guids = ["oc2.oc2diylevel.debuglog"]
 local_product_name = ""
 local_original_filename = "Loader.dll"
 version_regex = ""

@@ -78,7 +78,7 @@ note_i18n.ja = """
 """
 
 [[repositories]]
-enabled = true
+enabled = false
 # 仓库基本信息
 name_i18n.zh-CN = "修复战局频繁加入失败"
 name_i18n.zh-TW = "修復戰局頻繁加入失敗"
