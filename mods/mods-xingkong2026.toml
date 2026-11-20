@@ -1,0 +1,203 @@
+type = "mod"
+
+[[repositories]]
+enabled = true
+# 仓库基本信息
+name_i18n.zh-CN = "厨神秘典"
+name_i18n.zh-TW = "廚神秘典"
+name_i18n.en = "Cookbook Codex"
+name_i18n.ko = "쿡북 코덱스"
+name_i18n.ja = "クックブック・コーデックス"
+group_i18n.zh-CN = "实用工具"
+group_i18n.zh-TW = "實用工具"
+group_i18n.en = "Utility Tools"
+group_i18n.ko = "유틸리티 도구"
+group_i18n.ja = "便利ツール"
+provider = "gitee"
+username = "xingkong2026"
+repository = "xingkong2026"
+region = ""
+platform = ""
+
+# 下载方式
+download_mode = "release"
+
+# Release 参数
+channel = "all"
+max_release_count = 10
+
+# 版本资产规则：只匹配轻量版 ZIP。
+asset_rules = [{ type = "regex", value = '^厨神秘典-\d+\.\d+-轻量版\.zip$' }]
+
+# 本地 MOD 识别绑定
+plugin_guid = "com.doubao.rw5counter"
+local_product_name = ""
+local_original_filename = ""
+version_regex = ""
+
+# 安装目录：ZIP 自带 BepInEx/plugins/厨神秘典轻量版/，从游戏根目录展开。
+install_target = ""
+
+# 仓库备注
+note_i18n.zh-CN = """
+# 厨神秘典 · 轻量版
+
+《胡闹厨房 2》的菜谱查询与关卡辅助 MOD，支持大图盘子修复、屏幕菜单和按关卡保存设置。
+
+> **此MOD不是记菜器!**
+
+## 快速上手
+
+安装后启动游戏，按 **F6** 打开面板（默认键，可修改）。首次使用建议先看 [小红书教程](https://www.xiaohongshu.com/explore/6afe4a3e000000001802dfa9)。
+
+## 主要功能
+
+- **大图盘子修复**：处理大型地图上盘子显示不全、落地消失或显示成白板的问题。
+- **菜谱查询与贴图**：内置常见菜谱，可读取自制关卡的菜名表，也能将本关菜谱摆在屏幕上随时查看。
+- **星级庆祝与厨神勋章**：可选 1～5 星烟花庆祝，5 星门槛比 4 星高 500 分；达到 5～7 星时，结算界面会显示厨神勋章。
+- **视角与界面**：可保存 4 个位置视角和 1 个全局视角，游戏内位置会跟随视角。可调烹饪条的上下位置，也可调整记分牌、倒计时、订单卡片和锅上图标的大小与位置。
+- **按关卡保存**：每个关卡独立记忆设置。
+
+单人切菜加速、投掷达人、物品快回和超级灭火器等便捷功能默认关闭。按需开启后，游戏会自动记住开关状态。
+
+## 配置
+
+- 首次运行会在插件文件夹生成 `厨神秘典配置.txt`。默认配置可直接使用，也可用记事本编辑。
+- 想使用已排好 100 多个关卡的菜单布局，可在秘典群向作者索取配置，覆盖同名文件。
+
+## 在线更新
+
+有新版本时，游戏内会提示更新，按提示操作即可，无需重新安装。
+
+> **请勿移动或重命名插件文件夹**，否则在线更新将找不到插件位置。
+
+本 MOD 仅用于娱乐和练习，请勿用于刷分或影响他人游戏体验。
+"""
+note_i18n.zh-TW = """
+# 廚神秘典 · 輕量版
+
+《胡鬧廚房 2》的菜譜查詢與關卡輔助 MOD，支援大型地圖盤子修復、螢幕選單及按關卡儲存設定。
+
+## 快速上手
+
+安裝後啟動遊戲，按 **F6** 開啟面板（預設按鍵，可修改）。首次使用建議先看 [小紅書教學](https://www.xiaohongshu.com/explore/6afe4a3e000000001802dfa9)。
+
+## 主要功能
+
+- **大型地圖盤子修復**：處理盤子顯示不完整、落地消失或變成白板的問題。
+- **菜譜查詢與貼圖**：內建常見菜譜，可讀取自訂關卡的菜名表，也能把本關菜譜擺在螢幕上隨時查看。
+- **星級慶祝與廚神勳章**：可選 1～5 星煙火慶祝，5 星門檻比 4 星高 500 分；達到 5～7 星時，結算畫面會顯示廚神勳章。
+- **視角與介面**：可儲存 4 個位置視角及 1 個全域視角，遊戲內位置會跟隨視角。可調整烹飪條的上下位置，以及計分板、倒數計時、訂單卡片和鍋上圖示的大小與位置。
+- **按關卡儲存**：每個關卡獨立記住設定。
+
+單人切菜加速、投擲輔助、物品快速返回和超級滅火器等便利功能預設關閉。按需開啟後，遊戲會自動記住開關狀態。
+
+## 設定
+
+- 首次執行時，外掛資料夾會產生 `厨神秘典配置.txt`。可直接使用預設設定，也可用記事本編輯。
+- 若想使用 100 多個關卡的現成選單版面，可在秘典群組向作者索取設定，覆蓋同名檔案。
+
+## 線上更新
+
+有新版本時，依遊戲內提示更新即可，無需重新安裝。
+
+> **請勿移動或重新命名外掛資料夾**，否則線上更新將找不到外掛位置。
+
+本 MOD 僅供娛樂及練習，請勿用來刷分或影響他人的遊戲體驗。
+"""
+note_i18n.en = """
+# Cookbook Codex · Lite Edition
+
+A recipe guide and level helper for Overcooked! 2, with plate fixes for large maps, on-screen recipes, and per-level settings.
+
+## Quick start
+
+After installing, launch the game and press **F6** to open the panel. You can change the hotkey. For a walkthrough, see the [RedNote tutorial](https://www.xiaohongshu.com/explore/6afe4a3e000000001802dfa9).
+
+## Features
+
+- **Plate fixes for large maps:** Addresses plates displaying incorrectly, disappearing when dropped, or appearing as blank white tiles.
+- **Recipe lookup and overlays:** Look up common recipes, read dish names from custom levels, and arrange the current level's recipes on screen.
+- **Star celebrations and medals:** Choose a fireworks target from 1 to 5 stars. The 5-star target is 500 points above 4 stars; reaching 5 to 7 stars displays a medal on the results screen.
+- **Camera and HUD controls:** Save four position-specific views and one global view. Adjust the cooking bar's height and resize or move the scoreboard, countdown, order cards, and icons above pots.
+- **Per-level settings:** Each level remembers its own settings.
+
+Optional assists such as faster solo chopping, throwing assistance, quick item return, and the super extinguisher are off by default. The game remembers any toggles you enable.
+
+## Configuration
+
+- On first run, the mod creates `厨神秘典配置.txt` in its plugin folder. Use the defaults or edit the file in a text editor.
+- For ready-made menu layouts covering more than 100 levels, ask the author in the Codex group for a configuration file and replace the file with the same name.
+
+## Online updates
+
+When a new version is available, follow the in-game prompt to update without reinstalling.
+
+> **Do not move or rename the plugin folder.** The updater needs to find it in its original location.
+
+Use the mod for fun and practice. Please do not use it to farm scores or disrupt other players.
+"""
+note_i18n.ko = """
+# 쿡북 코덱스 · 라이트 버전
+
+Overcooked! 2의 레시피 조회 및 레벨 보조 모드입니다. 대형 맵의 접시 문제 수정, 화면 레시피 표시, 레벨별 설정을 지원합니다.
+
+## 빠른 시작
+
+설치 후 게임을 실행하고 **F6**을 눌러 패널을 여세요. 단축키는 변경할 수 있습니다. 처음이라면 [샤오홍슈 사용법](https://www.xiaohongshu.com/explore/6afe4a3e000000001802dfa9)을 참고하세요.
+
+## 주요 기능
+
+- **대형 맵 접시 수정:** 접시가 제대로 표시되지 않거나, 떨어뜨리면 사라지거나, 흰색 판으로 보이는 문제를 수정합니다.
+- **레시피 조회 및 화면 표시:** 자주 쓰는 레시피를 조회하고 커스텀 레벨의 요리 이름을 읽어, 현재 레벨의 레시피를 화면에 배치할 수 있습니다.
+- **별점 축하와 메달:** 별 1~5개 중 불꽃놀이 목표를 선택할 수 있습니다. 별 5개는 별 4개보다 500점이 높고, 별 5~7개에 해당하는 점수에 도달하면 결과 화면에 메달이 표시됩니다.
+- **시점과 HUD:** 위치별 시점 4개와 공통 시점 1개를 저장할 수 있습니다. 조리 바의 높이와 점수판, 타이머, 주문 카드, 냄비 위 아이콘의 크기와 위치를 조정할 수 있습니다.
+- **레벨별 설정 저장:** 각 레벨의 설정을 따로 기억합니다.
+
+혼자 플레이할 때 빠르게 썰기, 던지기 보조, 아이템 빠른 복귀, 강화 소화기 등의 편의 기능은 기본적으로 꺼져 있습니다. 켜거나 끈 상태는 자동으로 저장됩니다.
+
+## 설정
+
+- 처음 실행할 때 플러그인 폴더에 `厨神秘典配置.txt`가 생성됩니다. 기본 설정을 사용하거나 텍스트 편집기로 수정할 수 있습니다.
+- 100개가 넘는 레벨의 메뉴 배치 설정을 사용하려면 코덱스 그룹에서 제작자에게 파일을 받아 같은 이름의 파일을 덮어쓰세요.
+
+## 온라인 업데이트
+
+새 버전이 나오면 게임 내 안내에 따라 다시 설치하지 않고 업데이트할 수 있습니다.
+
+> **플러그인 폴더를 옮기거나 이름을 바꾸지 마세요.** 업데이트가 플러그인을 찾지 못할 수 있습니다.
+
+이 모드는 재미와 연습을 위한 도구입니다. 점수 올리기나 다른 플레이어의 게임을 방해하는 데 사용하지 마세요.
+"""
+note_i18n.ja = """
+# クックブック・コーデックス · ライト版
+
+『Overcooked! 2』のレシピ検索・ステージ補助 MOD です。大型マップでの皿の不具合修正、画面上のレシピ表示、ステージごとの設定保存に対応します。
+
+## はじめに
+
+インストール後にゲームを起動し、**F6** を押すとパネルが開きます。キーは変更できます。初めて使う方は [小紅書のチュートリアル](https://www.xiaohongshu.com/explore/6afe4a3e000000001802dfa9) をご覧ください。
+
+## 主な機能
+
+- **大型マップの皿の修正：** 皿が正しく表示されない、落とすと消える、白い板に見えるといった問題を修正します。
+- **レシピ検索と画面表示：** よく使うレシピを検索できます。カスタムステージの料理名を読み取り、そのステージのレシピを画面に配置できます。
+- **星のお祝いとメダル：** 星 1～5 の目標を選び、到達時に花火でお祝いします。星 5 は星 4 より 500 点高く、星 5～7 相当のスコアで結果画面にメダルが表示されます。
+- **カメラと HUD：** 場所ごとの視点を 4 つ、共通視点を 1 つ保存できます。調理バーの高さや、スコアボード、タイマー、注文カード、鍋の上のアイコンの大きさと位置を調整できます。
+- **ステージ別の設定：** ステージごとに設定を保存します。
+
+ソロでのカット高速化、投げる操作の補助、アイテムの素早い復帰、強化消火器などは初期状態ではオフです。切り替えた状態は自動で保存されます。
+
+## 設定
+
+- 初回起動時にプラグインフォルダに `厨神秘典配置.txt` が作成されます。そのまま使うか、テキストエディターで編集できます。
+- 100 以上のステージのメニュー配置を利用するには、作者のグループで設定ファイルを入手し、同名のファイルを上書きしてください。
+
+## オンラインアップデート
+
+新しいバージョンが公開されたら、ゲーム内の案内に従って再インストールせずに更新できます。
+
+> **プラグインフォルダの移動・名前変更はしないでください。** 更新時にプラグインの場所が見つからなくなります。
+
+この MOD は遊びと練習のためのものです。スコア稼ぎや、ほかのプレイヤーの迷惑になる使い方は控えてください。
+"""

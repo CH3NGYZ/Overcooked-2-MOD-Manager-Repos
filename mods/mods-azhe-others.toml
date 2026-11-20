@@ -226,7 +226,10 @@ note_i18n.ja = """
 [[repositories.relations]]
 kind = "requires"
 guid = "dev.gua.overcooked.diylevel"
-
+# 排斥 地图可玩性检查
+[[repositories.relations]]
+kind = "conflicts"
+guid = "local.oc2.levelcompatibility"
 
 #---------------------------------------------------------------
 [[repositories]]

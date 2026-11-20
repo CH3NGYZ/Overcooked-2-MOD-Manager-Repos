@@ -32,11 +32,11 @@ en = "HostUtilities MOD"
 ko = "아케이드 MOD"
 ja = "アーケード MOD"
 [repository_sources.note_i18n]
-zh-CN = "阿哲 - 小红书 @Azhe是阿哲 - ID:5566308341"
-zh-TW = "阿哲 - 小红书 @Azhe是阿哲 - ID:5566308341"
-en = "RedNote @Azhe是阿哲 - ID:5566308341"
-ko = "RedNote @Azhe是阿哲 - ID:5566308341"
-ja = "RedNote @Azhe是阿哲 - ID:5566308341"
+zh-CN = "阿哲 - 小红书 @Azhe是阿哲 - ID:2984656357"
+zh-TW = "阿哲 - 小红书 @Azhe是阿哲 - ID:2984656357"
+en = "RedNote @Azhe是阿哲 - ID:2984656357"
+ko = "RedNote @Azhe是阿哲 - ID:2984656357"
+ja = "RedNote @Azhe是阿哲 - ID:2984656357"
 
 
 [[repository_sources]]
@@ -50,11 +50,11 @@ en = "Others MOD"
 ko = "기타 MOD"
 ja = "その他の MOD"
 [repository_sources.note_i18n]
-zh-CN = "阿哲 - 小红书 @Azhe是阿哲 - ID:5566308341"
-zh-TW = "阿哲 - 小红书 @Azhe是阿哲 - ID:5566308341"
-en = "RedNote @Azhe是阿哲 - ID:5566308341"
-ko = "RedNote @Azhe是阿哲 - ID:5566308341"
-ja = "RedNote @Azhe是阿哲 - ID:5566308341"
+zh-CN = "阿哲 - 小红书 @Azhe是阿哲 - ID:2984656357"
+zh-TW = "阿哲 - 小红书 @Azhe是阿哲 - ID:2984656357"
+en = "RedNote @Azhe是阿哲 - ID:2984656357"
+ko = "RedNote @Azhe是阿哲 - ID:2984656357"
+ja = "RedNote @Azhe是阿哲 - ID:2984656357"
 
 
 [[repository_sources]]
@@ -68,11 +68,11 @@ en = "Game Fixes"
 ko = "게임 수정"
 ja = "ゲーム修正"
 [repository_sources.note_i18n]
-zh-CN = "阿哲 - 小红书 @Azhe是阿哲 - ID:5566308341"
-zh-TW = "阿哲 - 小红书 @Azhe是阿哲 - ID:5566308341"
-en = "RedNote @Azhe是阿哲 - ID:5566308341"
-ko = "RedNote @Azhe是阿哲 - ID:5566308341"
-ja = "RedNote @Azhe是阿哲 - ID:5566308341"
+zh-CN = "阿哲 - 小红书 @Azhe是阿哲 - ID:2984656357"
+zh-TW = "阿哲 - 小红书 @Azhe是阿哲 - ID:2984656357"
+en = "RedNote @Azhe是阿哲 - ID:2984656357"
+ko = "RedNote @Azhe是阿哲 - ID:2984656357"
+ja = "RedNote @Azhe是阿哲 - ID:2984656357"
 
 
 [[repository_sources]]
@@ -145,6 +145,24 @@ zh-TW = "哔哩哔哩 @小糕报道"
 en = "Bilibili @小糕报道"
 ko = "Bilibili @小糕报道"
 ja = "Bilibili @小糕报道"
+
+
+[[repository_sources]]
+id = "repositories-xingkong2026"
+region = ""
+url = "mods/mods-xingkong2026.toml"
+[repository_sources.nickname_i18n]
+zh-CN = "星空"
+zh-TW = "星空"
+en = "StarSky"
+ko = "StarSky"
+ja = "StarSky"
+[repository_sources.note_i18n]
+zh-CN = "小红书 @星空 - ID:2984656357"
+zh-TW = "小红书 @星空 - ID:2984656357"
+en = "RedNote @星空 - ID:2984656357"
+ko = "RedNote @星空 - ID:2984656357"
+ja = "RedNote @星空 - ID:2984656357"
 
 
 [[repository_sources]]
