@@ -65,9 +65,18 @@ token_transport = "none"
 
 [[proxies]]
 id = "oc2gh-raw"
-name = "oc2gh.ch3ng.top"
+name = "oc2gh.ch3ng.top (Cloudflare)"
 provider = "github"
 intent = "raw"
 access = "public"
 template = "https://oc2gh.ch3ng.top/{url_path}"
+token_transport = "none"
+
+[[proxies]]
+id = "oc2gh-raw-edgeone"
+name = "EdgeOne"
+provider = "github"
+intent = "raw"
+access = "public"
+template = "https://oc2gh.5882778.xyz/{url_path}"
 token_transport = "none"

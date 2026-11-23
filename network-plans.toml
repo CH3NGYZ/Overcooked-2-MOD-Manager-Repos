@@ -25,7 +25,7 @@ type = ["mod", "map"]
 provider = "github"
 access = "public"
 [request_plans.api]
-route = [{ kind = "official" }, { kind = "proxy", id = "oc2ghapi" }]
+route = [{ kind = "official" }, { kind = "proxy", id = "oc2ghapi" }, { kind = "proxy", id = "oc2ghapi-edgeone" }]
 max_parallelism = 1
 [request_plans.release]
 download_threads = 1
@@ -47,7 +47,7 @@ type = ["mod", "map"]
 provider = "github"
 access = "public"
 [request_plans.api]
-route = [{ kind = "official" }, { kind = "proxy", id = "oc2ghapi" }]
+route = [{ kind = "official" }, { kind = "proxy", id = "oc2ghapi" }, { kind = "proxy", id = "oc2ghapi-edgeone" }]
 max_parallelism = 1
 [request_plans.release]
 download_threads = 1
@@ -67,12 +67,24 @@ route = [
     { kind = "proxy", id = "cdn-crashmc" },
     { kind = "proxy", id = "ghproxy-it" },
     { kind = "proxy", id = "ghfast" },
+    { kind = "proxy", id = "oc2gh-release-edgeone" },
 ]
 race = true
 max_parallelism = 3
 [request_plans.raw]
 download_threads = 1
-route = [{ kind = "direct" }, { kind = "proxy", id = "wget-la-raw" }, { kind = "proxy", id = "hk-gh-proxy-raw" }, { kind = "proxy", id = "ghfast-raw" }, { kind = "proxy", id = "gh-catmak-raw" }, { kind = "proxy", id = "fastly-jsdelivr" }, { kind = "proxy", id = "cdn-gh-proxy-raw" }, { kind = "proxy", id = "g-blfrp-raw" }, { kind = "proxy", id = "oc2gh-raw" }]
+route = [
+    { kind = "direct" },
+    { kind = "proxy", id = "wget-la-raw" },
+    { kind = "proxy", id = "hk-gh-proxy-raw" },
+    { kind = "proxy", id = "ghfast-raw" },
+    { kind = "proxy", id = "gh-catmak-raw" },
+    { kind = "proxy", id = "fastly-jsdelivr" },
+    { kind = "proxy", id = "cdn-gh-proxy-raw" },
+    { kind = "proxy", id = "g-blfrp-raw" },
+    { kind = "proxy", id = "oc2gh-raw" },
+    { kind = "proxy", id = "oc2gh-raw-edgeone" },
+]
 race = true
 max_parallelism = 3
 [request_plans.avatars]
@@ -87,7 +99,7 @@ type = ["mod", "map"]
 provider = "gitee"
 access = "public"
 [request_plans.api]
-route = [{ kind = "official" }, { kind = "proxy", id = "oc2gtapi" }]
+route = [{ kind = "official" }, { kind = "proxy", id = "oc2gtapi" }, { kind = "proxy", id = "oc2gtapi-edgeone" }]
 max_parallelism = 1
 [request_plans.release]
 download_threads = 1
@@ -109,7 +121,7 @@ type = ["mod", "map"]
 provider = "gitcode"
 access = "public"
 [request_plans.api]
-route = [{ kind = "official" }, { kind = "proxy", id = "oc2gcapi" }]
+route = [{ kind = "official" }, { kind = "proxy", id = "oc2gcapi" }, { kind = "proxy", id = "oc2gcapi-edgeone" }]
 max_parallelism = 1
 [request_plans.release]
 download_threads = 1

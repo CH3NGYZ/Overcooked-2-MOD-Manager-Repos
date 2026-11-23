@@ -125,3 +125,12 @@ intent = "release"
 access = "public"
 template = "https://ghfast.top/{url}"
 token_transport = "none"
+
+[[proxies]]
+id = "oc2gh-release-edgeone"
+name = "EdgeOne"
+provider = "github"
+intent = "release"
+access = "public"
+template = "https://oc2gh.5882778.xyz/{url_path}"
+token_transport = "none"

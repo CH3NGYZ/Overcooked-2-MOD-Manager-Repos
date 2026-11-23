@@ -2,7 +2,7 @@ schema_version = 1
 
 [[proxies]]
 id = "oc2gh-release"
-name = "oc2gh.ch3ng.top"
+name = "oc2gh.ch3ng.top (Cloudflare)"
 provider = "github"
 intent = "release"
 access = "private"
