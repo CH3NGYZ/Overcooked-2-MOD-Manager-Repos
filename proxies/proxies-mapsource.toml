@@ -1,10 +1,21 @@
 schema_version = 1
 
 [[proxies]]
-id = "oc2gh-release"
-name = "oc2gh.ch3ng.top (Cloudflare)"
+id = "oc2gh-release-cloudflare"
+description = "GitHub Release Cloudflare"
+name = "oc2gh-release-cloudflare"
 provider = "github"
 intent = "release"
 access = "private"
 template = "https://oc2gh.ch3ng.top/{url_path}"
+token_transport = "none"
+
+[[proxies]]
+id = "oc2gh-release-edgeone"
+description = "GitHub Release EdgeOne"
+name = "oc2gh-release-edgeone"
+provider = "github"
+intent = "release"
+access = "private"
+template = "https://oc2gh.5882778.xyz/{url_path}"
 token_transport = "none"

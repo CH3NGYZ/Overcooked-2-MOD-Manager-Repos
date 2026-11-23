@@ -1,9 +1,9 @@
 schema_version = 1
 
 [[proxies]]
-id = "oc2gcapi"
-description = "GitCode API 桥接"
-name = "oc2gcapi.ch3ng.top (Cloudflare)"
+id = "oc2gcapi-cloudflare"
+description = "GitCode API Cloudflare"
+name = "oc2gcapi-cloudflare"
 provider = "gitcode"
 intent = "api"
 access = "public"
@@ -12,8 +12,8 @@ token_transport = "matching_platform_token"
 
 [[proxies]]
 id = "oc2gcapi-edgeone"
-description = "GitCode API 桥接"
-name = "EdgeOne"
+description = "GitCode API EdgeOne"
+name = "oc2gcapi-edgeone"
 provider = "gitcode"
 intent = "api"
 access = "public"

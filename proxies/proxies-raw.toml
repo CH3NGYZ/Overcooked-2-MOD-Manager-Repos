@@ -64,8 +64,9 @@ template = "https://g.blfrp.cn/{url}"
 token_transport = "none"
 
 [[proxies]]
-id = "oc2gh-raw"
-name = "oc2gh.ch3ng.top (Cloudflare)"
+id = "oc2gh-raw-cloudflare"
+description = "GitHub Raw Cloudflare"
+name = "oc2gh-raw-cloudflare"
 provider = "github"
 intent = "raw"
 access = "public"
@@ -74,7 +75,8 @@ token_transport = "none"
 
 [[proxies]]
 id = "oc2gh-raw-edgeone"
-name = "EdgeOne"
+description = "GitHub Raw EdgeOne"
+name = "oc2gh-raw-edgeone"
 provider = "github"
 intent = "raw"
 access = "public"

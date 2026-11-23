@@ -127,8 +127,19 @@ template = "https://ghfast.top/{url}"
 token_transport = "none"
 
 [[proxies]]
-id = "oc2gh-release-edgeone"
-name = "EdgeOne"
+id = "oc2gh-release-public-cloudflare"
+description = "GitHub Release Cloudflare"
+name = "oc2gh-release-public-cloudflare"
+provider = "github"
+intent = "release"
+access = "public"
+template = "https://oc2gh.ch3ng.top/{url_path}"
+token_transport = "none"
+
+[[proxies]]
+id = "oc2gh-release-public-edgeone"
+description = "GitHub Release EdgeOne"
+name = "oc2gh-release-public-edgeone"
 provider = "github"
 intent = "release"
 access = "public"
