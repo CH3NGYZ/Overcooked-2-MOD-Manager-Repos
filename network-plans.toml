@@ -29,11 +29,11 @@ route = [{ kind = "official" }, { kind = "proxy", id = "oc2ghapi-cloudflare" }, 
 max_parallelism = 1
 [request_plans.release]
 download_threads = 1
-route = [{ kind = "direct" }]
+route = [{ kind = "direct" }, { kind = "proxy", id = "oc2gh-release-cloudflare" }, { kind = "proxy", id = "oc2gh-release-edgeone" }]
 max_parallelism = 1
 [request_plans.raw]
 download_threads = 1
-route = [{ kind = "direct" }]
+route = [{ kind = "direct" }, { kind = "proxy", id = "oc2gh-raw-cloudflare" }, { kind = "proxy", id = "oc2gh-raw-edgeone" }]
 max_parallelism = 1
 [request_plans.avatars]
 url_template = "https://github.com/{owner}.png"

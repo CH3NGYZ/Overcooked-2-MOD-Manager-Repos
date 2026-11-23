@@ -70,7 +70,7 @@ mode = "release-tags"
 provider = "github"
 username = "QingyuQingxue"
 repository = "OC2-Map-Bundle"
-region = ""
+region = "global"
 [map_sources.nickname_i18n]
 zh-CN = "社区地图源 (由清雨青雪维护) - Github"
 zh-TW = "社群地圖源 (由清雨青雪維護) - Github"
