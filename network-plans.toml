@@ -30,11 +30,13 @@ max_parallelism = 1
 [request_plans.release]
 download_threads = 1
 route = [{ kind = "direct" }, { kind = "proxy", id = "oc2gh-release-cloudflare" }, { kind = "proxy", id = "oc2gh-release-edgeone" }]
-max_parallelism = 1
+race = true
+max_parallelism = 3
 [request_plans.raw]
 download_threads = 1
 route = [{ kind = "direct" }, { kind = "proxy", id = "oc2gh-raw-cloudflare" }, { kind = "proxy", id = "oc2gh-raw-edgeone" }]
-max_parallelism = 1
+race = true
+max_parallelism = 3
 [request_plans.avatars]
 url_template = "https://github.com/{owner}.png"
 route = [{ kind = "direct" }, { kind = "proxy", id = "cors-isteed-avatar" }, { kind = "proxy", id = "ghp-keleyaa-avatar" }, { kind = "proxy", id = "cdn-crashmc-avatar" }, { kind = "proxy", id = "oc2gh-ch3ng-avatar" }, { kind = "proxy", id = "cdn-akaere-avatar" }]
