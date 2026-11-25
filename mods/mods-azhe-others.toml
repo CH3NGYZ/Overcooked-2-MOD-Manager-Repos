@@ -6,11 +6,25 @@ enabled = true
 name_i18n.zh-CN = "厨师旋转"
 name_i18n.zh-TW = "廚師旋轉"
 name_i18n.en = "Chef Rotation"
+name_i18n.de = "Kochwechsel"
+name_i18n.fr = "Rotation des chefs"
+name_i18n.it = "Rotazione dei cuochi"
+name_i18n.es-ES = "Rotación de chefs"
+name_i18n.ru = "Смена поваров"
+name_i18n.pl = "Rotacja kucharzy"
+name_i18n.pt-BR = "Rotação de chefs"
 name_i18n.ko = "셰프 회전"
 name_i18n.ja = "シェフ回転"
 group_i18n.zh-CN = "玩法拓展"
 group_i18n.zh-TW = "玩法拓展"
 group_i18n.en = "Gameplay Expansion"
+group_i18n.de = "Gameplay-Erweiterung"
+group_i18n.fr = "Extensions du gameplay"
+group_i18n.it = "Espansioni del gameplay"
+group_i18n.es-ES = "Ampliaciones de jugabilidad"
+group_i18n.ru = "Расширения игрового процесса"
+group_i18n.pl = "Rozszerzenia rozgrywki"
+group_i18n.pt-BR = "Expansões de jogabilidade"
 group_i18n.ko = "플레이 방식 확장"
 group_i18n.ja = "ゲームプレイ拡張"
 provider = "gitee"
@@ -53,6 +67,41 @@ note_i18n.en = """
 Chef actions include crouching, lying down, rolling, and spinning.
 Also provides one-click throwing and taking items from your backpack. 
 - **Enable this feature in the MOD Settings.**"""
+note_i18n.de = '''
+Chef-Aktionen umfassen Kauern, Liegen, Rollen und Spinnen.
+Bietet auch ein-klick-werfen und nehmen von gegenständen aus ihrem rucksack.
+- **Aktivieren Sie diese Funktion im MOD Settings.**
+'''
+note_i18n.fr = '''
+Les actions de chef comprennent le courbure, le coucher, le roulement et la filature.
+Fournit également un clic lancer et prendre des objets de votre sac à dos.
+- **Activer cette fonctionnalité dans le MOD Settings.**
+'''
+note_i18n.it = '''
+Le azioni dello chef includono croccante, sdraiata, rotolamento e filatura.
+Fornisce anche un clic gettando e prendendo oggetti dal vostro zaino.
+- **Abilita questa funzione nel MOD Settings.**
+'''
+note_i18n.es-ES = '''
+Las acciones del chef incluyen el acurrucado, acostado, rodando y girando.
+También proporciona un clic para tirar y tomar elementos de su mochila.
+- **Habilitar esta función en el MOD Settings.**
+'''
+note_i18n.ru = '''
+Действия шеф-повара включают приседание, лежание, качание и вращение.
+Кроме того, обеспечивает один щелчок, бросая и принимая предметы из вашего рюкзака.
+- **Включите эту функцию в MOD Settings.**
+'''
+note_i18n.pl = '''
+Działania szefa kuchni obejmują kucnięcie, leżenie, walcowanie i przędzenie.
+Zapewnia również rzut jednym kliknięciem i branie przedmiotów z plecaka.
+- **Włącz tę funkcję w MOD Settings.**
+'''
+note_i18n.pt-BR = '''
+As ações do chef incluem agachar-se, deitar-se, rolar, e girar.
+Também fornece um clique jogando e levando itens de sua mochila.
+- **Activar esta funcionalidade no MOD Settings.**
+'''
 note_i18n.ko = """
 셰프가 엎드리기, 눕기, 좌우로 눕기, 공중제비, 제자리 회전을 할 수 있습니다.
 한 번의 클릭으로 물건을 던지거나 자신의 배낭에서 물건을 꺼낼 수 있습니다. 
@@ -67,7 +116,7 @@ note_i18n.ja = """
 [[repositories.relations]]
 kind = "requires"
 guid = "com.ch3ngyz.plugin.overcooked2.modsettings"
-version = ">=1.1.1"
+version = ">=1.3.0"
 
 
 #---------------------------------------------------------------
@@ -77,11 +126,25 @@ enabled = true
 name_i18n.zh-CN = "厨师与DLC内容启用"
 name_i18n.zh-TW = "廚師與DLC內容啟用"
 name_i18n.en = "Chef & DLC Content Support"
+name_i18n.de = "Unterstützung für Köche und DLC-Inhalte"
+name_i18n.fr = "Prise en charge des chefs et du contenu DLC"
+name_i18n.it = "Supporto per cuochi e contenuti DLC"
+name_i18n.es-ES = "Compatibilidad con chefs y contenido de DLC"
+name_i18n.ru = "Поддержка поваров и контента DLC"
+name_i18n.pl = "Obsługa kucharzy i zawartości DLC"
+name_i18n.pt-BR = "Suporte a chefs e conteúdo de DLC"
 name_i18n.ko = "셰프 및 DLC 콘텐츠 지원"
 name_i18n.ja = "シェフと DLC コンテンツの有効化"
 group_i18n.zh-CN = "内容拓展"
 group_i18n.zh-TW = "內容拓展"
 group_i18n.en = "Content Expansion"
+group_i18n.de = "Inhaltserweiterung"
+group_i18n.fr = "Extensions de contenu"
+group_i18n.it = "Espansioni dei contenuti"
+group_i18n.es-ES = "Ampliaciones de contenido"
+group_i18n.ru = "Дополнительный контент"
+group_i18n.pl = "Rozszerzenia zawartości"
+group_i18n.pt-BR = "Expansões de conteúdo"
 group_i18n.ko = "콘텐츠 확장"
 group_i18n.ja = "コンテンツ拡張"
 provider = "gitee"
@@ -119,6 +182,34 @@ note_i18n.zh-TW = """用於啟用遊戲內的廚師與DLC內容，包括鴨嘴�
 note_i18n.en = """
 Enables in-game chefs and DLC content, including special chefs like the platypus.
 - Enable this feature in the MOD Settings."""
+note_i18n.de = '''
+Ermöglicht In-Game-Köche und DLC-Inhalte, einschließlich spezieller Köche wie dem Schnabeltier.
+- Aktivieren Sie diese Funktion im MOD Settings.
+'''
+note_i18n.fr = '''
+Active les chefs en jeu et le contenu DLC, y compris les chefs spéciaux comme le platypus.
+- Activer cette fonctionnalité dans le MOD Settings.
+'''
+note_i18n.it = '''
+Consente chef in-game e contenuti DLC, tra cui chef speciali come il platypus.
+- Abilita questa funzione nel MOD Settings.
+'''
+note_i18n.es-ES = '''
+Permite a los chefs en el juego y el contenido de DLC, incluyendo chefs especiales como el platypus.
+- Habilitar esta función en el MOD Settings.
+'''
+note_i18n.ru = '''
+Включает в игру поваров и контент DLC, в том числе специальных поваров, таких как утконос.
+- Включите эту функцию в MOD Settings.
+'''
+note_i18n.pl = '''
+Włącza kucharzy w gry i zawartość DLC, w tym specjalnych kucharzy, takich jak platypus.
+- Włącz tę funkcję w MOD Settings.
+'''
+note_i18n.pt-BR = '''
+Permite chefs no jogo e conteúdo DLC, incluindo chefs especiais como o ornitorrinco.
+- Activar esta funcionalidade no MOD Settings.
+'''
 note_i18n.ko = """
 게임 내 셰프 및 DLC 콘텐츠를 활성화하며, 오리너구리와 같은 특수 셰프도 포함됩니다.
 - **사용하려면 MOD 설정에서 해당 기능을 활성화해야 합니다.**"""
@@ -131,7 +222,7 @@ note_i18n.ja = """
 [[repositories.relations]]
 kind = "requires"
 guid = "com.ch3ngyz.plugin.overcooked2.modsettings"
-version = ">=1.1.1"
+version = ">=1.3.0"
 
 
 #---------------------------------------------------------------
@@ -141,11 +232,25 @@ enabled = true
 name_i18n.zh-CN = "体验优化(地图可用性检测.缩略图.搜索.置顶.排序)"
 name_i18n.zh-TW = "體驗優化(地圖可用性檢測.縮圖.搜尋.置頂.排序)"
 name_i18n.en = "Experience Optimization (Map Availability Check, Thumbnails, Search, Pinning, Sorting)"
+name_i18n.de = "Komfortfunktionen (Kartenprüfung, Vorschaubilder, Suche, Anheften, Sortieren)"
+name_i18n.fr = "Améliorations (vérification des cartes, vignettes, recherche, épinglage, tri)"
+name_i18n.it = "Migliorie (verifica delle mappe, anteprime, ricerca, fissaggio e ordinamento)"
+name_i18n.es-ES = "Mejoras (comprobación de mapas, miniaturas, búsqueda, fijación y ordenación)"
+name_i18n.ru = "Улучшения (проверка доступности карт, миниатюры, поиск, закрепление и сортировка)"
+name_i18n.pl = "Usprawnienia (sprawdzanie dostępności map, miniatury, wyszukiwanie, przypinanie i sortowanie)"
+name_i18n.pt-BR = "Melhorias (verificação de mapas, miniaturas, busca, fixação e ordenação)"
 name_i18n.ko = "경험 최적화 (맵 가용성 확인, 썸네일, 검색, 고정, 정렬)"
 name_i18n.ja = "体験最適化 (マップの可用性チェック、サムネイル、検索、ピン留め、ソート)"
 group_i18n.zh-CN = "DIYLevel 优化"
 group_i18n.zh-TW = "DIYLevel 優化"
 group_i18n.en = "DIYLevel Optimization"
+group_i18n.de = "DIYLevel-Optimierungen"
+group_i18n.fr = "Optimisations de DIYLevel"
+group_i18n.it = "Ottimizzazioni di DIYLevel"
+group_i18n.es-ES = "Optimizaciones de DIYLevel"
+group_i18n.ru = "Оптимизация DIYLevel"
+group_i18n.pl = "Optymalizacja DIYLevel"
+group_i18n.pt-BR = "Otimizações do DIYLevel"
 group_i18n.ko = "DIYLevel 최적화"
 group_i18n.ja = "DIYLevel 最適化"
 provider = "github"
@@ -203,6 +308,69 @@ note_i18n.en = """
 6. Display a level thumbnail when the level receives focus, and hide it when focus is lost.
 - **Requires `DIYLevel` and is compatible with `DIYLevel Fast Load`.**
 """
+note_i18n.de = '''
+1. Nach dem Beenden eines benutzerdefinierten Levels kehren Sie automatisch zum zuvor ausgewählten Level-Auswahlbildschirm für ein bequemes aufeinanderfolgendes Spielen zurück. MOD Settings.
+2. Zeigen Sie einen grünen Punkt neben dem zuletzt ausgewählten Level und dessen enthaltenden Level an. Die Auswahl wird nach dem Neustart des Spiels beibehalten.
+3. Sowohl die Level-Set-Liste als auch die Level-Liste unterstützen die Suche. Bei der Suche in der Level-Set-Liste werden Level-Sets mit übereinstimmenden Levels angezeigt. Nach dem Öffnen eines Level-Sets werden übereinstimmende Levels hervorgehoben.
+4. Sowohl die Level-Set-Liste als auch die Level-Liste unterstützen die Sortierung nach Name oder Dateiänderungszeit, mit Optionen für keine Sortierung, aufsteigende Reihenfolge und absteigende Reihenfolge.
+5. Sowohl die Level-Set-Liste als auch die Level-Liste unterstützen das Anheften und Entheften von Elementen. Angeheftete Elemente sind von der Sortierung ausgeschlossen. Bei Verwendung von `DIYLevel Fast Load` erscheinen angeheftete Elemente unter dem Refresh-Button.
+6. Zeigen Sie ein Level-Miniaturbild an, wenn das Level den Fokus erhält, und verstecken Sie es, wenn der Fokus verloren geht.
+- **Erfordert `DIYLevel` und ist kompatibel mit `DIYLevel Fast Load`.**
+'''
+note_i18n.fr = '''
+1. Après avoir quitté un niveau personnalisé, retournez automatiquement à l'écran de sélection de niveau précédemment sélectionné pour une lecture consécutive pratique. Cette fonctionnalité peut être désactivée dans le MOD Settings.
+2. Affichez un point vert à côté du niveau le plus récemment sélectionné et de son ensemble de niveaux contenant. La sélection est conservée après le redémarrage du jeu.
+3. La liste des niveaux et la liste des niveaux supportent la recherche. Lors de la recherche dans la liste des niveaux, les ensembles de niveaux contenant des niveaux correspondants sont affichés. Après ouverture d'un jeu de niveaux, les niveaux correspondants sont surlignés.
+4. La liste des niveaux et la liste des niveaux supportent le tri par nom ou heure de modification de fichier, avec des options pour aucun tri, ordre ascendant et ordre décroissant.
+5. Tant la liste de niveaux que la liste de niveaux prennent en charge le piquage et le découplage des éléments. Les éléments épinglés sont exclus du tri. Lorsque vous utilisez `DIYLevel Fast Load`, les éléments épinglés apparaissent sous le bouton de rafraîchissement.
+6. Affichez une vignette de niveau lorsque le niveau reçoit la mise au point, et masquez-la lorsque la mise au point est perdue.
+- **Nécessite `DIYLevel` et est compatible avec `DIYLevel Fast Load`.**
+'''
+note_i18n.it = '''
+1. Dopo l'uscita di un livello personalizzato, ritorna automaticamente alla schermata di selezione del livello precedentemente selezionata per una comoda riproduzione consecutiva. MOD Settings.
+2. Visualizzare un punto verde accanto al livello più recentemente selezionato e il suo set di livello contenente. La selezione viene mantenuta dopo il riavvio del gioco.
+3. Sia l'elenco impostato di livello che la ricerca di supporto elenco di livello. Quando si cerca nell'elenco impostato di livello, vengono visualizzati i set di livelli contenenti livelli di corrispondenza.
+4. Sia l'elenco impostato di livello che l'elenco di livello supportano la selezione per nome o tempo di modifica di file, con opzioni per nessun ordine di selezione, ordine crescente e ordine discendente.
+5. Sia l'elenco impostato di livello che l'elenco di livello di supporto pinning e elementi di sbilanciamento. Gli elementi Pinned sono esclusi dalla selezione. Quando si utilizza `DIYLevel Fast Load`, gli elementi pinned appaiono sotto il pulsante di aggiornamento.
+6. Visualizzare una miniatura di livello quando il livello riceve messa a fuoco, e nasconderlo quando la messa a fuoco è persa.
+- **Richiede `DIYLevel` ed è compatibile con `DIYLevel Fast Load`.**
+'''
+note_i18n.es-ES = '''
+1. Después de salir de un nivel personalizado, vuelva automáticamente a la pantalla de selección de nivel previamente seleccionada para jugar consecutivamente conveniente. Esta función puede deshabilitarse en el MOD Settings.
+2. Mostrar un punto verde junto al nivel más seleccionado recientemente y su conjunto de nivel que contiene. La selección se mantiene después de reiniciar el juego.
+3. Tanto la lista de nivel establecido como la búsqueda de soporte de lista de niveles. Al buscar en la lista de niveles, se muestran conjuntos de nivel que contienen niveles de coincidencia. Después de abrir un conjunto de nivel, se resaltan los niveles de coincidencia.
+4. Tanto la lista de nivel establecido como el soporte de lista de nivel clasificando por nombre o tiempo de modificación de archivos, con opciones para ninguna clasificación, orden ascendente y orden descendente.
+5. Tanto la lista de nivel y el soporte de lista de niveles para fijar y desenrollar elementos. Los elementos grabados están excluidos de la clasificación. Al utilizar `DIYLevel Fast Load`, los elementos marcados aparecen debajo del botón de actualización.
+6. Mostrar una miniatura de nivel cuando el nivel recibe enfoque, y ocultarlo cuando se pierde el foco.
+- **Requiere `DIYLevel` y es compatible con `DIYLevel Fast Load`.**
+'''
+note_i18n.ru = '''
+1. После выхода из пользовательского уровня автоматически возвращайтесь на ранее выбранный экран выбора уровня для удобной последовательной игры.Эта функция может быть отключена в MOD Settings.
+2. Отобразить зеленую точку рядом с наиболее недавно выбранным уровнем и содержащим его набором уровней.Выбор сохраняется после перезапуска игры.
+3. И список уровней, и список уровней поддерживают поиск. При поиске в списке уровней отображаются наборы уровней, содержащие соответствующие уровни. После открытия набора уровней выделяются соответствующие уровни.
+4. И список уровней, и список уровней поддерживают сортировку по имени или времени модификации файла, с опциями для сортировки без сортировки, восходящего и нисходящего порядка.
+5. Как список уровней, так и список уровней поддерживают пиннинг и раскручивание элементов. Подстриженные элементы исключаются из сортировки. При использовании `DIYLevel Fast Load` под кнопкой обновления появляются зажатые элементы.
+6. Отобразите миниатюру уровня, когда уровень получает фокус, и спрячьте ее, когда фокус потерян.
+- **Требует `DIYLevel` и совместим с `DIYLevel Fast Load`.**
+'''
+note_i18n.pl = '''
+1. Po wyjściu z poziomu niestandardowego automatycznie wraca do wcześniej wybranego ekranu wyboru poziomów dla wygodnej, ciągłej gry. Funkcja ta może być wyłączona w MOD Settings.
+2. Wyświetla zieloną kropkę obok ostatnio wybranego poziomu i jego zestawu zawierającego. Wybór zostaje zachowany po ponownym uruchomieniu gry.
+3. Zarówno lista ustawionych poziomów, jak i wyszukiwarka wsparcia listy poziomów. Podczas wyszukiwania w liście ustawionych poziomów wyświetlane są zestawy poziomów zawierające poziomy dopasowania. Po otwarciu zestawu poziomów podświetlone są poziomy dopasowania.
+4. Zarówno lista ustawionych poziomów jak i lista poziomów obsługują sortowanie według nazwy lub czasu modyfikacji plików, z opcjami bez sortowania, porządku rosnącego i porządku malejącego.
+5. Zarówno lista ustawiona na poziomie, jak i obsługa listy poziomów przypinania i odpinania elementów. Przypinane elementy są wyłączone z sortowania. Używając `DIYLevel Fast Load`, przypinane elementy pojawiają się poniżej przycisku odświeżania.
+6. Wyświetl miniaturę poziomu, gdy poziom otrzymuje ostrość i ukryj ją, gdy ostrość jest utracona.
+- **Wymaga `DIYLevel` i jest kompatybilny z `DIYLevel Fast Load`.**
+'''
+note_i18n.pt-BR = '''
+1. Depois de sair de um nível personalizado, retorne automaticamente à tela de seleção de nível previamente selecionada para uma reprodução consecutiva conveniente. Esta funcionalidade pode ser desabilitada no MOD Settings.
+2. Mostra um ponto verde ao lado do nível seleccionado mais recentemente e do seu conjunto de níveis. A selecção é mantida após reiniciar o jogo.
+3. Tanto a lista de níveis como a lista de níveis suportam a pesquisa. Ao procurar na lista de níveis, são mostrados os conjuntos de níveis que contêm níveis correspondentes. Depois de abrir um conjunto de níveis, os níveis correspondentes são realçados.
+4. Tanto a lista de conjuntos de níveis como a lista de níveis suportam a ordenação por nome ou tempo de modificação de arquivos, com opções para nenhuma ordenação, ordem ascendente e ordem decrescente.
+5. Tanto a lista de conjuntos de níveis como a lista de níveis suportam a fixação e a desvinculação dos itens. Os itens fixados são excluídos da ordenação. Ao usar o `DIYLevel Fast Load`, os itens fixados aparecem por baixo do botão de atualização.
+6. Mostrar uma miniatura de nível quando o nível recebe o foco, e escondê- lo quando o foco é perdido.
+- **Requer `DIYLevel` e é compatível com `DIYLevel Fast Load`.**
+'''
 note_i18n.ko = """
 1. 사용자 지정 레벨을 종료하면 연속해서 플레이할 수 있도록 이전에 선택했던 레벨 선택 화면으로 자동으로 돌아갑니다. 이 기능은 MOD 설정의 설정에서 비활성화할 수 있습니다.
 2. 최근에 선택한 레벨과 해당 레벨이 포함된 레벨 세트 옆에 초록색 점을 표시합니다. 게임을 다시 시작해도 선택 기록이 유지됩니다.
@@ -238,11 +406,25 @@ enabled = true
 name_i18n.zh-CN = "《测试1》前两道菜不出搅拌"
 name_i18n.zh-TW = "《測試1》前兩道菜不出攪拌"
 name_i18n.en = "Recipe Limiter - DIY Level Test 1"
+name_i18n.de = "Rezeptbegrenzung – DIY Level Test 1"
+name_i18n.fr = "Limiteur de recettes – DIY Level Test 1"
+name_i18n.it = "Limitatore di ricette – DIY Level Test 1"
+name_i18n.es-ES = "Limitador de recetas – DIY Level Test 1"
+name_i18n.ru = "Ограничение рецептов — DIY Level Test 1"
+name_i18n.pl = "Ogranicznik przepisów – DIY Level Test 1"
+name_i18n.pt-BR = "Limitador de receitas – DIY Level Test 1"
 name_i18n.ko = "레시피 제한기 - DIY 레벨 테스트 1"
 name_i18n.ja = "『テスト1』最初の2品にミキサーを出さない"
 group_i18n.zh-CN = "DIYLevel 优化"
 group_i18n.zh-TW = "DIYLevel 優化"
 group_i18n.en = "DIYLevel Optimization"
+group_i18n.de = "DIYLevel-Optimierungen"
+group_i18n.fr = "Optimisations de DIYLevel"
+group_i18n.it = "Ottimizzazioni di DIYLevel"
+group_i18n.es-ES = "Optimizaciones de DIYLevel"
+group_i18n.ru = "Оптимизация DIYLevel"
+group_i18n.pl = "Optymalizacja DIYLevel"
+group_i18n.pt-BR = "Otimizações do DIYLevel"
 group_i18n.ko = "DIYLevel 최적화"
 group_i18n.ja = "DIYLevel 最適化"
 provider = "gitee"
@@ -288,6 +470,48 @@ MOD Features:
 1. Prevents the first two recipes from requiring a mixer when playing with four players.
 2. In local single-player, local two-player, and online two-player modes, you can choose to enable only specific recipes.
 - **Enable this feature in the MOD Settings.**"""
+note_i18n.de = '''
+MOD-Eigenschaften:
+1. Verhindert, dass die ersten beiden Rezepte einen Mixer erfordern, wenn sie mit vier Spielern spielen.
+2. In lokalen Einzelspieler-, lokalen Zwei-Spieler- und Online-Zwei-Spieler-Modi können Sie nur bestimmte Rezepte aktivieren.
+- **Aktivieren Sie diese Funktion im MOD Settings.**
+'''
+note_i18n.fr = '''
+Caractéristiques du MOD:
+1. Empêche les deux premières recettes d'exiger un mixeur lors du jeu avec quatre joueurs.
+2. Dans les modes locaux monojoueur, bijoueur local et bijoueur en ligne, vous pouvez choisir de n'activer que des recettes spécifiques.
+- **Activer cette fonctionnalité dans le MOD Settings.**
+'''
+note_i18n.it = '''
+Caratteristiche:
+1. Impedisce le prime due ricette di richiedere un mixer quando si gioca con quattro giocatori.
+2. In modalità single-player locale, due giocatori locali e due giocatori online, è possibile scegliere di abilitare solo ricette specifiche.
+- **Abilita questa funzione nel MOD Settings.**
+'''
+note_i18n.es-ES = '''
+Características MOD:
+1. Evita que las dos primeras recetas requieran una mezcladora cuando juegan con cuatro jugadores.
+2. En los modos locales de un solo jugador, dos jugadores locales y dos jugadores en línea, puede optar por habilitar sólo recetas específicas.
+- **Habilitar esta función en el MOD Settings.**
+'''
+note_i18n.ru = '''
+Особенности MOD:
+1. Предотвращает использование первых двух рецептов при игре с четырьмя игроками.
+2. В локальном однопользовательском, локальном двухпользовательском и онлайновом двухпользовательском режимах вы можете включить только определенные рецепты.
+- **Включите эту функцию в MOD Settings.**
+'''
+note_i18n.pl = '''
+Cechy MOD:
+1. Zapobiega dwóch pierwszych przepisów od wymagania miksera podczas gry z czterema graczami.
+2. W lokalnych trybach singleplayer, two-player oraz trybie online two-player, można włączyć tylko specyficzne przepisy.
+- **Włącz tę funkcję w MOD Settings.**
+'''
+note_i18n.pt-BR = '''
+Características do MOD:
+1. Previne que as duas primeiras receitas exijam um mixer ao jogar com quatro jogadores.
+2. Nos modos de single-player local, dois-player local e dois-player online, você pode optar por ativar apenas receitas específicas.
+- **Activar esta funcionalidade no MOD Settings.**
+'''
 note_i18n.ko = """
 MOD 기능:
 1. 4인 플레이 시 처음 두 요리에 믹서가 나오지 않도록 제한합니다.
@@ -304,7 +528,7 @@ MOD の機能：
 [[repositories.relations]]
 kind = "requires"
 guid = "com.ch3ngyz.plugin.overcooked2.modsettings"
-version = ">=1.1.1"
+version = ">=1.3.0"
 # 依赖 DIYLevel
 [[repositories.relations]]
 kind = "requires"
@@ -318,11 +542,25 @@ enabled = true
 name_i18n.zh-CN = "修复存档槽位空白(已集成到快速载入v1.9.2中)"
 name_i18n.zh-TW = "修復存檔欄位空白(已集成到快速載入v1.9.2中)"
 name_i18n.en = "Fix Blank Save Slots(Included in FastInit v1.9.2)"
+name_i18n.de = "Korrektur leerer Speicherplätze (in FastInit v1.9.2 enthalten)"
+name_i18n.fr = "Correctif des emplacements de sauvegarde vides (inclus dans FastInit v1.9.2)"
+name_i18n.it = "Correzione degli slot di salvataggio vuoti (inclusa in FastInit v1.9.2)"
+name_i18n.es-ES = "Corrección de ranuras de guardado vacías (incluida en FastInit v1.9.2)"
+name_i18n.ru = "Исправление пустых слотов сохранения (входит в FastInit v1.9.2)"
+name_i18n.pl = "Poprawka pustych miejsc zapisu (w FastInit v1.9.2)"
+name_i18n.pt-BR = "Correção de slots de salvamento vazios (incluída no FastInit v1.9.2)"
 name_i18n.ko = "빈 저장 슬롯 수정(FastInit v1.9.2에 포함됨)"
 name_i18n.ja = "セーブスロットの空白を修正(FastInit v1.9.2に含まれています)"
 group_i18n.zh-CN = "DIYLevel 修复"
 group_i18n.zh-TW = "DIYLevel 修復"
 group_i18n.en = "DIYLevel Fixes"
+group_i18n.de = "DIYLevel-Korrekturen"
+group_i18n.fr = "Correctifs de DIYLevel"
+group_i18n.it = "Correzioni di DIYLevel"
+group_i18n.es-ES = "Correcciones de DIYLevel"
+group_i18n.ru = "Исправления DIYLevel"
+group_i18n.pl = "Poprawki DIYLevel"
+group_i18n.pt-BR = "Correções do DIYLevel"
 group_i18n.ko = "DIYLevel 수정"
 group_i18n.ja = "DIYLevel 修正"
 provider = "github"
@@ -377,6 +615,62 @@ The mod stops the failed DIYLevel load, closes the invalidated save dialog, and 
 - **Not compatible with FastInit >=1.9.0: this mod is already included in FastInit v1.9.0 and above, no additional installation required.**
 - **Wloader is optional; enable it to load DLC-dependent level sets.**
 """
+note_i18n.de = '''
+Behebt leere Speicherplätze, nicht wählbare Einträge oder nicht reagierende Klicks in DIYLevel, wenn eine Level-Ressource nicht geladen werden kann (fehlende Voraussetzung, Versionsfehlanpassung, Kartenkonflikt und ähnliche Fälle).
+Der Mod stoppt die fehlgeschlagene DIYLevel-Ladung, schließt den ungültig gemachten Speicherdialog und zeigt ein natives Popup an, in dem die fehlgeschlagene Level-Set-, Level-, Caller- und Template-Ressource benannt wird, so dass die fehlende Voraussetzung oder die defekte Karte identifiziert werden kann.
+- **Erfordert DIYLevel; es behandelt nur Fehler beim Laden von Ressourcen, nicht andere Abstürze.**
+- **Vollkommen kompatibel mit FastInit 1.7.0 ~ 1.8.0: Das schnelle Laden, On-Demand-Laden, der Startkatalog und die Info-Bundle-Optimierungen werden alle beibehalten; Es besteht keine Notwendigkeit, die FastInit-Funktion zu deaktivieren, herunterzustufen oder zu entfernen.**
+- **Nicht kompatibel mit FastInit >=1.9.0: Dieser Mod ist bereits in FastInit v1.9.0 und höher enthalten, keine zusätzliche Installation erforderlich.**
+- **Wloader ist optional; Aktivieren Sie es, DLC-abhängige Pegelsätze zu laden.**
+'''
+note_i18n.fr = '''
+Correction de slots d'enregistrement vierges, d'entrées non sélectionnables ou de clics non réactifs dans DIYLevel lorsqu'une ressource de niveau ne se charge pas (défaut de prérequis, erreur de version, conflit de carte, et cas similaires).
+Le mod arrête la charge DIYLevel échouée, ferme la boîte de dialogue de sauvegarde invalidée, et affiche un popup natif nommant le niveau défaillant défini, le niveau, l'appelant et la ressource de modèle afin que la prérequise manquante ou la carte cassée puisse être identifiée.
+- **Nécessite DIYLevel; il ne gère que les pannes de chargement de ressources, pas d'autres pannes.**
+- **Entièrement compatible avec FastInit 1.7.0 ~ 1.8.0 : ses optimisations de chargement rapide, de chargement à la demande, de catalogue de démarrage et d'info-groupe sont toutes conservées ; il n'est pas nécessaire de désactiver, de dévaloriser ou de supprimer toute fonctionnalité FastInit.**
+- **Non compatible avec FastInit >=1.9.0 : ce mod est déjà inclus dans FastInit v1.9.0 et plus, aucune installation supplémentaire n'est requise.**
+- **Wloader est optionnel; permet de charger des ensembles de niveaux dépendants du DLC.**
+'''
+note_i18n.it = '''
+Risolve le slot di salvataggio vuote, le voci non selezionabili, o i clic non rispondenti in DIYLevel quando una risorsa di livello non riesce a caricare (mancando prerequisito, errore di versione, conflitto di mappa e casi simili).
+Il mod interrompe il carico DIYLevel fallito, chiude la finestra di dialogo di salvataggio invalidata e mostra un popup nativo che nomina il livello di difetto impostato, livello, chiamante e risorse del modello in modo che la mappa mancante prerequisito o rotto possa essere identificato.
+- **Richiede DIYLevel; gestisce solo i guasti di carico delle risorse, non altri crash.**
+- **Completamente compatibile con FastInit 1.7.0 ~ 1.8.0: il suo caricamento veloce, il caricamento on-demand, il catalogo di avvio e le ottimizzazioni info-bundle sono tutti mantenuti; non c'è bisogno di disabilitare, downgrade o rimuovere qualsiasi funzione FastInit.**
+- **Non compatibile con FastInit >=1.9.0: questo mod è già incluso in FastInit v1.9.0 e sopra, nessuna installazione aggiuntiva richiesta.**
+- **Wloader è facoltativo; consente di caricare i set di livello dipendente da DLC.**
+'''
+note_i18n.es-ES = '''
+Fija ranuras en blanco, entradas no seleccionables, o clics no respondentes en DIYLevel cuando un recurso de nivel no se carga (requisito de pérdida, desajuste de la versión, conflicto de mapas, y casos similares).
+El mod detiene la carga DIYLevel fallida, cierra el diálogo de ahorro inválido, y muestra un popup nativo que nombra el conjunto de nivel de falla, nivel, llamada y recurso de plantilla para que se pueda identificar el requisito o mapa roto.
+- **Requiere DIYLevel; sólo maneja fallos de carga de recursos, no otros fallos.**
+- **Totalmente compatible con FastInit 1.7.0 ~ 1.8.0: su carga rápida, carga a pedido, catálogo de inicio y optimizaciones de info-bundle se mantienen; no hay necesidad de deshabilitar, degradar o eliminar cualquier característica FastInit.**
+- **No es compatible con FastInit √=1.9.0: este mod ya está incluido en FastInit v1.9.0 y superior, no se requiere instalación adicional.**
+- **Wloader es opcional; permite cargar conjuntos de nivel dependientes de DLC.**
+'''
+note_i18n.ru = '''
+Исправляет пустые слоты сохранения, невыбираемые записи или неотзывчивые клики в DIYLevel, когда ресурс уровня не загружается (отсутствующее предварительное условие, несоответствие версии, конфликт карты и аналогичные случаи).
+Мод останавливает неудавшуюся загрузку DIYLevel, закрывает недействительный диалог сохранения и показывает всплывающее окно, именующее неудавшийся набор уровней, уровень, вызывающий и шаблонный ресурс, чтобы можно было идентифицировать недостающее условие или сломанную карту.
+- **Требуется DIYLevel; он обрабатывает только сбои загрузки ресурсов, а не другие сбои.**
+- **Полностью совместимый с FastInit 1.7.0 ~ 1.8.0: его быстрая загрузка, загрузка по требованию, каталог запуска и оптимизация информационных модулей сохранены; нет необходимости отключать, понижать или удалять любую функцию FastInit.**
+- **Не совместим с FastInit >=1.9.0: этот мод уже включен в FastInit v1.9.0 и выше, дополнительной установки не требуется.**
+- **Wloader является необязательным; позволяет загружать DLC-зависимые наборы уровней.**
+'''
+note_i18n.pl = '''
+Naprawia puste miejsca zapisu, niedostępne pozycje i brak reakcji na kliknięcia w DIYLevel, gdy nie uda się wczytać zasobów poziomu (np. z powodu brakującej zależności, niezgodności wersji lub konfliktu map).
+Mod zatrzymuje nieudany ładunek DIYLevel, zamyka unieważnione okno dialogowe zapisu i pokazuje natywną popup określającą nieudany zestaw poziomów, poziom, dzwoniący i zasób szablonów, dzięki czemu można zidentyfikować brakujący warunek lub uszkodzoną mapę.
+- **Wymaga DIYLevel; obsługuje tylko awarii obciążenia zasobów, a nie innych awarii.**
+- **W pełni kompatybilne z FastInit 1.7.0 ~ 1.8.0: jego szybkie ładowanie, ładowanie na żądanie, uruchamianie katalogu i optymalizacja pakietów info; nie ma potrzeby wyłączania, obniżania lub usuwania funkcji FastInit.**
+- **Nie jest kompatybilny z FastInit > = 1.9.0: ten mod jest już włączony do FastInit v1.9.0 i powyżej, nie wymaga dodatkowej instalacji.**
+- **Wloader jest opcjonalny; umożliwia ładowanie zestawów poziomu DLC.**
+'''
+note_i18n.pt-BR = '''
+Corrige slots de gravação em branco, entradas não selecionáveis ou cliques não responsivos no DIYLevel quando um recurso de nível não consegue carregar (falta de pré-requisito, erro de versão, conflito de mapas e casos semelhantes).
+O mod pára a carga DIYLevel falhada, fecha a janela de gravação inválida e mostra um popup nativo a nomear o conjunto de nível, nível, chamada e recurso de modelo para que o pré-requisito em falta ou mapa quebrado possa ser identificado.
+- **Requer DIYLevel; ele só lida com falhas de carregamento de recursos, não outras falhas.**
+- **Totalmente compatível com FastInit 1.7.0 ~ 1.8.0: suas otimizações de carregamento rápido, carregamento sob demanda, catálogo de inicialização e info-bundle são mantidas; não há necessidade de desativar, diminuir ou remover qualquer recurso FastInit.**
+- **Não compatível com FastInit >=1.9.0: este mod já está incluído no FastInit v1.9.0 e acima, sem necessidade de instalação adicional.**
+- **Wloader é opcional; habilite-o a carregar conjuntos de níveis dependentes de DLC.**
+'''
 note_i18n.ko = """
 DIYLevel에서 레벨 리소스 로드 실패(필수 요소 누락, 버전 불일치, 맵 충돌 등)로 저장 슬롯 목록이 비어 있거나 선택/클릭이 되지 않는 문제를 수정합니다.
 모드는 실패한 DIYLevel 로드를 중단하고 무효화된 저장 대화상자를 닫은 뒤, 실패한 레벨 세트·레벨·호출자·템플릿 리소스를 보여주는 네이티브 popup을 표시하여 누락된 필수 요소나 손상된 맵을 찾을 수 있게 합니다.
@@ -414,11 +708,25 @@ enabled = true
 name_i18n.zh-CN = "修复存档或重开时所有客机掉线"
 name_i18n.zh-TW = "修復存檔或重開時所有客機掉線"
 name_i18n.en = "Fix DIYLevel - All Clients Disconnect After Saving or Restarting"
+name_i18n.de = "DIYLevel-Korrektur – alle Clients verlieren die Verbindung nach dem Speichern oder Neustart"
+name_i18n.fr = "Correctif DIYLevel – déconnexion de tous les clients après sauvegarde ou redémarrage"
+name_i18n.it = "Correzione di DIYLevel – disconnessione di tutti i client dopo il salvataggio o il riavvio"
+name_i18n.es-ES = "Corrección de DIYLevel – todos los clientes se desconectan al guardar o reiniciar"
+name_i18n.ru = "Исправление DIYLevel — все клиенты отключаются после сохранения или перезапуска"
+name_i18n.pl = "Poprawka DIYLevel – rozłączanie wszystkich klientów po zapisie lub ponownym uruchomieniu"
+name_i18n.pt-BR = "Correção do DIYLevel – desconexão de todos os clientes após salvar ou reiniciar"
 name_i18n.ko = "DIYLevel - 저장 또는 재시작 후 모든 클라이언트 연결 끊김 문제 수정"
 name_i18n.ja = "DIYLevel - セーブ後または再起動後にすべてのクライアントが切断される問題を修正"
 group_i18n.zh-CN = "DIYLevel 修复"
 group_i18n.zh-TW = "DIYLevel 修復"
 group_i18n.en = "DIYLevel Fixes"
+group_i18n.de = "DIYLevel-Korrekturen"
+group_i18n.fr = "Correctifs de DIYLevel"
+group_i18n.it = "Correzioni di DIYLevel"
+group_i18n.es-ES = "Correcciones de DIYLevel"
+group_i18n.ru = "Исправления DIYLevel"
+group_i18n.pl = "Poprawki DIYLevel"
+group_i18n.pt-BR = "Correções do DIYLevel"
 group_i18n.ko = "DIYLevel 수정"
 group_i18n.ja = "DIYLevel 修正"
 provider = "github"
@@ -467,6 +775,48 @@ It restores the game's original long message multipart header that was overwritt
 - **Automatically applied after installation, no configuration required.**
 - **Hosts and clients must use the same version.**
 """
+note_i18n.de = '''
+Behebt einen Fehler, durch den bei installiertem DIYLevel und vielen benutzerdefinierten Karten das Spiel des Hosts nach dem Speichern oder beim Neustart über den Ergebnisbildschirm hängen bleiben kann und die Clients die Verbindung verlieren.
+Die Mod stellt die überschriebenen Kopfdaten langer, aufgeteilter Nachrichten wieder her und setzt die Nachrichten anhand gültiger Paketlängen zusammen. Dadurch führt die Prüfung der Sequenznummern nicht mehr zum Verbindungsabbruch.
+- **Nach der Installation automatisch aktiv; keine Konfiguration nötig.**
+- **Host und Clients müssen dieselbe Version der Mod installieren.**
+'''
+note_i18n.fr = '''
+Corrige un blocage chez l’hôte qui pouvait déconnecter les clients après une sauvegarde ou un redémarrage depuis l’écran des résultats lorsque DIYLevel et de nombreuses cartes personnalisées étaient installés.
+Le mod rétablit les données d’en-tête écrasées dans les messages longs fragmentés et réassemble ces messages à partir de paquets de longueur valide. Cela évite une déconnexion lors du contrôle des numéros de séquence.
+- **Application automatique après installation, aucune configuration requise.**
+- **Les hôtes et les clients doivent utiliser la même version.**
+'''
+note_i18n.it = '''
+Corregge un problema per cui, con DIYLevel e molte mappe personalizzate installate, il gioco dell’host poteva bloccarsi e disconnettere i client dopo un salvataggio o un riavvio dalla schermata dei risultati.
+Il mod ripristina i campi dell’intestazione sovrascritti nei messaggi lunghi frammentati e riassembla i messaggi usando lunghezze valide dei pacchetti. Questo evita la disconnessione durante il controllo dei numeri di sequenza.
+- **Applicato automaticamente dopo l'installazione, nessuna configurazione richiesta.**
+- **L’host e i client devono installare la stessa versione del mod.**
+'''
+note_i18n.es-ES = '''
+Corrige un fallo por el que, con DIYLevel y muchos mapas personalizados instalados, el juego del anfitrión podía bloquearse y los clientes podían desconectarse al guardar o reiniciar desde la pantalla de resultados.
+El mod recupera los campos de cabecera sobrescritos en los mensajes largos fragmentados y reconstruye los mensajes con longitudes de paquete válidas. Así evita que la comprobación de los números de secuencia provoque una desconexión.
+- **Aplicado automáticamente después de la instalación, no se requiere configuración.**
+- **El anfitrión y los clientes deben instalar la misma versión del mod.**
+'''
+note_i18n.ru = '''
+Исправляет сбой, при котором с установленным DIYLevel и множеством пользовательских карт игра у хоста могла зависнуть, а клиенты — потерять соединение после сохранения или перезапуска с экрана результатов.
+Мод восстанавливает перезаписанные поля заголовка длинных сообщений, разбитых на части, и собирает сообщения с учётом допустимых размеров пакетов. Благодаря этому проверка порядковых номеров не прерывает соединение.
+- **Автоматически применяется после установки, конфигурация не требуется.**
+- **Хосты и клиенты должны использовать одну и ту же версию.**
+'''
+note_i18n.pl = '''
+Naprawia błąd, przez który po zainstalowaniu DIYLevel i wielu map społeczności zapisanie gry lub jej ponowne uruchomienie z ekranu wyników mogło zawiesić grę u gospodarza i rozłączyć klientów.
+Mod odtwarza nadpisane pola nagłówka długich wiadomości dzielonych na części i składa wiadomości z pakietów o poprawnych długościach. Dzięki temu sprawdzanie numerów sekwencji nie powoduje rozłączenia.
+- **Działa od razu po instalacji, bez konfiguracji.**
+- **Gospodarz i klienci muszą zainstalować tę samą wersję moda.**
+'''
+note_i18n.pt-BR = '''
+Corrige um erro que, com o DIYLevel e muitos mapas personalizados instalados, podia travar o jogo do anfitrião e desconectar os demais jogadores ao salvar ou reiniciar pela tela de resultados.
+O mod restaura os campos sobrescritos no cabeçalho das mensagens longas fragmentadas e remonta as mensagens com tamanhos de pacote válidos. Assim, a verificação dos números de sequência não interrompe a conexão.
+- **Aplicado automaticamente após a instalação, sem necessidade de configuração.**
+- **Hosts e clientes devem usar a mesma versão.**
+'''
 note_i18n.ko = """
 DIYLevel 및 다수의 사용자 제작 맵을 설치한 후 결과 화면에서 "원본 재시작" 버튼을 클릭하면 호스트가 멈추고 클라이언트가 연결이 끊어지는 문제를 수정합니다.
 본문 데이터에 의해 덮어쓰여진 게임의 원래 긴 메시지 분할 헤더를 복원하고 유효한 패킷 길이로 재조립하여 안정적인 시퀀스 검사를 통한 연결 끊김을 방지합니다.
@@ -493,11 +843,25 @@ enabled = true
 name_i18n.zh-CN = "跳过启动片头"
 name_i18n.zh-TW = "跳過啟動片頭"
 name_i18n.en = "Skip Startup Intro"
+name_i18n.de = "Startintro überspringen"
+name_i18n.fr = "Passer l’intro de démarrage"
+name_i18n.it = "Salta l’intro all’avvio"
+name_i18n.es-ES = "Saltar la introducción al iniciar"
+name_i18n.ru = "Пропуск вступительного ролика"
+name_i18n.pl = "Pomijanie filmu startowego"
+name_i18n.pt-BR = "Pular introdução ao iniciar"
 name_i18n.ko = "시작 인트로 건너뛰기"
 name_i18n.ja = "起動オープニングのスキップ"
 group_i18n.zh-CN = "实用工具"
 group_i18n.zh-TW = "實用工具"
 group_i18n.en = "Utility Tools"
+group_i18n.de = "Hilfswerkzeuge"
+group_i18n.fr = "Outils pratiques"
+group_i18n.it = "Strumenti utili"
+group_i18n.es-ES = "Herramientas útiles"
+group_i18n.ru = "Вспомогательные инструменты"
+group_i18n.pl = "Przydatne narzędzia"
+group_i18n.pt-BR = "Ferramentas úteis"
 group_i18n.ko = "유틸리티 도구"
 group_i18n.ja = "便利ツール"
 provider = "gitee"
@@ -540,6 +904,34 @@ note_i18n.en = """
 Automatically skips the brand intro at game startup and goes straight to the food truck shutter.
 - **Automatically applied after installation, no configuration required.**
 """
+note_i18n.de = '''
+Überspringt beim Spielstart automatisch den Vorspann mit den Logos und wechselt direkt zum Rollladen des Foodtrucks.
+- **Nach der Installation automatisch aktiv; keine Konfiguration nötig.**
+'''
+note_i18n.fr = '''
+Passe automatiquement les logos au démarrage et affiche directement le rideau métallique du food truck.
+- **Application automatique après installation, aucune configuration requise.**
+'''
+note_i18n.it = '''
+Salta automaticamente i loghi iniziali e passa direttamente alla serranda del food truck.
+- **Applicato automaticamente dopo l'installazione, nessuna configurazione richiesta.**
+'''
+note_i18n.es-ES = '''
+Omite automáticamente los logotipos iniciales y pasa directamente a la persiana del camión de comida.
+- **Aplicado automáticamente después de la instalación, no se requiere configuración.**
+'''
+note_i18n.ru = '''
+При запуске игры автоматически пропускает заставки с логотипами и сразу показывает рольставни фудтрака.
+- **Автоматически применяется после установки, конфигурация не требуется.**
+'''
+note_i18n.pl = '''
+Automatycznie pomija plansze z logo przy uruchamianiu gry i od razu przechodzi do ekranu z roletą food trucka.
+- **Działa od razu po instalacji, bez konfiguracji.**
+'''
+note_i18n.pt-BR = '''
+Pula automaticamente os logotipos de abertura e vai direto para a porta de enrolar do food truck.
+- **Aplicado automaticamente após a instalação, sem necessidade de configuração.**
+'''
 note_i18n.ko = """
 게임 시작 시 브랜드 인트로를 자동으로 건너뛰고 음식 트럭 셔터로 바로 이동합니다.
 - **설치 후 자동 적용되며, 별도의 설정이 필요하지 않습니다.**
@@ -557,11 +949,25 @@ enabled = true
 name_i18n.zh-CN = "HUD自定义"
 name_i18n.zh-TW = "HUD自訂"
 name_i18n.en = "HUD Customization"
+name_i18n.de = "HUD-Anpassung"
+name_i18n.fr = "Personnalisation du HUD"
+name_i18n.it = "Personalizzazione dell’HUD"
+name_i18n.es-ES = "Personalización del HUD"
+name_i18n.ru = "Настройка HUD"
+name_i18n.pl = "Dostosowywanie interfejsu HUD"
+name_i18n.pt-BR = "Personalização do HUD"
 name_i18n.ko = "HUD 사용자 설정"
 name_i18n.ja = "HUDカスタマイズ"
 group_i18n.zh-CN = "实用工具"
 group_i18n.zh-TW = "實用工具"
 group_i18n.en = "Utility Tools"
+group_i18n.de = "Hilfswerkzeuge"
+group_i18n.fr = "Outils pratiques"
+group_i18n.it = "Strumenti utili"
+group_i18n.es-ES = "Herramientas útiles"
+group_i18n.ru = "Вспомогательные инструменты"
+group_i18n.pl = "Przydatne narzędzia"
+group_i18n.pt-BR = "Ferramentas úteis"
 group_i18n.ko = "유틸리티 도구"
 group_i18n.ja = "便利ツール"
 provider = "github"
@@ -619,6 +1025,69 @@ Customize the in-game HUD through MOD Settings:
 Only affects the local display; order counts, container capacity, recipes, and timers are unchanged.
 - **Requires MOD Settings 1.1.1 or later; Horde mode is not supported.**
 """
+note_i18n.de = '''
+Passen Sie das HUD im Spiel durch MOD Settings an:
+- Passen Sie Rezept-Karte und Container-Inhalt-Symbolgrößen, Elemente pro Zeile und Rezeptzeilenabstand an.
+- Legen Sie separate Trübungsstufen für Rezepte, leere Schlitze plus Zeichen und hinzugefügte Zutaten fest.
+- Rezeptreihen machen die volle Höhe einschließlich Kochgeschirr aus. Zusätzliches Papier über dem Hauptteller ist versteckt, während eine Timerleiste verbleibt; neue Karten treten entlang der ersten Reihe ein, bewegen sich schnell an ihren Platz, dann enthüllen sie Zutaten und Kochschritte.
+- Die Einstellung von Labels und Beschreibungen folgt der Spielsprache, wobei Englisch als Standard gilt.
+Beeinflusst nur die lokale Anzeige; Bestellzahlen, Containerkapazität, Rezepte und Timer sind unverändert.
+- **Erfordert MOD Settings 1.1.1 oder höher; Horde-Modus wird nicht unterstützt.**
+'''
+note_i18n.fr = '''
+Personnaliser le HUD dans le jeu via MOD Settings:
+- Ajuster la taille des icônes de la carte de recettes et du contenu des contenants, les éléments par rangée et l'espacement des rangées de recettes.
+- Définissez des niveaux d'opacité séparés pour les recettes, les panneaux à vide et les ingrédients ajoutés.
+- Le papier au-dessus du plat principal est caché alors qu'il reste une barre de minuterie; les nouvelles cartes entrent le long de la première rangée, se déplacent rapidement en place, puis révèlent les ingrédients et les étapes de cuisson.
+- La configuration des étiquettes et des descriptions suit la langue du jeu, l'anglais étant la langue par défaut.
+Seulement affecte l'affichage local; le nombre de commandes, la capacité des contenants, les recettes et les minuteries sont inchangés.
+- **Nécessite MOD Settings 1.1.1 ou une version ultérieure; le mode Horde n'est pas pris en charge.**
+'''
+note_i18n.it = '''
+Personalizzare il HUD in-game attraverso MOD Settings:
+- Regolare le dimensioni dell'icona della carta della ricetta e del contenuto del contenitore, gli articoli per riga e la spaziatura della riga della ricetta.
+- Impostare livelli di opacità separati per ricette, vuoto-slot più segni, e ingredienti aggiunti.
+- Le righe di ricetta rappresentano l'altezza completa, comprese le pentole. La carta extra sopra il piatto principale è nascosta mentre rimane una barra di timer; le nuove carte entrano lungo la prima fila, si muovono rapidamente in luogo, poi rivelano ingredienti e gradini di cottura.
+- Impostare le etichette e le descrizioni seguono la lingua di gioco, con l'inglese come predefinito.
+Colpisce solo il display locale; i conteggi degli ordini, la capacità del contenitore, le ricette e i timer sono invariati.
+- **Richiede MOD Settings 1.1.1 o versioni successive; la modalità orda non è supportata.**
+'''
+note_i18n.es-ES = '''
+Personalizar el HUD en el juego a través de MOD Settings:
+- Ajuste la tarjeta de receta y los tamaños de icono con contenido de contenedores, artículos por fila, y el espaciamiento de la fila de recetas.
+- Establecer niveles separados de opacidad para recetas, lote vacío más signos, e ingredientes añadidos.
+- Las hileras de receta representan la altura completa incluyendo utensilios de cocina. El papel extra sobre el plato principal está oculto mientras un bar de tiempo permanece; las nuevas tarjetas entran a lo largo de la primera fila, se mueven rápidamente en su lugar, luego revelan ingredientes y pasos de cocina.
+- Configurar etiquetas y descripciones siguen el idioma del juego, con el inglés como el predeterminado.
+Sólo afecta a la pantalla local; los recuentos de pedidos, la capacidad de contenedores, las recetas y los temporizadores no cambian.
+- **Requiere MOD Settings 1.1.1 o posterior; el modo Horde no es compatible.**
+'''
+note_i18n.ru = '''
+Настройка внутриигрового HUD через MOD Settings:
+- Настройте размеры иконок рецепт-карты и контейнера-контента, элементы на строку и интервал строк рецепта.
+- Установите отдельные уровни непрозрачности для рецептов, пустого слота плюс знаки и добавленные ингредиенты.
+- Рецептные ряды составляют полную высоту, включая посуду.Дополнительная бумага над основным блюдом спрятана, пока остается один таймер-бар; новые карты входят вдоль первого ряда, быстро перемещаются на место, а затем раскрывают ингредиенты и этапы приготовления.
+- Настройка ярлыков и описаний следует за языком игры, причем по умолчанию используется английский язык.
+Влияет только на локальный дисплей; количество заказов, емкость контейнера, рецепты и таймеры неизменны.
+- **Требуется MOD Settings 1.1.1 или более поздний; режим Horde не поддерживается.**
+'''
+note_i18n.pl = '''
+Dostosuj HUD w grze przez MOD Settings:
+- Dostosuj rozmiar ikony recipe- card i container- content, pozycje w wierszu oraz odstępy między wierszami receptur.
+- Ustaw osobno przezroczystość przepisów, znaków plus przy pustych miejscach oraz dodanych składników.
+- Recipe rzędy stanowią pełną wysokość, w tym naczynia kuchenne. Dodatkowy papier powyżej danie główne jest ukryta, podczas gdy jeden pasek zegara pozostaje; nowe karty wprowadzić wzdłuż pierwszego rzędu, szybko przenieść się na miejsce, a następnie ujawnić składniki i kroki gotowania.
+- Ustawienie etykiet i opisów następuje po języku gry, z angielskim jako domyślnym.
+Wpływa tylko na wyświetlacz lokalny; ilość zamówień, pojemność kontenera, receptury i liczniki czasu nie ulegają zmianie.
+- **Wymaga MOD Settings 1.1.1 lub później; tryb Horde nie jest obsługiwany.**
+'''
+note_i18n.pt-BR = '''
+Personalize o HUD no jogo através do MOD Settings:
+- Ajuste o tamanho dos ícones de receita-cartão e conteúdo do recipiente, itens por linha e espaçamento da linha da receita.
+- Defina níveis de opacidade separados para receitas, slot vazio mais sinais e ingredientes adicionados.
+- As linhas de receitas são responsáveis pela altura total, incluindo utensílios de cozinha. O papel extra acima do prato principal é escondido enquanto uma barra de tempo permanece; novas cartas entram ao longo da primeira linha, movem-se rapidamente para o lugar, depois revelam ingredientes e passos de cozinha.
+- A configuração das etiquetas e descrições segue o idioma do jogo, com o inglês como padrão.
+Apenas afeta o display local; contagens de pedidos, capacidade de contêiner, receitas e timers estão inalterados.
+- **Requer MOD Settings 1.1.1 ou posterior; O modo Horda não é suportado.**
+'''
 note_i18n.ko = """
 「MOD 설정」에서 게임 내 HUD 표시를 조정합니다.
 - 레시피 카드와 용기 내용물 아이콘의 크기, 한 줄에 표시할 개수, 레시피 줄 간격을 조절합니다.
@@ -642,4 +1111,177 @@ note_i18n.ja = """
 [[repositories.relations]]
 kind = "requires"
 guid = "com.ch3ngyz.plugin.overcooked2.modsettings"
-version = ">=1.1.1"
+version = ">=1.3.0"
+
+
+#---------------------------------------------------------------
+[[repositories]]
+enabled = true
+name_i18n.zh-CN = "自适应视角"
+name_i18n.zh-TW = "自適應視角"
+name_i18n.en = "Adaptive Camera"
+name_i18n.de = "Adaptive Kamera"
+name_i18n.fr = "Caméra adaptative"
+name_i18n.it = "Telecamera adattiva"
+name_i18n.es-ES = "Cámara adaptativa"
+name_i18n.ru = "Адаптивная камера"
+name_i18n.pl = "Adaptacyjna kamera"
+name_i18n.pt-BR = "Câmera adaptativa"
+name_i18n.ko = "적응형 카메라"
+name_i18n.ja = "自動調整カメラ"
+group_i18n.zh-CN = "实用工具"
+group_i18n.zh-TW = "實用工具"
+group_i18n.en = "Utility Tools"
+group_i18n.de = "Hilfswerkzeuge"
+group_i18n.fr = "Outils pratiques"
+group_i18n.it = "Strumenti utili"
+group_i18n.es-ES = "Herramientas útiles"
+group_i18n.ru = "Вспомогательные инструменты"
+group_i18n.pl = "Przydatne narzędzia"
+group_i18n.pt-BR = "Ferramentas úteis"
+group_i18n.ko = "유틸리티 도구"
+group_i18n.ja = "便利ツール"
+provider = "github"
+username = "CH3NGY2"
+repository = "Overcooked-2-AdaptiveCamera"
+region = ""
+platform = ""
+
+download_mode = "release"
+channel = "all"
+max_release_count = 10
+asset_rules = [
+  { type = "regex", value = '^OC2AdaptiveCamera-v\d+\.\d+\.\d+\.zip$' },
+]
+
+plugin_guid = "com.ch3ngyz.plugin.overcooked2.adaptivecamera"
+local_product_name = "OC2 自适应视角 / OC2 Adaptive Camera"
+local_original_filename = "OC2AdaptiveCamera.dll"
+version_regex = ""
+install_target = "BepInEx/plugins"
+
+note_i18n.zh-CN = """
+### 功能
+镜头优先跟随本机当前操控的厨师，适用于原版和自制关卡。支持调整取景范围、镜头响应、边缘防拉伸及传送门平移曲线。本机两人或以上时使用原版镜头。
+
+### 使用
+默认关闭。在 [MOD 设置](https://github.com/CH3NGYZ/Overcooked-2-ModSettings/releases) 开启「启用视角自定义」，本机单人进入关卡后选择「进入视角编辑模式」。编辑时可继续操作厨师并实时预览。
+
+### 保存
+可保存到本关或存为通用设置。已有单关设置优先，保存通用设置不会覆盖它。
+"""
+note_i18n.zh-TW = """
+### 功能
+鏡頭優先跟隨本機目前操控的廚師，適用於原版和自製關卡。可調整取景範圍、鏡頭反應、邊緣防拉伸及傳送門平移曲線。本機有兩位或更多玩家時使用原版鏡頭。
+
+### 使用
+預設關閉。先在 [MOD 設定](https://github.com/CH3NGYZ/Overcooked-2-ModSettings/releases) 開啟「啟用視角自訂」，本機單人進入關卡後選擇「進入視角編輯模式」。編輯時仍可操控廚師並即時預覽。
+
+### 儲存
+可儲存至本關或存為通用設定。已有單關設定優先，儲存通用設定不會覆蓋它。
+"""
+note_i18n.en = """
+### Features
+Follow the chef you control in official and custom kitchens. Adjust framing, camera response, edge stretch reduction, and portal motion. Two or more local players keep the original camera.
+
+### Getting started
+Off by default. Enable camera customization in [MOD Settings](https://github.com/CH3NGYZ/Overcooked-2-ModSettings/releases), then open the camera editor inside a level with one local player. Keep playing while previewing changes.
+
+### Saving
+Save to the current level or set a shared default. Level-specific settings take precedence and are not overwritten by changes to the default.
+"""
+note_i18n.de = '''
+### Merkmale
+Folgen Sie dem Koch, den Sie in offiziellen und kundenspezifischen Küchen steuern. Passen Sie das Framing, die Kamerareaktion, die Kantendehnungsreduzierung und die Portalbewegung an. Zwei oder mehr lokale Spieler behalten die Originalkamera.
+
+### Beginnen Sie
+Standardmäßig ausgeschaltet. Kameraanpassung in [MOD Settings](https://github.com/CH3NGYZ/Overcooked-2-ModSettings/releases) aktivieren, dann den Kameraeditor in einem Level mit einem lokalen Player öffnen. Spielen Sie weiter, während Sie Änderungen in der Vorschau anzeigen.
+
+### Sparen
+Speichern Sie auf dem aktuellen Level oder legen Sie einen gemeinsamen Standard fest. Levelspezifische Einstellungen haben Vorrang und werden nicht durch Änderungen am Standard überschrieben.
+'''
+note_i18n.fr = '''
+### Caractéristiques
+Suivez le chef que vous contrôlez dans les cuisines officielles et personnalisées. Ajustez le cadre, la réponse de la caméra, la réduction de l'étirement des bords et le mouvement du portail.
+
+### Commencer
+Désactivez par défaut. Activez la personnalisation de la caméra dans [MOD Settings](https://github.com/CH3NGYZ/Overcooked-2-ModSettings/releases), puis ouvrez l'éditeur de caméra à l'intérieur d'un niveau avec un lecteur local. Continuez à jouer en prévisualisant les modifications.
+
+### Sauver
+Enregistrer au niveau actuel ou définir une valeur par défaut partagée. Les paramètres spécifiques au niveau ont priorité et ne sont pas écrasés par des modifications à la valeur par défaut.
+'''
+note_i18n.it = '''
+### Caratteristiche
+Seguire lo chef che si controlla in cucine ufficiali e personalizzati. Regolare la struttura, la risposta della fotocamera, la riduzione del bordo e il movimento del portale. Due o più giocatori locali mantenere la fotocamera originale.
+
+### Iniziare
+Abilitare la personalizzazione della fotocamera in [MOD Settings](https://github.com/CH3NGYZ/Overcooked-2-ModSettings/releases), quindi aprire l'editor della fotocamera all'interno di un livello con un giocatore locale.
+
+### Risparmio
+Salvare al livello corrente o impostare un default condiviso. Le impostazioni specifiche di livello precedono e non vengono sovrascritte da modifiche al default.
+'''
+note_i18n.es-ES = '''
+### Características
+Siga al chef que controla en cocinas oficiales y personalizadas. Ajuste el encuadre, respuesta a la cámara, reducción del borde y movimiento del portal. Dos o más jugadores locales mantienen la cámara original.
+
+### Comienzo
+Activar la personalización de la cámara en [MOD Settings](https://github.com/CH3NGYZ/Overcooked-2-ModSettings/releases), luego abrir el editor de la cámara dentro de un nivel con un jugador local. Seguir jugando mientras previsualiza los cambios.
+
+### Ahorro
+Ahorre al nivel actual o establezca un predeterminado compartido. Los ajustes de nivel específico tienen precedencia y no son sobrescritos por cambios en el predeterminado.
+'''
+note_i18n.ru = '''
+### Особенности
+Следуйте за шеф-поваром, которого вы контролируете на официальных и пользовательских кухнях. Настройте кадрирование, реакцию камеры, уменьшение растяжения края и движение портала. Два или более местных игроков сохраняют оригинальную камеру.
+
+### Начало работы
+Включите настройку камеры в [MOD Settings](https://github.com/CH3NGYZ/Overcooked-2-ModSettings/releases), затем откройте редактор камеры на уровне с одним локальным проигрывателем. Продолжайте играть во время предварительного просмотра изменений.
+
+### экономить
+Сохранить до текущего уровня или установить общий дефолт. Уровни-специфические настройки имеют приоритет и не перезаписываются изменениями по умолчанию.
+'''
+note_i18n.pl = '''
+### Cechy
+Postępuj zgodnie z szefem kuchni, które kontrolujesz w oficjalnych i niestandardowych kuchniach. Dostosuj ramę, reakcję kamery, zmniejszenie rozciągnięcia krawędzi i ruch portalu. Dwóch lub więcej lokalnych graczy zachować oryginalny aparat.
+
+### Rozpoczynanie
+Domyślnie wyłączyć. Włącz dostosowanie kamery w [MOD Settings](https://github.com/CH3NGYZ/Overcooked-2-ModSettings/releases), a następnie otwórz edytor kamery wewnątrz poziomu z jednym lokalnym odtwarzaczem. Graj podczas przeglądania zmian.
+
+### Zapisywanie
+Zapisz do bieżącego poziomu lub ustaw wartość domyślną współdzieloną. Ustawienia specyficzne dla poziomu mają pierwszeństwo i nie są nadpisywane przez zmiany wartości domyślnej.
+'''
+note_i18n.pt-BR = '''
+### Características
+Siga o chef que você controla em cozinhas oficiais e personalizadas. Ajuste o enquadramento, a resposta da câmera, a redução do estiramento de borda e o movimento do portal. Dois ou mais jogadores locais mantêm a câmera original.
+
+### Começar
+Desligado por padrão. Habilite a personalização da câmera no [MOD Settings](https://github.com/CH3NGYZ/Overcooked-2-ModSettings/releases), então abra o editor da câmera dentro de um nível com um jogador local. Continue jogando enquanto visualiza as mudanças.
+
+### Salvando
+Salvar para o nível atual ou definir um padrão compartilhado. As configurações específicas do nível têm precedência e não são sobrescritas por alterações ao padrão.
+'''
+note_i18n.ko = """
+### 기능
+기본 및 커스텀 주방에서 내가 조작하는 셰프를 따라갑니다. 촬영 범위, 카메라 반응, 화면 가장자리 왜곡 감소, 포털 이동을 조정할 수 있습니다. 로컬 플레이어가 두 명 이상이면 기본 카메라를 사용합니다.
+
+### 사용 방법
+기본값은 꺼짐입니다. [MOD 설정](https://github.com/CH3NGYZ/Overcooked-2-ModSettings/releases)에서 카메라 사용자 설정을 켜고, 로컬 플레이어 한 명으로 레벨에 들어가 카메라 편집기를 엽니다. 셰프를 조작하면서 변경 사항을 실시간으로 확인할 수 있습니다.
+
+### 저장
+현재 레벨에 저장하거나 공통 기본값으로 저장할 수 있습니다. 레벨별 설정이 우선하며, 공통 기본값을 저장해도 덮어쓰지 않습니다.
+"""
+note_i18n.ja = """
+### 機能
+公式・自作キッチンで操作中のシェフを追います。撮影範囲、カメラの反応、画面端の歪みの軽減、ポータル移動を調整できます。ローカルプレイヤーが2人以上の場合は元のカメラを使います。
+
+### 使い方
+初期状態ではオフです。[MOD 設定](https://github.com/CH3NGYZ/Overcooked-2-ModSettings/releases)でカメラのカスタマイズを有効にし、ローカル1人でステージに入ってカメラ編集を開きます。シェフを操作しながら変更を確認できます。
+
+### 保存
+現在のステージ用、または共通設定として保存できます。ステージ別の設定が優先され、共通設定を保存しても上書きされません。
+"""
+
+[[repositories.relations]]
+kind = "requires"
+guid = "com.ch3ngyz.plugin.overcooked2.modsettings"
+version = ">=1.3.0"

@@ -7,11 +7,25 @@ enabled = true
 name_i18n.zh-CN = "主机实用 MOD（街机 MOD）稳定版"
 name_i18n.zh-TW = "主機實用 MOD（街機 MOD）穩定版"
 name_i18n.en = "HostUtilities (Arcade MOD) Stable"
+name_i18n.de = "HostUtilities (Arcade-MOD) – stabil"
+name_i18n.fr = "HostUtilities (MOD arcade) – stable"
+name_i18n.it = "HostUtilities (MOD arcade) – stabile"
+name_i18n.es-ES = "HostUtilities (MOD arcade) – estable"
+name_i18n.ru = "HostUtilities (аркадный мод) — стабильная версия"
+name_i18n.pl = "HostUtilities (mod zręcznościowy) – wersja stabilna"
+name_i18n.pt-BR = "HostUtilities (mod arcade) – versão estável"
 name_i18n.ko = "HostUtilities (아케이드 MOD) 안정 버전"
 name_i18n.ja = "HostUtilities（アーケード MOD）安定版"
 group_i18n.zh-CN = "街机MOD - 国内推荐"
 group_i18n.zh-TW = "街機MOD - 中國大陸推薦"
 group_i18n.en = "Arcade MOD - Mainland China Recommended"
+group_i18n.de = "Arcade-MOD – empfohlen für Festlandchina"
+group_i18n.fr = "MOD arcade – recommandé en Chine continentale"
+group_i18n.it = "MOD arcade – consigliato nella Cina continentale"
+group_i18n.es-ES = "MOD arcade – recomendado en China continental"
+group_i18n.ru = "Аркадный мод — рекомендован для материкового Китая"
+group_i18n.pl = "Mod zręcznościowy – zalecany w Chinach kontynentalnych"
+group_i18n.pt-BR = "Mod arcade – recomendado para a China continental"
 group_i18n.ko = "아케이드 MOD - 중국 본토 권장"
 group_i18n.ja = "アーケード MOD - 中国本土おすすめ"
 provider = "gitee"
@@ -54,6 +68,34 @@ note_i18n.en = """
 Provides player management as the host, voice chat, text chat, blacklist management, latency display, level skipping, restarting, and other features that enhance the Overcooked! 2 gaming experience.
 If the download is slow or fails, the GitHub channel can also be used.
 """
+note_i18n.de = '''
+Bietet Spielerverwaltung als Host, Voice-Chat, Text-Chat, Blacklist-Verwaltung, Latenzanzeige, Level-Skipping, Neustart und andere Funktionen, die das Overcooked! 2-Spielerlebnis verbessern.
+Wenn der Download langsam ist oder fehlschlägt, kann auch der GitHub-Kanal verwendet werden.
+'''
+note_i18n.fr = '''
+Fournit la gestion des joueurs en tant qu'hôte, chat vocal, chat texte, gestion de la liste noire, affichage de latence, saut de niveau, redémarrage, et d'autres fonctionnalités qui améliorent l'expérience de jeu Overcooked! 2.
+Si le téléchargement est lent ou échoue, le canal GitHub peut également être utilisé.
+'''
+note_i18n.it = '''
+Fornisce la gestione del giocatore come l'host, chat vocale, chat di testo, gestione della lista nera, display di latenza, salto di livello, riavvio e altre funzionalità che migliorano l'esperienza di gioco Overcooked! 2.
+Se il download è lento o non riesce, il canale GitHub può essere utilizzato anche.
+'''
+note_i18n.es-ES = '''
+Proporciona la gestión del reproductor como host, chat de voz, chat de texto, gestión de listas negras, pantalla de latencia, esquí de nivel, reiniciar, y otras características que realzan la experiencia de juego de Overcooked! 2.
+Si la descarga es lenta o falla, también se puede utilizar el canal GitHub.
+'''
+note_i18n.ru = '''
+Обеспечивает управление игроком в качестве хоста, голосовой чат, текстовый чат, управление черным списком, отображение задержки, пропуск уровня, перезапуск и другие функции, которые улучшают игровой опыт Overcooked! 2.
+Если загрузка происходит медленно или не удается, также можно использовать канал GitHub.
+'''
+note_i18n.pl = '''
+Zapewnia zarządzanie graczem jako host, czat głosowy, czat tekstowy, zarządzanie czarną listą, wyświetlacz latency, skipping poziomu, restarting, i inne funkcje, które zwiększają Overcooked! 2 doświadczenie w grach.
+Jeśli pobieranie jest powolne lub nie, można również użyć kanału GitHub.
+'''
+note_i18n.pt-BR = '''
+Fornece gerenciamento de jogador como host, chat de voz, chat de texto, gerenciamento de lista negra, exibição de latência, salto de nível, reinicialização e outros recursos que melhoram a experiência de jogo Overcooked! 2.
+Se o download for lento ou falhar, o canal GitHub também pode ser usado.
+'''
 note_i18n.ko = """
 호스트 권한을 통한 멤버 관리, 음성 채팅, 문자 채팅, 블랙리스트 관리, 지연 시간 확인, 스테이지 건너뛰기, 재시작 등 《Overcooked! 2》의 게임 경험을 향상시키는 다양한 보조 기능을 제공합니다.
 다운로드 속도가 느리거나 실패하면 GitHub 채널을 이용할 수도 있습니다.
@@ -67,7 +109,7 @@ note_i18n.ja = """
 [[repositories.relations]]
 kind = "requires"
 guid = "com.ch3ngyz.plugin.overcooked2.modsettings"
-version = ">=1.1.1"
+version = ">=1.3.0"
 
 # 与测试版互斥
 [[repositories.relations]]
@@ -82,11 +124,25 @@ enabled = true
 name_i18n.zh-CN = "主机实用 MOD（街机 MOD）测试版"
 name_i18n.zh-TW = "主機實用 MOD（街機 MOD）測試版"
 name_i18n.en = "HostUtilities (Arcade MOD) Beta"
+name_i18n.de = "HostUtilities (Arcade-MOD) – Beta"
+name_i18n.fr = "HostUtilities (MOD arcade) – bêta"
+name_i18n.it = "HostUtilities (MOD arcade) – beta"
+name_i18n.es-ES = "HostUtilities (MOD arcade) – beta"
+name_i18n.ru = "HostUtilities (аркадный мод) — бета-версия"
+name_i18n.pl = "HostUtilities (mod zręcznościowy) – wersja beta"
+name_i18n.pt-BR = "HostUtilities (mod arcade) – versão beta"
 name_i18n.ko = "HostUtilities (아케이드 MOD) 테스트 버전"
 name_i18n.ja = "HostUtilities（アーケード MOD）テスト版"
 group_i18n.zh-CN = "街机MOD - 国内推荐"
 group_i18n.zh-TW = "街機MOD - 中國大陸推薦"
 group_i18n.en = "Arcade MOD - Mainland China Recommended"
+group_i18n.de = "Arcade-MOD – empfohlen für Festlandchina"
+group_i18n.fr = "MOD arcade – recommandé en Chine continentale"
+group_i18n.it = "MOD arcade – consigliato nella Cina continentale"
+group_i18n.es-ES = "MOD arcade – recomendado en China continental"
+group_i18n.ru = "Аркадный мод — рекомендован для материкового Китая"
+group_i18n.pl = "Mod zręcznościowy – zalecany w Chinach kontynentalnych"
+group_i18n.pt-BR = "Mod arcade – recomendado para a China continental"
 group_i18n.ko = "아케이드 MOD - 중국 본토 권장"
 group_i18n.ja = "アーケード MOD - 中国本土おすすめ"
 provider = "gitee"
@@ -129,6 +185,34 @@ note_i18n.en = """
 Includes most of the features from the stable version of HostUtilities. Compared with the stable version, it only includes the changes mentioned in the changelog.
 This version is for testing purposes only and is not recommended for long-term use. If you encounter any issues, please reinstall the stable version.
 """
+note_i18n.de = '''
+Enthält die meisten Funktionen der stabilen Version von HostUtilities. Im Vergleich zur stabilen Version enthält es nur die im Changelog genannten Änderungen.
+Diese Version dient nur zum Testen und wird nicht für den Langzeitgebrauch empfohlen.
+'''
+note_i18n.fr = '''
+Comprend la plupart des fonctionnalités de la version stable de HostUtilities. Comparé à la version stable, il ne comprend que les modifications mentionnées dans le journal de changement.
+Cette version est à des fins de test seulement et n'est pas recommandée pour une utilisation à long terme. Si vous rencontrez des problèmes, veuillez réinstaller la version stable.
+'''
+note_i18n.it = '''
+Include la maggior parte delle caratteristiche dalla versione stabile di HostUtilities. Rispetto alla versione stabile, include solo le modifiche menzionate nel changelog.
+Questa versione è solo per scopi di test e non è raccomandato per l'uso a lungo termine. Se si verificano problemi, si prega di reinstallare la versione stabile.
+'''
+note_i18n.es-ES = '''
+Incluye la mayoría de las características de la versión estable de HostUtilities. Comparada con la versión estable, sólo incluye los cambios mencionados en el changelog.
+Esta versión es sólo para fines de prueba y no se recomienda para uso a largo plazo. Si encuentras problemas, por favor reinstale la versión estable.
+'''
+note_i18n.ru = '''
+Включает в себя большинство функций из стабильной версии HostUtilities. По сравнению со стабильной версией, она включает только изменения, упомянутые в changelog.
+Эта версия предназначена только для тестирования и не рекомендуется для долгосрочного использования.Если вы столкнулись с какими-либо проблемами, пожалуйста, переустановите стабильную версию.
+'''
+note_i18n.pl = '''
+Zawiera większość funkcji ze stabilnej wersji HostUtilities. W porównaniu ze stabilną wersją, zawiera tylko zmiany wymienione w changelog.
+Ta wersja jest przeznaczona wyłącznie do testowania i nie jest zalecana do długotrwałego użytku. Jeśli napotkasz jakiekolwiek problemy, zainstaluj ponownie stabilną wersję.
+'''
+note_i18n.pt-BR = '''
+Inclui a maioria dos recursos da versão estável do HostUtilities. Em comparação com a versão estável, ele só inclui as alterações mencionadas no changelog.
+Esta versão é apenas para fins de teste e não é recomendada para uso a longo prazo. Se você encontrar quaisquer problemas, por favor reinstale a versão estável.
+'''
 note_i18n.ko = """
 《HostUtilities》 안정 버전의 대부분의 기능을 포함합니다. 안정 버전과 비교하면 업데이트 로그에 언급된 일부 변경 사항만 적용되어 있습니다.
 이 버전은 테스트용으로만 제공되며 장기간 사용하는 것을 권장하지 않습니다. 문제가 발생하면 안정 버전을 다시 설치해 주세요.
@@ -142,7 +226,7 @@ note_i18n.ja = """
 [[repositories.relations]]
 kind = "requires"
 guid = "com.ch3ngyz.plugin.overcooked2.modsettings"
-version = ">=1.1.1"
+version = ">=1.3.0"
 
 # 与正式版互斥
 [[repositories.relations]]
@@ -157,11 +241,25 @@ enabled = true
 name_i18n.zh-CN = "主机实用 MOD（街机 MOD）稳定版"
 name_i18n.zh-TW = "主機實用 MOD（街機 MOD）穩定版"
 name_i18n.en = "HostUtilities (Arcade MOD) Stable"
+name_i18n.de = "HostUtilities (Arcade-MOD) – stabil"
+name_i18n.fr = "HostUtilities (MOD arcade) – stable"
+name_i18n.it = "HostUtilities (MOD arcade) – stabile"
+name_i18n.es-ES = "HostUtilities (MOD arcade) – estable"
+name_i18n.ru = "HostUtilities (аркадный мод) — стабильная версия"
+name_i18n.pl = "HostUtilities (mod zręcznościowy) – wersja stabilna"
+name_i18n.pt-BR = "HostUtilities (mod arcade) – versão estável"
 name_i18n.ko = "HostUtilities (아케이드 MOD) 안정 버전"
 name_i18n.ja = "HostUtilities（アーケード MOD）安定版"
 group_i18n.zh-CN = "街机MOD - 国外推荐"
 group_i18n.zh-TW = "街機MOD - 海外推薦"
 group_i18n.en = "Arcade MOD - International Recommended"
+group_i18n.de = "Arcade-MOD – international empfohlen"
+group_i18n.fr = "MOD arcade – recommandé hors de Chine continentale"
+group_i18n.it = "MOD arcade – consigliato fuori dalla Cina continentale"
+group_i18n.es-ES = "MOD arcade – recomendado fuera de China continental"
+group_i18n.ru = "Аркадный мод — рекомендован за пределами материкового Китая"
+group_i18n.pl = "Mod zręcznościowy – zalecany poza Chinami kontynentalnymi"
+group_i18n.pt-BR = "Mod arcade – recomendado fora da China continental"
 group_i18n.ko = "아케이드 MOD - 해외 권장"
 group_i18n.ja = "アーケード MOD - 海外おすすめ"
 provider = "github"
@@ -204,6 +302,34 @@ note_i18n.en = """
 Provides player management as the host, voice chat, text chat, blacklist management, latency display, level skipping, restarting, and other features that enhance the Overcooked! 2 gaming experience.
 Chinese-speaking players can also use this channel. If the Gitee channel fails to download, the GitHub channel can be used instead.
 """
+note_i18n.de = '''
+Bietet Spielerverwaltung als Host, Voice-Chat, Text-Chat, Blacklist-Verwaltung, Latenzanzeige, Level-Skipping, Neustart und andere Funktionen, die das Overcooked! 2-Spielerlebnis verbessern.
+Auch chinesischsprachige Player können diesen Kanal nutzen. Wenn der Gitee-Kanal nicht heruntergeladen wird, kann stattdessen der GitHub-Kanal verwendet werden.
+'''
+note_i18n.fr = '''
+Fournit la gestion des joueurs en tant qu'hôte, chat vocal, chat texte, gestion de la liste noire, affichage de latence, saut de niveau, redémarrage, et d'autres fonctionnalités qui améliorent l'expérience de jeu Overcooked! 2.
+Si le canal Gitee ne peut pas être téléchargé, le canal GitHub peut être utilisé à la place.
+'''
+note_i18n.it = '''
+Fornisce la gestione del giocatore come l'host, chat vocale, chat di testo, gestione della lista nera, display di latenza, salto di livello, riavvio e altre funzionalità che migliorano l'esperienza di gioco Overcooked! 2.
+Se il canale Gitee non riesce a scaricare, il canale GitHub può essere utilizzato invece.
+'''
+note_i18n.es-ES = '''
+Proporciona la gestión del reproductor como host, chat de voz, chat de texto, gestión de listas negras, pantalla de latencia, esquí de nivel, reiniciar, y otras características que realzan la experiencia de juego de Overcooked! 2.
+Los jugadores de habla china también pueden utilizar este canal. Si el canal Gitee no se descarga, el canal GitHub se puede utilizar en su lugar.
+'''
+note_i18n.ru = '''
+Обеспечивает управление игроком в качестве хоста, голосовой чат, текстовый чат, управление черным списком, отображение задержки, пропуск уровня, перезапуск и другие функции, которые улучшают игровой опыт Overcooked! 2.
+Если канал Gitee не загружается, вместо него можно использовать канал GitHub.
+'''
+note_i18n.pl = '''
+Zapewnia zarządzanie graczem jako host, czat głosowy, czat tekstowy, zarządzanie czarną listą, wyświetlacz latency, skipping poziomu, restarting, i inne funkcje, które zwiększają Overcooked! 2 doświadczenie w grach.
+Jeśli kanał Gitee nie zostanie pobrany, można użyć kanału GitHub.
+'''
+note_i18n.pt-BR = '''
+Fornece gerenciamento de jogador como host, chat de voz, chat de texto, gerenciamento de lista negra, exibição de latência, salto de nível, reinicialização e outros recursos que melhoram a experiência de jogo Overcooked! 2.
+Os jogadores de língua chinesa também podem usar este canal. Se o canal Gitee não conseguir transferir, o canal GitHub poderá ser usado.
+'''
 note_i18n.ko = """
 호스트 권한을 통한 멤버 관리, 음성 채팅, 문자 채팅, 블랙리스트 관리, 지연 시간 확인, 스테이지 건너뛰기, 재시작 등 《Overcooked! 2》의 게임 경험을 향상시키는 다양한 보조 기능을 제공합니다.
 중국어 사용 플레이어도 이 채널을 이용할 수 있습니다. Gitee 채널에서 다운로드에 실패하면 GitHub 채널을 이용해 보세요.
@@ -217,7 +343,7 @@ note_i18n.ja = """
 [[repositories.relations]]
 kind = "requires"
 guid = "com.ch3ngyz.plugin.overcooked2.modsettings"
-version = ">=1.1.1"
+version = ">=1.3.0"
 
 # 与测试版互斥
 [[repositories.relations]]
@@ -232,11 +358,25 @@ enabled = true
 name_i18n.zh-CN = "主机实用 MOD（街机 MOD）测试版"
 name_i18n.zh-TW = "主機實用 MOD（街機 MOD）測試版"
 name_i18n.en = "HostUtilities (Arcade MOD) Beta"
+name_i18n.de = "HostUtilities (Arcade-MOD) – Beta"
+name_i18n.fr = "HostUtilities (MOD arcade) – bêta"
+name_i18n.it = "HostUtilities (MOD arcade) – beta"
+name_i18n.es-ES = "HostUtilities (MOD arcade) – beta"
+name_i18n.ru = "HostUtilities (аркадный мод) — бета-версия"
+name_i18n.pl = "HostUtilities (mod zręcznościowy) – wersja beta"
+name_i18n.pt-BR = "HostUtilities (mod arcade) – versão beta"
 name_i18n.ko = "HostUtilities (아케이드 MOD) 테스트 버전"
 name_i18n.ja = "HostUtilities（アーケード MOD）テスト版"
 group_i18n.zh-CN = "街机MOD - 国外推荐"
 group_i18n.zh-TW = "街機MOD - 海外推薦"
 group_i18n.en = "Arcade MOD - International Recommended"
+group_i18n.de = "Arcade-MOD – international empfohlen"
+group_i18n.fr = "MOD arcade – recommandé hors de Chine continentale"
+group_i18n.it = "MOD arcade – consigliato fuori dalla Cina continentale"
+group_i18n.es-ES = "MOD arcade – recomendado fuera de China continental"
+group_i18n.ru = "Аркадный мод — рекомендован за пределами материкового Китая"
+group_i18n.pl = "Mod zręcznościowy – zalecany poza Chinami kontynentalnymi"
+group_i18n.pt-BR = "Mod arcade – recomendado fora da China continental"
 group_i18n.ko = "아케이드 MOD - 해외 권장"
 group_i18n.ja = "アーケード MOD - 海外おすすめ"
 provider = "github"
@@ -282,6 +422,41 @@ Includes most of the features from the stable version of HostUtilities. Compared
 This version is for testing purposes only and is not recommended for long-term use. If you encounter any issues, please reinstall the stable version.
 Chinese-speaking players can also use this channel. If the Gitee channel fails to download, the GitHub channel can be used instead.
 """
+note_i18n.de = '''
+Enthält die meisten Funktionen der stabilen Version von HostUtilities. Im Vergleich zur stabilen Version enthält es nur die im Changelog genannten Änderungen.
+Diese Version dient nur zum Testen und wird nicht für den Langzeitgebrauch empfohlen.
+Auch chinesischsprachige Player können diesen Kanal nutzen. Wenn der Gitee-Kanal nicht heruntergeladen wird, kann stattdessen der GitHub-Kanal verwendet werden.
+'''
+note_i18n.fr = '''
+Comprend la plupart des fonctionnalités de la version stable de HostUtilities. Comparé à la version stable, il ne comprend que les modifications mentionnées dans le journal de changement.
+Cette version est à des fins de test seulement et n'est pas recommandée pour une utilisation à long terme. Si vous rencontrez des problèmes, veuillez réinstaller la version stable.
+Si le canal Gitee ne peut pas être téléchargé, le canal GitHub peut être utilisé à la place.
+'''
+note_i18n.it = '''
+Include la maggior parte delle caratteristiche dalla versione stabile di HostUtilities. Rispetto alla versione stabile, include solo le modifiche menzionate nel changelog.
+Questa versione è solo per scopi di test e non è raccomandato per l'uso a lungo termine. Se si verificano problemi, si prega di reinstallare la versione stabile.
+Se il canale Gitee non riesce a scaricare, il canale GitHub può essere utilizzato invece.
+'''
+note_i18n.es-ES = '''
+Incluye la mayoría de las características de la versión estable de HostUtilities. Comparada con la versión estable, sólo incluye los cambios mencionados en el changelog.
+Esta versión es sólo para fines de prueba y no se recomienda para uso a largo plazo. Si encuentras problemas, por favor reinstale la versión estable.
+Los jugadores de habla china también pueden utilizar este canal. Si el canal Gitee no se descarga, el canal GitHub se puede utilizar en su lugar.
+'''
+note_i18n.ru = '''
+Включает в себя большинство функций из стабильной версии HostUtilities. По сравнению со стабильной версией, она включает только изменения, упомянутые в changelog.
+Эта версия предназначена только для тестирования и не рекомендуется для долгосрочного использования.Если вы столкнулись с какими-либо проблемами, пожалуйста, переустановите стабильную версию.
+Если канал Gitee не загружается, вместо него можно использовать канал GitHub.
+'''
+note_i18n.pl = '''
+Zawiera większość funkcji ze stabilnej wersji HostUtilities. W porównaniu ze stabilną wersją, zawiera tylko zmiany wymienione w changelog.
+Ta wersja jest przeznaczona wyłącznie do testowania i nie jest zalecana do długotrwałego użytku. Jeśli napotkasz jakiekolwiek problemy, zainstaluj ponownie stabilną wersję.
+Jeśli kanał Gitee nie zostanie pobrany, można użyć kanału GitHub.
+'''
+note_i18n.pt-BR = '''
+Inclui a maioria dos recursos da versão estável do HostUtilities. Em comparação com a versão estável, ele só inclui as alterações mencionadas no changelog.
+Esta versão é apenas para fins de teste e não é recomendada para uso a longo prazo. Se você encontrar quaisquer problemas, por favor reinstale a versão estável.
+Os jogadores de língua chinesa também podem usar este canal. Se o canal Gitee não conseguir transferir, o canal GitHub poderá ser usado.
+'''
 note_i18n.ko = """
 《HostUtilities》 안정 버전의 대부분의 기능을 포함합니다. 안정 버전과 비교하면 업데이트 로그에 언급된 일부 변경 사항만 적용되어 있습니다.
 이 버전은 테스트용으로만 제공되며 장기간 사용하는 것을 권장하지 않습니다. 문제가 발생하면 안정 버전을 다시 설치해 주세요.
@@ -297,7 +472,7 @@ note_i18n.ja = """
 [[repositories.relations]]
 kind = "requires"
 guid = "com.ch3ngyz.plugin.overcooked2.modsettings"
-version = ">=1.1.1"
+version = ">=1.3.0"
 
 # 与正式版互斥
 [[repositories.relations]]

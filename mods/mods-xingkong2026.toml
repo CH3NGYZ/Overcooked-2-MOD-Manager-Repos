@@ -6,11 +6,25 @@ enabled = true
 name_i18n.zh-CN = "厨神秘典"
 name_i18n.zh-TW = "廚神秘典"
 name_i18n.en = "Cookbook Codex"
+name_i18n.de = "Kochbuch-Kodex"
+name_i18n.fr = "Codex des recettes"
+name_i18n.it = "Codice delle ricette"
+name_i18n.es-ES = "Códice de recetas"
+name_i18n.ru = "Кодекс рецептов"
+name_i18n.pl = "Kodeks przepisów"
+name_i18n.pt-BR = "Códice de receitas"
 name_i18n.ko = "쿡북 코덱스"
 name_i18n.ja = "クックブック・コーデックス"
 group_i18n.zh-CN = "实用工具"
 group_i18n.zh-TW = "實用工具"
 group_i18n.en = "Utility Tools"
+group_i18n.de = "Hilfswerkzeuge"
+group_i18n.fr = "Outils pratiques"
+group_i18n.it = "Strumenti utili"
+group_i18n.es-ES = "Herramientas útiles"
+group_i18n.ru = "Вспомогательные инструменты"
+group_i18n.pl = "Przydatne narzędzia"
+group_i18n.pt-BR = "Ferramentas úteis"
 group_i18n.ko = "유틸리티 도구"
 group_i18n.ja = "便利ツール"
 provider = "gitee"
@@ -137,6 +151,230 @@ When a new version is available, follow the in-game prompt to update without rei
 
 Use the mod for fun and practice. Please do not use it to farm scores or disrupt other players.
 """
+note_i18n.de = '''
+# Cookbook Codex · Lite-Ausgabe
+
+Ein Rezeptleitfaden und Level-Helfer für Overcooked! 2, mit Plattenfixes für große Karten, On-Screen-Rezepte und Einstellungen pro Level.
+
+## Schnellstart
+
+Nach der Installation starten Sie das Spiel und drücken Sie **F6** Um das Panel zu öffnen, können Sie den Hotkey ändern. [RedNote-Anleitung](https://www.xiaohongshu.com/explore/6afe4a3e000000001802dfa9).
+
+## Merkmale
+
+- **Plate behebt für große Karten: ** Adressen Platten, die falsch angezeigt werden, verschwinden, wenn sie fallen gelassen werden oder als leere weiße Kacheln erscheinen.
+- **Recipe Lookup und Overlays: ** Suchen Sie nach gängigen Rezepten, lesen Sie Gerichtsnamen aus benutzerdefinierten Levels und ordnen Sie die Rezepte des aktuellen Levels auf dem Bildschirm an.
+- **Star Feiern und Medaillen:** Wählen Sie ein Feuerwerksziel von 1 bis 5 Sternen. Das 5-Sterne-Ziel liegt 500 Punkte über 4 Sternen; das Erreichen von 5 bis 7 Sternen zeigt eine Medaille auf dem Ergebnisbildschirm an.
+- **Camera und HUD-Steuerelemente:** Speichern Sie vier positionsspezifische Ansichten und eine globale Ansicht. Passen Sie die Höhe der Kochbar an und verschieben Sie die Anzeigetafel, den Countdown, die Bestellkarten und die Symbole über Töpfe.
+- **Per-Level-Einstellungen:** Jede Ebene erinnert sich an ihre eigenen Einstellungen.
+
+Optionale Assists wie schnelleres Solohacken, Wurfhilfe, schnelle Artikelrückgabe und der Superlöscher sind standardmäßig ausgeschaltet. Das Spiel erinnert sich an alle Umschalter, die Sie aktivieren.
+
+## Konfiguration
+
+- Beim ersten Durchlauf erstellt der Mod `厨神秘典配置.txt` in seinem Plugin-Ordner. Verwenden Sie die Standardeinstellungen oder bearbeiten Sie die Datei in einem Texteditor.
+- Bei vorgefertigten Menülayouts, die mehr als 100 Ebenen abdecken, fragen Sie den Autor in der Codex-Gruppe nach einer Konfigurationsdatei und ersetzen Sie die Datei mit demselben Namen.
+
+## Online Updates
+
+Wenn eine neue Version verfügbar ist, folgen Sie der In-Game-Eingabeaufforderung zum Update ohne Neuinstallation.
+
+> ** Verschieben oder benennen Sie den Plugin-Ordner nicht um.** Der Updater muss ihn an seinem ursprünglichen Speicherort finden.
+
+Verwenden Sie den Mod zum Spaß und zum Üben. Bitte verwenden Sie ihn nicht, um Partituren zu bewirtschaften oder andere Spieler zu stören.
+'''
+note_i18n.fr = '''
+# Codex du livre de cuisine · Édition Lite
+
+Un guide de recettes et un assistant de niveau pour Overcooked! 2, avec des correctifs d'assiette pour les grandes cartes, les recettes à l'écran et les paramètres par niveau.
+
+## Démarrer rapidement
+
+Après l'installation, lancez le jeu et appuyez **F6** pour ouvrir le panneau. Vous pouvez changer la touche chaude. [guide sur RedNote](https://www.xiaohongshu.com/explore/6afe4a3e000000001802dfa9).
+
+## Caractéristiques
+
+- **Plate correctifs pour les grandes cartes:** Adresse les plaques qui s'affichent incorrectement, disparaissent lorsqu'elles tombent ou apparaissent comme des carreaux blancs.
+- **Recette recherche et superpositions:** Rechercher des recettes communes, lire des noms de plat à partir de niveaux personnalisés, et organiser les recettes du niveau actuel à l'écran.
+- **Célébrations et médailles d'étoiles:** Choisissez une cible de feu d'artifice de 1 à 5 étoiles. La cible 5 étoiles est 500 points au-dessus de 4 étoiles; atteindre 5 à 7 étoiles affiche une médaille sur l'écran de résultats.
+- Contrôles **Camera et HUD:** Sauvegardez quatre vues spécifiques à la position et une vue globale. Ajustez la hauteur de la barre de cuisson et redimensionnez ou déplacez le tableau de bord, le compte à rebours, les cartes de commande et les icônes au-dessus des pots.
+- **Par niveau :** Chaque niveau se souvient de ses propres paramètres.
+
+Des aides optionnelles telles que l'écaillage solo plus rapide, l'aide au lancer, le retour rapide des articles et le super extincteur sont désactivés par défaut. Le jeu se souvient de tous les toggles que vous activez.
+
+## Configuration
+
+- Lors de la première exécution, le mod crée `厨神秘典配置.txt` dans son dossier plugin. Utilisez les valeurs par défaut ou modifiez le fichier dans un éditeur de texte.
+- Pour les mises en page de menus prêts à l'emploi couvrant plus de 100 niveaux, demandez à l'auteur du groupe Codex un fichier de configuration et remplacez le fichier par le même nom.
+
+## Mises à jour en ligne
+
+Lorsqu'une nouvelle version est disponible, suivez l'invite dans le jeu à mettre à jour sans réinstaller.
+
+> **Ne pas déplacer ou renommer le dossier du plugin.** L'actuateur doit le trouver dans son emplacement d'origine.
+
+Utilisez le mod pour s'amuser et pratiquer. S'il vous plaît ne pas l'utiliser pour la ferme scores ou perturber d'autres joueurs.
+'''
+note_i18n.it = '''
+# Cookbook Codex · edizione Lite
+
+Una guida di ricette e aiutante di livello per Overcooked! 2, con piastre di fissaggio per grandi mappe, ricette sullo schermo e impostazioni per livello.
+
+## Avvio rapido
+
+Dopo l'installazione, lanciare il gioco e premere **F6** per aprire il pannello. È possibile cambiare il tasto di scelta rapida. Per un passaggio, vedere il [guida su RedNote](https://www.xiaohongshu.com/explore/6afe4a3e000000001802dfa9).
+
+## Caratteristiche
+
+- **Plate corregge per grandi mappe:** Indirizza le piastre che visualizzano in modo errato, scomparendo quando è caduto, o appare come piastrelle bianche vuote.
+- **Ricerca e sovrapposizioni:** Cerca ricette comuni, legga i nomi dei piatti da livelli personalizzati, e organizzi le ricette del livello corrente sullo schermo.
+- **Star festeggiamenti e medaglie:** Scegli un bersaglio di fuochi d'artificio da 1 a 5 stelle. L'obiettivo a 5 stelle è di 500 punti sopra 4 stelle; raggiungere 5 a 7 stelle visualizza una medaglia sulla schermata dei risultati.
+- Controlli **Camera e HUD: ** Risparmi quattro viste specifiche di posizione e una vista globale. Regolare l'altezza della barra di cottura e ridimensionare o spostare il tabellone, conto alla rovescia, carte d'ordine e icone sopra pentole.
+- Impostazioni **Per-level:** Ogni livello ricorda le proprie impostazioni.
+
+Assist opzionali come battitura da solo più veloce, assistenza di lancio, ritorno rapido dell'elemento, e il super estintore sono spenti di default.
+
+## Configurazione
+
+- In prima esecuzione, il mod crea `厨神秘典配置.txt` nella sua cartella plugin. Utilizzare i default o modificare il file in un editor di testo.
+- Per layout di menu pronti che coprono più di 100 livelli, chiedere all'autore nel gruppo Codex di un file di configurazione e sostituire il file con lo stesso nome.
+
+## Aggiornamenti online
+
+Quando è disponibile una nuova versione, seguire il prompt in-game per aggiornare senza reinstallare.
+
+> **Non spostare o rinominare la cartella plugin.** L'aggiornamento deve trovarla nella sua posizione originale.
+
+Utilizzare il mod per il divertimento e la pratica. Si prega di non usarlo per i punteggi fattoria o interrompere altri giocatori.
+'''
+note_i18n.es-ES = '''
+# Cookbook Codex · edición ligera
+
+Una guía de recetas y ayudante de nivel para Overcooked! 2, con fijación de placas para mapas grandes, recetas en pantalla y ajustes por nivel.
+
+## Inicio rápido
+
+Después de instalar, lanzar el juego y la prensa **F6** Para abrir el panel, puedes cambiar el hotkey. [guía en RedNote](https://www.xiaohongshu.com/explore/6afe4a3e000000001802dfa9).
+
+## Características
+
+- **Plate se fija para mapas grandes:** Direcciones placas que muestran incorrectamente, desapareciendo cuando se cae, o aparecen como azulejos blancos en blanco.
+- **Recipe lookup and overlays:** Buscar recetas comunes, leer los nombres de los platos de los niveles personalizados, y organizar las recetas del nivel actual en la pantalla.
+- **Star celebraciones y medallas:** Elige un objetivo de fuegos artificiales de 1 a 5 estrellas. El objetivo de 5 estrellas es 500 puntos por encima de 4 estrellas; alcanzar 5 a 7 estrellas muestra una medalla en la pantalla de resultados.
+- Controles **Camera y HUD:** Guardar cuatro vistas específicas de posición y una vista global. Ajuste la altura de la barra de cocina y redimensione o mueva el marcador, cuenta atrás, tarjetas de pedido e iconos por encima de las ollas.
+- Ajustes **Per-level:** Cada nivel recuerda sus propios ajustes.
+
+Asistencias opcionales tales como cortar en solitario más rápido, lanzar asistencia, devolución de artículos rápidos, y el super extintor están apagados por defecto. El juego recuerda cualquier toggles que usted habilita.
+
+## Configuración
+
+- En primera ejecución, el mod crea `厨神秘典配置.txt` en su carpeta plugin. Utilice los predeterminados o edite el archivo en un editor de texto.
+- Para los diseños de menús listos que cubren más de 100 niveles, pregunte al autor en el grupo Codex para un archivo de configuración y reemplace el archivo con el mismo nombre.
+
+## Actualizaciones en línea
+
+Cuando una versión nueva está disponible, siga el prompt in-game para actualizar sin reinstalar.
+
+> **No mueva o renombre la carpeta plugin.** El actualizador necesita encontrarla en su ubicación original.
+
+Utilice el mod para la diversión y la práctica. Por favor, no lo use para las puntuaciones de granja o interrumpa otros jugadores.
+'''
+note_i18n.ru = '''
+# Поваренная книга Codex · Lite Edition
+
+Руководство по рецептам и помощник уровня для Overcooked! 2 с фиксированными номерами для больших карт, экранных рецептов и настроек уровня.
+
+## Быстрый старт
+
+После установки запустите игру и нажмите **F6**, чтобы открыть панель. Вы можете изменить горячий ключ. Для прохождения см. [инструкция в RedNote](https://www.xiaohongshu.com/explore/6afe4a3e000000001802dfa9).
+
+## Особенности
+
+- **Plate фиксирует большие карты: ** Адреса пластин, отображаемые неправильно, исчезающие при падении или появляющиеся в виде белой плитки.
+- **Рецепты поиска и наложения: ** Посмотрите общие рецепты, прочитайте названия блюд с пользовательских уровней и расставьте рецепты текущего уровня на экране.
+- Празднования и медали **Star: ** Выберите цель фейерверка от 1 до 5 звезд. 5-звездочная цель на 500 пунктов выше 4 звезд; достижение 5 до 7 звезд отображает медаль на экране результатов.
+- **Camera и HUD-контроль: ** Сохранить четыре позиционных вида и один глобальный вид. Настройте высоту плиты для приготовления пищи и измените размер или переместите табло, обратный отсчет, карты заказа и значки над горшками.
+- **Per-level settings: ** Каждый уровень запоминает свои собственные настройки.
+
+Дополнительные ассисты, такие как более быстрая сольная рубка, помощь в метании, быстрое возвращение предметов и супергаситель по умолчанию. Игра запоминает любые переключатели, которые вы включаете.
+
+## конфигурация
+
+- При первом запуске мод создает `厨神秘典配置.txt` в папке плагина. Используйте по умолчанию или редактируйте файл в текстовом редакторе.
+- Для готовых макетов меню, охватывающих более 100 уровней, попросите автора в группе Codex заказать файл конфигурации и заменить файл с тем же именем.
+
+## Обновления онлайн
+
+Когда новая версия доступна, следуйте внутриигровому запросу для обновления без переустановки.
+
+> **Не перемещайте и не переименовывайте папку плагина.** Обновителю необходимо найти ее в исходном месте.
+
+Используйте мод для развлечения и практики. Пожалуйста, не используйте его, чтобы сорвать счет или сорвать других игроков.
+'''
+note_i18n.pl = '''
+# Kodeks książki kucharskiej · Lite Edition
+
+Przewodnik po recepturze i pomocnik poziomu dla Overcooked! 2, z ustawieniami płyt dla dużych map, receptur na ekranie i ustawień poziomu przedostatniego.
+
+## Szybki start
+
+Po instalacji, uruchomić grę i naciśnij **F6** Aby otworzyć panel. Możesz zmienić klucz. Aby przejść, zobacz [poradnik na RedNote](https://www.xiaohongshu.com/explore/6afe4a3e000000001802dfa9).
+
+## Cechy
+
+- **Plate naprawia duże mapy: Płyty ** Adresy wyświetlające się nieprawidłowo, znikające po upuszczeniu lub pojawiające się jako puste białe płytki.
+- **Recipe lookup i nakładki: ** Sprawdź wspólne przepisy, czytaj nazwy naczyń z niestandardowych poziomów, i zorganizować aktualne przepisy poziomu na ekranie.
+- **Star uroczystości i medale: ** Wybierz cel fajerwerków od 1 do 5 gwiazd. 5-gwiazdkowy cel jest 500 punktów powyżej 4 gwiazd; osiągając 5 do 7 gwiazd wyświetla medal na ekranie wyników.
+- **Camera i HUD steruje: ** Zapisz cztery widoki specyficzne pozycjonowanie i jeden widok globalny. Dostosuj wysokość i rozmiar paska do gotowania lub przesuń tablicę wyników, odliczanie, karty zamówień i ikony powyżej garnków.
+- Ustawienia poziomu **Per-: ** Każdy poziom pamięta własne ustawienia.
+
+Opcjonalne asysty, takie jak szybsze cięcie solo, rzucanie pomocy, szybki zwrot elementu, i super gaśnica są domyślnie wyłączone. Gra pamięta wszelkie przełączniki można włączyć.
+
+## Konfiguracja
+
+- Podczas pierwszego uruchomienia mod tworzy `厨神秘典配置.txt` w folderze wtyczki. Użyj domyślnych lub edytora tekstu.
+- Dla gotowych układów menu obejmujących ponad 100 poziomów, poproś autora grupy Codex o plik konfiguracyjny i zastąp go tą samą nazwą.
+
+## Aktualizacje online
+
+Gdy dostępna jest nowa wersja, postępuj zgodnie z modelem in- game, aby zaktualizować bez ponownego instalowania.
+
+> **Do nie przenosi się ani nie zmienia nazwy folder.** Updater musi znaleźć go w swojej pierwotnej lokalizacji.
+
+Użyj mod dla zabawy i praktyki. Proszę nie używać go do wyników gospodarstwa lub zakłócić innych graczy.
+'''
+note_i18n.pt-BR = '''
+# Cookbook Codex · Edição Lite
+
+Um guia de receita e ajudante de nível para Overcooked! 2, com correções de placa para mapas grandes, receitas na tela e configurações por nível.
+
+## Início rápido
+
+Depois de instalar, inicie o jogo e pressione **F6** para abrir o painel. Você pode mudar a tecla de atalho. Para uma caminhada, veja o [tutorial no RedNote](https://www.xiaohongshu.com/explore/6afe4a3e000000001802dfa9).
+
+## Características
+
+- **Plate corriges para grandes mapas:** Addresses placas exibindo incorretamente, desaparecendo quando deixado cair, ou aparecendo como azulejos brancos em branco.
+- **Recipe procura e sobreposições:** Procure receitas comuns, leia nomes de pratos de níveis personalizados e organize as receitas do nível atual na tela.
+- **Star celebrações e medalhas:** Escolha um alvo de fogos de artifício de 1 a 5 estrelas. O alvo de 5 estrelas é 500 pontos acima de 4 estrelas; atingindo 5 a 7 estrelas exibe uma medalha na tela de resultados.
+- **Camera e controles HUD:** Salve quatro visualizações específicas de posição e uma visão global. Ajuste a altura da barra de cozinha e redimensione ou mova o placar, contagem regressiva, cartões de pedidos e ícones acima dos potes.
+- **Configurações por nível:** Cada nível se lembra de suas próprias configurações.
+
+Ajudas opcionais, tais como corte mais rápido a solo, assistência de lançamento, retorno rápido do item e o super extintor estão desligados por padrão. O jogo se lembra de qualquer alternância ativada.
+
+## Configuração
+
+- Na primeira execução, o mod cria `厨神秘典配置.txt` na sua pasta de plug-ins. Use o padrão ou edite o arquivo em um editor de texto.
+- Para layouts de menu prontos cobrindo mais de 100 níveis, peça ao autor do grupo Codex um arquivo de configuração e substitua o arquivo com o mesmo nome.
+
+## Actualizações em linha
+
+Quando uma nova versão estiver disponível, siga o prompt no jogo para atualizar sem reinstalar.
+
+> **Não mover ou renomear a pasta plugin.** O updater precisa encontrá-lo em sua localização original.
+
+Use o mod para se divertir e praticar. Por favor, não o use para fazer as pontuações de fazenda ou interromper outros jogadores.
+'''
 note_i18n.ko = """
 # 쿡북 코덱스 · 라이트 버전
 

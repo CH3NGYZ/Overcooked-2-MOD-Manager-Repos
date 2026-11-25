@@ -520,7 +520,7 @@ Mermaid 也可用于 README 和 Release 日志中的流程图、时序图、饼�
 [[repositories.relations]]
 kind = "requires"
 guid = "com.ch3ngyz.plugin.overcooked2.modsettings"
-version = ">=1.1.1"
+version = ">=1.3.0"
 
 [[repositories.relations]]
 kind = "conflicts"
@@ -547,7 +547,7 @@ version = "<1.9"
 [[repositories.release_relations]]
 version = ">=1.8.0,<2.0.0"
 relations = [
-  { kind = "requires", guid = "com.ch3ngyz.plugin.overcooked2.modsettings", version = ">=1.1.1" },
+  { kind = "requires", guid = "com.ch3ngyz.plugin.overcooked2.modsettings", version = ">=1.3.0" },
 ]
 ```
 

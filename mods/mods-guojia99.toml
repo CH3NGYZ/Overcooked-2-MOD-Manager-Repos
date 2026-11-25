@@ -6,11 +6,25 @@ enabled = true
 name_i18n.zh-CN = "DIYLevel Web 前置"
 name_i18n.zh-TW = "DIYLevel Web 前置"
 name_i18n.en = "DIYLevel Web Runtime"
+name_i18n.de = "DIYLevel Web-Laufzeit"
+name_i18n.fr = "Environnement d’exécution Web de DIYLevel"
+name_i18n.it = "Runtime Web di DIYLevel"
+name_i18n.es-ES = "Entorno de ejecución web de DIYLevel"
+name_i18n.ru = "Веб-среда выполнения DIYLevel"
+name_i18n.pl = "Środowisko uruchomieniowe Web dla DIYLevel"
+name_i18n.pt-BR = "Ambiente de execução web do DIYLevel"
 name_i18n.ko = "DIYLevel Web 런타임"
 name_i18n.ja = "DIYLevel Web ランタイム"
 group_i18n.zh-CN = "DIYLevel"
 group_i18n.zh-TW = "DIYLevel"
 group_i18n.en = "DIYLevel"
+group_i18n.de = "DIYLevel"
+group_i18n.fr = "DIYLevel"
+group_i18n.it = "DIYLevel"
+group_i18n.es-ES = "DIYLevel"
+group_i18n.ru = "DIYLevel"
+group_i18n.pl = "DIYLevel"
+group_i18n.pt-BR = "DIYLevel"
 group_i18n.ko = "DIYLevel"
 group_i18n.ja = "DIYLevel"
 provider = "github"
@@ -176,6 +190,328 @@ compatibility risk.
 
 Report issues at [Issues](https://github.com/guojia99/OC2DIYLevelRuntimeWLoader/issues)
 with the game version, runtime version, map name, and the relevant lines from
+`BepInEx/LogOutput.log`.
+'''
+note_i18n.de = '''
+# DIYLevel Web-Laufzeit (DIYLevelRuntimeWLoader)
+
+Benutzerdefinierte Karten, die aus **Master Jiayas WebEditor** exportiert werden, benötigen diese Laufzeit.
+Bevor sie laden können, brauchen Sie es nicht für gewöhnliche benutzerdefinierte Karten.
+
+## Wenn es erforderlich ist
+
+| Kartenquelle | Benötigt diese Laufzeit |
+| --- | --- |
+| Exportiert aus WebEditor, liefert einen `webcustomstub_runtime` Ordner | **Ja** |
+| Handgemachte oder ältere Exporte ohne Runtime-Skripte | Nein |
+
+Wenn Sie unsicher sind, installieren Sie es und versuchen Sie es: eine Ebene, die ohne Fehler geladen wird, benötigt es;
+Wenn alles ohne es funktioniert, entfernt das Ausschalten eine Schicht von
+Kompatibilitätsrisiko.
+
+## Abhängigkeit
+
+- Diese Laufzeit ** erfordert** das `DIYLevel` custom-level Framework.
+  Der Manager kennzeichnet es als abhängig von DIYLevel, und die
+  Flow-Warnen installieren, wenn DIYLevel fehlt.
+- Einmal installiert, ruft DIYLevel es beim Laden von Karten auf.
+
+## Installation
+
+1. Installieren Sie zuerst das **DIYLevel - Custom Levels** Framework.
+2. Installieren Sie diese Runtime.
+3. Setzen Sie die Karten, die Sie spielen möchten, in `BepInEx/plugins/OC2DIYLevel/levels/` ein.
+
+## Anmerkungen
+
+- Die Archivschiffe `version.txt` und `log_config.txt`; verwenden Sie sie zum Vergleichen
+  gegen die Release-Version beim Troubleshooting.
+- Zum Debuggen steuern `debugLog.dll` und `log_config.txt` die Laufzeitprotokollierung.
+- Wenn Karten, die **not** ausführen, diese Laufzeitpause nach der Installation benötigen, deaktivieren Sie sie
+  in MOD Manager zuerst – einige Karten stehen in Konflikt mit den Runtime-Skripten.
+- Für eine leere Level-Slot-Liste bestätigen Sie zuerst, dass DIYLevel selbst funktioniert und die Karten
+  Sie befinden sich im rechten Ordner und entfernen dann die Karten nacheinander, um den Täter zu finden.
+
+## Unterstützung
+
+Probleme melden bei [Issues](https://github.com/guojia99/OC2DIYLevelRuntimeWLoader/issues)
+mit der Spielversion, der Laufzeitversion, dem Kartennamen und den entsprechenden Zeilen von
+`BepInEx/LogOutput.log`.
+'''
+note_i18n.fr = '''
+# DIYLevel Temps d'exécution Web (DIYLevelRuntimeWLoader)
+
+Les cartes personnalisées exportées de **Master Jiaya WebEditor** ont besoin de ce runtime installé
+avant qu'ils puissent charger. Vous n'avez pas besoin de cela pour les cartes personnalisées ordinaires.
+
+## Quand cela est nécessaire
+
+| Source de la carte | Besoins de ce temps d'exécution |
+| --- | --- |
+| Exporté depuis WebEditor, expédie un dossier `webcustomstub_runtime` | **Oui** |
+| Exportations faites main ou plus ancienne sans scripts d'exécution | Numéro |
+
+Si vous n'êtes pas sûr, installez-le et essayez : un niveau qui charge sans erreur en a besoin ;
+si tout fonctionne sans, le laissant désactivé supprime une couche de
+risque de compatibilité.
+
+## Dépendance
+
+- Ce ** d'exécution exige ** le cadre de niveau personnalisé `DIYLevel`.
+  seul ne fait rien. Le gestionnaire le marque comme dépendant de DIYLevel, et le
+  install flow avertit lorsque DIYLevel est manquant.
+- Une fois installé, DIYLevel l'appelle lors du chargement des cartes.
+
+## Installation
+
+1. Installez d'abord le cadre **DIYLevel - Custom Levels**.
+2. Installez ce runtime.
+3. Mettez les cartes que vous voulez jouer dans `BepInEx/plugins/OC2DIYLevel/levels/`.
+
+## Remarques
+
+- L'archive expédie `version.txt` et `log_config.txt` ; utilisez-les pour comparer
+  contre la version Release lors du dépannage.
+- Pour le débogage, l'enregistrement d'exécution `debugLog.dll` et `log_config.txt`.
+- Si les cartes qui font **not** ont besoin de cette pause d'exécution après l'installation, désactivez-la
+  Dans MOD Manager d'abord — certaines cartes sont en conflit avec les scripts d'exécution.
+- Pour une liste de fentes de niveau vide, d'abord confirmer DIYLevel fonctionne elle-même et les cartes
+  sont dans le bon dossier, puis supprimer les cartes un par un pour trouver le coupable.
+
+## Appui
+
+Signaler les problèmes à [Issues](https://github.com/guojia99/OC2DIYLevelRuntimeWLoader/issues)
+avec la version du jeu, la version d'exécution, le nom de la carte, et les lignes pertinentes de
+`BepInEx/LogOutput.log`.
+'''
+note_i18n.it = '''
+# Runtime Web di DIYLevel (DIYLevelRuntimeWLoader)
+
+Le mappe personalizzate esportate da **Master Jiaya WebEditor** hanno bisogno di questo runtime installato
+prima che possano caricare. Non è necessario per le mappe personalizzate ordinarie.
+
+## Quando è necessario
+
+| Fonte della mappa | Necessità di questo runtime |
+| --- | --- |
+| Esportato da WebEditor, navi una cartella `webcustomstub_runtime` | **Y** |
+| Esportazioni fatte a mano o più vecchie senza scritture runtime | No. |
+
+Se non sei sicuro, installalo e prova: un livello che carica senza errori ne ha bisogno;
+se tutto funziona senza di esso, lasciando disattivato rimuove uno strato di
+rischio di compatibilità.
+
+## Dipendenza
+
+- Questo runtime **requires** il framework di livello personalizzato `DIYLevel`.
+  solo non fa nulla. Il manager lo segna come a seconda di DIYLevel, e il
+  il flusso di installazione avverte quando manca DIYLevel.
+- Una volta installato, DIYLevel lo chiama mentre si caricano le mappe.
+
+## Installazione
+
+1. Installare prima il framework **DIYLevel - Custom Levels**.
+2. Installare questo runtime.
+3. Mettere le mappe che si desidera riprodurre in `BepInEx/plugins/OC2DIYLevel/levels/`.
+
+## Osservazioni
+
+- Le navi di archivio `version.txt` e `log_config.txt`; usarle per confrontare
+  contro la versione di rilascio quando la risoluzione dei problemi.
+- Per il debugging, `debugLog.dll` e `log_config.txt` controllo di registrazione runtime.
+- Se le mappe che fanno **not** hanno bisogno di questa pausa di runtime dopo l'installazione, disattivarlo
+  in MOD Manager prima — alcune mappe in conflitto con gli script runtime.
+- Per una lista di slot a livello vuoto, prima conferma DIYLevel funziona e le mappe
+  sono nella cartella giusta, quindi rimuovere le mappe una per una per trovare il colpevole.
+
+## Supporto
+
+Problemi di report su [Issues](https://github.com/guojia99/OC2DIYLevelRuntimeWLoader/issues)
+con la versione di gioco, la versione runtime, il nome della mappa e le linee pertinenti da
+`BepInEx/LogOutput.log`.
+'''
+note_i18n.es-ES = '''
+# Entorno de ejecución web de DIYLevel (DIYLevelRuntimeWLoader)
+
+Mapas personalizados exportados desde **Master WebEditor** necesitan este tiempo de ejecución instalado
+antes de que puedan cargar. Usted no lo necesita para los mapas personalizados ordinarios.
+
+## Cuando se requiere
+
+| Mapa fuente | Necesita este tiempo de ejecución |
+| --- | --- |
+| Exportado desde WebEditor, envía una carpeta `webcustomstub_runtime` | **Sí** |
+| Exportaciones hechas a mano o mayores sin scripts de tiempo de ejecución | No. |
+
+Si usted no está seguro, instalarlo e intentar: un nivel que carga sin errores lo necesita;
+si todo funciona sin ella, dejándolo desactivado quita una capa de
+riesgo de compatibilidad.
+
+## Dependencia
+
+- Este tiempo de ejecución **requires** el marco de nivel personalizado `DIYLevel`. Instalarlo
+  El gerente lo marca según DIYLevel, y el
+  Instala el flujo advierte cuando DIYLevel está desaparecido.
+- Una vez instalado, DIYLevel lo llama mientras carga mapas.
+
+## Instalación
+
+1. Instalar el **DIYLevel - Niveles personalizados** primer marco.
+2. Instala este tiempo de ejecución.
+3. Ponga los mapas que desea jugar en `BepInEx/plugins/OC2DIYLevel/levels/`.
+
+## Notas
+
+- El archivo envía `version.txt` y `log_config.txt`; utilizarlos para comparar
+  contra la versión Liberar cuando se resuelven problemas.
+- Para depurar, `debugLog.dll` y `log_config.txt` control registro de tiempo de ejecución.
+- Si los mapas que hacen **not** necesitan este descanso de tiempo de ejecución después de instalarlo, deshabilitarlo
+  en MOD Manager primero — algunos mapas entran en conflicto con los scripts de tiempo de ejecución.
+- Para una lista de tragaperras de nivel vacío, primero confirme DIYLevel en sí trabaja y los mapas
+  están en la carpeta correcta, luego eliminar mapas uno por uno para encontrar el culpable.
+
+## Apoyo
+
+Report issues at [Issues](https://github.com/guojia99/OC2DIYLevelRuntimeWLoader/issues)
+con la versión del juego, versión de tiempo de ejecución, nombre del mapa, y las líneas relevantes de
+`BepInEx/LogOutput.log`.
+'''
+note_i18n.ru = '''
+# Веб-среда выполнения DIYLevel (DIYLevelRuntimeWLoader)
+
+Пользовательские карты, экспортируемые из **Master Jiaya's WebEditor**, нуждаются в установке этого времени выполнения
+Прежде чем они смогут загружаться, вам не нужны обычные пользовательские карты.
+
+## Когда это необходимо
+
+| Источник карты | Нуждается в этом Runtime |
+| --- | --- |
+| Экспортируется из WebEditor, поставляется папка `webcustomstub_runtime` | **YY** |
+| Ручной или старый экспорт без скриптов времени выполнения | Нет. |
+
+Если вы не уверены, установите его и попробуйте: уровень, который загружается без ошибок, нуждается в нем.
+Если все работает без него, оставляя его отключенным, удаляется слой
+Риск совместимости.
+
+## зависимость
+
+- Это время выполнения **requires** структура пользовательского уровня `DIYLevel`.
+  Менеджер отмечает его как зависящий от DIYLevel, а
+  Поток установки предупреждает об отсутствии DIYLevel.
+- После установки DIYLevel вызывает его при загрузке карт.
+
+## Монтаж
+
+1. Сначала установите **DIYLevel - пользовательские уровни **.
+2. Установите это время выполнения.
+3. Поместите карты, в которые вы хотите играть, в `BepInEx/plugins/OC2DIYLevel/levels/`.
+
+## Заметки
+
+- Архивные корабли `version.txt` и `log_config.txt`; использовать их для сравнения
+  против версии Release при устранении неполадок.
+- Для отладки `debugLog.dll` и `log_config.txt` управляют журналированием времени выполнения.
+- Если карты, которые выполняют **not**, нуждаются в этом перерыве времени выполнения после установки, отключите его.
+  В MOD Manager сначала — некоторые карты конфликтуют со скриптами времени выполнения.
+- Для пустого списка слотов уровня сначала подтвердите работу самого DIYLevel и карты.
+  Они находятся в правой папке, а затем удаляют карты по одной, чтобы найти виновника.
+
+## Поддержка
+
+Обсуждение [Issues](https://github.com/guojia99/OC2DIYLevelRuntimeWLoader/issues)
+с версией игры, версией времени выполнения, названием карты и соответствующими строками из
+`BepInEx/LogOutput.log`.
+'''
+note_i18n.pl = '''
+# Środowisko uruchomieniowe Web dla DIYLevel (DIYLevelRuntimeWLoader)
+
+Mapy własne eksportowane z **Master Jiaya WebEditor** potrzebują tego runtime zainstalowany
+Nie potrzebujesz go do zwykłych map.
+
+## Kiedy jest to wymagane
+
+| Źródło mapy | Potrzebuje tego czasu. |
+| --- | --- |
+| Eksportowany z WebEditor, wysyła folder `webcustomstub_runtime` | **YES** |
+| Eksport wykonywany ręcznie lub w starszym wieku bez skryptów runtime | Nie. |
+
+Jeśli nie jesteś pewien, zainstaluj go i spróbuj: poziom, który ładuje bez błędów potrzebuje go;
+jeśli wszystko działa bez niego, pozostawiając go wyłączone usuwa warstwę
+ryzyko kompatybilności.
+
+## Zależność
+
+- Ten runtime **requires** `DIYLevel` Customs-level framework. Instalowanie go
+  sam nic nie robi. Kierownik oznacza to w zależności od DIYLevel, i
+  install flow warns when DIYLevel is missing.
+- Po zainstalowaniu DIYLevel wywołuje go podczas wczytywania map.
+
+## Instalacja
+
+1. Zainstaluj najpierw ramy **DIYLevel - Custom Levels**.
+2. Zainstaluj tę runtime.
+3. Umieść mapy, które chcesz odtwarzać w `BepInEx/plugins/OC2DIYLevel/levels/`.
+
+## Uwagi
+
+- Statki archiwalne `version.txt` i `log_config.txt`; użyj ich do porównania
+  przeciwko wersji Release podczas rozwiązywania problemów.
+- Do debugowania, `debugLog.dll` i `log_config.txt` kontroli runtime logowanie.
+- Jeśli mapy do **not** potrzebują przerwy w biegu po zainstalowaniu, wyłączyć go
+  w MOD Manager najpierw - niektóre mapy kolidują ze skryptami runtime.
+- Dla listy pustych szczelin poziomu, najpierw potwierdzić DIYLevel działa sama i mapy
+  są w odpowiednim folderze, a następnie usunąć mapy jeden po drugim, aby znaleźć winowajcę.
+
+## Wsparcie
+
+Kwestie sprawozdania na [Issues](https://github.com/guojia99/OC2DIYLevelRuntimeWLoader/issues)
+z wersją gry, wersją runtime, nazwą mapy i odpowiednimi liniami z
+`BepInEx/LogOutput.log`.
+'''
+note_i18n.pt-BR = '''
+# Ambiente de execução web do DIYLevel (DIYLevelRuntimeWLoader)
+
+Mapas personalizados exportados de **Master Jiaya WebEditor** precisam deste tempo de execução instalado
+antes que eles possam carregar. Você não precisa dele para mapas personalizados comuns.
+
+## Quando for necessário
+
+| Fonte do mapa | Precisa deste tempo de execução |
+| --- | --- |
+| Exportado do WebEditor, envia uma pasta `webcustomstub_runtime` | **Sim.** |
+| Exportações feitas à mão ou antigas sem scripts em tempo de execução | Não |
+
+Se você não tem certeza, instale-o e tente: um nível que carrega sem erros precisa dele;
+se tudo funciona sem ele, deixando-o desactivado remove uma camada de
+risco de compatibilidade.
+
+## Dependencia
+
+- Este tempo de execução **exige** au `DIYLevel` framework de nível personalizado. Instalando-o
+  sozinho não faz nada. O gerente marca como dependendo de DIYLevel, e o
+  instalar avisos de fluxo quando DIYLevel está faltando.
+- Uma vez instalado, DIYLevel chama-o ao carregar mapas.
+
+## Instalação
+
+1. Instale primeiro o framework **DIYLevel - Níveis personalizados**.
+2. Instale este tempo de execução.
+3. Coloque os mapas que você quer jogar em `BepInEx/plugins/OC2DIYLevel/levels/`.
+
+## Notas
+
+- O arquivo envia `version.txt` e `log_config.txt`; use-os para comparar
+  contra a versão Release quando solução de problemas.
+- Para depuração, registro de execução de controle `debugLog.dll` e `log_config.txt`.
+- Se mapas que fazem **não** precisa desta pausa de execução depois de instalá- la, desativá- la
+  no MOD Manager primeiro — alguns mapas entram em conflito com os scripts em tempo de execução.
+- Para uma lista de slots de nível vazia, primeiro confirme que o próprio DIYLevel funciona e os mapas
+  estão na pasta certa, então remova mapas um por um para encontrar o culpado.
+
+## Suporte
+
+Relatar as questões no [Issues](https://github.com/guojia99/OC2DIYLevelRuntimeWLoader/issues)
+com a versão do jogo, a versão em tempo de execução, o nome do mapa e as linhas relevantes de
 `BepInEx/LogOutput.log`.
 '''
 

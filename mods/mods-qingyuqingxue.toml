@@ -6,11 +6,25 @@ enabled = true
 name_i18n.zh-CN = "DIYLevel 地图搜索"
 name_i18n.zh-TW = "DIYLevel 地圖搜尋"
 name_i18n.en = "DIYLevel Map Search"
+name_i18n.de = "DIYLevel-Kartensuche"
+name_i18n.fr = "Recherche de cartes DIYLevel"
+name_i18n.it = "Ricerca mappe DIYLevel"
+name_i18n.es-ES = "Búsqueda de mapas DIYLevel"
+name_i18n.ru = "Поиск карт DIYLevel"
+name_i18n.pl = "Wyszukiwanie map DIYLevel"
+name_i18n.pt-BR = "Busca de mapas do DIYLevel"
 name_i18n.ko = "DIYLevel 맵 검색"
 name_i18n.ja = "DIYLevel マップ検索"
 group_i18n.zh-CN = "DIYLevel 优化"
 group_i18n.zh-TW = "DIYLevel 優化"
 group_i18n.en = "DIYLevel Optimization"
+group_i18n.de = "DIYLevel-Optimierungen"
+group_i18n.fr = "Optimisations de DIYLevel"
+group_i18n.it = "Ottimizzazioni di DIYLevel"
+group_i18n.es-ES = "Optimizaciones de DIYLevel"
+group_i18n.ru = "Оптимизация DIYLevel"
+group_i18n.pl = "Optymalizacja DIYLevel"
+group_i18n.pt-BR = "Otimizações do DIYLevel"
 group_i18n.ko = "DIYLevel 최적화"
 group_i18n.ja = "DIYLevel 最適化"
 provider = "github"
@@ -57,6 +71,48 @@ note_i18n.en = """
 3. When only level names match, entering the map set shows just the matching levels, so you can jump straight to the level you want.
 - **Works together with Azhe's `DIYLevel` sorting / experience optimization MOD (required). Its sorting and search features are disabled automatically, while thumbnails, returning to the level selection screen after exiting, and the last-played marker keep working.**
 """
+note_i18n.de = '''
+1. Bietet vier Suchmodi: standardmäßig, nach Levelsatz, nach Autor und nach Levelname. Der Standardmodus durchsucht alle drei Datentypen auf einmal, was für die aktuellen über 50 Kartensätze ausreicht.
+2. Der Suchtext kann direkt auf dem Level-Auswahlbildschirm eingegeben werden und die Ergebnisse werden sofort aktualisiert. Da dieser Bildschirm Eingaben erfasst, können Sie dort nicht `P` drücken, um den Konfigurationsbildschirm zu öffnen; öffnen Sie ihn stattdessen von einem anderen Bildschirm.
+3. Wenn nur Levelnamen übereinstimmen, zeigt die Eingabe des Kartensatzes nur die übereinstimmenden Level an, so dass Sie direkt zu dem gewünschten Level springen können.
+- **Funktioniert zusammen mit Azhes `DIYLevel`-Sortier- / Erfahrungsoptimierungs-MOD (erforderlich). Seine Sortier- und Suchfunktionen werden automatisch deaktiviert, während Miniaturansichten, die nach dem Verlassen zum Level-Auswahlbildschirm zurückkehren, und der zuletzt abgespielte Marker weiter funktionieren.**
+'''
+note_i18n.fr = '''
+1. Fournit quatre modes de recherche : par défaut, par niveau défini, par auteur et par nom de niveau. Le mode par défaut recherche les trois types de données en même temps, ce qui est suffisant pour les ensembles de cartes 50+ actuels.
+2. Le texte de recherche peut être tapé directement sur l'écran de sélection de niveau et la mise à jour des résultats instantanément. Parce que cet écran capture l'entrée, vous ne pouvez pas appuyer sur `P` là pour ouvrir l'écran de configuration; l'ouvrir à partir d'un autre écran à la place.
+3. Lorsque seuls les noms de niveau correspondent, l'entrée de l'ensemble de carte montre juste les niveaux correspondants, de sorte que vous pouvez sauter directement au niveau que vous voulez.
+- **Fonctionne avec le tri `DIYLevel` d'Azhe / optimisation de l'expérience MOD (obligatoire).Ses fonctions de tri et de recherche sont désactivées automatiquement, tandis que les vignettes, retour à l'écran de sélection de niveau après la sortie, et le dernier marqueur joué continuent de fonctionner.**
+'''
+note_i18n.it = '''
+1. Fornisce quattro modalità di ricerca: default, per impostazione di livello, per autore e per nome di livello. La modalità predefinita cerca tutti e tre i tipi di dati in una sola volta, che è sufficiente per gli attuali 50+ set di mappe.
+2. Poiché la schermata cattura l'ingresso, non è possibile premere `P` per aprire la schermata di configurazione; aprirlo da un'altra schermata.
+3. Quando solo i nomi di livello corrispondono, l'inserimento nel set della mappa mostra solo i livelli di corrispondenza, in modo da poter saltare dritto al livello che si desidera.
+- **Funziona insieme a `DIYLevel` di Azhe smistamento / ottimizzazione esperienza MOD (richiesto). Le sue caratteristiche di selezione e di ricerca sono disabilitate automaticamente, mentre le miniature, tornando alla schermata di selezione del livello dopo l'uscita, e il marcatore ultimo giocato continua a funzionare.**
+'''
+note_i18n.es-ES = '''
+1. Proporciona cuatro modos de búsqueda: predeterminado, por nivel establecido, por autor y por nombre de nivel. El modo predeterminado busca los tres tipos de datos a la vez, que es suficiente para los conjuntos de mapas 50+ actuales.
+2. El texto de búsqueda se puede escribir directamente en la pantalla de selección de nivel y actualizar los resultados al instante. Debido a que esa pantalla captura la entrada, no puede presionar `P` allí para abrir la pantalla de configuración; abrirla desde otra pantalla en su lugar.
+3. Cuando solo los nombres de nivel coinciden, introducir el conjunto de mapas muestra sólo los niveles de coincidencia, por lo que puede saltar directamente al nivel que desee.
+- **Funciona junto con `DIYLevel` de Azhe clasificando / optimización de experiencia MOD (requirido). Sus funciones de clasificación y búsqueda se desactivan automáticamente, mientras que las miniaturas, regresando a la pantalla de selección de nivel después de salir, y el marcador de última jugada siguen funcionando.**
+'''
+note_i18n.ru = '''
+1. Обеспечивает четыре режима поиска: по умолчанию, по набору уровней, по автору и по имени уровня.Режим по умолчанию выполняет поиск по всем трем типам данных одновременно, что достаточно для текущих наборов карт 50+.
+2. Текст поиска можно набирать непосредственно на экране выбора уровня и мгновенно обновлять результаты. Поскольку этот экран захватывает ввод, вы не можете нажать `P` там, чтобы открыть экран конфигурации; вместо этого откройте его с другого экрана.
+3. Когда совпадают только имена уровней, ввод набора карт показывает только соответствующие уровни, поэтому вы можете перейти прямо на нужный уровень.
+- **Работает совместно с `DIYLevel` Azhe по сортировке/оптимизации опыта MOD (обязательно). Его функции сортировки и поиска отключаются автоматически, в то время как миниатюры, возвращаясь к экрану выбора уровня после выхода, и последний проигрываемый маркер продолжают работать.**
+'''
+note_i18n.pl = '''
+1. Zapewnia cztery tryby wyszukiwania: domyślnie, według poziomu, według autora i nazwy poziomu. Domyślny tryb wyszukiwania wszystkich trzech typów danych naraz, co jest wystarczające dla aktualnych 50 + zestawów map.
+2. Tekst wyszukiwania można wpisywać bezpośrednio na ekranie wyboru poziomów i aktualizować wyniki natychmiast. Ponieważ ten ekran rejestruje dane wejściowe, nie można tam nacisnąć `P`, aby otworzyć ekran konfiguracyjny; zamiast tego otworzyć go z innego ekranu.
+3. Kiedy tylko nazwy poziomów pasują, wprowadzenie zestawu map pokazuje tylko pasujące poziomy, więc można przejść prosto do poziomu chcesz.
+- **Współpracuje z `DIYLevel` sortowanie / optymalizacja doświadczenia MOD (wymagane). Jego funkcje sortowania i wyszukiwania są wyłączone automatycznie, podczas gdy miniatury, wracając do ekranu wyboru poziomu po wyjściu, a ostatnio odtwarzany marker nadal działa.**
+'''
+note_i18n.pt-BR = '''
+1. Fornece quatro modos de pesquisa: padrão, por nível definido, pelo autor e pelo nome do nível. O modo padrão procura todos os três tipos de dados ao mesmo tempo, o que é suficiente para os conjuntos de mapas 50+ atuais.
+2. O texto de pesquisa pode ser digitado diretamente na tela de seleção de nível e os resultados atualizados instantaneamente. Como essa tela captura a entrada, você não pode pressionar `P` lá para abrir a tela de configuração; abra- a de outra tela em vez disso.
+3. Quando apenas os nomes de nível correspondem, entrar no conjunto do mapa mostra apenas os níveis correspondentes, para que você possa saltar diretamente para o nível que quiser.
+- **Funciona em conjunto com o `DIYLevel` do Azhe, a ordenação / optimização da experiência MOD (obrigatório). As suas funcionalidades de selecção e pesquisa são desactivadas automaticamente, enquanto as miniaturas, retornando à tela de selecção de nível após a saída, e o marcador da última jogada continua a funcionar.**
+'''
 note_i18n.ko = """
 1. 기본 검색, 레벨 세트별, 제작자별, 레벨 이름별 검색의 네 가지 방식을 지원합니다. 기본 검색은 세 가지 데이터를 모두 검색하며, 현재 50여 개 지도 세트 규모에서는 기본 검색으로 충분합니다.
 2. 레벨 선택 화면에서 바로 검색어를 입력할 수 있고 검색 결과가 즉시 표시됩니다. 이 화면은 입력을 점유하므로 `P` 키로 설정 화면을 열 수 없으며, 다른 화면에서 열어야 합니다.

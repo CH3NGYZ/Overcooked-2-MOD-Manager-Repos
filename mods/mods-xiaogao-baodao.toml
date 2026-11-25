@@ -6,11 +6,25 @@ enabled = true
 name_i18n.zh-CN = "桌台搬运工"
 name_i18n.zh-TW = "桌台搬運工"
 name_i18n.en = "Table Lifter"
+name_i18n.de = "Tischheber"
+name_i18n.fr = "Déplacement des tables"
+name_i18n.it = "Sollevamento dei tavoli"
+name_i18n.es-ES = "Levantador de mesas"
+name_i18n.ru = "Перенос столов"
+name_i18n.pl = "Podnoszenie stołów"
+name_i18n.pt-BR = "Levantador de mesas"
 name_i18n.ko = "작업대 운반 도구"
 name_i18n.ja = "作業台運び"
 group_i18n.zh-CN = "实用工具"
 group_i18n.zh-TW = "實用工具"
 group_i18n.en = "Utility Tools"
+group_i18n.de = "Hilfswerkzeuge"
+group_i18n.fr = "Outils pratiques"
+group_i18n.it = "Strumenti utili"
+group_i18n.es-ES = "Herramientas útiles"
+group_i18n.ru = "Вспомогательные инструменты"
+group_i18n.pl = "Przydatne narzędzia"
+group_i18n.pt-BR = "Ferramentas úteis"
 group_i18n.ko = "유틸리티 도구"
 group_i18n.ja = "便利ツール"
 provider = "github"
@@ -59,6 +73,48 @@ Move counters, chopping boards, sinks, serving stations, and their contents. Sup
 - **F7**: enable / disable the feature. Disabling returns carried furniture to its original position.
 - Change keys and settings in `MOD Settings`. The host and every client must install the mod for multiplayer.
 """
+note_i18n.de = '''
+Verschiebezähler, Hackbretter, Waschbecken, Servierstationen und deren Inhalt. Unterstützt verschiedene Stockwerke, bewegliche Plattformen und eine Raster-Platzierungsvorschau.
+- **G**: Möbel aufnehmen / ablegen. Stellen Sie sich dem vorgesehenen Ort gegenüber; wenn kein freier Raum in der Nähe ist, tragen Sie ihn weiter.
+- **F7**: Schaltet die Funktion ein oder aus. Beim Ausschalten kehren getragene Möbel an ihren ursprünglichen Platz zurück.
+- Ändern Sie die Tasten und Einstellungen in `MOD Settings`. Der Host und jeder Client müssen den Mod für den Multiplayer installieren.
+'''
+note_i18n.fr = '''
+Déplacez les compteurs, les planches à découper, les éviers, les stations de service et leur contenu.
+- **G**: ramassage / pose des meubles. Face à l'emplacement prévu; si aucun espace libre n'est à proximité, continuez à le porter.
+- **F7** : active ou désactive la fonction. À la désactivation, les meubles transportés retrouvent leur place d’origine.
+- Changer les touches et les paramètres dans `MOD Settings`. L'hôte et chaque client doivent installer le mod pour multijoueur.
+'''
+note_i18n.it = '''
+Sposta contatori, taglienti, lavandini, stazioni di servizio e il loro contenuto. Supporta diversi piani, piattaforme mobili e un'anteprima di posizionamento a griglia.
+- **G**: raccogliere / mettere giù mobili. Affrontare la posizione prevista; se non c'è spazio libero nelle vicinanze, continuare a portarlo.
+- **F7**: attiva o disattiva la funzione. Quando la disattivi, gli arredi trasportati tornano al loro posto.
+- Cambia le chiavi e le impostazioni in `MOD Settings`. L'host e ogni client devono installare il mod per il multiplayer.
+'''
+note_i18n.es-ES = '''
+Mueve contadores, tablas de cortar, fregaderos, estaciones de servicio y su contenido. Admite diferentes pisos, plataformas móviles, y una vista previa de colocación en cuadrícula.
+- **G**: recoger / poner los muebles. Enfrente a la ubicación prevista; si no hay espacio libre cerca, mantenga la carga.
+- **F7**: activa o desactiva la función. Al desactivarla, los muebles que lleves vuelven a su sitio.
+- Cambiar las teclas y la configuración en `MOD Settings`. El host y cada cliente deben instalar el mod para multijugador.
+'''
+note_i18n.ru = '''
+Переместите счетчики, разделочные доски, раковины, обслуживающие станции и их содержимое. Поддерживает различные этажи, движущиеся платформы и предварительный просмотр места размещения.
+- **GQ**: поднимите/положите мебель лицом к предполагаемому месту; если поблизости нет свободного места, продолжайте нести ее.
+- **F7**: включает и отключает функцию. При отключении переносимая мебель возвращается на исходное место.
+- Измените клавиши и настройки в `MOD Settings`. Хост и каждый клиент должны установить мод для мультиплеера.
+'''
+note_i18n.pl = '''
+Przenieś liczniki, deski tnące, umywalki, stacje serwisowe i ich zawartość. Obsługuje różne podłogi, ruchome platformy, i zacięty grid podgląd rozmieszczenia.
+- **G**: podnieść / odłożyć meble. Staw czoła planowanej lokalizacji; jeśli nie ma wolnego miejsca w pobliżu, należy go nosić.
+- **F7**: włącza i wyłącza funkcję. Po wyłączeniu przenoszone meble wracają na swoje miejsce.
+- Zmień klucze i ustawienia w `MOD Settings`. Host i każdy klient musi zainstalować mod dla multiplayera.
+'''
+note_i18n.pt-BR = '''
+Mover contadores, tábuas de corte, pias, estações de serviço, e seu conteúdo. Suporta pisos diferentes, plataformas móveis e uma visualização de colocação de grade-snapped.
+- **G**: pick up / colocar para baixo móveis. De frente para o local pretendido; se não há espaço livre está perto, continue carregando-o.
+- **F7**: ativa ou desativa o recurso. Ao desativá-lo, os móveis que estiver carregando voltam à posição original.
+- Alterar chaves e configurações no `MOD Settings`. A máquina e cada cliente devem instalar o mod para multiplayer.
+'''
 note_i18n.ko = """
 작업대, 도마, 싱크대, 서빙대와 그 위의 내용물을 함께 옮깁니다. 층간 이동, 움직이는 발판, 격자에 맞춘 배치 미리보기를 지원합니다.
 - **G**: 가구 들기 / 내려놓기. 놓을 방향을 바라보세요. 근처에 빈칸이 없으면 계속 들고 있습니다.
@@ -76,4 +132,4 @@ note_i18n.ja = """
 [[repositories.relations]]
 kind = "requires"
 guid = "com.ch3ngyz.plugin.overcooked2.modsettings"
-version = ">=1.1.1"
+version = ">=1.3.0"

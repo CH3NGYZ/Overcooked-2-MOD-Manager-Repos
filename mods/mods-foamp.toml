@@ -6,11 +6,25 @@ enabled = true
 name_i18n.zh-CN = "菜谱查看"
 name_i18n.zh-TW = "菜譜查看"
 name_i18n.en = "Recipe Viewer"
+name_i18n.de = "Rezeptanzeige"
+name_i18n.fr = "Visionneuse de recettes"
+name_i18n.it = "Visualizzatore di ricette"
+name_i18n.es-ES = "Visor de recetas"
+name_i18n.ru = "Просмотр рецептов"
+name_i18n.pl = "Przeglądarka przepisów"
+name_i18n.pt-BR = "Visualizador de receitas"
 name_i18n.ko = "레시피 보기"
 name_i18n.ja = "レシピビューア"
 group_i18n.zh-CN = "实用工具"
 group_i18n.zh-TW = "實用工具"
 group_i18n.en = "Utility Tools"
+group_i18n.de = "Hilfswerkzeuge"
+group_i18n.fr = "Outils pratiques"
+group_i18n.it = "Strumenti utili"
+group_i18n.es-ES = "Herramientas útiles"
+group_i18n.ru = "Вспомогательные инструменты"
+group_i18n.pl = "Przydatne narzędzia"
+group_i18n.pt-BR = "Ferramentas úteis"
 group_i18n.ko = "유틸리티 도구"
 group_i18n.ja = "便利ツール"
 provider = "github"
@@ -143,6 +157,244 @@ You can use **MOD Settings** to configure **Overcooked2RecipeViewer**.
 ## Bug Reports
 
 If you encounter a problem, please visit [Issues](https://github.com/foamp/Overcooked2RecipeViewer/issues) and include the game and mod versions, level and player count, reproduction steps, and relevant logs from `BepInEx\LogOutput.log`. Screenshots are helpful for UI issues.'''
+note_i18n.de = '''
+Ein BepInEx-Mod zum Anzeigen von Rezepten in Overcooked! 2. Er verwendet die Originalrezeptkarten des Spiels, um alle verfügbaren Rezepte in der aktuellen Ebene anzuzeigen, so dass sie leichter angezeigt, organisiert und geteilt werden können.
+
+**Dies ist ein Rezept-Anzeige-, Organisations- und Freigabe-Tool. Es ändert nur die Anzeige und das Layout des Betrachters und ändert nicht die tatsächlichen Bestellungen, Auftragsgenerierung, Serving Order, Timer oder Scores.**
+
+## Merkmale
+
+- Unterstützt offizielle Levels und benutzerdefinierte Karten, die Standard-Spielrezeptdaten liefern.
+- Zeigen Sie Rezepte an, die auf der aktuellen Ebene mit mehreren Sortieroptionen verfügbar sind, einschließlich Sortieren nach Appliance.
+- Ziehen Sie Rezepte, um ihre Positionen neu zu ordnen und ganze Zeilen neu zu ordnen.
+- Speichert automatisch benutzerdefinierte Layouts für jede Ebene, mit Unterstützung zum Speichern und Wechseln zwischen mehreren Layouts.
+- Unterstützt das Scrollen, Zoomen, Exportieren des kompletten Rezeptlayouts als PNG und Kopieren in die Zwischenablage.
+- Verwenden Sie automatisch Chinesisch oder Englisch basierend auf der Sprache des Spiels.
+
+## Nutzung
+
+Geben Sie eine Ebene ein und drücken Sie die `Insert`-Taste, um den Rezept-Viewer zu öffnen. Verwenden Sie die Symbolleiste, um Sortieroptionen auszuwählen, Layouts zu speichern und Bilder zu exportieren.
+Sie können **MOD Settings** verwenden, um **Overcooked2RecipeViewer** zu konfigurieren.
+
+## Abkürzungen
+
+| Aktion | Schlüssel/Maus |
+| --- | --- |
+| Show/Hide Viewer | **Insert** (Standard, konfigurierbar) |
+| Vertikales Scrollen | **Mausrad** / **PageUp, PageDown** |
+| Horizontales Scrollen | **Shift + Mausrad** |
+| Zoom (50 %–200 %) | **Ctrl + Mausrad** |
+| Verschieberezeptur | Ziehen Sie eine Rezeptkarte |
+| Verschieben Sie die ganze Zeile | Ziehen Sie den Griff auf der linken Seite einer Reihe |
+
+## Bug-Berichte
+
+Wenn Sie auf ein Problem stoßen, besuchen Sie bitte [Issues](https://github.com/foamp/Overcooked2RecipeViewer/issues) und fügen Sie die Spiel- und Mod-Versionen, Level- und Spieleranzahl, Wiedergabeschritte und relevante Protokolle von `BepInEx\LogOutput.log` hinzu. Screenshots sind hilfreich für UI-Probleme.
+'''
+note_i18n.fr = '''
+Un mod BepInEx pour visualiser les recettes en Overcooked! 2. Il utilise les cartes de recettes originales du jeu pour afficher toutes les recettes disponibles au niveau actuel, les rendant plus faciles à voir, à organiser et à partager.
+
+**Il s'agit d'un outil de visualisation, d'organisation et de partage de recettes. Il ne change que l'affichage et la mise en page du spectateur et ne modifie pas les commandes réelles, la génération de commandes, la commande de service, les minuteries ou les scores.**
+
+## Caractéristiques
+
+- Prend en charge les niveaux officiels et les cartes personnalisées qui fournissent des données de recette de jeu standard.
+- Voir les recettes disponibles au niveau actuel avec plusieurs options de tri, y compris le tri par appareil.
+- Faites glisser les recettes pour réarranger leurs positions et réarranger des lignes entières.
+- Enregistre automatiquement les mises en page personnalisées pour chaque niveau, avec une prise en charge pour l'enregistrement et la commutation entre plusieurs mises en page.
+- Prend en charge le défilement, le zoom, l'exportation de la mise en page complète de la recette comme PNG, et la copie dans le presse-papiers.
+- Utilise automatiquement le chinois ou l'anglais en fonction de la langue du jeu.
+
+## Utilisation
+
+Entrez un niveau et appuyez sur la touche `Insert` pour ouvrir le visionneur de recettes. Utilisez la barre d'outils pour sélectionner les options de tri, enregistrer les mises en page et exporter des images.
+Vous pouvez utiliser **MOD Settings** pour configurer **Overcooked2RecipeViewer**.
+
+## Raccourcis
+
+| Décision | Clé / Souris |
+| --- | --- |
+| Afficher / masquer le visionneur | **Insert** (par défaut, configurable) |
+| défilement vertical | **Molette de la souris** / **PageUp, PageDown** |
+| défilement horizontal | **Shift + Roue à souris** |
+| Zoom (50 % à 200 %) | **Ctrl + Roue à souris** |
+| Déplacer la recette | Faites glisser une carte de recettes |
+| Déplacer la ligne entière | Faites glisser la poignée sur le côté gauche d'une rangée |
+
+## Rapports de bogue
+
+Si vous rencontrez un problème, veuillez visiter [Issues](https://github.com/foamp/Overcooked2RecipeViewer/issues) et inclure les versions de jeu et mod, le nombre de niveaux et de joueurs, les étapes de reproduction et les journaux pertinents de `BepInEx\LogOutput.log`. Captures d'écran sont utiles pour les problèmes d'interface utilisateur.
+'''
+note_i18n.it = '''
+A BepInEx mod per la visualizzazione di ricette in Overcooked! 2. Utilizza le carte di ricetta originali del gioco per visualizzare tutte le ricette disponibili a livello attuale, rendendole più facili da visualizzare, organizzare e condividere.
+
+**Questo è uno strumento di visualizzazione, organizzazione e condivisione della ricetta, che cambia solo il display e il layout dello spettatore e non cambia ordini reali, generazione dell'ordine, ordine di servizio, timer, o punteggi.**
+
+## Caratteristiche
+
+- Supporta i livelli ufficiali e le mappe personalizzate che forniscono i dati della ricetta di gioco standard.
+- Visualizzare le ricette disponibili a livello corrente con più opzioni di selezione, tra cui la selezione per elettrodomestici.
+- Trascinare le ricette per riorganizzare le loro posizioni e riordinare intere righe.
+- Salva automaticamente i layout personalizzati per ogni livello, con il supporto per il salvataggio e la commutazione tra layout multipli.
+- Supporta lo scorrimento, lo zoom, l'esportazione del layout completo della ricetta come PNG, e la copia alla clipboard.
+- Usa automaticamente il cinese o l'inglese in base alla lingua del gioco.
+
+## Utilizzo
+
+Immettere un livello e premere il tasto `Insert` per aprire il Visualizzatore Ricetta. Utilizzare la barra degli strumenti per selezionare le opzioni di selezione, salvare i layout e esportare le immagini.
+È possibile utilizzare **MOD Settings** per configurare **Overcooked2RecipeViewer**.
+
+## Scorciatoie
+
+| Azione | Chiave / Mouse |
+| --- | --- |
+| Mostra / nascondiglio | **Insert** (default, configurabile) |
+| Scorrimento verticale | **Rotellina del mouse** / **PageUp, PageDown** |
+| Pergamena orizzontale | **Shift + Ruota del mouse** |
+| Zoom (50%–200%) | **Ctrl + Ruota del mouse** |
+| Ricetta di trasferimento | Trascinare una carta di ricetta |
+| Spostare l'intera riga | Trascinare la maniglia sul lato sinistro di una riga |
+
+## Rapporti di bug
+
+Se si riscontra un problema, si prega di visitare [Issues](https://github.com/foamp/Overcooked2RecipeViewer/issues) e includere le versioni di gioco e mod, il numero di livello e giocatore, i passaggi di riproduzione e i registri rilevanti da `BepInEx\LogOutput.log`.
+'''
+note_i18n.es-ES = '''
+Un mod BepInEx para ver recetas en Overcooked! 2. Utiliza las tarjetas de receta originales del juego para mostrar todas las recetas disponibles en el nivel actual, haciéndolas más fáciles de ver, organizar y compartir.
+
+**Esta es una herramienta de visualización, organización e intercambio de recetas. Sólo cambia la pantalla y el diseño del espectador y no cambia los pedidos reales, la generación de pedidos, el orden de servicio, los temporizadores o las puntuaciones.**
+
+## Características
+
+- Admite niveles oficiales y mapas personalizados que proporcionan datos de recetas de juego estándar.
+- Ver recetas disponibles en el nivel actual con múltiples opciones de clasificación, incluyendo la clasificación por el dispositivo.
+- Arrastre recetas para reorganizar sus posiciones y reordenar filas enteras.
+- Ahorra automáticamente diseños personalizados para cada nivel, con soporte para guardar y cambiar entre múltiples diseños.
+- Admite desplazar, ampliar, exportar el diseño completo de recetas como PNG, y copiarlo al portapapeles.
+- Utiliza automáticamente chino o inglés basado en el idioma del juego.
+
+## Uso
+
+Introduzca un nivel y presione la tecla `Insert` para abrir el Visor de Recetas. Utilice la barra de herramientas para seleccionar opciones de clasificación, guardar diseños y exportar imágenes.
+Puedes usar **MOD Settings** para configurar **Overcooked2RecipeViewer**.
+
+## Atajos
+
+| Medida | Tecla / Ratón |
+| --- | --- |
+| Mostrar / ocultar visor | **Insert** (predeterminado, configurable) |
+| Desplazamiento vertical | **Rueda del ratón** / **PageUp, PageDown** |
+| Pergamino horizontal | **Shift + Rueda de ratón** |
+| Zoom (50%–200%) | **Ctrl + Rueda de ratón** |
+| Mover receta | Arrastre una tarjeta de receta |
+| Mueva la fila entera | Arrastre el mango en el lado izquierdo de una fila |
+
+## Informes de errores
+
+Si usted encuentra un problema, por favor visite [Issues](https://github.com/foamp/Overcooked2RecipeViewer/issues) e incluya las versiones de juego y mod, nivel y cuenta de jugador, pasos de reproducción, y los registros relevantes de `BepInEx\LogOutput.log`. Imágenes son útiles para problemas de interfaz de usuario.
+'''
+note_i18n.ru = '''
+Мод BepInEx для просмотра рецептов в Overcooked! 2. Он использует оригинальные карты рецептов игры для отображения всех доступных рецептов на текущем уровне, что облегчает их просмотр, организацию и обмен.
+
+**Это инструмент просмотра рецептов, организации и совместного использования. Он только изменяет дисплей и макет зрителя и не изменяет фактические заказы, генерацию заказов, порядок обслуживания, таймеры или оценки.**
+
+## Особенности
+
+- Поддерживает официальные уровни и пользовательские карты, которые предоставляют стандартные данные о рецептах игр.
+- Просмотрите рецепты, доступные на текущем уровне, с несколькими вариантами сортировки, включая сортировку по прибору.
+- Перетащите рецепты, чтобы переставить свои позиции и переупорядочить целые ряды.
+- Автоматически сохраняет пользовательские макеты для каждого уровня с поддержкой сохранения и переключения между несколькими макетами.
+- Поддерживает прокрутку, масштабирование, экспорт полного макета рецепта в виде PNG и копирование его в буфер обмена.
+- Автоматически использует китайский или английский язык на основе языка игры.
+
+## использование
+
+Введите уровень и нажмите клавишу `Insert`, чтобы открыть Recipe Viewer. Используйте панель инструментов для выбора вариантов сортировки, сохранения макетов и экспорта изображений.
+Вы можете использовать **MOD Settings** сконфигурировать **Overcooked2RecipeViewer**.
+
+## ярлыки
+
+| Меры | Ключ / Мышь |
+| --- | --- |
+| Шоу / Скрыть зрителя | **Insert** (неисправность, конфигурируемость) |
+| Вертикальная прокрутка | **Колесо мыши** / **PageUp, PageDown** |
+| Горизонтальная прокрутка | **Shift + Мышиное колесо** |
+| Зум (50%-200%) | **Ctrl + Мышиное колесо** |
+| Переместите рецепт | Перетащите карточку рецепта |
+| Перемещать весь ряд | Перетащите ручку по левой стороне ряда |
+
+## Отчеты Bug
+
+Если вы столкнулись с проблемой, пожалуйста, посетите [Issues](https://github.com/foamp/Overcooked2RecipeViewer/issues) и включите версии игры и модов, уровень и количество игроков, шаги воспроизведения и соответствующие журналы от `BepInEx\LogOutput.log`.
+'''
+note_i18n.pl = '''
+BepInEx mod do przeglądania przepisów w Overcooked! 2. Używa oryginalnych kart receptur gry, aby wyświetlić wszystkie dostępne przepisy na obecnym poziomie, ułatwiając im oglądanie, organizowanie i udostępnianie.
+
+**Jest to narzędzie do przeglądania receptur, organizacji i udostępniania. Zmienia on tylko wyświetlanie i układ przeglądarki i nie zmienia rzeczywistych zamówień, generowania zamówień, obsługi porządku, timerów lub wyników.**
+
+## Cechy
+
+- Obsługuje oficjalne poziomy i niestandardowe mapy, które dostarczają standardowych danych receptury gry.
+- Zobacz przepisy dostępne na obecnym poziomie z wielu opcji sortowania, w tym sortowania przez urządzenie.
+- Przeciągnij przepisy, aby przegrupować swoje pozycje i uporządkować całe wiersze.
+- Automatycznie zapisuje niestandardowe układy dla każdego poziomu, z obsługą do zapisywania i przełączania pomiędzy wieloma układami.
+- Obsługuje przewijanie, powiększanie, eksportowanie kompletnego układu receptury jako PNG i kopiowanie go do schowka.
+- Automatycznie używa chińskiego lub angielskiego w oparciu o język gry.
+
+## Sposób użycia
+
+Wprowadź poziom i naciśnij klawisz `Insert`, aby otworzyć Przeglądarkę Recipe. Użyj paska narzędzi, aby wybrać opcje sortowania, zapisać układy i eksportować obrazy.
+**MOD Settings** można skonfigurować **Overcooked2RecipeViewer**.
+
+## Skróty
+
+| Działanie | Klucz / mysz |
+| --- | --- |
+| Pokaż / ukryj przeglądarkę | **Instalt** (domyślnie, konfigurowalne) |
+| Przesuwanie pionowe | **Kółko myszy** / **PageUp, PageDown** |
+| Przesuwanie poziome | **Shift + kółko myszy** |
+| Powiększenie (50% - 200%) | **Ctrl + kółko myszy** |
+| Przenieś przepis | Przeciągnij kartę przepisu |
+| Przenieś cały wiersz | Przeciągnij uchwyt po lewej stronie rzędu |
+
+## Raporty błędów
+
+Jeśli napotkasz problem, odwiedź [Issues](https://github.com/foamp/Overcooked2RecipeViewer/issues) i załącz wersje gry i mod, poziom i liczenie graczy, kroki reprodukcji, i odpowiednie dzienniki z `BepInEx\LogOutput.log`. Screenshots są pomocne w kwestiach UI.
+'''
+note_i18n.pt-BR = '''
+Um mod BepInEx para ver receitas em Overcooked! 2. Ele usa as placas de receita originais do jogo para exibir todas as receitas disponíveis no nível atual, tornando-as mais fáceis de visualizar, organizar e compartilhar.
+
+**Esta é uma ferramenta de visualização, organização e compartilhamento de receitas. Ela só muda a exibição e o layout do visualizador e não altera as ordens reais, a geração de pedidos, a ordem de serviço, os timers ou as pontuações.**
+
+## Características
+
+- Suporta níveis oficiais e mapas personalizados que fornecem dados padrão da receita do jogo.
+- Veja receitas disponíveis no nível atual com várias opções de classificação, incluindo ordenação por aparelho.
+- Arraste receitas para reorganizar suas posições e reordene linhas inteiras.
+- Salva automaticamente layouts personalizados para cada nível, com suporte para salvar e alternar entre vários layouts.
+- Suporta rolagem, zoom, exportação do layout completo da receita como PNG e cópia para a área de transferência.
+- Usa automaticamente chinês ou inglês baseado na língua do jogo.
+
+## Utilização
+
+Digite um nível e pressione a tecla `Insert` para abrir o Visualizador de Receitas. Use a barra de ferramentas para selecionar opções de ordenação, salvar layouts e exportar imagens.
+Você pode usar **MOD Settings** para configurar **Overcooked2RecipeViewer**.
+
+## Atalhos
+
+| Acção | Chave / Mouse |
+| --- | --- |
+| Mostrar / ocultar o visualizador | **Insert** (padrão, configurável) |
+| Deslocamento vertical | **Roda do Mouse** / **PageUp, PageDown** |
+| Deslocamento horizontal | **Shift + Roda do Rato** |
+| Ampliação (50%–200%) | **Ctrl + Roda do Rato** |
+| Mover a receita | Arraste uma carta de receita |
+| Mover a linha inteira | Arraste o cabo do lado esquerdo de uma linha |
+
+## Relatórios de Erros
+
+Se você encontrar um problema, visite [Issues](https://github.com/foamp/Overcooked2RecipeViewer/issues) e inclua as versões de jogo e mod, nível e contagem de jogadores, passos de reprodução e registros relevantes do `BepInEx\LogOutput.log`. Screenshots são úteis para problemas de UI.
+'''
 
 note_i18n.ko = '''
 BepInEx 기반의 《Overcooked! 2》 레시피 보기 모드입니다. 게임의 기본 레시피 카드를 사용하여 현재 스테이지에서 사용할 수 있는 모든 레시피를 표시하므로 레시피를 미리 확인하고 정리하거나 공유할 수 있습니다.

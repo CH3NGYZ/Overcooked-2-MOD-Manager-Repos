@@ -6,11 +6,25 @@ enabled = true
 name_i18n.zh-CN = "macOS Xbox 手柄支持修复"
 name_i18n.zh-TW = "macOS Xbox 控制器支援修復"
 name_i18n.en = "macOS Xbox Controller Support Fix"
+name_i18n.de = "Xbox-Controller-Korrektur für macOS"
+name_i18n.fr = "Correctif de prise en charge des manettes Xbox sur macOS"
+name_i18n.it = "Correzione del supporto al controller Xbox su macOS"
+name_i18n.es-ES = "Corrección de compatibilidad con mandos Xbox en macOS"
+name_i18n.ru = "Исправление поддержки контроллеров Xbox в macOS"
+name_i18n.pl = "Poprawka obsługi kontrolerów Xbox w macOS"
+name_i18n.pt-BR = "Correção do suporte a controles Xbox no macOS"
 name_i18n.ko = "macOS Xbox 컨트롤러 지원 수정"
 name_i18n.ja = "macOS Xbox コントローラー対応の修正"
 group_i18n.zh-CN = "游戏修复"
 group_i18n.zh-TW = "遊戲修復"
 group_i18n.en = "Game Fixes"
+group_i18n.de = "Spielkorrekturen"
+group_i18n.fr = "Correctifs du jeu"
+group_i18n.it = "Correzioni del gioco"
+group_i18n.es-ES = "Correcciones del juego"
+group_i18n.ru = "Исправления игры"
+group_i18n.pl = "Poprawki gry"
+group_i18n.pt-BR = "Correções do jogo"
 group_i18n.ko = "게임 수정"
 group_i18n.ja = "ゲーム修正"
 provider = "github"
@@ -62,6 +76,55 @@ Credits: 连营 - Xiaohongshu ID: 6390308606
 - **Automatically enabled after installation.**
 - **You can toggle joystick direction inversion in the MOD Settings. Restart the game for changes to take effect.**
 """
+note_i18n.de = '''
+Dieses MOD wurde speziell entwickelt, um die Steam-Controller-Unterstützung in der nativen macOS-Version von Overcooked! 2 zu beheben.
+Dank an 连营 (RedNote-ID: 6390308606)
+- **Installieren Sie NICHT auf Windows!**
+- **Automatisch nach der Installation aktiviert.**
+- **Sie können die Joystick-Richtungsumkehrung im MOD Settings umschalten. Starten Sie das Spiel neu, damit die Änderungen wirksam werden.**
+'''
+note_i18n.fr = '''
+Ce MOD est spécifiquement conçu pour corriger la prise en charge des manettes par Steam dans la version native macOS de Overcooked! 2.
+Crédits: - Xiaohongshu ID: 6390308606
+- **Ne PAS installer sur Windows!**
+- **Automatiquement activé après installation.**
+- **Vous pouvez basculer l'inversion de direction de joystick dans le MOD Settings. Redémarrez le jeu pour que les changements prennent effet.**
+'''
+note_i18n.it = '''
+Questo MOD è specificamente progettato per risolvere il supporto del controller di Steam nella versione nativa macOS di Overcooked! 2.
+Credits:  ⁇ 国 - Xiaohongshu ID: 6390308606
+- **Non installare su Windows!**
+- **Attivato automaticamente dopo l'installazione.**
+- **È possibile attivare l'inversione della direzione del joystick nel MOD Settings. Riavviare il gioco per le modifiche da prendere effetto.**
+'''
+note_i18n.es-ES = '''
+Este MOD está diseñado específicamente para fijar el soporte de controlador Steam en la versión nativa macOS de Overcooked! 2.
+Créditos: ⋅ - Xiaohongshu ID: 6390308606
+- **NO instale en Windows!**
+- **Activado automáticamente después de la instalación.**
+- **Usted puede cambiar la inversión de dirección joystick en el MOD Settings. reiniciar el juego para que los cambios tomen efecto.**
+'''
+note_i18n.ru = '''
+Этот MOD специально разработан для исправления поддержки контроллера Steam в родной версии macOS Overcooked! 2.
+Изображение: Xiaohongshu ID: 6390308606
+- **Не устанавливайте на Windows!**
+- **Автоматически включается после установки.**
+- **Вы можете переключать инверсию направления джойстика в MOD Settings. Перезапустите игру, чтобы изменения вступили в силу.**
+'''
+note_i18n.pl = '''
+Ten MOD jest specjalnie zaprojektowany, aby naprawić obsługę Steam w natywnej wersji macOS Overcooked! 2.
+Credits: Superior - Xiaohongshu ID: 6390308606
+- **NIE instaluj na Windows!**
+- **Automatycznie włączone po instalacji.**
+- **W MOD Settings możesz przełączać inwersję kierunku joysticka. Przywróć grę do zmian, które mają wejść w życie.**
+'''
+note_i18n.pt-BR = '''
+Este MOD foi projetado especificamente para corrigir o suporte do controlador Steam na versão nativa macOS do Overcooked! 2.
+Créditos: - Xiaohongshu ID: 6390308606
+- **NÃO instale no Windows!**
+- **Ativado automaticamente após a instalação.**
+- **Você pode alternar a inversão de direção do joystick no MOD Settings. Reinicie o jogo para que as mudanças façam efeito.**
+'''
 note_i18n.ko = """
 이 MOD는 macOS 네이티브 버전 《오버쿡! 2》의 Steam 컨트롤러 지원 문제를 해결하기 위해 제작되었습니다.
 제작 도움: 连营 - 샤오홍슈 계정: 6390308606
@@ -83,11 +146,25 @@ enabled = false
 name_i18n.zh-CN = "修复战局频繁加入失败"
 name_i18n.zh-TW = "修復戰局頻繁加入失敗"
 name_i18n.en = "Fix Frequent Match Join Failures"
+name_i18n.de = "Korrektur häufiger Beitrittsfehler"
+name_i18n.fr = "Correctif des échecs fréquents de connexion aux parties"
+name_i18n.it = "Correzione degli errori frequenti di accesso alle partite"
+name_i18n.es-ES = "Corrección de los fallos al unirse a partidas"
+name_i18n.ru = "Исправление частых ошибок при входе в матч"
+name_i18n.pl = "Poprawka częstych błędów dołączania do meczów"
+name_i18n.pt-BR = "Correção de falhas frequentes ao entrar em partidas"
 name_i18n.ko = "게임 참가가 자주 실패하는 문제 수정"
 name_i18n.ja = "ゲームへの参加が頻繁に失敗する問題を修正"
 group_i18n.zh-CN = "游戏修复"
 group_i18n.zh-TW = "遊戲修復"
 group_i18n.en = "Game Fixes"
+group_i18n.de = "Spielkorrekturen"
+group_i18n.fr = "Correctifs du jeu"
+group_i18n.it = "Correzioni del gioco"
+group_i18n.es-ES = "Correcciones del juego"
+group_i18n.ru = "Исправления игры"
+group_i18n.pl = "Poprawki gry"
+group_i18n.pt-BR = "Correções do jogo"
 group_i18n.ko = "게임 수정"
 group_i18n.ja = "ゲーム修正"
 provider = "github"
@@ -139,6 +216,55 @@ The mod clears stale Steam lobby membership and invite-handling state left behin
 - **Compatible with the Arcade MOD. Install it on the player who needs to rejoin; it applies to both hosts and clients.**
 - **This is an untested beta build. If you encounter a bug, please report it to the author with the latest `.log` file from `BepInEx/logs/com.ch3ngyz.plugin.oc2joinrecovery/`.**
 """
+note_i18n.de = '''
+Behebt das Problem, bei dem nach einem fehlgeschlagenen Raumbeitritt oder dem Verlassen eines Raumes derselbe Steam-Beitrittslink weiterhin fehlschlägt oder nicht mehr reagiert und das Spiel normalerweise neu gestartet oder ein Arcade-Raum einmal betreten und verlassen werden muss, bevor der Beitritt erneut funktioniert.
+Der Mod löscht abgestandene Steam-Lobby-Mitgliedschaft und Einladungs-Handling-Zustand, der durch den Join/Leave-Fluss des Spiels vor einem Link-Join, nach einem fehlgeschlagenen Join und beim Verlassen eines Raumes zurückbleibt.
+- **Nur der lokale Lobby-/Beitrittsstaat ist betroffen; Speicher, Level, DIY-Parameter und das Multiplayer-Protokoll werden nicht geändert.**
+- **Kompatibel mit dem Arcade-MOD. Installieren Sie es auf dem Spieler, der wieder beitreten muss; es gilt sowohl für Hosts als auch für Clients.**
+- **Wenn Sie auf einen Fehler stoßen, melden Sie ihn bitte dem Autor mit der neuesten `.log`-Datei von `BepInEx/logs/com.ch3ngyz.plugin.oc2joinrecovery/`.**
+'''
+note_i18n.fr = '''
+Corrige le problème où, après qu'une pièce échouée rejoint ou quitte une pièce, le même lien de jointure Steam continue d'échouer ou cesse de répondre, et le jeu doit généralement être redémarré, ou une salle d'arcade entré et laissé une fois, avant de rejoindre fonctionne à nouveau.
+Le mod efface l'adhésion au lobby Steam et l'état d'invitation laissé derrière par le flux de jointure/de sortie du jeu avant la jointure d'un lien, après une jointure ratée, et lors de la sortie d'une pièce. Il fonctionne automatiquement après l'installation et ne nécessite aucune configuration.
+- **Seul le lobby local/état de join est affecté; les sauvegardes, les niveaux, les paramètres de bricolage et le protocole multijoueur ne sont pas modifiés.**
+- **Compatible avec le MOD Arcade. Installez-le sur le lecteur qui doit rejoindre ; il s'applique à la fois aux hôtes et aux clients.**
+- **Il s'agit d'une compilation bêta non testée. Si vous rencontrez un bug, veuillez le signaler à l'auteur avec le dernier fichier `.log` de `BepInEx/logs/com.ch3ngyz.plugin.oc2joinrecovery/`.**
+'''
+note_i18n.it = '''
+Risolve il problema in cui, dopo che una stanza fallita si unisca o lascia una stanza, lo stesso link di Steam continua a fallire o a smettere di rispondere, e il gioco di solito deve essere riavviato, o una stanza di Arcade entrato e lasciato una volta, prima di unire i lavori di nuovo.
+Il mod chiarisce l'appartenenza alla lobby di Steam e lo stato di invita-handling lasciato dietro dal flusso di entrata/uscita del gioco prima di un collegamento, dopo un'unione fallita e quando si lascia una stanza. Funziona automaticamente dopo l'installazione e non ha bisogno di configurazione.
+- **Solo lo stato locale di lobby/join è interessato; salva, livelli, parametri fai-da-te e il protocollo multiplayer non sono modificati.**
+- **Compatibile con il MOD Arcade. Installarlo sul giocatore che ha bisogno di ricongiungersi; si applica sia agli host che ai client.**
+- **Se si incontra un bug, si prega di segnalarlo all'autore con l'ultimo file `.log` da `BepInEx/logs/com.ch3ngyz.plugin.oc2joinrecovery/`.**
+'''
+note_i18n.es-ES = '''
+Arregla el tema donde, después de que una habitación fallida se una o salga de una habitación, el mismo enlace de Steam sigue fallando o deja de responder, y el juego generalmente tiene que ser reiniciado, o una sala de Arcade entró y se fue una vez, antes de unirse a los trabajos de nuevo.
+El mod despeja la membresía del vestíbulo de Steam y estado de invitación dejado atrás por el flujo de ensamblaje/leave del juego antes de unirse a un enlace, después de un ensamblaje fallido, y al salir de una habitación. Funciona automáticamente después de la instalación y no necesita configuración.
+- **Sólo el estado local del lobby/join se ve afectado; ahorra, niveles, parámetros DIY y el protocolo multijugador no se modifican.**
+- **Compatible con el Arcade MOD. Instalarlo en el jugador que necesita unirse; se aplica tanto a los anfitriones como a los clientes.**
+- **Esta es una compilación de beta sin probar. Si encuentras un error, por favor reporta al autor con el último archivo `.log` de `BepInEx/logs/com.ch3ngyz.plugin.oc2joinrecovery/`.**
+'''
+note_i18n.ru = '''
+Исправляет проблему, когда после того, как неисправная комната присоединяется или выходит из комнаты, одна и та же ссылка присоединения Steam продолжает выходить из строя или перестает отвечать, и игра обычно должна быть перезапущена, или комната Arcade вошла и ушла один раз, прежде чем снова присоединиться к работе.
+Мод очищает устаревшее членство в лобби Steam и состояние обработки приглашений, оставленное потоком присоединения / выхода игры до присоединения ссылки, после неудачного присоединения и при выходе из комнаты. Он работает автоматически после установки и не нуждается в конфигурации.
+- **Пострадает только местное лобби/сообщество; сейвы, уровни, параметры DIY и многопользовательский протокол не изменяются.**
+- **Совместим с Arcade MOD. Установите его на игрока, который должен присоединиться; это относится как к хостам, так и к клиентам.**
+- **Если вы столкнулись с ошибкой, сообщите об этом автору с последним файлом `.log` от `BepInEx/logs/com.ch3ngyz.plugin.oc2joinrecovery/`.**
+'''
+note_i18n.pl = '''
+Naprawia problem, w którym po nieudanym połączeniu lub opuszczeniu pokoju, ten sam link Steam joint ciągle zawodzi lub przestaje odpowiadać, a gra zazwyczaj musi być ponownie uruchomiona, lub pokój Arcade wszedł i wyszedł raz, przed dołączeniem działa ponownie.
+Mod oczyszcza nieświeże członkostwo w lobby Steam i stan obsługi invite- po lewej stronie gry, przed połączeniem z linkiem, po nieudanym połączeniu i po opuszczeniu pokoju. Działa automatycznie po instalacji i nie wymaga konfiguracji.
+- **Tylko lokalne lobby / dołącz stan jest naruszony; oszczędności, poziomy, parametry DIY i protokół multiplayer nie są modyfikowane.**
+- **Kompatybilny z MOD Arcade. Zainstaluj go na odtwarzaczu, który musi ponownie dołączyć; dotyczy to zarówno gospodarzy, jak i klientów.**
+- **Jest to nietestowana budowa beta. Jeśli napotkasz błąd, zgłoś go do autora z najnowszym plikiem `.log` z `BepInEx/logs/com.ch3ngyz.plugin.oc2joinrecovery/`.**
+'''
+note_i18n.pt-BR = '''
+Corrige o problema em que, depois de uma sala falhada entrar ou sair de uma sala, o mesmo link de junção Steam continua falhando ou pára de responder, e o jogo geralmente tem de ser reiniciado, ou uma sala Arcade entrou e saiu uma vez, antes de se juntar funciona novamente.
+O mod elimina a adesão ao lobby do Steam e o estado de resposta a convites deixados para trás pelo fluxo de entrada/saída do jogo antes de uma ligação, após uma adesão falhada e ao sair de uma sala. Funciona automaticamente após a instalação e não necessita de configuração.
+- **Apenas o estado local de lobby/join é afetado; salva, níveis, parâmetros DIY e o protocolo multiplayer não são modificados.**
+- **Compatível com o Arcade MOD. Instale-o no jogador que precisa voltar; aplica-se tanto a hosts como a clientes.**
+- **Esta é uma compilação beta não testada. Se encontrar um erro, por favor comunique- o ao autor com o último ficheiro `.log` do `BepInEx/logs/com.ch3ngyz.plugin.oc2joinrecovery/`.**
+'''
 note_i18n.ko = """
 방 참가 실패 또는 방을 나간 뒤 같은 Steam 참가 링크로 다시 참가하려 하면 계속 실패하거나 클릭에 반응하지 않아, 보통 게임을 재시작하거나 아케이드 방에 한 번 들어갔다 나와야 복구되는 문제를 수정합니다.
 모드는 링크 참가 전, 참가 실패 후, 방을 나갈 때 게임 원본 흐름에 남은 Steam 로비 멤버십과 초대 처리 상태를 정리합니다. 설치 후 자동으로 적용되며 별도의 설정이 필요하지 않습니다.

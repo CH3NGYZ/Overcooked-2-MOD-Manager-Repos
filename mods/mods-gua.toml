@@ -6,11 +6,25 @@ enabled = true
 name_i18n.zh-CN = "DIYLevel - 自定义关卡"
 name_i18n.zh-TW = "DIYLevel - 自訂關卡"
 name_i18n.en = "DIYLevel - Custom Levels"
+name_i18n.de = "DIYLevel – Benutzerdefinierte Level"
+name_i18n.fr = "DIYLevel – niveaux personnalisés"
+name_i18n.it = "DIYLevel – livelli personalizzati"
+name_i18n.es-ES = "DIYLevel – niveles personalizados"
+name_i18n.ru = "DIYLevel — пользовательские уровни"
+name_i18n.pl = "DIYLevel – poziomy niestandardowe"
+name_i18n.pt-BR = "DIYLevel – fases personalizadas"
 name_i18n.ko = "DIYLevel - 커스텀 레벨"
 name_i18n.ja = "DIYLevel - カスタムレベル"
 group_i18n.zh-CN = "DIYLevel"
 group_i18n.zh-TW = "DIYLevel"
 group_i18n.en = "DIYLevel"
+group_i18n.de = "DIYLevel"
+group_i18n.fr = "DIYLevel"
+group_i18n.it = "DIYLevel"
+group_i18n.es-ES = "DIYLevel"
+group_i18n.ru = "DIYLevel"
+group_i18n.pl = "DIYLevel"
+group_i18n.pt-BR = "DIYLevel"
 group_i18n.ko = "DIYLevel"
 group_i18n.ja = "DIYLevel"
 provider = "github"
@@ -244,6 +258,482 @@ If the save-slot list is empty, install and enable the `Fix Blank Save Slots Whe
 **Overcooked! 2 Workshop (QQ Group 4): 714907749**
 Feel free to discuss creating, installing, and playing custom maps.
 """
+note_i18n.de = '''
+# 🗺️ Custom Map Framework und Dependence Guide
+
+Installieren Sie das benutzerdefinierte Karten-Framework, um Community-made benutzerdefinierte Levels zu spielen!
+
+## 1. Abhängigkeitsfluss
+
+```mermaid
+flowchart TD
+    A["🎮 Spielen Sie benutzerdefinierte Karten"]
+    B["Installieren Sie `OC2DIYLevel`<br/>custom Map Framework (erforderlich)"]
+    C["Platzieren Sie Karten in<br/>`OC2DIYLevel/levels`"]
+    D{"Benötigt die Karte eine zusätzliche Abhängigkeit?"}
+    E["Spielen Sie direkt"]
+    F["Auch `DIYLevelRuntimeWLoader`<br/>by 嘉吖"]
+    G["Spielen Sie Karten, die diese Abhängigkeit erfordern"]
+
+    A --> B
+    B --> C
+    C --> D
+    D -->|No| E
+    D -->|Yes| F
+    F --> G
+
+    style B fill:#d9ead3,stroke:#38761d,color:#000
+    style C fill:#cfe2f3,stroke:#1155cc,color:#000
+    style F fill:#fce5cd,stroke:#b45f06,color:#000
+    style E fill:#d9ead3,stroke:#38761d,color:#000
+```
+
+## 2. Komponenten
+
+| Komponente | Erforderlich? | Beschreibung |
+|---|---|---|
+| `OC2DIYLevel` | **Erforderlich** | Das zentrale Framework für benutzerdefinierte Karten. Benutzerdefinierte Karten können nicht ohne sie abgespielt werden. |
+| `OC2DIYLevel/levels` | **Erforderlich** | Alle benutzerdefinierten Karten, die Sie abspielen möchten, müssen in diesem Verzeichnis abgelegt werden. |
+| `DIYLevelRuntimeWLoader` | **Erforderlich von einigen maps** | Eine gemeinsam genutzte webbasierte Voraussetzung, die von 嘉吖 erstellt wurde und Ladeunterstützung für benutzerdefinierte Karten bietet, die davon abhängen. |
+
+## 3. Installations- und Nutzungsempfehlungen
+
+1. **Installieren Sie das Hauptframework:** Installieren Sie das `OC2DIYLevel` benutzerdefinierte Karten-Framework.
+2. **Plazieren Sie die Karten:** Legen Sie alle benutzerdefinierten Karten, die Sie abspielen möchten, in das `OC2DIYLevel/levels`-Verzeichnis.
+3. **Check Kartenabhängigkeiten:** Überprüfen Sie, ob jede Karte `DIYLevelRuntimeWLoader` benötigt. Für Karten, die dies erfordern, laden Sie auch die `DIYLevelRuntimeWLoader`-Voraussetzung herunter, die von 嘉吖 erstellt wurde.
+
+> **⚠️ Kompatibilitätsempfehlung**
+> Wenn für die Karte, die Sie spielen, kein `DIYLevelRuntimeWLoader` erforderlich ist, wird empfohlen, diese Voraussetzung im MOD-Manager zu deaktivieren, um Kompatibilitätskonflikte zu reduzieren.
+> Wenn eine Karte dies erfordert, aktivieren Sie sie erneut; andernfalls kann es vorkommen, dass die Karte nicht korrekt geladen wird.
+
+## 4. Gemeinsame Fragen und Fehlerbehebung
+
+Wenn eines der folgenden Probleme auftritt, überprüfen Sie zuerst die Kompatibilität zwischen `OC2DIYLevel`, `DIYLevelRuntimeWLoader` und den Karten in `OC2DIYLevel/levels`:
+
+- Die Save-Slot-Liste ist nach dem Betreten des Spiels leer.
+
+Wenn die Speicher-Slot-Liste leer ist, installieren und aktivieren Sie den `Fix Blank Save Slots When DIYLevel Resource Loading Fails` MOD. Wenn eine Level-Ressource nicht geladen wird, wird ein Popup angezeigt, in dem der fehlerhafte Level-Satz, -Level und -Ressource benannt werden, um zu ermitteln, welche Karte das Erscheinen der Speicher-Slots verhindert.
+
+### Empfohlener Fehlerbehebungsauftrag
+
+1. Bestätigen Sie, dass `OC2DIYLevel` korrekt installiert ist.
+2. Bestätigen Sie, dass alle benutzerdefinierten Karten im `OC2DIYLevel/levels`-Verzeichnis abgelegt sind.
+3. Prüfen Sie, ob die Karte von `DIYLevelRuntimeWLoader` abhängt.
+4. Wenn die Karte diese Voraussetzung nicht erfordert, versuchen Sie, sie zu deaktivieren und erneut zu testen.
+5. Wenn das Problem weiterhin besteht, entfernen Sie Karten einzeln, um Kompatibilitätsprobleme zwischen einer Karte und dem Framework zu identifizieren.
+
+## 5. Gemeinschaft
+**Overcooked! 2 Workshop (QQ Gruppe 4): 714907749**
+Fühlen Sie sich frei, über das Erstellen, Installieren und Abspielen benutzerdefinierter Karten zu diskutieren.
+'''
+note_i18n.fr = '''
+# Guide du cadre et de la dépendance de la carte personnalisée
+
+Installez le cadre de carte personnalisé pour jouer des niveaux personnalisés faits par la communauté!
+
+## 1. Flux de dépendance
+
+```mermaid
+flowchart TD
+    A["Lire les cartes personnalisées"]
+    B["Installer `OC2DIYLevel`<br/>Custom map framework (requis)"]
+    C["Placer les cartes dans<br/>`OC2DIYLevel/levels`"]
+    D{"La carte nécessite-t-elle une dépendance supplémentaire?"}
+    E["Jouer directement"]
+    F["Installez également `DIYLevelRuntimeWLoader`<br/>par 嘉吖"]
+    G["Jouer des cartes qui nécessitent cette dépendance"]
+
+    A --> B
+    B --> C
+    C --> D
+    D -->|No| E
+    D -->|Yes| F
+    F --> G
+
+    style B fill:#d9ead3,stroke:#38761d,color:#000
+    style C fill:#cfe2f3,stroke:#1155cc,color:#000
+    style F fill:#fce5cd,stroke:#b45f06,color:#000
+    style E fill:#d9ead3,stroke:#38761d,color:#000
+```
+
+## 2. Composantes
+
+| Composante | Requis ? | Désignation des marchandises |
+|---|---|---|
+| `OC2DIYLevel` | **requis** | Le cadre de base des cartes personnalisées. Les cartes personnalisées ne peuvent pas être jouées sans elle. |
+| `OC2DIYLevel/levels` | **Utiliser** | Toutes les cartes personnalisées que vous voulez jouer doivent être placées dans ce répertoire. |
+| `DIYLevelRuntimeWLoader` | **Requis par certaines cartes** | Une prérequise web partagée créée par 嘉吖 qui fournit une prise en charge de chargement pour les cartes personnalisées qui en dépendent. |
+
+## 3. Recommandations d'installation et d'utilisation
+
+1. **Installez le cadre principal:** Installez le cadre de carte personnalisé `OC2DIYLevel`.
+2. **Placer les cartes:** Mettre toutes les cartes personnalisées que vous souhaitez jouer dans le répertoire `OC2DIYLevel/levels`.
+3. **Vérifier les dépendances de la carte:** Vérifiez si chaque carte nécessite `DIYLevelRuntimeWLoader`. Pour les cartes qui l'exigent, téléchargez également la prérequise `DIYLevelRuntimeWLoader` créée par 嘉吖.
+
+> **Recommandation de compatibilité**
+> Si la carte que vous jouez n'exige pas `DIYLevelRuntimeWLoader`, il est recommandé de désactiver cette condition préalable dans le gestionnaire MOD pour réduire les conflits de compatibilité.
+> Si une carte l'exige, activez-la à nouveau; sinon, la carte peut ne pas être correctement chargée.
+
+## 4. Questions communes et dépannage
+
+Si l'un des problèmes suivants survient, vérifiez d'abord la compatibilité entre `OC2DIYLevel`, `DIYLevelRuntimeWLoader` et les cartes de `OC2DIYLevel/levels`:
+
+- La liste save-slot est vide après l'entrée du jeu.
+
+Si la liste save-slot est vide, installez et activez le `Fix Blank Save Slots When DIYLevel Resource Loading Fails` MOD. Lorsqu'une ressource de niveau n'arrive pas à se charger, elle affiche un popup nommant l'ensemble, le niveau et la ressource de niveau défaillant, aidant à identifier quelle carte empêche les fentes de sauvegarde d'apparaître.
+
+### Ordre de dépannage recommandé
+
+1. Confirmez que `OC2DIYLevel` est correctement installé.
+2. Confirmez que toutes les cartes personnalisées sont placées dans le répertoire `OC2DIYLevel/levels`.
+3. Vérifiez si la carte dépend de `DIYLevelRuntimeWLoader`.
+4. Si la carte n'exige pas cette condition préalable, essayez de la désactiver et testez à nouveau.
+5. Si le problème persiste, supprimer les cartes une à la fois pour identifier les problèmes de compatibilité entre une carte et le cadre.
+
+## 5. Communauté
+**Atelier Overcooked! 2 (groupe QQ 4) : 714907749**
+N'hésitez pas à discuter de la création, de l'installation et de la lecture de cartes personnalisées.
+'''
+note_i18n.it = '''
+# ⁇  Guida per il quadro e la dipendenza della mappa personalizzata
+
+Installare il framework della mappa personalizzata per giocare a livelli personalizzati fatti dalla comunità!
+
+## 1. Flusso di dipendenza
+
+```mermaid
+flowchart TD
+    A["⁇  Gioca mappe personalizzate"]
+    B["Installazione `OC2DIYLevel`<br/>struttura della mappa personalizzata (richiesto)"]
+    C["Posizionare le mappe in<br/>`OC2DIYLevel/levels`"]
+    D{"La mappa richiede una dipendenza aggiuntiva?"}
+    E["Gioca direttamente"]
+    F["Installare anche `DIYLevelRuntimeWLoader`<br/>by 嘉吖"]
+    G["Giocare mappe che richiedono questa dipendenza"]
+
+    A --> B
+    B --> C
+    C --> D
+    D -->|No| E
+    D -->|Yes| F
+    F --> G
+
+    style B fill:#d9ead3,stroke:#38761d,color:#000
+    style C fill:#cfe2f3,stroke:#1155cc,color:#000
+    style F fill:#fce5cd,stroke:#b45f06,color:#000
+    style E fill:#d9ead3,stroke:#38761d,color:#000
+```
+
+## 2. Componenti
+
+| Componenti | Obbligatorio? | Designazione |
+|---|---|---|
+| `OC2DIYLevel` | **Requisito** | La struttura principale per le mappe personalizzate non può essere giocata senza di essa. |
+| `OC2DIYLevel/levels` | **Utilizzo di musica** | Tutte le mappe personalizzate che si desidera riprodurre devono essere posizionate in questa directory. |
+| `DIYLevelRuntimeWLoader` | **Requisito da alcune mappe** | Un prerequisito basato su Web condiviso creato da 嘉吖 che fornisce il supporto di carico per le mappe personalizzate che dipendono da esso. |
+
+## 3. Raccomandazioni di installazione e utilizzo
+
+1. **Installare il framework principale:** Installare il framework di mappa personalizzata `OC2DIYLevel`.
+2. **Place le mappe:** Mettere tutte le mappe personalizzate che si desidera riprodurre nella directory `OC2DIYLevel/levels`.
+3. **Controllare le dipendenze della mappa:** Controllare se ogni mappa richiede `DIYLevelRuntimeWLoader`. Per le mappe che lo richiedono, scarica anche il prerequisito `DIYLevelRuntimeWLoader` creato da 嘉吖.
+
+> **⁇  Raccomandazione di compatibilità**
+> Se la mappa che stai giocando non richiede `DIYLevelRuntimeWLoader`, si consiglia di disabilitare questo prerequisito nel gestore MOD per ridurre i conflitti di compatibilità.
+> Se una mappa lo richiede, abilitare di nuovo; altrimenti, la mappa potrebbe non caricare correttamente.
+
+## 4. Problemi comuni e risoluzione dei problemi
+
+Se si verificano problemi seguenti, controlla prima la compatibilità tra `OC2DIYLevel`, `DIYLevelRuntimeWLoader` e le mappe in `OC2DIYLevel/levels`:
+
+- L'elenco salva-slot è vuoto dopo aver inserito il gioco.
+
+Se l'elenco di salvataggio-slot è vuoto, installare e abilitare il MOD `Fix Blank Save Slots When DIYLevel Resource Loading Fails`. Quando una risorsa di livello non riesce a caricare, mostra un popup che nomina il livello di guasto impostato, livello e risorsa, aiutando a identificare quale mappa impedisce che le slot di salvataggio vengano visualizzate.
+
+### Ordine di risoluzione dei problemi consigliato
+
+1. Confermare che `OC2DIYLevel` è installato correttamente.
+2. Confermare che tutte le mappe personalizzate sono posizionate nella directory `OC2DIYLevel/levels`.
+3. Controllare se la mappa dipende da `DIYLevelRuntimeWLoader`.
+4. Se la mappa non richiede questo prerequisito, provare a disabilitarlo e testare di nuovo.
+5. Se il problema persiste, rimuovere le mappe una alla volta per identificare problemi di compatibilità tra una mappa e il framework.
+
+## 5. Comunità
+**Workshop Overcooked! 2 (gruppo QQ 4): 714907749**
+Sentitevi liberi di discutere la creazione, l'installazione e la riproduzione di mappe personalizzate.
+'''
+note_i18n.es-ES = '''
+# Marco de mapas personalizados y Guía de dependencia
+
+Instala el marco de mapa personalizado para jugar a los niveles personalizados hechos por la comunidad!
+
+## 1. Flujo de dependencia
+
+```mermaid
+flowchart TD
+    A["⁇  Jugar mapas personalizados"]
+    B["Instala `OC2DIYLevel`<br/>marco de mapa personalizado (requerido)"]
+    C["Mapas de lugares en<br/>`OC2DIYLevel/levels`"]
+    D{"¿El mapa requiere una dependencia adicional?"}
+    E["Jugar directamente"]
+    F["También instalar `DIYLevelRuntimeWLoader`<br/>por 嘉吖"]
+    G["Jugar mapas que requieren esta dependencia"]
+
+    A --> B
+    B --> C
+    C --> D
+    D -->|No| E
+    D -->|Yes| F
+    F --> G
+
+    style B fill:#d9ead3,stroke:#38761d,color:#000
+    style C fill:#cfe2f3,stroke:#1155cc,color:#000
+    style F fill:#fce5cd,stroke:#b45f06,color:#000
+    style E fill:#d9ead3,stroke:#38761d,color:#000
+```
+
+## 2. Componentes
+
+| Componente | ¿Obligatorio? | Descripción |
+|---|---|---|
+| `OC2DIYLevel` | **Obligatorio** | El marco básico para mapas personalizados. Los mapas personalizados no se pueden jugar sin él. |
+| `OC2DIYLevel/levels` | **Ust use** | Todos los mapas personalizados que desee reproducir deben ser colocados en este directorio. |
+| `DIYLevelRuntimeWLoader` | **Algunos mapas lo necesitan** | Un requisito web compartido creado por 嘉吖 que proporciona soporte de carga para mapas personalizados que dependen de él. |
+
+## 3. Recomendaciones de instalación y uso
+
+1. **Install the main framework:** Install the `OC2DIYLevel` custom map framework.
+2. **Place los mapas:** Ponga todos los mapas personalizados que desea jugar en el directorio `OC2DIYLevel/levels`.
+3. **Consultar las dependencias del mapa:** Compruebe si cada mapa requiere `DIYLevelRuntimeWLoader`. Para los mapas que lo requieren, descargar también el requisito `DIYLevelRuntimeWLoader` creado por 嘉吖.
+
+> **NOVED Compatibility recommendation**
+> Si el mapa que está jugando no requiere `DIYLevelRuntimeWLoader`, se recomienda deshabilitar este requisito en el administrador de MOD para reducir los conflictos de compatibilidad.
+> Si un mapa lo requiere, habilitarlo de nuevo; de lo contrario, el mapa puede no cargar correctamente.
+
+## 4. Cuestiones comunes y solución de problemas
+
+Si ocurre alguno de los siguientes problemas, compruebe primero la compatibilidad entre `OC2DIYLevel`, `DIYLevelRuntimeWLoader`, y los mapas en `OC2DIYLevel/levels`:
+
+- La lista de guardar-slot está vacía después de entrar en el juego.
+
+Si la lista de ahorros está vacía, instala y habilita el `Fix Blank Save Slots When DIYLevel Resource Loading Fails` MOD. Cuando un recurso de nivel no se carga, muestra un popup nombrando el conjunto de nivel de falla, nivel y recurso, ayudando a identificar qué mapa evita que aparezcan las ranuras de ahorro.
+
+### Orden de solución de problemas recomendada
+
+1. Confirme que `OC2DIYLevel` está instalado correctamente.
+2. Confirme que todos los mapas personalizados se colocan en el directorio `OC2DIYLevel/levels`.
+3. Compruebe si el mapa depende de `DIYLevelRuntimeWLoader`.
+4. Si el mapa no requiere este requisito, intente desactivarlo y probar de nuevo.
+5. Si el problema persiste, eliminar mapas uno a uno para identificar problemas de compatibilidad entre un mapa y el marco.
+
+## 5. Comunidad
+**Overcooked! 2 Workshop (QQ Group 4): 714907749**
+Siéntete libre de discutir crear, instalar y jugar mapas personalizados.
+'''
+note_i18n.ru = '''
+# Custom Map Framework и руководство по зависимости
+
+Установите пользовательский каркас карты, чтобы играть на пользовательских уровнях, созданных сообществом!
+
+## 1.Поток зависимости
+
+```mermaid
+flowchart TD
+    A["Играйте в пользовательские карты"]
+    B["Установить `OC2DIYLevel`Q<br/>custom map framework (обязательно)"]
+    C["Размещение карт в <br/>`OC2DIYLevel/levels`"]
+    D{"Нужна ли карте дополнительная зависимость?"}
+    E["Играть напрямую"]
+    F["Установить `DIYLevelRuntimeWLoader`<br/>by 嘉吖"]
+    G["Играйте в карты, которые требуют этой зависимости"]
+
+    A --> B
+    B --> C
+    C --> D
+    D -->|No| E
+    D -->|Yes| F
+    F --> G
+
+    style B fill:#d9ead3,stroke:#38761d,color:#000
+    style C fill:#cfe2f3,stroke:#1155cc,color:#000
+    style F fill:#fce5cd,stroke:#b45f06,color:#000
+    style E fill:#d9ead3,stroke:#38761d,color:#000
+```
+
+## 2. Компоненты
+
+| Компонент | Требуется? | Описание |
+|---|---|---|
+| `OC2DIYLevel` | ** Требуется ** | Основная структура для пользовательских карт. Пользовательские карты не могут быть воспроизведены без него. |
+| `OC2DIYLevel/levels` | **Обязательно** | Все пользовательские карты, которые вы хотите играть, должны быть размещены в этом каталоге. |
+| `DIYLevelRuntimeWLoader` | ** Требуется для некоторых карт ** | Общие веб-предпосылки, созданные 嘉吖, которые обеспечивают поддержку загрузки пользовательских карт, которые зависят от него. |
+
+## 3. Рекомендации по установке и использованию
+
+1. **Установите основной фреймворк: ** Установите настраиваемый каркас карты `OC2DIYLevel`.
+2. **Place the maps:** Поместите все пользовательские карты, которые вы хотите воспроизвести в каталоге `OC2DIYLevel/levels`.
+3. Зависимости карты **Check: ** Проверьте, требуется ли каждая карта `DIYLevelRuntimeWLoader`. Для карт, которые требуют этого, также скачайте предпосылку `DIYLevelRuntimeWLoader`, созданную 嘉吖.
+
+> **⁇ ️ Рекомендация по совместимости**
+> Если карта, на которой вы играете, не требует `DIYLevelRuntimeWLoader`, рекомендуется отключить это условие в диспетчере MOD, чтобы уменьшить конфликты совместимости.
+> Если карта требует этого, включите ее снова; в противном случае карта может не загружаться правильно.
+
+## 4. Общие проблемы и устранение неполадок
+
+Если возникает какая-либо из следующих проблем, сначала проверьте совместимость между `OC2DIYLevel`, `DIYLevelRuntimeWLoader` и картами в `OC2DIYLevel/levels`:
+
+- Список сейв-слотов пуст после входа в игру.
+
+Если список слотов сохранения пуст, установите и включите `Fix Blank Save Slots When DIYLevel Resource Loading Fails` MOD. Когда ресурс уровня не загружается, он показывает всплывающее окно, именующее набор уровней, уровень и ресурс, помогая определить, какая карта предотвращает появление слотов сохранения.
+
+### Рекомендуемый порядок устранения неполадок
+
+1. Подтвердите, что `OC2DIYLevel` установлен правильно.
+2. Подтвердите, что все пользовательские карты размещены в каталоге `OC2DIYLevel/levels`.
+3. Проверьте, зависит ли карта от `DIYLevelRuntimeWLoader`.
+4. Если карта не требует этого условия, попробуйте отключить ее и протестируйте снова.
+5. Если проблема сохраняется, удалите карты по одной за раз, чтобы определить проблемы совместимости между картой и фреймворком.
+
+## 5.Общество
+**Семинар Overcooked! 2 (QQ Group 4): 714907749**
+Не стесняйтесь обсуждать создание, установку и воспроизведение пользовательских карт.
+'''
+note_i18n.pl = '''
+# Niestandardowe Map Framework and Dependency Guide
+
+Zainstaluj niestandardowe ramy mapy, aby grać wspólnotowe- wykonane niestandardowe poziomy!
+
+## 1. Independency Flow
+
+```mermaid
+flowchart TD
+    A["Odtwarzaj niestandardowe mapy"]
+    B["Zainstaluj ramkę mapy `OC2DIYLevel`<br/>niestandardowe (wymagane)"]
+    C["Umieść mapy w <br/>`OC2DIYLevel/levels`"]
+    D{"Czy mapa wymaga dodatkowej zależności?"}
+    E["Graj bezpośrednio"]
+    F["Zainstaluj również `DIYLevelRuntimeWLoader`<br/>by 嘉吖"]
+    G["Odtwórz mapy, które wymagają tej zależności"]
+
+    A --> B
+    B --> C
+    C --> D
+    D -->|No| E
+    D -->|Yes| F
+    F --> G
+
+    style B fill:#d9ead3,stroke:#38761d,color:#000
+    style C fill:#cfe2f3,stroke:#1155cc,color:#000
+    style F fill:#fce5cd,stroke:#b45f06,color:#000
+    style E fill:#d9ead3,stroke:#38761d,color:#000
+```
+
+## 2. Komponenty
+
+| Komponent | Wymagane? | Opis |
+|---|---|---|
+| `OC2DIYLevel` | **Required** | Podstawowe ramy map niestandardowych. Mapy niestandardowe nie mogą być odtwarzane bez nich. |
+| `OC2DIYLevel/levels` | **Must use** | Wszystkie niestandardowe mapy, które chcesz odtworzyć, muszą być umieszczone w tym katalogu. |
+| `DIYLevelRuntimeWLoader` | **Required by some maps** | Współdzielone Web- oparte warunek stworzony przez 嘉吖, który zapewnia obsługę wczytywania niestandardowych map, które od niego zależą. |
+
+## 3. Zalecenia dotyczące instalacji i użytkowania
+
+1. **Zainstaluj główne ramy: ** Zainstaluj własne ramy mapy `OC2DIYLevel`.
+2. **Place mapy: ** Umieść wszystkie niestandardowe mapy, które chcesz odtworzyć w katalogu `OC2DIYLevel/levels`.
+3. **Check zależności od mapy: ** Sprawdź, czy każda mapa wymaga `DIYLevelRuntimeWLoader`. Dla map, które tego wymagają, również pobrać `DIYLevelRuntimeWLoader` warunek stworzony przez 嘉吖.
+
+> **Zalecenie zgodności**
+> Jeśli mapa, na której grasz, nie wymaga `DIYLevelRuntimeWLoader`, zaleca się wyłączenie tego warunku w menedżerze MOD w celu zmniejszenia konfliktów kompatybilności.
+> Jeśli mapa tego wymaga, aktywuj ponownie; w przeciwnym razie mapa może nie być poprawnie załadowana.
+
+## 4. Wspólne problemy i rozwiązywanie problemów
+
+Jeśli wystąpi którykolwiek z następujących problemów, najpierw sprawdź zgodność pomiędzy `OC2DIYLevel`, `DIYLevelRuntimeWLoader` i mapami w `OC2DIYLevel/levels`:
+
+- Lista save- slot jest pusta po wejściu do gry.
+
+Jeśli lista save- slot jest pusta, należy zainstalować i włączyć `Fix Blank Save Slots When DIYLevel Resource Loading Fails` MOD. Gdy zasób poziomu nie jest wczytywany, wyświetla wyskakujące nazewnictwo niespełniającego się zestawu poziomów, poziomu i zasobów, pomagając zidentyfikować, która mapa zapobiega pojawianiu się zapisanych szczelin.
+
+### Zalecany porządek rozwiązywania problemów
+
+1. Potwierdź, że `OC2DIYLevel` jest poprawnie zainstalowany.
+2. Potwierdź, że wszystkie niestandardowe mapy są umieszczone w katalogu `OC2DIYLevel/levels`.
+3. Sprawdź, czy mapa zależy od `DIYLevelRuntimeWLoader`.
+4. Jeśli mapa nie wymaga tego warunku, spróbuj go wyłączyć i ponownie przetestować.
+5. Jeżeli problem utrzymuje się, należy usunąć mapy pojedynczo, aby zidentyfikować kwestie zgodności między mapą a ramami.
+
+## 5. Wspólnota
+**Warsztaty Overcooked! 2 (QQ Group 4): 714907749**
+Zapraszamy do dyskusji nad tworzeniem, instalowaniem i odtwarzaniem niestandardowych map.
+'''
+note_i18n.pt-BR = '''
+# Guia Personalizado do Mapa e da Dependência
+
+Instale o framework de mapa personalizado para jogar níveis personalizados feitos pela comunidade!
+
+## 1. Fluxo de dependência
+
+```mermaid
+flowchart TD
+    A["Reproduzir mapas personalizados"]
+    B["Instale o `OC2DIYLevel`<br/> custom map framework (obrigatório)"]
+    C["Colocar mapas em<br/>`OC2DIYLevel/levels`"]
+    D{"O mapa requer uma dependência adicional?"}
+    E["Reproduzir diretamente"]
+    F["Também instalar `DIYLevelRuntimeWLoader`<br/>by 嘉吖"]
+    G["Reproduzir mapas que exigem esta dependência"]
+
+    A --> B
+    B --> C
+    C --> D
+    D -->|No| E
+    D -->|Yes| F
+    F --> G
+
+    style B fill:#d9ead3,stroke:#38761d,color:#000
+    style C fill:#cfe2f3,stroke:#1155cc,color:#000
+    style F fill:#fce5cd,stroke:#b45f06,color:#000
+    style E fill:#d9ead3,stroke:#38761d,color:#000
+```
+
+## 2. Componentes
+
+| Componente | Necessário? | Designação das mercadorias |
+|---|---|---|
+| `OC2DIYLevel` | **Obrigatório** | O framework principal para mapas personalizados. Os mapas personalizados não podem ser reproduzidos sem ele. |
+| `OC2DIYLevel/levels` | **Obrigatório** | Todos os mapas personalizados que você deseja reproduzir devem ser colocados neste diretório. |
+| `DIYLevelRuntimeWLoader` | **Requerido por alguns mapas** | Um pré-requisito baseado na Web compartilhado criado pelo 嘉吖 que fornece suporte de carregamento para mapas personalizados que dependem dele. |
+
+## 3. Recomendações de instalação e uso
+
+1. **Instale o framework principal:** Instale o framework de mapa personalizado `OC2DIYLevel`.
+2. **Place the maps:** Coloque todos os mapas personalizados que você deseja jogar no diretório `OC2DIYLevel/levels`.
+3. **Verifique dependências do mapa:** Verifique se cada mapa requer `DIYLevelRuntimeWLoader`. Para mapas que o exigem, também baixe o pré-requisito `DIYLevelRuntimeWLoader` criado pelo 嘉吖.
+
+> **Recomendações de compatibilidade**
+> Se o mapa que você está jogando não requer `DIYLevelRuntimeWLoader`, é recomendável desabilitar este pré-requisito no gerenciador MOD para reduzir conflitos de compatibilidade.
+> Se um mapa precisar dele, habilite-o novamente; caso contrário, o mapa pode não carregar corretamente.
+
+## 4. Questões comuns e solução de problemas
+
+Se algum dos seguintes problemas ocorrer, primeiro verifique a compatibilidade entre `OC2DIYLevel`, `DIYLevelRuntimeWLoader` e os mapas em `OC2DIYLevel/levels`:
+
+- A lista de pontos de salvamento está vazia após entrar no jogo.
+
+Se a lista de pontos de salvamento estiver vazia, instale e habilite o `Fix Blank Save Slots When DIYLevel Resource Loading Fails` MOD. Quando um recurso de nível falha em carregar, ele mostra um popup nomeando o conjunto de níveis, níveis e recursos falhando, ajudando a identificar qual mapa impede que os slots de salvar apareçam.
+
+### Ordem de Resolução de Problemas Recomendada
+
+1. Confirme que o `OC2DIYLevel` está instalado corretamente.
+2. Confirme que todos os mapas personalizados são colocados no diretório `OC2DIYLevel/levels`.
+3. Verifique se o mapa depende do `DIYLevelRuntimeWLoader`.
+4. Se o mapa não exigir este pré-requisito, tente desativá-lo e teste novamente.
+5. Se o problema persistir, remova mapas um de cada vez para identificar problemas de compatibilidade entre um mapa e o framework.
+
+## 5. Comunidade
+**Overcooked! 2 Workshop (QQ Group 4): 714907749**
+Sinta-se livre para discutir a criação, instalação e reprodução de mapas personalizados.
+'''
 note_i18n.ko = """
 # 🗺️ 사용자 지정 맵 프레임워크 및 종속성 안내
 
@@ -418,11 +908,25 @@ enabled = true
 name_i18n.zh-CN = "投掷一切 MOD"
 name_i18n.zh-TW = "投擲一切 MOD"
 name_i18n.en = "Throw Any MOD"
+name_i18n.de = "Throw Any – Alles werfen"
+name_i18n.fr = "Throw Any – tout lancer"
+name_i18n.it = "Throw Any – lancia di tutto"
+name_i18n.es-ES = "Throw Any – lanzar cualquier objeto"
+name_i18n.ru = "Throw Any — бросайте любые предметы"
+name_i18n.pl = "Throw Any – rzucaj dowolnymi przedmiotami"
+name_i18n.pt-BR = "Throw Any – arremesse qualquer objeto"
 name_i18n.ko = "무엇이든 던지기 MOD"
 name_i18n.ja = "何でも投げる MOD"
 group_i18n.zh-CN = "玩法拓展"
 group_i18n.zh-TW = "玩法拓展"
 group_i18n.en = "Gameplay Expansion"
+group_i18n.de = "Gameplay-Erweiterung"
+group_i18n.fr = "Extensions du gameplay"
+group_i18n.it = "Espansioni del gameplay"
+group_i18n.es-ES = "Ampliaciones de jugabilidad"
+group_i18n.ru = "Расширения игрового процесса"
+group_i18n.pl = "Rozszerzenia rozgrywki"
+group_i18n.pt-BR = "Expansões de jogabilidade"
 group_i18n.ko = "플레이 방식 확장"
 group_i18n.ja = "ゲームプレイ拡張"
 provider = "github"
@@ -470,6 +974,62 @@ Throw normally unthrowable items such as plates, and pick up and throw other che
 - Enable it in the game main menu under Settings - MOD. It is disabled by default.
 - The host can use it after installing it. In multiplayer, the host must install and enable it; both host and client must enable it for clients to throw.
 - The feature is automatically disabled in Arcade Public to avoid affecting other players."""
+note_i18n.de = '''
+Werfen Sie normalerweise unwerfbare Gegenstände wie Teller und nehmen Sie andere Köche auf und werfen Sie sie.
+- Throw Master: Werfen Sie jeden Gegenstand außer Feuerlöscher, Wasserpistolen, Creme und Whoopee-Kissen.
+- Werfen Sie Person: Nehmen Sie andere Köche auf und werfen Sie sie; Das Kundenverhalten kann durch Latenz beeinflusst werden.
+- Aktivieren Sie es im Spiel-Hauptmenü unter Einstellungen - MOD. Es ist standardmäßig deaktiviert.
+- Der Host kann es nach der Installation verwenden. Im Multiplayer muss der Host es installieren und aktivieren; sowohl Host als auch Client müssen es für Clients aktivieren.
+- Die Funktion wird in Arcade Public automatisch deaktiviert, um andere Spieler nicht zu beeinträchtigen.
+'''
+note_i18n.fr = '''
+Jetez normalement des objets incandescentes comme des assiettes, et ramassez et jetez d'autres chefs.
+- Lancez Maître : jetez n'importe quel objet sauf des extincteurs, des pistolets à eau, de la crème et des coussins de whopee.
+- Personne à lancer : prendre et jeter d'autres chefs; le comportement du client peut être affecté par la latence.
+- Activez-le dans le menu principal du jeu sous Paramètres - MOD. Il est désactivé par défaut.
+- L'hôte peut l'utiliser après l'avoir installé. Dans le multijoueur, l'hôte doit l'installer et l'activer ; à la fois l'hôte et le client doivent permettre aux clients de lancer.
+- La fonctionnalité est automatiquement désactivée dans Arcade Public pour éviter d'affecter d'autres joueurs.
+'''
+note_i18n.it = '''
+Gettare oggetti normalmente non affollati come piatti, e raccogliere e lanciare altri chef.
+- Throw Master: gettare qualsiasi elemento tranne estintori di fuoco, pistole ad acqua, crema e cuscini whoopee.
+- Throw Person: raccogliere e lanciare altri chef; il comportamento del cliente può essere influenzato dalla latenza.
+- Attivarlo nel menu principale del gioco sotto Impostazioni - MOD. È disabilitato per impostazione predefinita.
+- L'host può utilizzarlo dopo l'installazione. In multiplayer, l'host deve installarlo e abilitarlo; sia host che client devono abilitarlo per i clienti a lanciare.
+- La funzione è disattivata automaticamente in Arcade Public per evitare di influenzare altri giocatori.
+'''
+note_i18n.es-ES = '''
+Tire objetos normalmente insoportables como platos, y recoger y tirar otros chefs.
+- Tirar Maestro: tirar cualquier artículo excepto extintores de fuego, pistolas de agua, crema y cojines de whoopee.
+- Tirar Persona: recoger y tirar otros chefs; el comportamiento del cliente puede ser afectado por la latencia.
+- Hágalo en el menú principal del juego bajo Ajustes - MOD. Está deshabilitado por defecto.
+- El host puede utilizarlo después de instalarlo. En multijugador, el host debe instalar y habilitarlo; tanto el host como el cliente deben habilitarlo para que los clientes puedan lanzar.
+- La función se desactiva automáticamente en Arcade Public para evitar afectar a otros jugadores.
+'''
+note_i18n.ru = '''
+Бросайте обычно несъемные предметы, такие как тарелки, и поднимите и бросьте других поваров.
+- Бросьте Мастера: бросьте любой предмет, кроме огнетушителей, водяных ружей, крема и подушек для утопающих.
+- Бросьте человека: возьмите и бросьте других шеф-поваров; поведение клиента может быть затронуто задержкой.
+- Включите его в главном меню игры под Настройки - MOD. Он отключен по умолчанию.
+- Хост может использовать его после установки.В многопользовательском режиме хост должен установить и включить его; как хост, так и клиент должны включить его для клиентов.
+- Функция автоматически отключается в Arcade Public, чтобы не затрагивать других игроков.
+'''
+note_i18n.pl = '''
+Rzucać zwykle nierzucalne przedmioty, takie jak płyty, i podnieść i rzucać innych kucharzy.
+- Throw Master: rzucaj dowolny przedmiot oprócz gaśnic, pistoletów wodnych, śmietanki i poduszek.
+- Osoba rzucająca: podnieść i rzucić innych kucharzy; zachowanie klienta może być dotknięte opóźnieniem.
+- Włącz go w menu głównym gry pod ustawieniami - MOD. Domyślnie jest wyłączony.
+- Host może go używać po zainstalowaniu go. W trybie multiplayer host musi go zainstalować i włączyć; zarówno host, jak i klient muszą umożliwić rzucenie go klientom.
+- Funkcja jest automatycznie wyłączona w Arcade Public, aby uniknąć wpływu na innych graczy.
+'''
+note_i18n.pt-BR = '''
+Jogue itens normalmente não jogáveis, como pratos, e pegue e jogue outros chefs.
+- Lance Mestre: jogue qualquer item, exceto extintores de incêndio, pistolas de água, creme e almofadas whoopee.
+- Atirar Pessoa: pegar e jogar outros chefs; o comportamento do cliente pode ser afetado pela latência.
+- Active- o no menu principal do jogo em Configuração - MOD. Está desactivado por omissão.
+- A máquina pode usá- la após instalá- la. No multiplayer, a máquina deve instalá- la e habilitá- la; tanto a máquina como o cliente devem habilitá- la para que os clientes lancem.
+- O recurso é automaticamente desativado no Arcade Public para evitar afetar outros jogadores.
+'''
 note_i18n.ko = """
 접시처럼 원래 던질 수 없는 물건을 던지고 다른 셰프를 들어서 던질 수 있습니다.
 - 투척 달인: 소화기, 물총, 크림, 방귀 쿠션을 제외한 모든 물건을 던집니다.
@@ -492,11 +1052,25 @@ enabled = true
 name_i18n.zh-CN = "喷气背包 MOD"
 name_i18n.zh-TW = "噴射背包 MOD"
 name_i18n.en = "Jetpack MOD"
+name_i18n.de = "Jetpack-MOD"
+name_i18n.fr = "MOD Jetpack"
+name_i18n.it = "MOD Jetpack"
+name_i18n.es-ES = "MOD Jetpack"
+name_i18n.ru = "Мод Jetpack"
+name_i18n.pl = "Mod Jetpack"
+name_i18n.pt-BR = "Mod Jetpack"
 name_i18n.ko = "제트팩 MOD"
 name_i18n.ja = "ジェットパック MOD"
 group_i18n.zh-CN = "玩法拓展"
 group_i18n.zh-TW = "玩法拓展"
 group_i18n.en = "Gameplay Expansion"
+group_i18n.de = "Gameplay-Erweiterung"
+group_i18n.fr = "Extensions du gameplay"
+group_i18n.it = "Espansioni del gameplay"
+group_i18n.es-ES = "Ampliaciones de jugabilidad"
+group_i18n.ru = "Расширения игрового процесса"
+group_i18n.pl = "Rozszerzenia rozgrywki"
+group_i18n.pt-BR = "Expansões de jogabilidade"
 group_i18n.ko = "플레이 방식 확장"
 group_i18n.ja = "ゲームプレイ拡張"
 provider = "github"
@@ -547,6 +1121,69 @@ Fly using a configurable key. Set the takeoff key named Jet in the game key setu
 - Jet is disabled by default when the game starts. You can also press Esc during key setup to disable it; disabled mode does not change the original game logic.
 - Not valid in Arcade Public.
 - When enabled, gravity becomes one fifth of its original value and all ceilings are removed, so there are many ways to get airborne without pressing Jet."""
+note_i18n.de = '''
+Fliegen Sie mit einem konfigurierbaren Schlüssel. Setzen Sie zuerst die Starttaste namens Jet im Spielschlüssel-Setup.
+- Keyboard- und Split-Tastatur-Spieler können Jet direkt einstellen. Gamepad-Spieler müssen hier eine Tastaturtaste einstellen und dann die Gamepad-Taste in Steam - Library - Overcooked! 2 - Controller Layout abbilden.
+- Halten Sie Jet zum Starten; Tippen Sie auf Jet zur Kreuzfahrt in fester Höhe.
+- Clients funktionieren nur, wenn der Host auch dieses MOD installiert hat.
+- Jet ist standardmäßig deaktiviert, wenn das Spiel startet.Sie können auch Esc während der Tasteneinstellung drücken, um es zu deaktivieren; der deaktivierte Modus ändert die ursprüngliche Spiellogik nicht.
+- Nicht gültig in Arcade Public.
+- Wenn es aktiviert ist, wird die Schwerkraft ein Fünftel ihres ursprünglichen Wertes und alle Decken werden entfernt, so dass es viele Möglichkeiten gibt, in die Luft zu gelangen, ohne den Jet zu drücken.
+'''
+note_i18n.fr = '''
+Volez à l'aide d'une clé configurable. Définissez d'abord la clé de décollage nommée Jet dans la configuration de la clé de jeu.
+- Les joueurs de clavier et de clavier partagé peuvent définir directement Jet. Les joueurs de jeu doivent définir une clé de clavier ici, puis mapper le bouton de gamepad à lui dans Steam - Library - Overcooked! 2 - Controller Layout.
+- Maintenez Jet pour décoller; appuyez sur Jet à croisière en hauteur fixe.
+- Les clients ne fonctionnent que lorsque l'hôte a également installé ce MOD.
+- Jet est désactivé par défaut lorsque le jeu démarre. Vous pouvez également appuyer sur Esc pendant la configuration de la clé pour le désactiver ; le mode désactivé ne modifie pas la logique du jeu original.
+- Non valide dans Arcade Public.
+- Lorsque activé, la gravité devient un cinquième de sa valeur initiale et tous les plafonds sont enlevés, il y a donc de nombreuses façons d'obtenir l'air sans presser Jet.
+'''
+note_i18n.it = '''
+Volare utilizzando una chiave configurabile. Impostare il tasto di decollo chiamato Jet nella configurazione chiave di gioco prima.
+- I giocatori della tastiera e dello split-keyboard possono impostare direttamente Jet. I giocatori del gamepad devono impostare una chiave della tastiera qui, quindi mappare il pulsante del gamepad su di esso in Steam - Library - Overcooked! 2 - Controller Layout.
+- Tenere Jet per decollare; toccare Jet a crociera di altezza fissa.
+- I clienti funzionano solo quando l'host ha installato anche questo MOD.
+- Jet è disabilitato di default quando il gioco inizia. È anche possibile premere Esc durante la configurazione chiave per disattivarlo; la modalità disabilitata non cambia la logica di gioco originale.
+- Non valido in Arcade Public.
+- Quando è abilitata, la gravità diventa un quinto del suo valore originale e tutti i soffitti vengono rimossi, quindi ci sono molti modi per ottenere in volo senza premere Jet.
+'''
+note_i18n.es-ES = '''
+Volar usando una tecla configurable. Establecer la clave de despegue llamada Jet en la configuración de clave del juego primero.
+- Los jugadores de teclado y split-keyboard pueden configurar Jet directamente. Los jugadores de Gamepad deben configurar una tecla de teclado aquí, a continuación, mapear el botón de gamepad en Steam - Biblioteca - Overcooked! 2 - Controller Layout.
+- Sostenga a Jet para despegar; grifo Jet a crucero de altura fijo.
+- Los clientes sólo funcionan cuando el host también tiene este MOD instalado.
+- Jet está deshabilitado por defecto cuando el juego comienza. También puede pulsar Esc durante la configuración clave para deshabilitarlo; el modo deshabilitado no cambia la lógica del juego original.
+- No es válido en Arcade Public.
+- Cuando está habilitada, la gravedad se convierte en una quinta parte de su valor original y se eliminan todos los techos, por lo que hay muchas maneras de obtener el aire sin presionar Jet.
+'''
+note_i18n.ru = '''
+Полетайте с помощью настраиваемого ключа. Сначала установите стартовый ключ Jet в настройках ключа игры.
+- Игроки на клавиатуре и сплит-клавиатуре могут установить Jet напрямую. Игроки на геймпаде должны установить клавишу клавиатуры здесь, затем нанести на нее кнопку геймпада в Steam - Library - Overcooked! 2 - Controller Layout.
+- Держите Jet, чтобы взлететь; нажмите Jet, чтобы совершить круиз по фиксированной высоте.
+- Клиенты работают только тогда, когда у хоста также установлен этот MOD.
+- Jet отключен по умолчанию при запуске игры. Также можно нажать Esc во время настройки ключа, чтобы отключить его; отключенный режим не меняет исходную логику игры.
+- Не действует в Arcade Public.
+- При включении гравитация становится одной пятой от ее первоначального значения, и все потолки снимаются, поэтому есть много способов подняться в воздух без нажатия Jet.
+'''
+note_i18n.pl = '''
+Leć za pomocą klawisza konfigurowalnego. Ustaw najpierw klawisz startu o nazwie Jet w konfiguracji klucza gry.
+- Gracze na klawiaturze i klawiaturze mogą ustawić Jet bezpośrednio. Gracze Gamepad muszą ustawić tutaj klawisz klawiatury, a następnie mapować przycisk gamepad do niego w Steam - Library - Overcooked! 2 - Controller Layout.
+- Przytrzymaj Jet do startu; dotknij Jet do stałej wysokości rejsu.
+- Klienci działają tylko wtedy, gdy host ma również zainstalowany ten MOD.
+- Jet jest domyślnie wyłączony po rozpoczęciu gry. Możesz również nacisnąć Esc podczas konfiguracji klucza, aby go wyłączyć; tryb wyłączony nie zmienia oryginalnej logiki gry.
+- Nieważny w Arcade Public.
+- Po włączeniu grawitacja staje się jedną piątą pierwotnej wartości i wszystkie sufity są usuwane, więc istnieje wiele sposobów, aby dostać się do powietrza bez naciskania Jet.
+'''
+note_i18n.pt-BR = '''
+Voe usando uma chave configurável. Defina primeiro a chave de descolagem chamada Jet na configuração da chave do jogo.
+- Os jogadores do teclado e do teclado podem definir o Jet diretamente. Os jogadores do Gamepad devem definir aqui uma tecla de teclado e depois mapear o botão do gamepad para ele no Steam - Library - Overcooked! 2 - Controller Layout.
+- Segure Jet para decolar; toque em Jet para cruzeiro de altura fixa.
+- Os clientes só funcionam quando o host também tem este MOD instalado.
+- O jato está desativado por padrão quando o jogo começa. Você também pode pressionar Esc durante a configuração da chave para desativá- lo; o modo desativado não altera a lógica do jogo original.
+- Não válido em Arcade Public.
+- Quando habilitado, a gravidade torna-se um quinto de seu valor original e todos os tetos são removidos, de modo que há muitas maneiras de chegar ao ar sem pressionar Jet.
+'''
 note_i18n.ko = """
 지정한 키로 비행할 수 있습니다. 먼저 키 설정에서 Jet이라는 이륙 키를 지정하세요.
 - 키보드와 분할 키보드 사용자는 Jet 키를 바로 설정할 수 있습니다. 게임패드 사용자는 여기서 키보드 키를 지정한 뒤 Steam - 라이브러리 - Overcooked! 2 - 컨트롤러 레이아웃에서 게임패드 버튼을 해당 키에 매핑해야 합니다.
@@ -571,11 +1208,25 @@ enabled = true
 name_i18n.zh-CN = "更多菜单 MOD"
 name_i18n.zh-TW = "更多菜單 MOD"
 name_i18n.en = "Many Recipes MOD"
+name_i18n.de = "Many Recipes – Mehr Rezepte"
+name_i18n.fr = "Many Recipes – plus de recettes"
+name_i18n.it = "Many Recipes – più ricette"
+name_i18n.es-ES = "Many Recipes – más recetas"
+name_i18n.ru = "Many Recipes — больше рецептов"
+name_i18n.pl = "Many Recipes – więcej przepisów"
+name_i18n.pt-BR = "Many Recipes – mais receitas"
 name_i18n.ko = "Many Recipes MOD"
 name_i18n.ja = "メニュー増加 MOD"
 group_i18n.zh-CN = "内容拓展"
 group_i18n.zh-TW = "內容拓展"
 group_i18n.en = "Content Expansion"
+group_i18n.de = "Inhaltserweiterung"
+group_i18n.fr = "Extensions de contenu"
+group_i18n.it = "Espansioni dei contenuti"
+group_i18n.es-ES = "Ampliaciones de contenido"
+group_i18n.ru = "Дополнительный контент"
+group_i18n.pl = "Rozszerzenia zawartości"
+group_i18n.pt-BR = "Expansões de conteúdo"
 group_i18n.ko = "콘텐츠 확장"
 group_i18n.ja = "コンテンツ拡張"
 provider = "github"
@@ -623,6 +1274,62 @@ Requires installation and activation of both host and guest players to work prop
 - Extends recipes for all story, DLC, versus, and horde levels, except story 6-6 and Sun 1-3. Compatible with the HardHorde mod.
 - Many Recipes - Display More Menus only needs to be enabled by the host and cannot be enabled alone. It increases displayed menus from 2~5 to 4~6 (in versus mode, from 2~3 to 3~4).
 - Not valid in Arcade Public."""
+note_i18n.de = '''
+Erfordert die Installation und Aktivierung von Host- und Gastspielern, um ordnungsgemäß zu funktionieren.
+- Aktivieren Sie im Hauptmenü des Spiels unter Einstellungen - MOD (standardmäßig deaktiviert).
+- Viele Rezepte müssen sowohl vom Gastgeber als auch vom Gast aktiviert werden.
+- Erweitert Rezepte für alle Story-, DLC-, versus und Horde-Levels, außer Story 6-6 und Sun 1-3.
+- Viele Rezepte - Display More Menüs müssen nur vom Host aktiviert werden und können nicht alleine aktiviert werden. Es erhöht die angezeigten Menüs von 2 ~ 5 auf 4 ~ 6 (im Vergleich zum Modus von 2 ~ 3 auf 3 ~ 4).
+- Nicht gültig in Arcade Public.
+'''
+note_i18n.fr = '''
+Nécessite l'installation et l'activation de joueurs hôtes et invités pour fonctionner correctement.
+- Activer dans le menu principal du jeu sous Paramètres - MOD (désactivé par défaut).
+- Beaucoup de recettes doivent être activées à la fois par l'hôte et l'invité.
+- Étendre les recettes pour tous les niveaux d'histoire, DLC, versus, et horde, à l'exception de l'histoire 6-6 et Sun 1-3. Compatible avec le mod HardHorde.
+- De nombreuses recettes - Display More Les menus doivent seulement être activés par l'hôte et ne peuvent pas être activés seuls. Il augmente les menus affichés de 2~5 à 4~6 (en mode versus, de 2~3 à 3~4).
+- Non valide dans Arcade Public.
+'''
+note_i18n.it = '''
+Richiede l'installazione e l'attivazione di entrambi i giocatori ospiti e ospiti per lavorare correttamente.
+- Attivare nel menu principale del gioco sotto Impostazioni - MOD (disabilitato per impostazione predefinita).
+- Molte ricette devono essere abilitate sia da ospite che da ospite.
+- Estende le ricette per tutti i livelli di storia, DLC, versus e orda, tranne la storia 6-6 e Sun 1-3. Compatibile con la mod HardHorde.
+- Molte ricette - Display More Menus deve essere abilitato solo dall'host e non può essere abilitato da solo. Aumenta menu visualizzati da 2 ~ 5 a 4 ~ 6 (in contro modalità, da 2 ~ 3 a 3 ~4).
+- Non valido in Arcade Public.
+'''
+note_i18n.es-ES = '''
+Requiere la instalación y activación de los jugadores de acogida y invitados para trabajar correctamente.
+- Activar en el menú principal del juego bajo Ajustes - MOD (desactivado por defecto).
+- Muchas recetas deben ser habilitadas tanto por huésped como por invitado.
+- Extienda recetas para todos los niveles de historia, DLC, versus horda, excepto la historia 6-6 y Sun 1-3. Compatible con el mod HardHorde.
+- Muchas Recetas - Mostrar más Menús sólo necesita ser habilitado por el host y no puede ser habilitado solo. Aumenta los menús mostrados de 2~5 a 4~6 (en contra el modo, de 2~3 a 3~4).
+- No es válido en Arcade Public.
+'''
+note_i18n.ru = '''
+Требуется установка и активация как хозяина, так и гостевых игроков для правильной работы.
+- Включено в главном меню игры в разделе Настройки - MOD (отключено по умолчанию).
+- Многие рецепты должны быть включены как хозяином, так и гостем.
+- Расширяет рецепты для всех уровней сюжета, DLC и орды, за исключением 6-6 и Sun 1-3, совместимых с модом HardHorde.
+- Многие рецепты - Display More Menus должен включаться только хостом и не может быть включен в одиночку. Он увеличивает отображаемые меню от 2 ~ 5 до 4 ~ 6 (в отличие от режима, от 2 ~ 3 до 3 ~ 4).
+- Не действует в Arcade Public.
+'''
+note_i18n.pl = '''
+Wymaga instalacji i aktywacji zarówno graczy host i gości, aby działać prawidłowo.
+- Włącz w menu głównym gry pod Ustawieniami - MOD (domyślnie wyłączony).
+- Wiele przepisów musi być włączonych zarówno przez gospodarza, jak i gościa.
+- Rozszerza przepisy dla wszystkich historii, DLC, versus, i poziomów hordy, z wyjątkiem historii 6- 6 i Sun 1-3. Kompatybilny z modem HardHorde.
+- Wiele przepisów - Display More Menus musi być tylko włączone przez hosta i nie może być włączone samodzielnie. Zwiększa wyświetlane menu z 2 ~ 5 do 4 ~ 6 (w trybie kontra, z 2 ~ 3 do 3 ~ 4).
+- Nieważny w Arcade Public.
+'''
+note_i18n.pt-BR = '''
+Requer instalação e ativação de ambos os jogadores host e convidados para trabalhar corretamente.
+- Activar no menu principal do jogo em Configuração - MOD (desactivado por omissão).
+- Muitas receitas devem ser habilitadas tanto pelo anfitrião quanto pelo hóspede.
+- Estende receitas para todos os níveis de história, DLC, versus, e horda, exceto história 6-6 e Sun 1-3. Compatível com o mod HardHorde.
+- Muitas Receitas - Mostrar Mais Menus só precisa ser ativado pela máquina e não pode ser ativado sozinho. Aumenta menus exibidos de 2~5 para 4~6 (em modo versus, de 2~3 para 3~4).
+- Não válido em Arcade Public.
+'''
 note_i18n.ko = """
 정상적으로 작동하려면 호스트와 게스트 모두 설치하고 활성화해야 합니다.
 - 게임 메인 메뉴의 설정 - MOD에서 활성화하세요(기본값은 비활성화). 
@@ -645,11 +1352,25 @@ enabled = true
 name_i18n.zh-CN = "换位 MOD"
 name_i18n.zh-TW = "換位 MOD"
 name_i18n.en = "Host Color / Position Swap"
+name_i18n.de = "Host – Farbe und Position tauschen"
+name_i18n.fr = "Hôte – échange de couleurs et de positions"
+name_i18n.it = "Host – scambio di colori e posizioni"
+name_i18n.es-ES = "Anfitrión – intercambio de colores y posiciones"
+name_i18n.ru = "Хост — смена цветов и позиций"
+name_i18n.pl = "Gospodarz – zamiana kolorów i pozycji"
+name_i18n.pt-BR = "Anfitrião – troca de cores e posições"
 name_i18n.ko = "호스트 위치 교체 MOD"
 name_i18n.ja = "ホスト位置交換 MOD"
 group_i18n.zh-CN = "联机辅助"
 group_i18n.zh-TW = "連線輔助"
 group_i18n.en = "Multiplayer Support"
+group_i18n.de = "Mehrspieler-Unterstützung"
+group_i18n.fr = "Assistance multijoueur"
+group_i18n.it = "Supporto multigiocatore"
+group_i18n.es-ES = "Ayuda para el multijugador"
+group_i18n.ru = "Поддержка многопользовательской игры"
+group_i18n.pl = "Obsługa trybu wieloosobowego"
+group_i18n.pt-BR = "Suporte ao modo multijogador"
 group_i18n.ko = "멀티플레이 지원"
 group_i18n.ja = "マルチプレイ補助"
 provider = "github"
@@ -688,6 +1409,41 @@ note_i18n.en = """
 This position-swap MOD can only swap the host with a specified player slot.
 - Enable it in the game main menu under Settings - MOD.
 - Compatible with the position-swap feature of the Arcade MOD; after installing this MOD, changing the host's position will also change the setting in the Arcade MOD, and vice versa."""
+note_i18n.de = '''
+Dieses Positions-Swap-MOD kann den Host nur mit einem bestimmten Spieler-Slot tauschen.
+- Aktivieren Sie es im Spiel-Hauptmenü unter Einstellungen - MOD.
+- Kompatibel mit der Positions-Swap-Funktion des Arcade-MODs; nach der Installation dieses MODs ändert die Position des Hosts auch die Einstellung im Arcade-MOD und umgekehrt.
+'''
+note_i18n.fr = '''
+Cette position-swap MOD ne peut échanger l'hôte qu'avec une fente de joueur spécifiée.
+- Activez-le dans le menu principal du jeu sous Paramètres - MOD.
+- Compatible avec la fonction position-swap du MOD Arcade; après avoir installé ce MOD, changer la position de l'hôte changera également le réglage dans le MOD Arcade, et vice versa.
+'''
+note_i18n.it = '''
+Questa posizione-swap MOD può solo scambiare l'host con una slot specificata.
+- Abilita nel menu principale del gioco sotto Impostazioni - MOD.
+- Compatibile con la funzione di posizione-swap dell'Arcade MOD; dopo l'installazione di questo MOD, cambiare la posizione dell'host cambierà anche l'impostazione nel Arcade MOD, e viceversa.
+'''
+note_i18n.es-ES = '''
+Este MOD de intercambio de posición sólo puede cambiar el host con una ranura de jugador especificada.
+- Hágalo en el menú principal del juego bajo Ajustes - MOD.
+- Compatible con la función de cambio de posición del Arcade MOD; después de instalar este MOD, cambiar la posición del host también cambiará el ajuste en el Arcade MOD, y viceversa.
+'''
+note_i18n.ru = '''
+Этот MOD своп-позиции может только поменять хост с определенным слотом игрока.
+- Включите его в главном меню игры в разделе Настройки - MOD.
+- Совместим с функцией позиционного свопа Arcade MOD; после установки этого MOD изменение позиции хоста также изменит настройку в Arcade MOD и наоборот.
+'''
+note_i18n.pl = '''
+Ta pozycja-swap MOD może tylko zamienić hosta z określonym gniazdem gracza.
+- Włącz go w głównym menu gry w Ustawienia - MOD.
+- Kompatybilny z funkcją wymiany pozycji w MOD Arcade; po zainstalowaniu tego MOD zmiana pozycji hosta zmieni również ustawienia w MOD Arcade i odwrotnie.
+'''
+note_i18n.pt-BR = '''
+Este MOD de posição-wap só pode trocar o host com um slot de jogador especificado.
+- Habilite-o no menu principal do jogo em Configurações - MOD.
+- Compatível com o recurso posição-swap do Arcade MOD; depois de instalar este MOD, mudar a posição do host também irá mudar a configuração no Arcade MOD, e vice-versa.
+'''
 note_i18n.ko = """
 호스트와 지정한 플레이어 위치만 서로 바꾸는 MOD입니다.
 - 게임 메인 메뉴의 설정 - MOD에서 활성화하세요.
@@ -704,11 +1460,25 @@ enabled = true
 name_i18n.zh-CN = "随机食材 MOD"
 name_i18n.zh-TW = "隨機食材 MOD"
 name_i18n.en = "Randomizer MOD"
+name_i18n.de = "Randomizer-MOD"
+name_i18n.fr = "MOD Randomizer"
+name_i18n.it = "MOD Randomizer"
+name_i18n.es-ES = "MOD Randomizer"
+name_i18n.ru = "Мод Randomizer"
+name_i18n.pl = "Mod Randomizer"
+name_i18n.pt-BR = "Mod Randomizer"
 name_i18n.ko = "무작위 재료 MOD"
 name_i18n.ja = "ランダム食材 MOD"
 group_i18n.zh-CN = "玩法调整"
 group_i18n.zh-TW = "玩法調整"
 group_i18n.en = "Gameplay Tuning"
+group_i18n.de = "Gameplay-Anpassungen"
+group_i18n.fr = "Ajustements du gameplay"
+group_i18n.it = "Modifiche al gameplay"
+group_i18n.es-ES = "Ajustes de jugabilidad"
+group_i18n.ru = "Настройки игрового процесса"
+group_i18n.pl = "Dostosowanie rozgrywki"
+group_i18n.pt-BR = "Ajustes de jogabilidade"
 group_i18n.ko = "게임플레이 조정"
 group_i18n.ja = "ゲームプレイ調整"
 provider = "github"
@@ -753,6 +1523,55 @@ Ingredient randomizer MOD.
 - Only the host needs to enable it. Scores may update with a delay if guests do not have this MOD installed.
 - Ingredient box contents shuffle periodically, ingredients and cookware become costly, and the kitchen randomly catches fire after each serving.
 - Not valid in Arcade Public."""
+note_i18n.de = '''
+Inhaltsstoff Randomizer MOD.
+- Aktivieren Sie im Hauptmenü des Spiels unter Einstellungen - MOD (standardmäßig deaktiviert).
+- Nur der Host muss es aktivieren. Scores kann mit einer Verzögerung aktualisiert werden, wenn die Gäste dieses MOD nicht installiert haben.
+- Inhaltsstoff-Box-Inhalte mischen regelmäßig, Zutaten und Kochgeschirr werden teuer, und die Küche fängt nach dem Zufallsprinzip Feuer nach jeder Portion.
+- Nicht gültig in Arcade Public.
+'''
+note_i18n.fr = '''
+randomisant des ingrédients MOD.
+- Activer dans le menu principal du jeu sous Paramètres - MOD (désactivé par défaut).
+- Seul l'hôte doit l'activer. Les partitions peuvent être mises à jour avec un délai si les clients n'ont pas ce MOD installé.
+- Le contenu de la boîte d'ingrédients se mélange périodiquement, les ingrédients et les ustensiles de cuisine deviennent coûteux, et la cuisine prend feu au hasard après chaque portion.
+- Non valide dans Arcade Public.
+'''
+note_i18n.it = '''
+Ingrediente randomizzatore MOD.
+- Attivare nel menu principale del gioco sotto Impostazioni - MOD (disabilitato per impostazione predefinita).
+- I punteggi possono essere aggiornati con un ritardo se gli ospiti non hanno installato questo MOD.
+- Ingrediente contenuto scatola shuffle periodicamente, ingredienti e pentole diventano costosi, e la cucina prende casualmente fuoco dopo ogni porzione.
+- Non valido in Arcade Public.
+'''
+note_i18n.es-ES = '''
+Ingrediente aleatorizador MOD.
+- Activar en el menú principal del juego bajo Ajustes - MOD (desactivado por defecto).
+- Sólo el host necesita habilitarlo. Las puntuaciones pueden actualizar con un retraso si los huéspedes no tienen este MOD instalado.
+- El contenido de la caja de ingredientes brilla periódicamente, ingredientes y utensilios de cocina se vuelven costosos, y la cocina atrapa aleatoriamente fuego después de cada porción.
+- No es válido en Arcade Public.
+'''
+note_i18n.ru = '''
+Ингредиентный рандомизатор MOD.
+- Включено в главном меню игры в разделе Настройки - MOD (отключено по умолчанию).
+- Только хост должен включить его.Счета могут обновляться с задержкой, если у гостей нет этого MOD.
+- Содержимое коробки ингредиентов периодически перетасовывается, ингредиенты и посуда становятся дорогостоящими, а кухня случайно загорается после каждой порции.
+- Не действует в Arcade Public.
+'''
+note_i18n.pl = '''
+Składnik losowy MOD.
+- Włącz w menu głównym gry pod Ustawieniami - MOD (domyślnie wyłączony).
+- Tylko host musi to włączyć. Wyniki mogą być aktualizowane z opóźnieniem, jeśli goście nie mają tego MOD zainstalowane.
+- Składnik zawartość box tashfle okresowo, składniki i naczynia kuchenne stają się kosztowne, a kuchnia przypadkowo łapie ogień po każdej porcji.
+- Nieważny w Arcade Public.
+'''
+note_i18n.pt-BR = '''
+MOD do randomizador de ingredientes.
+- Activar no menu principal do jogo em Configuração - MOD (desactivado por omissão).
+- Somente o host precisa habilitá-lo. As pontuações podem ser atualizadas com um atraso se os hóspedes não tiverem este MOD instalado.
+- Conteúdo da caixa de ingredientes embaralha periodicamente, ingredientes e utensílios de cozinha tornam-se caros, e a cozinha pega fogo aleatoriamente após cada serviço.
+- Não válido em Arcade Public.
+'''
 note_i18n.ko = """
 재료 무작위화 MOD입니다.
 - 게임 메인 메뉴의 설정 - MOD에서 활성화하세요(기본값은 비활성화).
@@ -773,11 +1592,25 @@ enabled = true
 name_i18n.zh-CN = "困难敌群 MOD"
 name_i18n.zh-TW = "困難敵群 MOD"
 name_i18n.en = "Hard Horde MOD"
+name_i18n.de = "Hard Horde – Schwieriger Hordenmodus"
+name_i18n.fr = "Hard Horde – mode Horde difficile"
+name_i18n.it = "Hard Horde – modalità Orda difficile"
+name_i18n.es-ES = "Hard Horde – modo Horda difícil"
+name_i18n.ru = "Hard Horde — сложный режим орды"
+name_i18n.pl = "Hard Horde – trudny tryb hordy"
+name_i18n.pt-BR = "Hard Horde – modo Horda difícil"
 name_i18n.ko = "Hard Horde 난이도 MOD"
 name_i18n.ja = "ハードホード MOD"
 group_i18n.zh-CN = "玩法调整"
 group_i18n.zh-TW = "玩法調整"
 group_i18n.en = "Gameplay Tuning"
+group_i18n.de = "Gameplay-Anpassungen"
+group_i18n.fr = "Ajustements du gameplay"
+group_i18n.it = "Modifiche al gameplay"
+group_i18n.es-ES = "Ajustes de jugabilidad"
+group_i18n.ru = "Настройки игрового процесса"
+group_i18n.pl = "Dostosowanie rozgrywki"
+group_i18n.pt-BR = "Ajustes de jogabilidade"
 group_i18n.ko = "게임플레이 조정"
 group_i18n.ja = "ゲームプレイ調整"
 provider = "github"
@@ -825,6 +1658,62 @@ Hard Horde increases the difficulty of horde levels.
 - All enemies require one extra order (two for zombie breads and chilies, three for apples).
 - At the end of each wave, the next wave starts without waiting for all enemies to be defeated.
 - Menu generation changes from independent random generation to the normal level generation rules."""
+note_i18n.de = '''
+Hard Horde erhöht die Schwierigkeit von Horden-Levels.
+- Aktivieren Sie im Hauptmenü des Spiels unter Einstellungen - MOD (standardmäßig deaktiviert).
+- Nur der Host muss es aktivieren, auch im Arcade-Modus.
+- Alle Gegner benötigen eine zusätzliche Bestellung (zwei für Zombie-Brot und Chilis, drei für Äpfel).
+- Am Ende jeder Welle beginnt die nächste Welle, ohne darauf zu warten, dass alle Feinde besiegt werden.
+- Die Menu-Generierung wechselt von der unabhängigen Zufallsgenerierung zu den normalen Level-Generierungsregeln.
+'''
+note_i18n.fr = '''
+La horde dure augmente la difficulté des niveaux de horde.
+- Activer dans le menu principal du jeu sous Paramètres - MOD (désactivé par défaut).
+- Seul l'hôte doit l'activer, y compris en mode arcade.
+- Tous les ennemis ont besoin d'un ordre supplémentaire (deux pour les pains et chilis zombies, trois pour les pommes).
+- À la fin de chaque vague, la prochaine vague commence sans attendre que tous les ennemis soient vaincus.
+- La génération de menus passe de la génération aléatoire indépendante aux règles de génération de niveau normal.
+'''
+note_i18n.it = '''
+Orda dura aumenta la difficoltà di livelli di orda.
+- Attivare nel menu principale del gioco sotto Impostazioni - MOD (disabilitato per impostazione predefinita).
+- Solo l'host deve abilitarlo, anche in modalità arcade.
+- Tutti i nemici richiedono un ordine extra (due per pani zombie e peperoncino, tre per mele).
+- Alla fine di ogni onda, l'onda successiva inizia senza aspettare che tutti i nemici vengano sconfitti.
+- La generazione del menu cambia da generazione casuale indipendente alle normali regole di generazione del livello.
+'''
+note_i18n.es-ES = '''
+La horda dura aumenta la dificultad de los niveles de horda.
+- Activar en el menú principal del juego bajo Ajustes - MOD (desactivado por defecto).
+- Sólo el anfitrión necesita habilitarlo, incluso en modo arcade.
+- Todos los enemigos requieren un pedido extra (dos para panes zombis y chiles, tres para manzanas).
+- Al final de cada ola, la siguiente ola comienza sin esperar que todos los enemigos sean derrotados.
+- La generación de menús cambia de generación aleatoria independiente a las reglas normales de generación de nivel.
+'''
+note_i18n.ru = '''
+Жесткая Орда увеличивает сложность уровней орды.
+- Включено в главном меню игры в разделе Настройки - MOD (отключено по умолчанию).
+- Включать его должен только хозяин, в том числе и в аркадном режиме.
+- Всем врагам требуется один дополнительный заказ (два на зомби-хлеб и чили, три на яблоки).
+- В конце каждой волны начинается следующая волна, не дожидаясь, пока все враги будут побеждены.
+- Генерация меню меняется от независимой случайной генерации к обычным правилам генерации уровня.
+'''
+note_i18n.pl = '''
+Twarda Horda zwiększa trudności poziomu hordy.
+- Włącz w menu głównym gry pod Ustawieniami - MOD (domyślnie wyłączony).
+- Tylko host musi to włączyć, w tym w trybie zręcznościowym.
+- Wszyscy wrogowie wymagają jednego dodatkowego zamówienia (dwa na chleb zombie i chili, trzy na jabłka).
+- Pod koniec każdej fali, następna fala zaczyna się bez czekania na pokonanie wszystkich wrogów.
+- Generacja menu zmienia się z niezależnej generacji losowej na normalne zasady generowania poziomów.
+'''
+note_i18n.pt-BR = '''
+Horda dura aumenta a dificuldade dos níveis de horda.
+- Activar no menu principal do jogo em Configuração - MOD (desactivado por omissão).
+- Somente o host precisa habilitá-lo, inclusive no modo arcade.
+- Todos os inimigos exigem uma ordem extra (dois para pães zumbis e pimentas, três para maçãs).
+- No final de cada onda, a próxima onda começa sem esperar que todos os inimigos sejam derrotados.
+- A geração de menus muda de geração aleatória independente para as regras normais de geração de nível.
+'''
 note_i18n.ko = """
 적 무리 레벨의 난이도를 높이는 MOD입니다.
 - 게임 메인 메뉴의 설정 - MOD에서 활성화하세요(기본값은 비활성화).

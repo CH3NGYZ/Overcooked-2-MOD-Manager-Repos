@@ -6,11 +6,25 @@ enabled = true
 name_i18n.zh-CN = "自制地图 快速载入 (卡餐车加速)"
 name_i18n.zh-TW = "自製地圖 快速載入 (卡餐車加速)"
 name_i18n.en = "Custom Maps - Faster Resource Loading"
+name_i18n.de = "Benutzerkarten – schnelleres Laden von Ressourcen"
+name_i18n.fr = "Cartes personnalisées – chargement accéléré des ressources"
+name_i18n.it = "Mappe personalizzate – caricamento più rapido delle risorse"
+name_i18n.es-ES = "Mapas personalizados – carga de recursos más rápida"
+name_i18n.ru = "Пользовательские карты — ускоренная загрузка ресурсов"
+name_i18n.pl = "Mapy niestandardowe – szybsze ładowanie zasobów"
+name_i18n.pt-BR = "Mapas personalizados – carregamento mais rápido de recursos"
 name_i18n.ko = "커스텀 맵 - 리소스 로딩 가속"
 name_i18n.ja = "カスタムマップ - リソース読み込み高速化"
 group_i18n.zh-CN = "DIYLevel 优化"
 group_i18n.zh-TW = "DIYLevel 優化"
 group_i18n.en = "DIYLevel Optimization"
+group_i18n.de = "DIYLevel-Optimierungen"
+group_i18n.fr = "Optimisations de DIYLevel"
+group_i18n.it = "Ottimizzazioni di DIYLevel"
+group_i18n.es-ES = "Optimizaciones de DIYLevel"
+group_i18n.ru = "Оптимизация DIYLevel"
+group_i18n.pl = "Optymalizacja DIYLevel"
+group_i18n.pt-BR = "Otimizações do DIYLevel"
 group_i18n.ko = "DIYLevel 최적화"
 group_i18n.ja = "DIYLevel 最適化"
 provider = "github"
@@ -45,6 +59,34 @@ note_i18n.zh-TW = """最佳化 `DIYLevel（自訂地圖）` 在餐車讀取資�
 **注意事項：安裝 `1.7.0` 版本後，首次啟動遊戲進入餐車時會在背景載入並解壓地圖資源包。耗時依地圖數量從數十秒到數分鐘不等，請耐心等待；載入進度請查看螢幕右上角的 `DIY info checking`。**"""
 note_i18n.en = """Speeds up `DIYLevel` resource loading to reduce the delay when entering the food truck.
 **Note: After installing version `1.7.0`, the first time you launch the game and enter the food truck, map resource packs are loaded and extracted in the background. This may take tens of seconds to several minutes depending on the number of maps. Please wait; check the `DIY info checking` progress in the upper-right corner of the screen.**"""
+note_i18n.de = '''
+Beschleunigt das Laden von `DIYLevel`-Ressourcen und verkürzt die Wartezeit beim Betreten des Foodtrucks.
+**Hinweis: Wenn du nach der Installation der Version `1.7.0` das Spiel zum ersten Mal startest und den Foodtruck betrittst, werden die Ressourcenpakete für die Karten im Hintergrund geladen und entpackt. Je nach Anzahl der Karten dauert das einige Dutzend Sekunden bis mehrere Minuten. Bitte warte, bis der Vorgang abgeschlossen ist. Den Fortschritt zeigt `DIY info checking` oben rechts an.**
+'''
+note_i18n.fr = '''
+Accélère le chargement des ressources de `DIYLevel` pour réduire l’attente à l’entrée du food truck.
+**Remarque : après l’installation de la version `1.7.0`, lorsque vous lancez le jeu et accédez au food truck pour la première fois, les packs de ressources des cartes se chargent et se décompressent en arrière-plan. Cela peut prendre de quelques dizaines de secondes à plusieurs minutes selon le nombre de cartes. Patientez et suivez la progression indiquée par `DIY info checking` en haut à droite de l’écran.**
+'''
+note_i18n.it = '''
+Accelera il caricamento delle risorse di `DIYLevel` e riduce l’attesa quando si entra nel food truck.
+**Nota: dopo aver installato la versione `1.7.0`, al primo avvio del gioco, entrando nel food truck, i pacchetti delle risorse delle mappe vengono caricati ed estratti in background. L’operazione può richiedere da alcune decine di secondi a diversi minuti, a seconda del numero di mappe. Attendi il completamento e controlla l’indicatore `DIY info checking` in alto a destra.**
+'''
+note_i18n.es-ES = '''
+Acelera la carga de recursos de `DIYLevel` para reducir la espera al entrar en el camión de comida.
+**Nota: después de instalar la versión `1.7.0`, la primera vez que inicies el juego y entres en el camión de comida, los paquetes de recursos de los mapas se cargarán y descomprimirán en segundo plano. El proceso puede tardar desde decenas de segundos hasta varios minutos, según el número de mapas. Espera a que termine y consulta el progreso en `DIY info checking`, en la esquina superior derecha.**
+'''
+note_i18n.ru = '''
+Ускоряет загрузку ресурсов `DIYLevel`, чтобы сократить ожидание при входе в фудтрак.
+**Примечание. После установки версии `1.7.0` при первом запуске игры и входе в фудтрак пакеты ресурсов карт загружаются и распаковываются в фоновом режиме. В зависимости от числа карт это может занять от нескольких десятков секунд до нескольких минут. Дождитесь окончания загрузки. Ход загрузки показывает индикатор `DIY info checking` в правом верхнем углу экрана.**
+'''
+note_i18n.pl = '''
+Przyspiesza wczytywanie zasobów `DIYLevel` i skraca oczekiwanie przy wejściu do food trucka.
+**Uwaga: po zainstalowaniu wersji `1.7.0` pakiety zasobów map zostaną wczytane i rozpakowane w tle przy pierwszym uruchomieniu gry i wejściu do food trucka. Może to potrwać od kilkudziesięciu sekund do kilku minut, zależnie od liczby map. Poczekaj na zakończenie operacji; wskaźnik `DIY info checking` znajduje się w prawym górnym rogu ekranu.**
+'''
+note_i18n.pt-BR = '''
+Acelera o carregamento dos recursos do `DIYLevel` e reduz a espera ao entrar no food truck.
+**Nota: após instalar a versão `1.7.0`, na primeira vez que você abrir o jogo e entrar no food truck, os pacotes de recursos dos mapas serão carregados e descompactados em segundo plano. O processo pode levar de algumas dezenas de segundos a vários minutos, dependendo da quantidade de mapas. Aguarde a conclusão e acompanhe o indicador `DIY info checking` no canto superior direito da tela.**
+'''
 note_i18n.ko = """`DIYLevel` 리소스 로딩을 가속하여 푸드 트럭 진입 시의 지연을 줄입니다.
 **주의사항: `1.7.0` 버전 설치 후 게임을 처음 실행해 푸드 트럭에 들어가면 백그라운드에서 맵 리소스 팩을 불러오고 압축을 풉니다. 맵 수에 따라 수십 초에서 몇 분까지 걸릴 수 있으니 기다려 주세요. 화면 오른쪽 위의 `DIY info checking` 진행 상태를 확인하세요.**"""
 note_i18n.ja = """`DIYLevel` のリソース読み込みを高速化し、フードトラックに入る際の待ち時間を短縮します。
@@ -74,11 +116,25 @@ enabled = true
 name_i18n.zh-CN = "厨房暖暖 快速载入 (卡餐车加速)"
 name_i18n.zh-TW = "廚房暖暖 快速載入 (卡餐車加速)"
 name_i18n.en = "DIYChef - Faster Resource Loading"
+name_i18n.de = "DIYChef – schnelleres Laden von Ressourcen"
+name_i18n.fr = "DIYChef – chargement accéléré des ressources"
+name_i18n.it = "DIYChef – caricamento più rapido delle risorse"
+name_i18n.es-ES = "DIYChef – carga de recursos más rápida"
+name_i18n.ru = "DIYChef — ускоренная загрузка ресурсов"
+name_i18n.pl = "DIYChef – szybsze ładowanie zasobów"
+name_i18n.pt-BR = "DIYChef – carregamento mais rápido de recursos"
 name_i18n.ko = "DIYChef - 리소스 로딩 가속"
 name_i18n.ja = "DIYChef - リソース読み込み高速化"
 group_i18n.zh-CN = "DIYChef 优化"
 group_i18n.zh-TW = "DIYChef 優化"
 group_i18n.en = "DIYChef Optimization"
+group_i18n.de = "DIYChef-Optimierungen"
+group_i18n.fr = "Optimisations de DIYChef"
+group_i18n.it = "Ottimizzazioni di DIYChef"
+group_i18n.es-ES = "Optimizaciones de DIYChef"
+group_i18n.ru = "Оптимизация DIYChef"
+group_i18n.pl = "Optymalizacja DIYChef"
+group_i18n.pt-BR = "Otimizações do DIYChef"
 group_i18n.ko = "DIYChef 최적화"
 group_i18n.ja = "DIYChef 最適化"
 provider = "github"
@@ -115,6 +171,34 @@ note_i18n.zh-TW = """最佳化 `DIYChef（自訂廚師）` 在餐車讀取廚師
 **注意事項：安裝後，請手動將 `OC2DIYChef` 目錄下的 `Resources` 資料夾和 `prefer.txt` 移動到 `OC2DIYChef-FastInit` 下，與 `DIYChefFastInit.dll` 放在同一目錄下。若有重複檔案，請選擇取代。**"""
 note_i18n.en = """Speeds up `DIYChef` resource loading to reduce the delay when entering the food truck.
 **Note: After installation, manually move the `Resources` folder and `prefer.txt` from the `OC2DIYChef` directory into `OC2DIYChef-FastInit`, alongside `DIYChefFastInit.dll`. **"""
+note_i18n.de = '''
+Beschleunigt das Laden von `DIYChef`-Ressourcen, um die Verzögerung beim Betreten des Food Trucks zu reduzieren.
+**Hinweis: Bewegen Sie nach der Installation den Ordner `Resources` und `prefer.txt` manuell aus dem Verzeichnis `OC2DIYChef` in `OC2DIYChef-FastInit` neben `DIYChefFastInit.dll`.**
+'''
+note_i18n.fr = '''
+Accélére le chargement des ressources `DIYChef` pour réduire le retard lors de l'entrée dans le camion alimentaire.
+**Remarque : Après l'installation, déplacez manuellement le dossier `Resources` et `prefer.txt` du répertoire `OC2DIYChef` dans `OC2DIYChef-FastInit`, aux côtés de `DIYChefFastInit.dll`.**
+'''
+note_i18n.it = '''
+Accelera il caricamento delle risorse `DIYChef` per ridurre il ritardo quando si entra nel carrello alimentare.
+**Nota: Dopo l'installazione, spostare manualmente la cartella `Resources` e `prefer.txt` dalla directory `OC2DIYChef` in `OC2DIYChef-FastInit`, insieme a `DIYChefFastInit.dll`.**
+'''
+note_i18n.es-ES = '''
+Acelera la carga de recursos `DIYChef` para reducir el retraso al entrar en el camión de alimentos.
+**Nota: Después de la instalación, mueva manualmente la carpeta `Resources` y `prefer.txt` desde el directorio `OC2DIYChef` en `OC2DIYChef-FastInit`, junto con `DIYChefFastInit.dll`.**
+'''
+note_i18n.ru = '''
+Ускоряет загрузку ресурсов `DIYChef`, чтобы уменьшить задержку при входе в грузовой автомобиль.
+**Примечание: После установки вручную переместите папку `Resources` и `prefer.txt` из каталога `OC2DIYChef` в `OC2DIYChef-FastInit` вместе с `DIYChefFastInit.dll`.**
+'''
+note_i18n.pl = '''
+Przyspiesza załadunek zasobów `DIYChef`, aby zmniejszyć opóźnienie przy wejściu do ciężarówki żywności.
+**Uwaga: Po instalacji ręcznie przenieś folder `Resources` i `prefer.txt` z katalogu `OC2DIYChef` do `OC2DIYChef-FastInit`, obok `DIYChefFastInit.dll`.**
+'''
+note_i18n.pt-BR = '''
+Acelera o carregamento de recursos `DIYChef` para reduzir o atraso ao entrar no caminhão de alimentos.
+**Nota: Após a instalação, mova manualmente a pasta `Resources` e `prefer.txt` do diretório `OC2DIYChef` para `OC2DIYChef-FastInit`, ao lado do `DIYChefFastInit.dll`.**
+'''
 note_i18n.ko = """`DIYChef` 리소스 로딩을 가속하여 푸드 트럭 진입 시의 지연을 줄입니다.
 **주의사항: 설치 후 `OC2DIYChef` 디렉터리의 `Resources` 폴더와 `prefer.txt`를 `OC2DIYChef-FastInit`으로 직접 옮기고 `DIYChefFastInit.dll`과 같은 폴더에 두세요. 중복 파일이 있으면 바꾸기를 선택하세요.**"""
 note_i18n.ja = """`DIYChef` のリソース読み込みを高速化し、フードトラックに入る際の待ち時間を短縮します。
