@@ -150,7 +150,7 @@ group_i18n.ja = "コンテンツ拡張"
 provider = "gitee"
 username = "ch3ngyz"
 repository = "Overcooked-2-Unlocker-Releases"
-region = ""
+region = "cn"
 platform = ""
 
 # 下载方式
