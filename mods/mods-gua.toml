@@ -108,8 +108,6 @@ flowchart TD
 
 - 进入游戏后，选档列表为空。
 
-如果选档列表为空，可以安装并启用《修复 DIYLevel 资源读取失败导致存档槽位空白》MOD。它会在关卡资源加载失败时弹窗提示具体的关卡集、关卡和失败的资源，帮助定位是哪张地图导致选档无法显示。
-
 ### 推荐排查顺序
 
 1. 确认 `OC2DIYLevel` 已正确安装。
@@ -175,8 +173,6 @@ flowchart TD
 如果出現以下問題，請優先檢查 `OC2DIYLevel`、`DIYLevelRuntimeWLoader` 與 `OC2DIYLevel/levels` 內地圖之間的相容性：
 
 - 進入遊戲後，存檔列表為空。
-
-如果存檔列表為空，可以安裝並啟用《修復 DIYLevel 資源讀取失敗導致存檔欄位空白》MOD。它會在關卡資源載入失敗時彈出視窗提示具體的關卡集、關卡和失敗的資源，幫助定位是哪張地圖導致存檔無法顯示。
 
 ### 建議排除順序
 
@@ -244,8 +240,6 @@ If any of the following problems occur, first check the compatibility between `O
 
 - The save-slot list is empty after entering the game.
 
-If the save-slot list is empty, install and enable the `Fix Blank Save Slots When DIYLevel Resource Loading Fails` MOD. When a level resource fails to load, it shows a popup naming the failing level set, level, and resource, helping identify which map prevents the save slots from appearing.
-
 ### Recommended Troubleshooting Order
 
 1. Confirm that `OC2DIYLevel` is installed correctly.
@@ -311,8 +305,6 @@ flowchart TD
 Wenn eines der folgenden Probleme auftritt, überprüfen Sie zuerst die Kompatibilität zwischen `OC2DIYLevel`, `DIYLevelRuntimeWLoader` und den Karten in `OC2DIYLevel/levels`:
 
 - Die Save-Slot-Liste ist nach dem Betreten des Spiels leer.
-
-Wenn die Speicher-Slot-Liste leer ist, installieren und aktivieren Sie den `Fix Blank Save Slots When DIYLevel Resource Loading Fails` MOD. Wenn eine Level-Ressource nicht geladen wird, wird ein Popup angezeigt, in dem der fehlerhafte Level-Satz, -Level und -Ressource benannt werden, um zu ermitteln, welche Karte das Erscheinen der Speicher-Slots verhindert.
 
 ### Empfohlener Fehlerbehebungsauftrag
 
@@ -380,8 +372,6 @@ Si l'un des problèmes suivants survient, vérifiez d'abord la compatibilité en
 
 - La liste save-slot est vide après l'entrée du jeu.
 
-Si la liste save-slot est vide, installez et activez le `Fix Blank Save Slots When DIYLevel Resource Loading Fails` MOD. Lorsqu'une ressource de niveau n'arrive pas à se charger, elle affiche un popup nommant l'ensemble, le niveau et la ressource de niveau défaillant, aidant à identifier quelle carte empêche les fentes de sauvegarde d'apparaître.
-
 ### Ordre de dépannage recommandé
 
 1. Confirmez que `OC2DIYLevel` est correctement installé.
@@ -447,8 +437,6 @@ flowchart TD
 Se si verificano problemi seguenti, controlla prima la compatibilità tra `OC2DIYLevel`, `DIYLevelRuntimeWLoader` e le mappe in `OC2DIYLevel/levels`:
 
 - L'elenco salva-slot è vuoto dopo aver inserito il gioco.
-
-Se l'elenco di salvataggio-slot è vuoto, installare e abilitare il MOD `Fix Blank Save Slots When DIYLevel Resource Loading Fails`. Quando una risorsa di livello non riesce a caricare, mostra un popup che nomina il livello di guasto impostato, livello e risorsa, aiutando a identificare quale mappa impedisce che le slot di salvataggio vengano visualizzate.
 
 ### Ordine di risoluzione dei problemi consigliato
 
@@ -516,8 +504,6 @@ Si ocurre alguno de los siguientes problemas, compruebe primero la compatibilida
 
 - La lista de guardar-slot está vacía después de entrar en el juego.
 
-Si la lista de ahorros está vacía, instala y habilita el `Fix Blank Save Slots When DIYLevel Resource Loading Fails` MOD. Cuando un recurso de nivel no se carga, muestra un popup nombrando el conjunto de nivel de falla, nivel y recurso, ayudando a identificar qué mapa evita que aparezcan las ranuras de ahorro.
-
 ### Orden de solución de problemas recomendada
 
 1. Confirme que `OC2DIYLevel` está instalado correctamente.
@@ -583,8 +569,6 @@ flowchart TD
 Если возникает какая-либо из следующих проблем, сначала проверьте совместимость между `OC2DIYLevel`, `DIYLevelRuntimeWLoader` и картами в `OC2DIYLevel/levels`:
 
 - Список сейв-слотов пуст после входа в игру.
-
-Если список слотов сохранения пуст, установите и включите `Fix Blank Save Slots When DIYLevel Resource Loading Fails` MOD. Когда ресурс уровня не загружается, он показывает всплывающее окно, именующее набор уровней, уровень и ресурс, помогая определить, какая карта предотвращает появление слотов сохранения.
 
 ### Рекомендуемый порядок устранения неполадок
 
@@ -652,8 +636,6 @@ Jeśli wystąpi którykolwiek z następujących problemów, najpierw sprawdź zg
 
 - Lista save- slot jest pusta po wejściu do gry.
 
-Jeśli lista save- slot jest pusta, należy zainstalować i włączyć `Fix Blank Save Slots When DIYLevel Resource Loading Fails` MOD. Gdy zasób poziomu nie jest wczytywany, wyświetla wyskakujące nazewnictwo niespełniającego się zestawu poziomów, poziomu i zasobów, pomagając zidentyfikować, która mapa zapobiega pojawianiu się zapisanych szczelin.
-
 ### Zalecany porządek rozwiązywania problemów
 
 1. Potwierdź, że `OC2DIYLevel` jest poprawnie zainstalowany.
@@ -719,8 +701,6 @@ flowchart TD
 Se algum dos seguintes problemas ocorrer, primeiro verifique a compatibilidade entre `OC2DIYLevel`, `DIYLevelRuntimeWLoader` e os mapas em `OC2DIYLevel/levels`:
 
 - A lista de pontos de salvamento está vazia após entrar no jogo.
-
-Se a lista de pontos de salvamento estiver vazia, instale e habilite o `Fix Blank Save Slots When DIYLevel Resource Loading Fails` MOD. Quando um recurso de nível falha em carregar, ele mostra um popup nomeando o conjunto de níveis, níveis e recursos falhando, ajudando a identificar qual mapa impede que os slots de salvar apareçam.
 
 ### Ordem de Resolução de Problemas Recomendada
 
@@ -788,8 +768,6 @@ flowchart TD
 
 - 게임에 들어간 후 세이브 슬롯 목록이 비어 있습니다.
 
-세이브 슬롯 목록이 비어 있다면 《DIYLevel 리소스 로드 실패로 인한 빈 저장 슬롯 수정》 MOD를 설치하고 활성화해 보세요. 레벨 리소스 로드에 실패하면 실패한 레벨 세트, 레벨, 리소스를 팝업으로 알려 주어 어떤 맵 때문에 세이브 슬롯이 표시되지 않는지 찾을 수 있습니다.
-
 ### 권장 점검 순서
 
 1. `OC2DIYLevel`이 올바르게 설치되었는지 확인합니다.
@@ -855,8 +833,6 @@ flowchart TD
 以下の問題が発生した場合は、まず `OC2DIYLevel`、`DIYLevelRuntimeWLoader`、`OC2DIYLevel/levels` 内のマップ間の互換性を確認してください：
 
 - ゲームに入った後、セーブ選択一覧が空になる。
-
-セーブ選択一覧が空になる場合は、《DIYLevel のリソース読み込み失敗によるセーブスロット空白の修正》MOD をインストールして有効化してみてください。レベルリソースの読み込みに失敗すると、失敗したレベルセット・レベル・リソースをポップアップで表示し、どのマップが原因でセーブ選択が表示されないかを特定できます。
 
 ### 推奨される確認手順
 
