@@ -255,7 +255,7 @@ group_i18n.ko = "DIYLevel 최적화"
 group_i18n.ja = "DIYLevel 最適化"
 provider = "github"
 username = "CH3NGY2"
-repository = "Overcooked-2-DIYLevel-Sorting"
+repository = "Overcooked-2-DIYLevel-ExperienceOptimization"
 region = ""
 platform = ""
 
@@ -999,7 +999,7 @@ note_i18n.zh-CN = """
 镜头优先跟随本机当前操控的厨师，适用于原版和自制关卡。支持调整取景范围、镜头响应、边缘防拉伸及传送门平移曲线。本机两人或以上时使用原版镜头。
 
 ### 使用
-默认关闭。在 [MOD 设置](https://github.com/CH3NGYZ/Overcooked-2-ModSettings/releases) 开启「启用视角自定义」，本机单人进入关卡后选择「进入视角编辑模式」。编辑时可继续操作厨师并实时预览。
+默认关闭。在 [MOD 设置](https://github.com/CH3NGY2/Overcooked-2-ModSettings/releases) 开启「启用视角自定义」，本机单人进入关卡后选择「进入视角编辑模式」。编辑时可继续操作厨师并实时预览。
 
 ### 保存
 可保存到本关或存为通用设置。已有单关设置优先，保存通用设置不会覆盖它。
@@ -1009,7 +1009,7 @@ note_i18n.zh-TW = """
 鏡頭優先跟隨本機目前操控的廚師，適用於原版和自製關卡。可調整取景範圍、鏡頭反應、邊緣防拉伸及傳送門平移曲線。本機有兩位或更多玩家時使用原版鏡頭。
 
 ### 使用
-預設關閉。先在 [MOD 設定](https://github.com/CH3NGYZ/Overcooked-2-ModSettings/releases) 開啟「啟用視角自訂」，本機單人進入關卡後選擇「進入視角編輯模式」。編輯時仍可操控廚師並即時預覽。
+預設關閉。先在 [MOD 設定](https://github.com/CH3NGY2/Overcooked-2-ModSettings/releases) 開啟「啟用視角自訂」，本機單人進入關卡後選擇「進入視角編輯模式」。編輯時仍可操控廚師並即時預覽。
 
 ### 儲存
 可儲存至本關或存為通用設定。已有單關設定優先，儲存通用設定不會覆蓋它。
@@ -1019,7 +1019,7 @@ note_i18n.en = """
 Follow the chef you control in official and custom kitchens. Adjust framing, camera response, edge stretch reduction, and portal motion. Two or more local players keep the original camera.
 
 ### Getting started
-Off by default. Enable camera customization in [MOD Settings](https://github.com/CH3NGYZ/Overcooked-2-ModSettings/releases), then open the camera editor inside a level with one local player. Keep playing while previewing changes.
+Off by default. Enable camera customization in [MOD Settings](https://github.com/CH3NGY2/Overcooked-2-ModSettings/releases), then open the camera editor inside a level with one local player. Keep playing while previewing changes.
 
 ### Saving
 Save to the current level or set a shared default. Level-specific settings take precedence and are not overwritten by changes to the default.
@@ -1029,7 +1029,7 @@ note_i18n.de = '''
 Folgen Sie dem Koch, den Sie in offiziellen und kundenspezifischen Küchen steuern. Passen Sie das Framing, die Kamerareaktion, die Kantendehnungsreduzierung und die Portalbewegung an. Zwei oder mehr lokale Spieler behalten die Originalkamera.
 
 ### Beginnen Sie
-Standardmäßig ausgeschaltet. Kameraanpassung in [MOD Settings](https://github.com/CH3NGYZ/Overcooked-2-ModSettings/releases) aktivieren, dann den Kameraeditor in einem Level mit einem lokalen Player öffnen. Spielen Sie weiter, während Sie Änderungen in der Vorschau anzeigen.
+Standardmäßig ausgeschaltet. Kameraanpassung in [MOD Settings](https://github.com/CH3NGY2/Overcooked-2-ModSettings/releases) aktivieren, dann den Kameraeditor in einem Level mit einem lokalen Player öffnen. Spielen Sie weiter, während Sie Änderungen in der Vorschau anzeigen.
 
 ### Sparen
 Speichern Sie auf dem aktuellen Level oder legen Sie einen gemeinsamen Standard fest. Levelspezifische Einstellungen haben Vorrang und werden nicht durch Änderungen am Standard überschrieben.
@@ -1039,7 +1039,7 @@ note_i18n.fr = '''
 Suivez le chef que vous contrôlez dans les cuisines officielles et personnalisées. Ajustez le cadre, la réponse de la caméra, la réduction de l'étirement des bords et le mouvement du portail.
 
 ### Commencer
-Désactivez par défaut. Activez la personnalisation de la caméra dans [MOD Settings](https://github.com/CH3NGYZ/Overcooked-2-ModSettings/releases), puis ouvrez l'éditeur de caméra à l'intérieur d'un niveau avec un lecteur local. Continuez à jouer en prévisualisant les modifications.
+Désactivez par défaut. Activez la personnalisation de la caméra dans [MOD Settings](https://github.com/CH3NGY2/Overcooked-2-ModSettings/releases), puis ouvrez l'éditeur de caméra à l'intérieur d'un niveau avec un lecteur local. Continuez à jouer en prévisualisant les modifications.
 
 ### Sauver
 Enregistrer au niveau actuel ou définir une valeur par défaut partagée. Les paramètres spécifiques au niveau ont priorité et ne sont pas écrasés par des modifications à la valeur par défaut.
@@ -1049,7 +1049,7 @@ note_i18n.it = '''
 Seguire lo chef che si controlla in cucine ufficiali e personalizzati. Regolare la struttura, la risposta della fotocamera, la riduzione del bordo e il movimento del portale. Due o più giocatori locali mantenere la fotocamera originale.
 
 ### Iniziare
-Abilitare la personalizzazione della fotocamera in [MOD Settings](https://github.com/CH3NGYZ/Overcooked-2-ModSettings/releases), quindi aprire l'editor della fotocamera all'interno di un livello con un giocatore locale.
+Abilitare la personalizzazione della fotocamera in [MOD Settings](https://github.com/CH3NGY2/Overcooked-2-ModSettings/releases), quindi aprire l'editor della fotocamera all'interno di un livello con un giocatore locale.
 
 ### Risparmio
 Salvare al livello corrente o impostare un default condiviso. Le impostazioni specifiche di livello precedono e non vengono sovrascritte da modifiche al default.
@@ -1059,7 +1059,7 @@ note_i18n.es-ES = '''
 Siga al chef que controla en cocinas oficiales y personalizadas. Ajuste el encuadre, respuesta a la cámara, reducción del borde y movimiento del portal. Dos o más jugadores locales mantienen la cámara original.
 
 ### Comienzo
-Activar la personalización de la cámara en [MOD Settings](https://github.com/CH3NGYZ/Overcooked-2-ModSettings/releases), luego abrir el editor de la cámara dentro de un nivel con un jugador local. Seguir jugando mientras previsualiza los cambios.
+Activar la personalización de la cámara en [MOD Settings](https://github.com/CH3NGY2/Overcooked-2-ModSettings/releases), luego abrir el editor de la cámara dentro de un nivel con un jugador local. Seguir jugando mientras previsualiza los cambios.
 
 ### Ahorro
 Ahorre al nivel actual o establezca un predeterminado compartido. Los ajustes de nivel específico tienen precedencia y no son sobrescritos por cambios en el predeterminado.
@@ -1069,7 +1069,7 @@ note_i18n.ru = '''
 Следуйте за шеф-поваром, которого вы контролируете на официальных и пользовательских кухнях. Настройте кадрирование, реакцию камеры, уменьшение растяжения края и движение портала. Два или более местных игроков сохраняют оригинальную камеру.
 
 ### Начало работы
-Включите настройку камеры в [MOD Settings](https://github.com/CH3NGYZ/Overcooked-2-ModSettings/releases), затем откройте редактор камеры на уровне с одним локальным проигрывателем. Продолжайте играть во время предварительного просмотра изменений.
+Включите настройку камеры в [MOD Settings](https://github.com/CH3NGY2/Overcooked-2-ModSettings/releases), затем откройте редактор камеры на уровне с одним локальным проигрывателем. Продолжайте играть во время предварительного просмотра изменений.
 
 ### экономить
 Сохранить до текущего уровня или установить общий дефолт. Уровни-специфические настройки имеют приоритет и не перезаписываются изменениями по умолчанию.
@@ -1079,7 +1079,7 @@ note_i18n.pl = '''
 Postępuj zgodnie z szefem kuchni, które kontrolujesz w oficjalnych i niestandardowych kuchniach. Dostosuj ramę, reakcję kamery, zmniejszenie rozciągnięcia krawędzi i ruch portalu. Dwóch lub więcej lokalnych graczy zachować oryginalny aparat.
 
 ### Rozpoczynanie
-Domyślnie wyłączyć. Włącz dostosowanie kamery w [MOD Settings](https://github.com/CH3NGYZ/Overcooked-2-ModSettings/releases), a następnie otwórz edytor kamery wewnątrz poziomu z jednym lokalnym odtwarzaczem. Graj podczas przeglądania zmian.
+Domyślnie wyłączyć. Włącz dostosowanie kamery w [MOD Settings](https://github.com/CH3NGY2/Overcooked-2-ModSettings/releases), a następnie otwórz edytor kamery wewnątrz poziomu z jednym lokalnym odtwarzaczem. Graj podczas przeglądania zmian.
 
 ### Zapisywanie
 Zapisz do bieżącego poziomu lub ustaw wartość domyślną współdzieloną. Ustawienia specyficzne dla poziomu mają pierwszeństwo i nie są nadpisywane przez zmiany wartości domyślnej.
@@ -1089,7 +1089,7 @@ note_i18n.pt-BR = '''
 Siga o chef que você controla em cozinhas oficiais e personalizadas. Ajuste o enquadramento, a resposta da câmera, a redução do estiramento de borda e o movimento do portal. Dois ou mais jogadores locais mantêm a câmera original.
 
 ### Começar
-Desligado por padrão. Habilite a personalização da câmera no [MOD Settings](https://github.com/CH3NGYZ/Overcooked-2-ModSettings/releases), então abra o editor da câmera dentro de um nível com um jogador local. Continue jogando enquanto visualiza as mudanças.
+Desligado por padrão. Habilite a personalização da câmera no [MOD Settings](https://github.com/CH3NGY2/Overcooked-2-ModSettings/releases), então abra o editor da câmera dentro de um nível com um jogador local. Continue jogando enquanto visualiza as mudanças.
 
 ### Salvando
 Salvar para o nível atual ou definir um padrão compartilhado. As configurações específicas do nível têm precedência e não são sobrescritas por alterações ao padrão.
@@ -1099,7 +1099,7 @@ note_i18n.ko = """
 기본 및 커스텀 주방에서 내가 조작하는 셰프를 따라갑니다. 촬영 범위, 카메라 반응, 화면 가장자리 왜곡 감소, 포털 이동을 조정할 수 있습니다. 로컬 플레이어가 두 명 이상이면 기본 카메라를 사용합니다.
 
 ### 사용 방법
-기본값은 꺼짐입니다. [MOD 설정](https://github.com/CH3NGYZ/Overcooked-2-ModSettings/releases)에서 카메라 사용자 설정을 켜고, 로컬 플레이어 한 명으로 레벨에 들어가 카메라 편집기를 엽니다. 셰프를 조작하면서 변경 사항을 실시간으로 확인할 수 있습니다.
+기본값은 꺼짐입니다. [MOD 설정](https://github.com/CH3NGY2/Overcooked-2-ModSettings/releases)에서 카메라 사용자 설정을 켜고, 로컬 플레이어 한 명으로 레벨에 들어가 카메라 편집기를 엽니다. 셰프를 조작하면서 변경 사항을 실시간으로 확인할 수 있습니다.
 
 ### 저장
 현재 레벨에 저장하거나 공통 기본값으로 저장할 수 있습니다. 레벨별 설정이 우선하며, 공통 기본값을 저장해도 덮어쓰지 않습니다.
@@ -1109,7 +1109,7 @@ note_i18n.ja = """
 公式・自作キッチンで操作中のシェフを追います。撮影範囲、カメラの反応、画面端の歪みの軽減、ポータル移動を調整できます。ローカルプレイヤーが2人以上の場合は元のカメラを使います。
 
 ### 使い方
-初期状態ではオフです。[MOD 設定](https://github.com/CH3NGYZ/Overcooked-2-ModSettings/releases)でカメラのカスタマイズを有効にし、ローカル1人でステージに入ってカメラ編集を開きます。シェフを操作しながら変更を確認できます。
+初期状態ではオフです。[MOD 設定](https://github.com/CH3NGY2/Overcooked-2-ModSettings/releases)でカメラのカスタマイズを有効にし、ローカル1人でステージに入ってカメラ編集を開きます。シェフを操作しながら変更を確認できます。
 
 ### 保存
 現在のステージ用、または共通設定として保存できます。ステージ別の設定が優先され、共通設定を保存しても上書きされません。
