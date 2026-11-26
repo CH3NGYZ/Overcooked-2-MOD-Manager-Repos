@@ -27,9 +27,9 @@ group_i18n.pl = "Rozszerzenia rozgrywki"
 group_i18n.pt-BR = "Expansões de jogabilidade"
 group_i18n.ko = "플레이 방식 확장"
 group_i18n.ja = "ゲームプレイ拡張"
-provider = "gitee"
-username = "ch3ngyz"
-repository = "Overcooked-2-ChefRotation-Releases"
+provider = "github"
+username = "CH3NGY2"
+repository = "Overcooked-2-ChefRotation"
 region = ""
 platform = ""
 
@@ -42,7 +42,7 @@ max_release_count = 10
 
 # 版本资产规则
 asset_rules = [
-  { type = "exact", value = "OC2ChefRotation.dll" },
+  { type = "regex", value = '^OC2ChefRotation-v\d+\.\d+\.\d+\.zip$' },
 ]
 
 # 本地 MOD 识别绑定
@@ -698,8 +698,8 @@ group_i18n.pl = "Przydatne narzędzia"
 group_i18n.pt-BR = "Ferramentas úteis"
 group_i18n.ko = "유틸리티 도구"
 group_i18n.ja = "便利ツール"
-provider = "gitee"
-username = "ch3ngyz"
+provider = "github"
+username = "CH3NGY2"
 repository = "Overcooked-2-SkipLoading"
 region = ""
 platform = ""
@@ -707,13 +707,13 @@ platform = ""
 # 下载方式
 download_mode = "release"
 
-# 当前 Release：v1.0.0；后续版本由管理器自动读取。
+# Release 参数
 channel = "all"
 max_release_count = 10
 
 # 版本资产规则
 asset_rules = [
-  { type = "exact", value = "OC2SkipLoading.dll" },
+  { type = "regex", value = '^Overcooked-2-SkipLoading-v\d+\.\d+\.\d+\.zip$' },
 ]
 
 # 本地 MOD 识别绑定
