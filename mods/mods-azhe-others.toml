@@ -148,9 +148,10 @@ group_i18n.pl = "Rozszerzenia zawartości"
 group_i18n.pt-BR = "Expansões de conteúdo"
 group_i18n.ko = "콘텐츠 확장"
 group_i18n.ja = "コンテンツ拡張"
-provider = "gitee"
-username = "ch3ngyz"
-repository = "Overcooked-2-Unlocker-Releases"
+provider = "github"
+username = "CH3NGY2"
+repository = "Overcooked-2-Unlocker"
+replaces = [{ provider = "gitee", username = "ch3ngyz", repository = "Overcooked-2-Unlocker-Releases", channel = "all" }]
 region = "cn"
 platform = ""
 
@@ -163,7 +164,7 @@ max_release_count = 10
 
 # 版本资产规则
 asset_rules = [
-  { type = "exact", value = "OC2Unlocker.dll" },
+  { type = "regex", value = '^OC2Unlocker-v\d+\.\d+\.\d+\.zip$' },
 ]
 
 # 本地 MOD 识别绑定
