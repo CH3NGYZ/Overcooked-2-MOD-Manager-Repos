@@ -30,6 +30,7 @@ group_i18n.ja = "ツールと前提 MOD"
 provider = "github"
 username = "CH3NGY2"
 repository = "Overcooked-2-ModSettings"
+replaces = [{ provider = "github", username = "CH3NGYZ", repository = "Overcooked-2-ModSettings", channel = "all" }]
 region = ""
 platform = ""
 

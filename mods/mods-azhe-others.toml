@@ -30,6 +30,7 @@ group_i18n.ja = "ゲームプレイ拡張"
 provider = "github"
 username = "CH3NGY2"
 repository = "Overcooked-2-ChefRotation"
+replaces = [{ provider = "gitee", username = "ch3ngyz", repository = "Overcooked-2-ChefRotation-Releases", channel = "all" }]
 region = ""
 platform = ""
 
@@ -256,6 +257,10 @@ group_i18n.ja = "DIYLevel 最適化"
 provider = "github"
 username = "CH3NGY2"
 repository = "Overcooked-2-DIYLevel-ExperienceOptimization"
+replaces = [
+  { provider = "github", username = "CH3NGY2", repository = "Overcooked-2-DIYLevel-Sorting", channel = "all" },
+  { provider = "github", username = "CH3NGYZ", repository = "Overcooked-2-DIYLevelSorting", channel = "all" },
+]
 region = ""
 platform = ""
 
@@ -701,6 +706,7 @@ group_i18n.ja = "便利ツール"
 provider = "github"
 username = "CH3NGY2"
 repository = "Overcooked-2-SkipLoading"
+replaces = [{ provider = "gitee", username = "ch3ngyz", repository = "Overcooked-2-SkipLoading", channel = "all" }]
 region = ""
 platform = ""
 
